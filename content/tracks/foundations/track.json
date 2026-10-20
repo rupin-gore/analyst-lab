@@ -1,0 +1,64 @@
+{
+  "id": "foundations",
+  "title": "Foundations",
+  "short": "The core toolkit every analyst role uses: SQL, pandas, spreadsheets, charts, process maps and writing an insight a busy stakeholder will read.",
+  "order": 1,
+  "status": "ready",
+  "role": {
+    "day": "Whatever the job title, most analyst days follow the same loop: **a stakeholder asks a question**, you **find and check the data**, **compute the answer** (SQL, Excel or Python), **choose how to show it**, and **write two or three sentences** that say what it means and what to do next.\n\nFreshers usually lose marks on the parts around the computation: not checking for duplicates, not confirming the definition of a metric, picking a chart that hides the point, or writing a paragraph that buries the number. These labs drill those habits.",
+    "teams": ["Business / Category teams", "Finance", "Product", "Operations", "Data Engineering"],
+    "tools": ["SQL", "Excel / Google Sheets", "Python (pandas)", "Power BI / Tableau", "Jira / Confluence"],
+    "keywords": ["SQL", "Excel", "Advanced Excel", "VLOOKUP", "Pivot Tables", "Python", "Pandas", "Data Cleaning", "Data Visualization", "Power BI", "Dashboards", "KPIs", "Stakeholder Management", "Communication Skills", "Problem Solving"]
+  },
+  "capstone": {
+    "title": "Bazaarly FY2024-25 mini business review",
+    "brief": "Bazaarly's Finance Controller wants a one-page review of FY2024-25 for the leadership offsite. Combine everything from this track: clean the data, compute the numbers, pick two charts, and write the summary.",
+    "steps": [
+      "Profile both tables and list every data problem you find (duplicates, nulls, mislabels, timezone).",
+      "Write SQL for: FY net revenue, revenue by month (IST), revenue by state and by category, cancellation rate by payment method.",
+      "Choose two charts that tell the story and justify each choice in one line.",
+      "Write a 120-word executive summary that leads with the headline number and ends with one recommendation."
+    ],
+    "deliverables": [
+      "review.sql with every query, commented",
+      "data_issues.md listing each problem and how you handled it",
+      "summary.md with the executive summary and chart choices"
+    ],
+    "template": {
+      "filename": "bazaarly_fy25_review.sql",
+      "content": "-- Bazaarly FY2024-25 mini business review\n-- Data: orders.csv, customers.csv (download them from any Foundations lab)\n-- Conventions: revenue = net_amount_inr of Delivered orders; dates in IST (UTC+5:30); de-duplicate orders first.\n\n-- 0. Clean orders view\nCREATE OR REPLACE VIEW orders_clean AS\nSELECT DISTINCT *\nFROM orders;\n\n-- 1. FY2024-25 net revenue\n\n-- 2. Net revenue by month (IST)\n\n-- 3. Net revenue by state\n\n-- 4. Net revenue by category (fix mislabelled categories first)\n\n-- 5. Cancellation rate by payment method\n"
+    }
+  },
+  "interview": [
+    {
+      "type": "Technical",
+      "q": "What is the difference between WHERE and HAVING?",
+      "a": "`WHERE` filters rows **before** grouping; `HAVING` filters groups **after** aggregation. Use `WHERE order_status = 'Delivered'` to drop rows, and `HAVING SUM(net_amount_inr) > 100000` to keep only big states. Filtering early with WHERE is also cheaper."
+    },
+    {
+      "type": "Technical",
+      "q": "How would you find duplicate rows in a table?",
+      "a": "Group by every column (or the business key) and keep groups with `COUNT(*) > 1`. Then ask *why* they exist: a double-loaded batch (exact duplicates, safe to drop with `DISTINCT`) is different from two real orders with the same amount (not duplicates at all)."
+    },
+    {
+      "type": "Technical",
+      "q": "Explain ROW_NUMBER, RANK and DENSE_RANK.",
+      "a": "All number rows within a window. `ROW_NUMBER` is always 1,2,3,4 even on ties. `RANK` gives ties the same number and skips (1,1,3). `DENSE_RANK` gives ties the same number without gaps (1,1,2). Use `ROW_NUMBER` to pick exactly one row per group, such as the latest order per customer."
+    },
+    {
+      "type": "Case",
+      "q": "Revenue dropped 15% week on week. How do you investigate?",
+      "a": "1. **Check the data first**: is the pipeline complete, did a timezone or definition change? 2. **Decompose**: revenue = orders × average order value; orders = visitors × conversion. 3. **Segment**: by category, city, channel, payment method, new vs repeat. 4. **Look for external causes**: last week was Diwali, a competitor sale, a payment outage. 5. Report the biggest driver with a number and a next step."
+    },
+    {
+      "type": "Guesstimate",
+      "q": "Estimate the number of UPI transactions in India on a typical day.",
+      "a": "State assumptions out loud. ~1.4 bn people; ~45% adults with smartphones and UPI ≈ 450 mn users; ~60% active on a given day ≈ 270 mn; ~2 transactions per active user ≈ 540 mn/day. Sense-check against what you know (public figures are in the same ballpark of several hundred million a day) and say which assumption is weakest."
+    },
+    {
+      "type": "Behavioural",
+      "q": "Tell me about a time you found a problem in the data before presenting results.",
+      "a": "Use STAR. *Situation*: internship, weekly revenue report. *Task*: build the FY revenue number. *Action*: noticed the order count was 1% higher than the finance system; traced it to a duplicated ingestion batch; de-duplicated and documented the rule. *Result*: the number reconciled with finance, and the team added a uniqueness check to the pipeline."
+    }
+  ]
+}

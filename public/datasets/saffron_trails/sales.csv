@@ -1,0 +1,37 @@
+invoice,date,region,rep,product,units,unit_price
+INV-2416,2024-10-02,West,Neha,Masala Chai 500g,76,240
+INV-2435,2024-10-02,East,Sourav,Atta 10kg,5,465
+INV-2403,2024-10-03,South,Karthik,Basmati Rice 5kg,58,649
+INV-2404,2024-10-03,North,Ankit,Toor Dal 1kg,12,168
+INV-2409,2024-10-04,South,Lakshmi,Sunflower Oil 1L,77,155
+INV-2436,2024-10-04,South,Karthik,Atta 10kg,8,465
+INV-2427,2024-10-05,West,Neha,Toor Dal 1kg,27,168
+INV-2429,2024-10-06,West,Farhan,Atta 10kg,41,465
+INV-2410,2024-10-07,North,Ankit,Atta 10kg,73,465
+INV-2406,2024-10-08,West,Neha,Basmati Rice 5kg,76,649
+INV-2426,2024-10-09,West,Farhan,Atta 10kg,50,465
+INV-2408,2024-10-10,North,Gurpreet,Atta 10kg,18,465
+INV-2413,2024-10-10,North,Ankit,Atta 10kg,48,465
+INV-2421,2024-10-12,West,Neha,Ghee 1L,64,699
+INV-2401,2024-10-13,East,Sourav,Toor Dal 1kg,14,168
+INV-2424,2024-10-13,South,Karthik,Masala Chai 500g,15,240
+INV-2425,2024-10-13,South,Karthik,Masala Chai 500g,22,240
+INV-2432,2024-10-13,West,Farhan,Masala Chai 500g,18,240
+INV-2433,2024-10-13,West,Neha,Ghee 1L,29,699
+INV-2407,2024-10-14,South,Lakshmi,Sunflower Oil 1L,74,155
+INV-2430,2024-10-14,North,Ankit,Toor Dal 1kg,77,168
+INV-2411,2024-10-15,West,Farhan,Sunflower Oil 1L,51,155
+INV-2434,2024-10-15,North,Gurpreet,Toor Dal 1kg,19,168
+INV-2402,2024-10-19,North,Gurpreet,Sunflower Oil 1L,69,155
+INV-2420,2024-10-19,East,Moumita,Ghee 1L,41,699
+INV-2414,2024-10-20,West,Neha,Sunflower Oil 1L,20,155
+INV-2422,2024-10-20,East,Sourav,Toor Dal 1kg,68,168
+INV-2405,2024-10-21,North,Gurpreet,Toor Dal 1kg,78,168
+INV-2419,2024-10-22,West,Neha,Ghee 1L,12,699
+INV-2428,2024-10-22,South,Lakshmi,Toor Dal 1kg,6,168
+INV-2417,2024-10-23,East,Moumita,Sunflower Oil 1L,68,155
+INV-2431,2024-10-23,East,Sourav,Toor Dal 1kg,63,168
+INV-2415,2024-10-25,West,Farhan,Toor Dal 1kg,24,168
+INV-2423,2024-10-25,North,Ankit,Toor Dal 1kg,21,168
+INV-2412,2024-10-26,East,Sourav,Toor Dal 1kg,36,168
+INV-2418,2024-10-27,West,Neha,Basmati Rice 5kg,39,649

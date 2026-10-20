@@ -1,0 +1,7 @@
+{
+  "id": "bi-analyst",
+  "title": "BI / Reporting / MIS Analyst",
+  "short": "KPI dashboards from a request, star schemas, measures, scheduled-report logic and reconciling reports that disagree.",
+  "order": 5,
+  "status": "planned"
+}

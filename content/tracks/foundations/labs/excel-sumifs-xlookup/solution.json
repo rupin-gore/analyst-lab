@@ -1,0 +1,9 @@
+{
+  "J2": "=SUMIFS($F$2:$F$37,$C$2:$C$37,I2)",
+  "J3": "=SUMIFS($F$2:$F$37,$C$2:$C$37,I3)",
+  "J4": "=SUMIFS($F$2:$F$37,$C$2:$C$37,I4)",
+  "J5": "=SUMIFS($F$2:$F$37,$C$2:$C$37,I5)",
+  "J7": "=SUMPRODUCT((C2:C37=\"West\")*F2:F37*G2:G37)",
+  "J9": "=XLOOKUP(\"Ghee 1L\",E2:E37,G2:G37)",
+  "J11": "=COUNTIFS(F2:F37,\">50\")"
+}

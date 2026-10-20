@@ -1,0 +1,4 @@
+flowchart TD
+  A[Customer raises return request] --> B{Within 7 days of delivery?}
+  B -->|No| R1[Auto-rejected by app]
+  B -->|Yes| C[Assign courier for pickup]

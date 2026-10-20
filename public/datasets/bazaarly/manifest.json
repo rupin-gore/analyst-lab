@@ -1,0 +1,119 @@
+{
+  "id": "bazaarly",
+  "title": "Bazaarly marketplace",
+  "description": "Orders and customers of Bazaarly, a fictional Indian e-commerce marketplace, April 2023 to March 2025 (FY2023-24 and FY2024-25).",
+  "tables": {
+    "customers": {
+      "file": "customers.csv",
+      "rows": 2645,
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "VARCHAR",
+          "description": "Customer key, e.g. C10001"
+        },
+        {
+          "name": "full_name",
+          "type": "VARCHAR",
+          "description": "Customer name"
+        },
+        {
+          "name": "email",
+          "type": "VARCHAR",
+          "description": "Login email"
+        },
+        {
+          "name": "city",
+          "type": "VARCHAR",
+          "description": "City as typed at signup"
+        },
+        {
+          "name": "state",
+          "type": "VARCHAR",
+          "description": "State or union territory"
+        },
+        {
+          "name": "tier",
+          "type": "INTEGER",
+          "description": "City tier (1 = metro, 2 = tier-2)"
+        },
+        {
+          "name": "signup_date",
+          "type": "DATE",
+          "description": "Account creation date"
+        },
+        {
+          "name": "acquisition_channel",
+          "type": "VARCHAR",
+          "description": "First-touch channel"
+        }
+      ]
+    },
+    "orders": {
+      "file": "orders.csv",
+      "rows": 12459,
+      "columns": [
+        {
+          "name": "order_id",
+          "type": "VARCHAR",
+          "description": "Order key, e.g. BZ100001"
+        },
+        {
+          "name": "customer_id",
+          "type": "VARCHAR",
+          "description": "FK to customers"
+        },
+        {
+          "name": "order_ts_utc",
+          "type": "TIMESTAMP",
+          "description": "Order time in UTC (India is UTC+5:30)"
+        },
+        {
+          "name": "category",
+          "type": "VARCHAR",
+          "description": "Product category"
+        },
+        {
+          "name": "payment_method",
+          "type": "VARCHAR",
+          "description": "UPI, Card, COD, NetBanking or Wallet"
+        },
+        {
+          "name": "order_status",
+          "type": "VARCHAR",
+          "description": "Delivered, Shipped, Cancelled or Returned"
+        },
+        {
+          "name": "item_count",
+          "type": "INTEGER",
+          "description": "Units in the order"
+        },
+        {
+          "name": "gross_amount_inr",
+          "type": "DOUBLE",
+          "description": "List value before discount, excl. GST"
+        },
+        {
+          "name": "discount_inr",
+          "type": "DOUBLE",
+          "description": "Discount applied"
+        },
+        {
+          "name": "net_amount_inr",
+          "type": "DOUBLE",
+          "description": "gross - discount, excl. GST (this is revenue)"
+        },
+        {
+          "name": "gst_inr",
+          "type": "DOUBLE",
+          "description": "GST charged on net amount"
+        },
+        {
+          "name": "shipping_inr",
+          "type": "DOUBLE",
+          "description": "Shipping fee charged"
+        }
+      ]
+    }
+  }
+}

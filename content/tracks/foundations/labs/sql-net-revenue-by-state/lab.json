@@ -1,0 +1,23 @@
+{
+  "id": "sql-net-revenue-by-state",
+  "title": "FY2024-25 net revenue by state",
+  "order": 1,
+  "difficulty": "Beginner",
+  "minutes": 20,
+  "skills": ["SQL joins", "Aggregation", "Data cleaning", "Timezones"],
+  "workspace": "sql",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Meenal Rao", "role": "Finance Controller" },
+  "scenario": "Bazaarly is closing its books for FY2024-25 (1 April 2024 to 31 March 2025, India time). Meenal is preparing the state-wise revenue split for the GST team and the board pack. Last quarter an intern's number didn't match the finance system, so she wants it right this time.\n\n> \"Can you send me net revenue by customer state for FY2024-25? Delivered orders only, biggest state first. Please make sure it ties to our books.\"",
+  "task": "Write one query that returns **two columns**:\n\n1. `state`: the customer's state\n2. `net_revenue`: total `net_amount_inr`, rounded to 2 decimals\n\nInclude only **Delivered** orders placed in **FY2024-25 in Indian time**. Sort by `net_revenue`, highest first.",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders", "customers"] }],
+  "hints": [
+    "State lives in `customers`, revenue in `orders`. Join them on `customer_id`.",
+    "Count rows vs distinct `order_id`s in `orders`. Are they equal? If not, what does that do to a SUM?",
+    "`order_ts_utc` is in UTC. India is UTC+5:30. An order at 00:30 on 1 April IST is stored as 31 March 19:00 UTC. In DuckDB: `order_ts_utc + INTERVAL 330 MINUTE`.",
+    "Filter the IST timestamp with `>= TIMESTAMP '2024-04-01'` and `< TIMESTAMP '2025-04-01'` (a half-open range never misses the last day)."
+  ],
+  "explanation": "Three things separate a correct answer from a careless one:\n\n1. **Duplicates.** `orders` has ~120 exact duplicate rows from a double-loaded ingestion batch. `SELECT DISTINCT *` in a CTE removes them before summing. Always compare `COUNT(*)` with `COUNT(DISTINCT order_id)` on a fact table.\n2. **Timezone.** The financial year is defined in India time. Filtering on the raw UTC column moves orders placed just after midnight IST on 1 April into the wrong year.\n3. **Status.** Cancelled and returned orders are not revenue; shipped-but-not-delivered orders are excluded on Meenal's definition.\n\nA half-open date range (`>=` start, `<` next start) is the safest way to filter a period.",
+  "interview": "*\"At my practice project for an e-commerce company, Finance needed FY revenue by state to tie to their books. I found the orders table had about 1% duplicated rows from a double-loaded batch and that timestamps were stored in UTC, so I de-duplicated first and converted to IST before applying the financial-year filter. The result reconciled exactly, and I documented both checks as standard steps for the monthly close.\"*\n\nBe ready for the follow-up: **\"How did you know they were duplicates and not two real orders?\"** (Same `order_id` and every column identical.)",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.01 } }
+}

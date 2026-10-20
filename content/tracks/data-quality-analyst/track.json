@@ -1,0 +1,7 @@
+{
+  "id": "data-quality-analyst",
+  "title": "Data Quality Analyst",
+  "short": "Profiling, validation rules, deduplication, data dictionaries and tracing a broken number to its source.",
+  "order": 16,
+  "status": "planned"
+}

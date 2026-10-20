@@ -1,0 +1,7 @@
+{
+  "id": "quant-analyst",
+  "title": "Quantitative Analyst",
+  "short": "Returns and volatility, VaR, correlation and backtesting a simple rule without look-ahead bias.",
+  "order": 14,
+  "status": "planned"
+}

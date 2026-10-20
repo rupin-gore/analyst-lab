@@ -1,0 +1,47 @@
+{
+  "id": "insight-paragraph",
+  "title": "Write the festive-sale insight",
+  "order": 6,
+  "difficulty": "Beginner",
+  "minutes": 15,
+  "skills": ["Insight writing", "Stakeholder communication", "So-what thinking"],
+  "workspace": "written",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Kabir Shah", "role": "Head of Growth" },
+  "scenario": "The Diwali 2024 sale is over and Kabir has five minutes before the leadership call. He has the numbers below but no time to interpret them.\n\n> \"Send me one paragraph I can read out: what happened in the festive sale and what we should do differently next year.\"",
+  "task": "Write **one paragraph (60–120 words)** for Kabir using the facts below. Lead with the headline, compare against a baseline, name the main driver, flag one risk, and end with one recommendation.",
+  "facts": [
+    { "label": "Festive sale window", "value": "20 Oct – 1 Nov 2024 (13 days)" },
+    { "label": "Delivered net revenue in the window", "value": "₹25.4 lakh" },
+    { "label": "Average revenue per day: festive vs September", "value": "₹1.96 lakh vs ₹0.48 lakh" },
+    { "label": "Orders: festive window vs all of September", "value": "789 vs 582" },
+    { "label": "Average order value (delivered): festive vs September", "value": "₹3,747 vs ₹2,829" },
+    { "label": "Average discount: festive vs September", "value": "25.3% vs 7.1%" },
+    { "label": "Electronics share of revenue: festive vs September", "value": "66.5% vs 56.4%" },
+    { "label": "Cancellation rate in festive window: COD vs prepaid", "value": "12.4% vs 5.5%" }
+  ],
+  "data": [],
+  "hints": [
+    "Start with the single most important number and what it's compared against: \"…₹25.4 lakh in 13 days, about 4× a normal September day.\"",
+    "Revenue = orders × order value. Which grew, and what drove it? Look at the category mix.",
+    "A 25% average discount is a cost. What question should leadership ask about it?",
+    "End with an action someone can own: e.g. nudging COD buyers to UPI during the sale."
+  ],
+  "explanation": "Strong insight paragraphs follow **headline → comparison → driver → risk → action**:\n\n- **Headline with a baseline**: a number alone means nothing; \"4× a normal day\" does.\n- **Driver**: both volume and AOV rose, led by electronics (66.5% of revenue).\n- **Risk**: the discount more than tripled, so margin needs checking, and COD cancellations ran at more than double the prepaid rate.\n- **One action**: specific and ownable.\n\nAvoid listing every fact; pick the three that support the story. Avoid jargon such as *YoY delta* or *uplift coefficient* in something read aloud.",
+  "interview": "*\"After a festive campaign I summarised the results for the growth head in one paragraph: revenue per day was about four times the September baseline, driven by electronics and higher order values, but COD cancellations ran at more than twice the prepaid rate. I recommended a UPI incentive for COD buyers during the sale, which was tested the next quarter.\"*\n\nInterviewers often ask you to **summarise an analysis in 30 seconds**. Practise this structure out loud.",
+  "grading": {
+    "written": {
+      "rubric": [
+        "Opens with the headline number",
+        "Compares against a baseline (September)",
+        "Names the main driver (orders, AOV or category mix)",
+        "Flags at least one risk (discount cost or COD cancellations)",
+        "Ends with one specific, ownable recommendation",
+        "Plain language a leader can read aloud, no jargon"
+      ],
+      "minWords": 60,
+      "maxWords": 120,
+      "suggestedTerms": ["₹25.4 lakh", "September", "electronics", "COD"]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+flowchart TD
+  A[Customer raises return request in app] --> B{Within 7 days of delivery?}
+  B -->|No| R1([Auto-rejected by app])
+  B -->|Yes| C[Assign courier for pickup]
+  C --> P{Pickup successful?}
+  P -->|No, fewer than 3 attempts| C
+  P -->|No, 3rd failed attempt| X([Request cancelled])
+  P -->|Yes| W[Item reaches warehouse]
+  W --> Q{Passes quality check?}
+  Q -->|No| RJ[Return rejected]
+  RJ --> S([Item shipped back to customer])
+  Q -->|Yes| M{Payment method?}
+  M -->|UPI| U([Instant refund to UPI])
+  M -->|Card| K([Refund to card in 5-7 days])

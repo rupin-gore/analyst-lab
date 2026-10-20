@@ -1,0 +1,7 @@
+{
+  "id": "risk-fraud-analyst",
+  "title": "Risk, Fraud & KYC/AML Analyst",
+  "short": "Rule-based transaction monitoring, threshold tuning against false positives, alert triage and KYC red flags.",
+  "order": 8,
+  "status": "planned"
+}

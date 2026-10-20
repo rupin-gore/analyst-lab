@@ -1,0 +1,48 @@
+{
+  "id": "excel-sumifs-xlookup",
+  "title": "Regional summary with SUMIFS, SUMPRODUCT and XLOOKUP",
+  "order": 3,
+  "difficulty": "Beginner",
+  "minutes": 20,
+  "skills": ["Excel formulas", "SUMIFS", "XLOOKUP", "Absolute references"],
+  "workspace": "spreadsheet",
+  "company": "Saffron Trails Distributors",
+  "stakeholder": { "name": "Gurpreet Gill", "role": "Regional Sales Manager" },
+  "scenario": "Saffron Trails distributes staples like rice, dal and ghee to kirana stores. Gurpreet reviews October sales every month in the same sheet, and wants a small summary block that updates automatically when next month's invoices are pasted in.\n\n> \"Can you add a summary next to the register? Units by region, West's revenue, and the current ghee price. Formulas please, not typed numbers.\"",
+  "task": "The invoice register is in **A1:G37** (headers in row 1). Fill the yellow cells with **formulas**:\n\n| Cell | What it should show |\n|---|---|\n| J2:J5 | Total **units** for the region in I2:I5 (`SUMIFS`) |\n| J7 | Total **revenue** (units × unit_price) for **West** |\n| J9 | **Unit price** of `Ghee 1L` (`XLOOKUP`, or `INDEX`/`MATCH`) |\n| J11 | Number of invoices with **more than 50 units** (`COUNTIFS`) |\n\nTip: write J2 with `$` references so you can reuse it in J3:J5.",
+  "data": [{ "dataset": "saffron_trails", "tables": ["sales"] }],
+  "sheetSetup": {
+    "I1": "Region",
+    "J1": "Units",
+    "I2": "North",
+    "I3": "South",
+    "I4": "East",
+    "I5": "West",
+    "I7": "West revenue (INR)",
+    "I9": "Unit price: Ghee 1L",
+    "I11": "Invoices > 50 units"
+  },
+  "hints": [
+    "`SUMIFS(sum_range, criteria_range, criteria)`: here `SUMIFS($F$2:$F$37, $C$2:$C$37, I2)`.",
+    "Revenue needs a multiplication per row before summing. `SUMPRODUCT((C2:C37=\"West\")*F2:F37*G2:G37)` does it in one cell: the comparison gives 1 or 0 per row.",
+    "`XLOOKUP(lookup_value, lookup_array, return_array)`: look up `\"Ghee 1L\"` in column E and return column G.",
+    "`COUNTIFS(F2:F37, \">50\")` counts rows where units are above 50."
+  ],
+  "explanation": "- **SUMIFS** with absolute ranges (`$F$2:$F$37`) and a relative criterion (`I2`) lets one formula be filled down for every region.\n- **SUMPRODUCT** handles *multiply then sum* without a helper column. The boolean `(C2:C37=\"West\")` becomes 1/0, acting as a filter. The alternative is a helper column `=F2*G2` and a SUMIFS on it, which is equally fine at work.\n- **XLOOKUP** is safer than VLOOKUP: it doesn't break when columns are inserted, and it defaults to exact match. In older Excel use `INDEX(G2:G37, MATCH(\"Ghee 1L\", E2:E37, 0))`.\n- Typing numbers instead of formulas is the most common MIS mistake: the summary silently goes stale next month.",
+  "interview": "*\"In a monthly sales MIS I replaced a manually typed summary with SUMIFS, SUMPRODUCT and XLOOKUP formulas driven by the raw invoice register, so the summary refreshed when new data was pasted in. It cut the monthly update from about an hour to a few minutes and removed copy-paste errors.\"*\n\nExpect: **\"VLOOKUP vs XLOOKUP vs INDEX/MATCH?\"** and **\"What does the $ do?\"**",
+  "grading": {
+    "spreadsheet": {
+      "targets": [
+        { "cell": "J2", "label": "North units" },
+        { "cell": "J3", "label": "South units" },
+        { "cell": "J4", "label": "East units" },
+        { "cell": "J5", "label": "West units" },
+        { "cell": "J7", "label": "West revenue" },
+        { "cell": "J9", "label": "Ghee 1L price" },
+        { "cell": "J11", "label": "Invoices > 50 units" }
+      ],
+      "tolerance": 0.01,
+      "requireFormula": true
+    }
+  }
+}

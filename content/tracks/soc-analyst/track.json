@@ -1,0 +1,7 @@
+{
+  "id": "soc-analyst",
+  "title": "Cybersecurity / SOC Analyst",
+  "short": "Defensive log analysis in SQL: failed-login bursts, impossible travel and alert prioritisation.",
+  "order": 18,
+  "status": "planned"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "supply-chain-analyst",
+  "title": "Supply Chain Analyst",
+  "short": "Demand forecasts, safety stock and reorder points, OTIF and fill rate, ABC/XYZ classification.",
+  "order": 10,
+  "status": "planned"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "saffron_trails",
+  "title": "Saffron Trails sales register",
+  "description": "October 2024 invoices of Saffron Trails Distributors, a fictional FMCG distributor.",
+  "tables": {
+    "sales": {
+      "file": "sales.csv",
+      "rows": 36,
+      "columns": [
+        {
+          "name": "invoice",
+          "type": "VARCHAR",
+          "description": "Invoice number"
+        },
+        {
+          "name": "date",
+          "type": "DATE",
+          "description": "Invoice date"
+        },
+        {
+          "name": "region",
+          "type": "VARCHAR",
+          "description": "Sales region"
+        },
+        {
+          "name": "rep",
+          "type": "VARCHAR",
+          "description": "Sales representative"
+        },
+        {
+          "name": "product",
+          "type": "VARCHAR",
+          "description": "SKU name"
+        },
+        {
+          "name": "units",
+          "type": "INTEGER",
+          "description": "Units sold"
+        },
+        {
+          "name": "unit_price",
+          "type": "DOUBLE",
+          "description": "Price per unit in INR (excl. GST)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "chart-monthly-trend",
+  "title": "Chart the monthly revenue trend",
+  "order": 4,
+  "difficulty": "Beginner",
+  "minutes": 20,
+  "skills": ["SQL date functions", "Choosing a chart", "Trend analysis"],
+  "workspace": "chart",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Kabir Shah", "role": "Head of Growth" },
+  "scenario": "Kabir is presenting at the monthly business review and wants one slide showing how FY2024-25 went month by month. He wants the audience to see the festive peak and the year-end sale at a glance.\n\n> \"Give me one chart of monthly net revenue for last financial year. Delivered orders, India time. Pick whatever chart makes the shape obvious.\"",
+  "task": "1. Write a query that returns **one row per month** of FY2024-25 (April 2024 to March 2025, IST) with the month and the **net revenue of Delivered orders**. Remember the data quirks from lab 1.\n2. Run it, then choose the **chart type** and the **x and y fields** that best show the trend.\n3. Submit. The grader checks both your numbers and your chart choice.",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders"] }],
+  "hints": [
+    "Convert to IST first, then bucket: `DATE_TRUNC('month', order_ts_utc + INTERVAL 330 MINUTE)` or `strftime(order_ts_utc + INTERVAL 330 MINUTE, '%Y-%m')`.",
+    "Same cleaning as lab 1: `SELECT DISTINCT * FROM orders` before summing.",
+    "Which chart is built for *change over an ordered time axis*? Bars compare categories; slices of a pie compare parts of a whole."
+  ],
+  "explanation": "**Data:** convert to IST before truncating to the month, de-duplicate, and keep only Delivered orders. Twelve rows, one per month.\n\n**Chart:** a **line chart** (or area) is the standard for a trend over an ordered time axis: the eye follows the slope, so the October festive peak and March's year-end bump jump out. Bars work but emphasise individual months over the shape. A pie chart hides order completely; nobody can read a trend from twelve slices.\n\nAt work, also start the y-axis at zero for areas and bars (lines can start elsewhere if you label clearly) and annotate the Diwali peak.",
+  "interview": "*\"For a monthly business review I built a revenue trend in SQL, converting UTC timestamps to IST before bucketing by month so the festive spike landed in the right month, and used a line chart with the Diwali peak annotated. The discussion moved straight to why November softened versus October rather than debating the numbers.\"*\n\nExpect: **\"When would you NOT use a line chart?\"** (Unordered categories; very few points; part-to-whole.)",
+  "grading": {
+    "chart": {
+      "acceptedTypes": ["line", "area"],
+      "typeFeedback": {
+        "bar": "Bars can show monthly values, but they emphasise individual months over the shape of the trend. For change over time, a line reads faster.",
+        "pie": "A pie chart shows parts of a whole and throws away the time order, so the trend disappears.",
+        "scatter": "A scatter plot is for the relationship between two numeric measures, not a trend over months."
+      },
+      "tolerance": 0.01
+    }
+  }
+}

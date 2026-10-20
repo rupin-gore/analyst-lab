@@ -1,0 +1,9 @@
+{
+  "J2": "=SUMIFS(F2:F37,C2:C37,I2)",
+  "J3": "=SUMIFS(F3:F38,C3:C38,I3)",
+  "J4": "=SUMIFS(F4:F39,C4:C39,I4)",
+  "J5": "=SUMIFS(F5:F40,C5:C40,I5)",
+  "J7": "=SUMIFS(F2:F37,C2:C37,\"West\")",
+  "J9": "649",
+  "J11": "=COUNTIFS(F2:F37,\">=50\")"
+}

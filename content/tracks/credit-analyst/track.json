@@ -1,0 +1,7 @@
+{
+  "id": "credit-analyst",
+  "title": "Credit Analyst",
+  "short": "Loan book analysis, delinquency buckets and roll rates, WoE/IV scorecards and borrower assessment memos.",
+  "order": 7,
+  "status": "planned"
+}

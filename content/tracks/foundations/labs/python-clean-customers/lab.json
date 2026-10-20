@@ -1,0 +1,23 @@
+{
+  "id": "python-clean-customers",
+  "title": "Clean the customer master in pandas",
+  "order": 2,
+  "difficulty": "Beginner",
+  "minutes": 25,
+  "skills": ["pandas", "Data cleaning", "Deduplication", "Null handling"],
+  "workspace": "python",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Arjun Menon", "role": "CRM Lead" },
+  "scenario": "Bazaarly's CRM team is launching a city-wise Diwali campaign. Arjun pulled the customer master and found the same city spelled three ways and some customers listed twice, so the campaign tool would double-send messages.\n\n> \"Before we upload this to the campaign tool, can you clean it? One row per real customer, and city names we can group on.\"",
+  "task": "Create a DataFrame called **`clean`** from `customers` with the **same columns**, where:\n\n1. **`email`** is trimmed and lower-cased.\n2. **Duplicates are removed**: customers with the same email (ignoring case) are one person. Keep the row with the **earliest `signup_date`**.\n3. **`city`** is trimmed and in title case, with `Bangalore` → `Bengaluru` and `Bombay` → `Mumbai`. **Missing cities stay missing** (don't turn them into text).\n4. Customers in **Hyderabad** have state **`Telangana`** (some rows still carry the pre-2014 `Andhra Pradesh`).\n5. Rows are sorted by `customer_id` with a fresh 0..n-1 index.",
+  "data": [{ "dataset": "bazaarly", "tables": ["customers"] }],
+  "hints": [
+    "Start by exploring: `customers['city'].value_counts(dropna=False)` and `customers['email'].str.lower().duplicated().sum()`.",
+    "Normalise email first, then `sort_values(['signup_date', 'customer_id'])` and `drop_duplicates('email', keep='first')`.",
+    "`.str.strip().str.title()` keeps NaN as NaN. `.astype(str)` does **not**: it turns NaN into the text `'nan'`.",
+    "Use `.replace({'Bangalore': 'Bengaluru', 'Bombay': 'Mumbai'})` after title-casing, and `df.loc[df['city'] == 'Hyderabad', 'state'] = 'Telangana'`."
+  ],
+  "explanation": "The order of operations matters:\n\n- **Normalise before de-duplicating.** `Priya.Shah12@example.in` and `priya.shah12@example.in` only match after lower-casing.\n- **Decide which duplicate to keep on purpose.** Sorting by `signup_date` first makes `keep='first'` keep the original account, not whichever row happens to appear first.\n- **Protect nulls.** `astype(str)` is the classic trap: missing cities become the string `'nan'`, then `'Nan'` after title-casing, and the campaign tool creates a city called *Nan*.\n- **Fix the city before using it to fix the state**, otherwise `'hyderabad '` with a trailing space would be missed.",
+  "interview": "*\"For a CRM campaign I cleaned a 2,600-row customer master in pandas: normalised emails to find 45 duplicate accounts and kept the original signup, standardised city spellings like Bangalore and Bengaluru, and corrected a legacy state mapping for Hyderabad. I made sure missing cities stayed null instead of becoming the text 'nan'. That avoided duplicate messages to about 2% of the base.\"*\n\nLikely follow-up: **\"How would you make this repeatable?\"** Wrap it in a function, add assertions for uniqueness and allowed city values, and run it before every upload.",
+  "grading": {}
+}

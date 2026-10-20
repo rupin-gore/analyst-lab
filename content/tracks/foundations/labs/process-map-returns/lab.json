@@ -1,0 +1,34 @@
+{
+  "id": "process-map-returns",
+  "title": "Map the as-is returns process",
+  "order": 5,
+  "difficulty": "Beginner",
+  "minutes": 25,
+  "skills": ["Process mapping", "Requirements elicitation", "Mermaid"],
+  "workspace": "diagram",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Sneha Kulkarni", "role": "Customer Operations Manager" },
+  "scenario": "Refund complaints doubled after Diwali. Before anyone proposes a fix, Sneha wants everyone to agree on how returns work today. She walked you through it:\n\n> \"The customer raises a return request in the app within 7 days of delivery. If it's outside the window, the app rejects it automatically. Otherwise a courier is assigned for pickup. If the pickup fails three times, the request is cancelled. After pickup, the item goes to our warehouse for a quality check. If it passes QC, we start the refund: instantly to UPI, or 5–7 days to cards. If it fails QC, we reject the return and ship the item back to the customer.\"",
+  "task": "Draw the **as-is** process as a Mermaid flowchart. Include:\n\n- every **step** and every **decision** Sneha mentions (window check, pickup attempts, QC result, payment method)\n- the **end states**: refunded, rejected, cancelled\n- labels on the decision branches (e.g. `-->|Yes|`)\n\nThen tick the rubric honestly and submit.",
+  "data": [],
+  "hints": [
+    "Start with the trigger: `A[Customer raises return request] --> B{Within 7 days?}`.",
+    "Each decision diamond needs at least two labelled exits: `B -->|No| R1[Auto-rejected]`.",
+    "Model the retry as a loop: `P{Pickup successful?} -->|No, fewer than 3 attempts| C[Assign courier]`.",
+    "Refund splits by payment method: two different timelines are a pain point worth flagging later."
+  ],
+  "explanation": "A good as-is map:\n\n- starts from the **customer's trigger**, not an internal step\n- shows **every decision** as a diamond with **labelled exits**, so exceptions are visible (most pain lives in the exceptions)\n- ends in clear **end states** (refunded, rejected and returned, cancelled)\n- stays **as-is**: no improvements yet. Note pain points separately, e.g. the 3-attempt pickup loop and the 5–7 day card refund.\n\nCompare your map with the example. Different layouts are fine if the logic matches.",
+  "interview": "*\"When refund complaints doubled, I interviewed the operations manager and mapped the as-is returns process with every decision point and exception path. The map showed that card refunds took 5–7 days and failed pickups silently cancelled requests, which became the two requirements for the to-be process.\"*\n\nExpect: **\"Why map the as-is before designing the to-be?\"** (Shared understanding, find the real bottleneck, a baseline to measure improvement.)",
+  "grading": {
+    "diagram": {
+      "requiredTerms": ["return request", ["7 days", "window"], "pickup", ["quality check", "QC"], "refund", ["reject", "rejected"], ["cancel", "cancelled"], "UPI", ["card", "cards"]],
+      "rubric": [
+        "Starts from the customer's trigger",
+        "Every decision is a diamond with labelled exits",
+        "Shows the pickup retry (up to 3 attempts)",
+        "Ends in clear end states: refunded, rejected, cancelled",
+        "Describes today's process only, without improvements"
+      ]
+    }
+  }
+}
