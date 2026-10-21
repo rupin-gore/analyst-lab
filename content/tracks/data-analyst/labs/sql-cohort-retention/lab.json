@@ -1,0 +1,23 @@
+{
+  "id": "sql-cohort-retention",
+  "title": "Cohort retention table",
+  "order": 6,
+  "difficulty": "Advanced",
+  "minutes": 35,
+  "skills": ["Cohort analysis", "SQL CTEs", "Date arithmetic", "Retention"],
+  "workspace": "sql",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Kabir Shah", "role": "Head of Growth" },
+  "scenario": "Bazaarly spent heavily on acquisition in FY2024-25. The board wants to know whether the customers it bought are sticking around. Kabir has heard that the Diwali cohort churns faster than others and wants evidence before the board meeting.\n\n> \"Build me the classic cohort retention table: for each month's new customers, what % ordered again 1, 2 and 3 months later?\"",
+  "task": "Definitions:\n\n- **Active**: placed at least one **Delivered** order in a calendar month (IST, de-duplicated orders).\n- **Cohort month**: the month of a customer's **first-ever** delivered order (look at all history, not just FY2024-25).\n- **month_number**: months since the cohort month (0 = cohort month).\n\nFor cohorts **2024-04 to 2024-12** and month_number **0 to 3**, return four columns sorted by `cohort_month` then `month_number`:\n\n1. `cohort_month`: text like `2024-04`\n2. `month_number`\n3. `customers`: active customers from that cohort in that month\n4. `retention_pct`: customers ÷ cohort size × 100, rounded to 1 decimal (month 0 is 100)",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders"] }],
+  "hints": [
+    "Step 1: a CTE with one row per (customer_id, order_month) from delivered, de-duplicated orders, using `DATE_TRUNC('month', order_ts_utc + INTERVAL 330 MINUTE)`.",
+    "Step 2: `MIN(order_month)` per customer over **all** history gives the cohort. If you filter to FY2024-25 first, a loyal customer from 2023 looks brand new in April 2024.",
+    "Step 3: `date_diff('month', cohort_month, order_month)` gives month_number.",
+    "Step 4: cohort size = customers per cohort_month from step 2. Join it in and divide."
+  ],
+  "explanation": "A cohort query is a pipeline of small, checkable steps: **activity → first month → month offset → counts → divide by cohort size**. Writing it as CTEs lets you validate each step (e.g. month 0 must equal cohort size, so 100%).\n\nThe classic mistake is defining the cohort inside the analysis window: customers who first bought in FY2023-24 would be miscounted as new in April 2024, inflating early cohorts and their retention.\n\n**Reading it:** month-1 retention sits around 15–25% for most cohorts. Compare the **October 2024 (Diwali)** cohort with the others: festive cohorts are large, so watch whether their *rate* holds up even if the absolute count is high. That's the evidence Kabir asked for.",
+  "interview": "*\"To check whether paid acquisition was bringing in lasting customers, I built a monthly cohort retention table in SQL using first-ever purchase month as the cohort. I deliberately looked at full history so returning customers weren't counted as new. It showed month-1 retention of roughly 20%, and let us compare the festive cohort against normal months for the board.\"*\n\nFollow-ups: **\"Why might month 3 be higher than month 2?\"** Seasonality: a sale in month 3 reactivates customers. **\"How would you visualise it?\"** A heatmap triangle with cohorts as rows and month_number as columns.",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

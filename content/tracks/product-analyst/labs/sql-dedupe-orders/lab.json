@@ -1,0 +1,23 @@
+{
+  "id": "sql-dedupe-orders",
+  "title": "Weekly orders without double-fired events",
+  "order": 3,
+  "difficulty": "Intermediate",
+  "minutes": 25,
+  "skills": ["Event data quality", "LAG", "Deduplication", "Weekly reporting"],
+  "workspace": "sql",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Farhan Khan", "role": "Finance Business Partner" },
+  "scenario": "Finance reconciles Swaadly's weekly orders against the payment gateway's settlement report. The app's numbers are always slightly higher. Engineering confirmed that the payment SDK sometimes fires `payment_success` twice, a second or two apart.\n\n> \"Give me weekly orders and GMV from the events, with the double-fires removed, so I can match them to settlements.\"",
+  "task": "A **double-fired** event is a `payment_success` with the **same user, session and order value** as a previous `payment_success` for that user, session and value, **5 seconds or less** after it. Drop those; everything else is a real order.\n\nFor real users only, return weekly figures for weeks starting **Monday 2025-06-02 through Monday 2025-08-25**, sorted by week:\n\n1. `week_start`: text `YYYY-MM-DD` (Monday of the week)\n2. `orders`: real orders\n3. `gmv_inr`: sum of `order_value_inr`, rounded to 2 decimals",
+  "data": [{ "dataset": "swaadly", "tables": ["users", "events"] }],
+  "hints": [
+    "`LAG(event_ts_ist) OVER (PARTITION BY user_id, session_id, order_value_inr ORDER BY event_ts_ist)` gives the previous matching payment's time.",
+    "Keep a row when there's no previous match, or the gap is more than 5 seconds: `prev_ts IS NULL OR event_ts_ist - prev_ts > INTERVAL 5 SECOND`.",
+    "`DATE_TRUNC('week', ts)` returns the Monday of the week in DuckDB.",
+    "Filter the date range **after** de-duplicating, or a double-fire right at the boundary could slip through."
+  ],
+  "explanation": "**Why not `SELECT DISTINCT`?** The duplicate has a different `event_id` and a slightly later timestamp, so the rows aren't identical. You have to define what makes two events *the same order* (same user, session and value within a few seconds) and implement that rule with a window function.\n\n**Why so tight a window?** A real user could genuinely place two identical orders in one session (rare, but possible). 5 seconds is short enough that a human couldn't do it, and long enough to catch the SDK's double-fire.\n\nThe difference is about 1.5% of orders. Small, but it's the kind of gap that makes Finance distrust every product number until it's explained. Document the rule and ask engineering to send an idempotency key (an order ID) with the event.",
+  "interview": "*\"Finance couldn't reconcile app orders with payment settlements. I found the payment SDK sometimes fired success twice within a couple of seconds, so I wrote a LAG-based rule to drop repeats with the same user, session and amount within five seconds. Weekly orders then matched settlements, and engineering added an order ID to the event so the rule could be retired.\"*\n\nExpect: **\"How would you prevent this upstream?\"** Idempotency keys, deduplication at ingestion, and a data-quality test comparing event counts with the payments table.",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

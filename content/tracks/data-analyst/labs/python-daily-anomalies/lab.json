@@ -1,0 +1,23 @@
+{
+  "id": "python-daily-anomalies",
+  "title": "Spot anomalies in daily revenue",
+  "order": 7,
+  "difficulty": "Intermediate",
+  "minutes": 30,
+  "skills": ["pandas time series", "Rolling windows", "Anomaly detection", "Data quality"],
+  "workspace": "python",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Ritika Agarwal", "role": "Business Finance Manager" },
+  "scenario": "Ritika wants an automatic alert that tells her when daily revenue looks unusual, instead of discovering surprises at month end. Before engineering builds it, she wants to see what a simple rule would have flagged last year, and whether those flags were real business events or data problems.\n\n> \"If we'd had a simple alert last year, which days would it have fired on? And while you're in there, finance found some negative order amounts. Can you pull those out?\"",
+  "task": "Create three variables:\n\n1. **`daily`**: a Series of **Delivered** net revenue per **IST date** for **every** day from `2024-04-01` to `2025-03-31` (365 values; days with no orders = 0), from de-duplicated orders.\n2. **`anomalies`**: a sorted list of date strings (`'YYYY-MM-DD'`) where `daily ÷ median(previous 28 days)` is **> 4** or **< 0.25**. The baseline must **not** include the day itself; the first 28 days have no baseline and are not flagged.\n3. **`bug_orders`**: a DataFrame of de-duplicated orders (any status, any date) with `net_amount_inr < 0`.\n\nThen look at the flagged days. Which are seasonal, which are real one-off events, and which are data problems?",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders"] }],
+  "hints": [
+    "`.dt.normalize()` turns a timestamp into midnight of its date, which is a good groupby key.",
+    "`.reindex(pd.date_range('2024-04-01', '2025-03-31', freq='D'), fill_value=0.0)` adds missing days. Without it, the rolling window skips days silently.",
+    "`daily.shift(1).rolling(28).median()`: shift first so today isn't part of its own baseline.",
+    "To classify a flagged day, look at its orders: `o[o['order_date'] == '2024-10-25'].nlargest(3, 'net_amount_inr')`."
+  ],
+  "explanation": "**Robust baseline.** A trailing **median** isn't dragged up by one huge day the way a mean is, and **shifting by one day** stops a spike from raising its own baseline (which would hide it).\n\n**Complete calendar.** Without reindexing, a day with zero orders simply doesn't exist, so the rolling window silently spans extra calendar days.\n\n**Why such wide thresholds?** Bazaarly has only ~30 orders a day and one electronics order can be ₹50,000, so daily revenue is very spiky. With a 7-day window and 2.5×/0.4× thresholds the rule fires about 40 times a year, and nobody reads an alert that cries wolf weekly. Try it yourself.\n\n**Triage the 9 flags.** Look at each day's biggest orders:\n\n- **Real one-off events**: 25 Oct 2024 and 11 Feb 2025 each contain a ₹4.5–6 lakh B2B order. Worth a note, no fix.\n- **Seasonal**: days inside the Diwali sale and the March year-end sale. Expected; the alert should know the sale calendar.\n- **Noise**: ordinary days where a couple of large electronics orders landed, or a quiet day right after. A sign that revenue alone is a poor alert metric; pair it with **order count**, which is far less spiky.\n- **Data problems**: separately, the six orders where `discount > gross` (a coupon bug) carry **negative** net revenue. These need an engineering ticket and a correction in the books.\n\nThis triage, not the rule itself, is what makes an analyst trusted.",
+  "interview": "*\"Finance wanted a revenue alert, so I backtested a simple rule in pandas: compare each day with the median of the previous 28 days and flag ratios above 4 or below 0.25. I filled missing days and excluded the day itself from its baseline. Then I triaged every flag into seasonal, genuine one-off and data errors. That surfaced a coupon bug creating negative order values, which engineering fixed before the alert went live.\"*\n\nExpect: **\"How would you reduce false alarms?\"** Add the sale calendar as known events, compare with the same weekday last week, and alert only after two consecutive breaches.",
+  "grading": {}
+}

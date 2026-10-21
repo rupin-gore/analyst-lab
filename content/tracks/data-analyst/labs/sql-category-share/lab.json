@@ -1,0 +1,23 @@
+{
+  "id": "sql-category-share",
+  "title": "Clean category labels and compute revenue share",
+  "order": 2,
+  "difficulty": "Beginner",
+  "minutes": 15,
+  "skills": ["SQL CASE", "String cleaning", "Window functions", "Share of total"],
+  "workspace": "sql",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Vikram Iyer", "role": "Category Head, Electronics" },
+  "scenario": "Vikram is preparing for the annual category planning meeting and wants to show how dependent Bazaarly is on electronics. His team's last slide had ten categories, including \"electronics\" and \"Electronic\" as separate rows, and the CEO noticed.\n\n> \"I need FY24-25 revenue by category and each category's share of the total. Six categories, not ten this time, please.\"",
+  "task": "Return **three columns**, sorted by `net_revenue` (highest first):\n\n1. `category`: one of the six canonical names: `Electronics`, `Fashion`, `Home & Kitchen`, `Grocery`, `Beauty`, `Books`\n2. `net_revenue`: Delivered orders in FY2024-25 (IST), rounded to 2 decimals\n3. `share_pct`: the category's % of total net revenue, rounded to 1 decimal\n\nYour six shares should add up to ~100.",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders"] }],
+  "hints": [
+    "Look first: `SELECT category, COUNT(*) FROM orders GROUP BY 1 ORDER BY 1`. What variants do you see? Watch for trailing spaces.",
+    "`CASE lower(trim(category)) WHEN 'electronic' THEN 'Electronics' ... END` maps the variants.",
+    "`SUM(SUM(net_amount_inr)) OVER ()` is the grand total across groups, computed after the GROUP BY.",
+    "Keep the de-duplication and IST filter from earlier labs."
+  ],
+  "explanation": "Two techniques:\n\n1. **Normalise, then map.** `lower(trim(...))` collapses case and whitespace variants, and a `CASE` maps the remaining spelling differences (`Home and Kitchen` → `Home & Kitchen`). In production you'd put this mapping in a reference table so every report uses it.\n2. **Window over an aggregate.** `SUM(SUM(x)) OVER ()` sums the per-category sums, so you get share-of-total in one pass, without a subquery.\n\nThe insight: electronics is ~60% of net revenue, so any electronics supply issue in the festive season is a company-level risk. That's the sentence Vikram needs.",
+  "interview": "*\"While building a category revenue report, I found the same category spelt four different ways, which split electronics revenue across rows. I standardised labels with a CASE mapping on trimmed, lower-cased values and computed share of total with a window function. The cleaned view showed electronics at about 60% of revenue, which became the key concentration-risk point in the planning deck.\"*\n\nFollow-up: **\"How would you stop this happening again?\"** Validate categories at source against a master list, and add a data-quality check that alerts on new unseen labels.",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

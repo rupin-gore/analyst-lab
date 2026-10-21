@@ -1,0 +1,38 @@
+{
+  "id": "uat-test-cases",
+  "title": "Write the UAT test cases",
+  "order": 8,
+  "difficulty": "Intermediate",
+  "minutes": 30,
+  "skills": ["UAT", "Test case design", "Boundary values", "Traceability"],
+  "workspace": "written",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Harsh Joshi", "role": "KYC Team Lead" },
+  "scenario": "Engineering has finished the penny-drop bank verification (FR-2) and WhatsApp status notifications (FR-4). Before go-live, Harsh's KYC reviewers and two pilot sellers will run **user acceptance testing (UAT)**. Harsh has never written test cases and asks you to prepare them.\n\n> \"Write me test cases my team can follow step by step, and tell us exactly what 'pass' looks like.\"",
+  "task": "Write **at least 6 UAT test cases** as a **Markdown table** with columns:\n\n**ID | Requirement | Scenario | Preconditions / test data | Steps | Expected result | Pass/Fail**\n\nCover:\n\n- the **happy path** for FR-2 and FR-4\n- **negative** cases (name mismatch, invalid account)\n- **edge cases** (initials vs full name, extra spaces or case differences, a delayed or failed WhatsApp message)\n- at least one **non-functional** check (e.g. response time on a slow connection)\n\nLeave the Pass/Fail column empty. Add one line on **entry and exit criteria** for UAT.",
+  "data": [],
+  "hints": [
+    "Trace every case to a requirement ID (FR-2, FR-4, NFR-1). Traceability is what auditors and steering committees check.",
+    "Test data must be concrete: \"PAN name: RAVI KUMAR; bank name: R KUMAR\", not \"a slightly different name\".",
+    "Expected results must be observable by a non-technical tester: the exact on-screen label, the WhatsApp text, the time window.",
+    "Entry criteria: e.g. system testing passed with no open critical defects, test accounts ready. Exit criteria: e.g. all Must cases pass, no open critical or high defects, business sign-off."
+  ],
+  "explanation": "UAT answers **\"does this solve the business problem, in the users' hands?\"**, not \"does the code work?\" (that's system testing). Good UAT cases are:\n\n- **traceable** to a requirement ID\n- **reproducible**: concrete test data and numbered steps\n- **observable**: expected results a business user can verify without logs\n- **balanced**: happy paths, negative cases, **boundary/edge cases** (name variations are where bank verification breaks in India: initials, middle names, spelling, salutations) and at least one non-functional check\n\nEntry and exit criteria stop UAT from starting on an unstable build, and from \"finishing\" with critical defects open.",
+  "interview": "*\"Before go-live of bank verification and WhatsApp notifications, I wrote a UAT pack of traceable test cases with concrete Indian name variations, such as initials and middle names, plus failure and slow-network cases, and defined entry and exit criteria. Business testers found two name-matching defects that system testing had missed, both fixed before launch.\"*\n\nExpect: **\"UAT vs SIT vs regression testing?\"** and **\"Who signs off UAT?\"** (The business owner, not IT.)",
+  "grading": {
+    "written": {
+      "rubric": [
+        "At least 6 test cases in a table with the required columns",
+        "Every case traces to a requirement ID",
+        "Covers happy paths for both FR-2 and FR-4",
+        "Includes negative and edge cases with concrete test data (e.g. initials vs full name)",
+        "Includes at least one non-functional test",
+        "Expected results are observable by a business tester",
+        "States UAT entry and exit criteria"
+      ],
+      "minWords": 150,
+      "maxWords": 800,
+      "suggestedTerms": ["FR-2", "FR-4", "Expected", "exit criteria"]
+    }
+  }
+}

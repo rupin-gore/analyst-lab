@@ -1,0 +1,46 @@
+{
+  "id": "north-star-memo",
+  "title": "Choose Swaadly's north-star metric",
+  "order": 9,
+  "difficulty": "Intermediate",
+  "minutes": 25,
+  "skills": ["North-star metric", "Metric selection", "Product thinking", "Writing"],
+  "workspace": "written",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Meera Nair", "role": "Chief Product Officer" },
+  "scenario": "Swaadly's leadership is setting company goals for next year. Marketing proposes **app downloads**, the CEO likes **GMV**, and engineering suggests **daily active users**. Meera wants one north-star metric that the whole company rallies around, and has asked you for a recommendation.\n\n> \"Send me a short memo: which north-star metric should we pick, why, and what stops us gaming it?\"",
+  "task": "Write a memo of **120–300 words** that:\n\n1. **Recommends one** north-star metric with a precise definition\n2. Explains why it beats **downloads**, **GMV** and **DAU**, using the facts below\n3. Shows how teams can **influence** it (link it to the metric tree)\n4. Names **2–3 guardrail metrics** that stop it being gamed\n5. Ends with a concrete **target or next step**",
+  "facts": [
+    { "label": "New signups: 4 weeks in June vs 4 weeks in August", "value": "500 → 761" },
+    { "label": "Weekly active users: first week of June vs last week of August", "value": "626 → 1,309" },
+    { "label": "Weekly ordering customers: same weeks", "value": "140 → 375" },
+    { "label": "Share of weekly actives who order", "value": "22% → 29%" },
+    { "label": "Weekly GMV: same weeks", "value": "₹0.6 lakh → ₹1.9 lakh" },
+    { "label": "D7 retention of new users", "value": "flat, ~10–16%" },
+    { "label": "Checkout conversion, web vs android", "value": "58% vs 66%" }
+  ],
+  "data": [],
+  "hints": [
+    "A good north star reflects **value the customer gets**, predicts long-term revenue, and can be moved by many teams.",
+    "Downloads can rise while nobody orders. GMV can rise from price increases or a few big orders. DAU can rise from notifications without anyone eating.",
+    "Strong candidates measure *people who got value this week*, e.g. **weekly ordering customers**.",
+    "Guardrails protect quality and economics: delivery time, cancellation rate, contribution margin per order."
+  ],
+  "explanation": "A north-star metric should:\n\n- **capture delivered value**: for a food app, someone actually received a meal\n- **lead revenue** rather than *be* revenue (so it rewards building habits, not discount-driven spikes)\n- be **movable by every team** through the metric tree\n- be **hard to game** on its own, with guardrails for the ways it can be\n\n**Weekly ordering customers** (distinct real users with at least one delivered order in the week) fits: it grew ~2.7× (140 → 375), faster than WAU, while D7 retention stayed flat. That says growth is real, but habit isn't improving yet, which is exactly what a north star should surface. Downloads ignore whether anyone orders; GMV mixes customers with basket size and price; DAU counts browsing.\n\nGuardrails: **delivery time**, **cancellation rate**, **contribution margin per order** (so discounts can't buy the metric), and **web checkout conversion** as a known weak spot.",
+  "interview": "*\"I recommended weekly ordering customers as a food app's north-star metric over downloads, GMV and DAU, because it measures customers who actually received value each week and every team can move it through the metric tree. I paired it with delivery time, cancellations and contribution margin as guardrails so it couldn't be bought with discounts.\"*\n\nClassic interview question: **\"What north-star metric would you choose for [Swiggy / Zomato / PhonePe / Duolingo], and why?\"**",
+  "grading": {
+    "written": {
+      "rubric": [
+        "Recommends exactly one metric with a precise definition (who, what action, what period)",
+        "Explains why downloads, GMV and DAU are weaker, using the facts",
+        "Links the metric to drivers or teams that can move it",
+        "Names at least two guardrail metrics",
+        "Ends with a target or a concrete next step",
+        "Readable by a busy executive in under a minute"
+      ],
+      "minWords": 120,
+      "maxWords": 300,
+      "suggestedTerms": ["weekly", "guardrail", "retention", "GMV"]
+    }
+  }
+}

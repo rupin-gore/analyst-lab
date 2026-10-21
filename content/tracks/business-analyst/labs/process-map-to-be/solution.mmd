@@ -1,0 +1,31 @@
+flowchart TD
+  subgraph S[Seller]
+    A[Start application] --> B[Upload PAN, GSTIN, cheque, address proof]
+    R[Re-upload failed document only]
+    L([Seller live])
+  end
+  subgraph SYS[System]
+    C1{Readable?}
+    C2{Penny-drop bank name matches PAN?}
+    C3{GSTIN valid?}
+    Q[Submit to KYC queue]
+    N1[WhatsApp: submitted]
+    N2[WhatsApp: rejected with reason]
+    N3[WhatsApp: you're live]
+  end
+  subgraph K[KYC team]
+    KR[Manual KYC review<br/>SLA 48 h]
+    D{Approve?}
+  end
+  subgraph CAT[Catalogue team]
+    CL[Set up first listing]
+  end
+  B --> C1
+  C1 -->|No: retake photo| B
+  C1 -->|Yes| C2
+  C2 -->|No: upload matching cheque| B
+  C2 -->|Yes| C3
+  C3 -->|No: correct GSTIN| B
+  C3 -->|Yes| Q --> N1 --> KR --> D
+  D -->|Rejected| N2 --> R --> KR
+  D -->|Approved| CL --> N3 --> L

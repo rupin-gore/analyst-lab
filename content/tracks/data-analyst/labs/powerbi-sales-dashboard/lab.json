@@ -1,0 +1,36 @@
+{
+  "id": "powerbi-sales-dashboard",
+  "title": "Build the sales dashboard in Power BI",
+  "order": 9,
+  "difficulty": "Intermediate",
+  "minutes": 60,
+  "skills": ["Power BI", "Power Query", "DAX", "Data modelling", "Dashboards"],
+  "workspace": "written",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Ritika Agarwal", "role": "Business Finance Manager" },
+  "scenario": "Ritika currently rebuilds a revenue deck in Excel every month. She wants a Power BI report she can open on Monday morning: headline KPIs, the monthly trend, and revenue by state and category, all with slicers. Power BI Desktop is free on Windows, and the data team will publish the file.\n\n> \"Build it once, properly, so I never have to paste numbers into PowerPoint again.\"",
+  "task": "Power BI can't run in the browser, so build this on your laptop and use the self-check below. **Download** `orders.csv` and `customers.csv` from the Data panel.\n\n**1. Power Query (Transform data)**\n- `orders`: *Remove Duplicates* on all columns; set `order_ts_utc` to Date/Time; add a column `order_ts_ist = [order_ts_utc] + #duration(0,5,30,0)` and `order_date = DateTime.Date([order_ts_ist])`; replace category variants (`electronics`, `Electronic` → `Electronics`, `Home and Kitchen` → `Home & Kitchen`, trim `fashion `).\n- `customers`: trim and title-case `city`; replace `Bangalore` → `Bengaluru`, `Bombay` → `Mumbai`.\n\n**2. Model**\n- Create a date table: `Dates = CALENDAR(DATE(2023,4,1), DATE(2025,3,31))`, add `Month = FORMAT([Date], \"YYYY-MM\")`, mark it as a date table.\n- Relationships: `Dates[Date]` 1→* `orders[order_date]`; `customers[customer_id]` 1→* `orders[customer_id]`.\n\n**3. Measures** (each with its SQL equivalent)\n\n| DAX | SQL equivalent |\n|---|---|\n| `Net Revenue = CALCULATE(SUM(orders[net_amount_inr]), orders[order_status] = \"Delivered\")` | `SUM(net_amount_inr) WHERE order_status = 'Delivered'` |\n| `Delivered Orders = CALCULATE(COUNTROWS(orders), orders[order_status] = \"Delivered\")` | `COUNT(*) WHERE order_status = 'Delivered'` |\n| `AOV = DIVIDE([Net Revenue], [Delivered Orders])` | `SUM(...) / NULLIF(COUNT(*), 0)` |\n| `Cancel Rate = DIVIDE(CALCULATE(COUNTROWS(orders), orders[order_status] = \"Cancelled\"), COUNTROWS(orders))` | `COUNT(*) FILTER (WHERE status='Cancelled') / COUNT(*)` |\n| `Revenue PM = CALCULATE([Net Revenue], DATEADD(Dates[Date], -1, MONTH))` | `LAG(revenue) OVER (ORDER BY month)` |\n| `MoM % = DIVIDE([Net Revenue] - [Revenue PM], [Revenue PM])` | `(rev - prev) / prev` |\n\n**4. Report page**: four KPI cards (Net Revenue, Delivered Orders, AOV, Cancel Rate); a line chart of Net Revenue by `Dates[Month]`; a bar chart by `customers[state]`; a bar chart by `orders[category]`; slicers for financial year and payment method.\n\n**5. Self-check.** Filter to FY2024-25 (April 2024 to March 2025) and answer in the box:\n\n1. Net Revenue on the card?\n2. Delivered Orders and AOV?\n3. Top state and its revenue?\n4. MoM % for October 2024?\n5. Cancel Rate, and how it changes when you slice to COD only?",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders", "customers"] }],
+  "hints": [
+    "If your Net Revenue is about 1% too high, you skipped Remove Duplicates in Power Query.",
+    "If October looks too low and September too high, you built `order_date` from the UTC column instead of IST.",
+    "A financial-year slicer is easiest as a column in Dates: `FY = IF(MONTH([Date]) >= 4, YEAR([Date]), YEAR([Date]) - 1)`, then label it `FY\" & [FY] & \"-\" & RIGHT([FY]+1, 2)`.",
+    "`DATEADD` needs a proper, contiguous date table marked as a date table, otherwise `Revenue PM` returns blank."
+  ],
+  "explanation": "Expected self-check answers for FY2024-25:\n\n1. **Net Revenue ≈ ₹2.32 crore** (₹2,31,84,860)\n2. **7,788 delivered orders**, **AOV ≈ ₹2,977**\n3. **Maharashtra, ≈ ₹56.3 lakh**\n4. **October 2024 MoM ≈ +114.9%** (Diwali sale)\n5. **Cancel Rate ≈ 7.6%** overall; roughly **14%** for COD only\n\nIf you're off, check duplicates (≈1% high), the IST conversion (month boundaries), and that the date table relationship runs from `Dates[Date]` to `orders[order_date]` (a date, not a date-time).\n\n**Why measures, not calculated columns?** Measures are evaluated in the filter context of each visual (a state bar, a month point, a slicer selection), which is exactly what a `GROUP BY` does in SQL. A calculated column is computed once per row at refresh and can't respond to slicers.\n\n**Portfolio tip:** save the `.pbix`, export one page as PDF, and put both in your GitHub repo with a README listing the measures and the data-cleaning steps.",
+  "interview": "*\"I built a Power BI sales dashboard on an e-commerce dataset: cleaned it in Power Query (de-duplication, UTC to IST, category mapping), modelled a proper date table with relationships, and wrote DAX measures for net revenue, AOV, cancellation rate and month-over-month growth with DATEADD. I validated every card against SQL before publishing, so finance trusted it enough to retire their manual Excel deck.\"*\n\nExpect: **\"What is filter context?\"** and **\"Why does DATEADD need a date table?\"**",
+  "grading": {
+    "written": {
+      "rubric": [
+        "Net Revenue for FY2024-25 is about ₹2.32 crore",
+        "Delivered orders 7,788 and AOV about ₹2,977",
+        "Top state is Maharashtra at about ₹56 lakh",
+        "October 2024 MoM is about +115%",
+        "Cancel rate about 7.6% overall and about 14% for COD",
+        "I validated at least one number against SQL from an earlier lab"
+      ],
+      "minWords": 20,
+      "maxWords": 400
+    }
+  }
+}

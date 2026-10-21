@@ -1,0 +1,34 @@
+{
+  "id": "erd-onboarding",
+  "title": "Model the onboarding data (ER diagram)",
+  "order": 9,
+  "difficulty": "Intermediate",
+  "minutes": 30,
+  "skills": ["Data modelling", "ER diagrams", "Data requirements", "Mermaid"],
+  "workspace": "diagram",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Nikhil Rao", "role": "Engineering Manager, Seller Platform" },
+  "scenario": "Today the whole onboarding history lives in one wide spreadsheet-like table: one row per application, with each document's status in a column and only the *latest* status kept. Reporting on re-uploads, per-document failures or how long each stage took is nearly impossible.\n\n> \"Before we build, give me the logical data model: entities, key attributes and relationships. Keep the full history; the KYC team and the data team both need it.\"",
+  "task": "Draw a Mermaid **`erDiagram`** with these entities and sensible relationships (with cardinalities):\n\n- **SELLER**: one per business (PAN, GSTIN, legal name)\n- **APPLICATION**: a seller can apply more than once\n- **DOCUMENT**: each upload of PAN, GSTIN certificate, cheque or address proof, including re-uploads\n- **VERIFICATION_CHECK**: each automatic or manual check on a document (readability, penny-drop, GSTIN, KYC review) with its result\n- **BANK_ACCOUNT**: the seller's payout account\n- **STATUS_HISTORY**: every status change of an application, with a timestamp\n\nGive each entity a primary key (`PK`), the foreign keys (`FK`) that link it, and 2–4 important attributes.",
+  "data": [],
+  "hints": [
+    "Syntax: `SELLER ||--o{ APPLICATION : submits` means one seller has zero or more applications.",
+    "Attributes go in a block: `APPLICATION { string application_id PK  string seller_id FK  date applied_date  string channel }`.",
+    "History needs its own table: `APPLICATION ||--o{ STATUS_HISTORY : has`, with `status`, `changed_at` and `changed_by`.",
+    "A re-upload is a new DOCUMENT row (version 2), not an overwrite, so each check result stays linked to the exact file it checked."
+  ],
+  "explanation": "The key modelling decisions:\n\n- **Separate SELLER from APPLICATION**: the same business can apply twice (the \"duplicate application\" rejections), and that's only visible if a seller exists independently of applications.\n- **History as rows, not columns**: STATUS_HISTORY (one row per change) turns \"how long did KYC take?\" into a simple query, and an append-only design preserves the audit trail the 8-year retention rule implies.\n- **Each upload is a new DOCUMENT row** with a version number, and **VERIFICATION_CHECK** links to a specific document, so you can answer \"what share of first uploads fail readability?\"\n- **Cardinalities** make business rules explicit (`||--o{` vs `||--|{`) for engineering and QA.\n\nThis is a **logical** model: entities, keys and relationships. Physical details (indexes, data types, partitioning) come later with engineering.",
+  "interview": "*\"I proposed a logical data model for seller onboarding that separated sellers from applications, stored every document upload and verification check as its own row, and captured status changes in an append-only history table. That made stage-by-stage turnaround and first-time-right rates directly reportable, which the old single-table design couldn't support.\"*\n\nExpect: **\"Explain one-to-many vs many-to-many and how you'd model the latter.\"** (A junction table.)",
+  "grading": {
+    "diagram": {
+      "requiredTerms": ["erDiagram", "SELLER", "APPLICATION", "DOCUMENT", ["VERIFICATION_CHECK", "VERIFICATION"], "BANK_ACCOUNT", "STATUS_HISTORY", "PK", "FK", ["||--o{", "||--|{"]],
+      "rubric": [
+        "SELLER is separate from APPLICATION (one seller, many applications)",
+        "Every entity has a primary key and the foreign keys that link it",
+        "Re-uploads are stored as new DOCUMENT rows, not overwrites",
+        "Status history is stored as rows with timestamps",
+        "Relationships show cardinality and a verb label"
+      ]
+    }
+  }
+}

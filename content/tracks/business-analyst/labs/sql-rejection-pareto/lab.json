@@ -1,0 +1,23 @@
+{
+  "id": "sql-rejection-pareto",
+  "title": "Which rejection reasons should we fix first?",
+  "order": 4,
+  "difficulty": "Intermediate",
+  "minutes": 20,
+  "skills": ["Pareto analysis", "Window functions", "Running totals", "Root cause"],
+  "workspace": "sql",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Harsh Joshi", "role": "KYC Team Lead" },
+  "scenario": "Harsh's team can't automate everything before Diwali. He wants to focus on the few rejection reasons that cause most of the rework, the classic 80/20 rule.\n\n> \"Give me rejection reasons ranked by volume with a running total, so I can see which reasons make up 80%. Leave out duplicate applications; those aren't really rejections.\"",
+  "task": "For applications with status **Rejected**, excluding the reason `'Duplicate application'`, return one row per `rejection_reason`, sorted by `rejections` (highest first; ties by reason name):\n\n1. `rejection_reason`\n2. `rejections`: count\n3. `pct`: share of all (non-duplicate) rejections × 100, 1 decimal\n4. `cumulative_pct`: running total of `pct` in that order, 1 decimal (the last row is 100)",
+  "data": [{ "dataset": "seller_onboarding", "tables": ["applications"] }],
+  "hints": [
+    "Aggregate first in a CTE: one row per reason with its count.",
+    "`SUM(rejections) OVER ()` is the grand total.",
+    "Running total: `SUM(rejections) OVER (ORDER BY rejections DESC, rejection_reason ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)`.",
+    "Divide the running total by the grand total, *then* round. Summing rounded percentages drifts away from 100."
+  ],
+  "explanation": "A **Pareto table** ranks causes and shows the cumulative share, so you can see where the effort pays off. Here, **three reasons (blurry documents, bank name mismatch, GSTIN mismatch) cause about 77% of rejections**, and all three can be caught **at upload** with automatic checks. That shifts the conversation from \"hire more KYC staff\" to \"stop bad applications reaching KYC\".\n\n**Window frame detail:** with `ORDER BY` in a window, the default frame is `RANGE ... CURRENT ROW`, which lumps **tied** values together. Adding a tie-breaker and `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` makes the running total strictly row by row.\n\nExcluding duplicates matters: they're not a seller problem to fix, and including them dilutes every other share.",
+  "interview": "*\"I ran a Pareto analysis of seller KYC rejections in SQL and showed that three reasons, all detectable at upload, drove about 77% of rejections. That reframed the project from adding KYC headcount to automated upload checks, which were prioritised as the first release.\"*\n\nExpect: **\"What's the difference between ROWS and RANGE in a window frame?\"**",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

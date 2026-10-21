@@ -1,0 +1,23 @@
+{
+  "id": "sql-retention-d1-d7",
+  "title": "D1 and D7 retention by signup week",
+  "order": 5,
+  "difficulty": "Advanced",
+  "minutes": 30,
+  "skills": ["Retention", "Cohorts", "Date arithmetic", "LEFT JOIN"],
+  "workspace": "sql",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Ishaan Mehta", "role": "Growth Product Manager" },
+  "scenario": "Swaadly's growth team changed the onboarding flow in July. Ishaan wants to see whether new users are coming back more often since then. The board deck uses D1 and D7 retention, so he wants exactly those.\n\n> \"For each weekly signup cohort since June, what % came back the next day, and what % came back on day 7?\"",
+  "task": "New users = real users with `signup_date` from **2025-06-02 to 2025-08-17** (11 full signup weeks).\n\n- **D1 retained**: has any event on `signup_date + 1`\n- **D7 retained**: has any event **exactly** on `signup_date + 7`\n\nReturn `signup_week` (Monday, text `YYYY-MM-DD`), `new_users`, `d1_retention_pct`, `d7_retention_pct` (both × 100, 1 decimal), sorted by week.",
+  "data": [{ "dataset": "swaadly", "tables": ["users", "events"] }],
+  "hints": [
+    "Make a table of active days: `SELECT DISTINCT user_id, CAST(event_ts_ist AS DATE) AS active_date FROM events`.",
+    "**LEFT JOIN** new users to active days so users who never came back still count in the denominator.",
+    "Per user: `MAX(CASE WHEN active_date = signup_date + 1 THEN 1 ELSE 0 END) AS d1`, and the same for `+ 7`.",
+    "Why stop at 17 August? A user who signed up on 30 August can't have a day-7 yet. Including them would drag D7 down."
+  ],
+  "explanation": "**Exact-day vs rolling retention.** \"D7\" here means active **on** day 7 (the standard *classic* retention). Counting active on day 7 *or later* (\"unbounded\") gives a much higher number that keeps growing over time; it's a different metric. Many retention arguments are really definition arguments, so always state which.\n\n**Censoring.** Only include cohorts that have had time to reach the measured day; otherwise recent cohorts look worse simply because they're young.\n\n**LEFT JOIN discipline.** Retention denominators must include everyone in the cohort; an INNER JOIN to activity silently drops non-returners and inflates retention.\n\n**Reading it:** D1 sits around 18–29% and D7 around 10–16%, with no clear step-change after the July onboarding change. Weekly cohorts of ~100–200 users are noisy (±3–4 points), so Ishaan shouldn't claim a win (or a loss) from these numbers alone.",
+  "interview": "*\"To evaluate an onboarding change, I built weekly signup cohorts with D1 and D7 classic retention, using a LEFT JOIN so non-returning users stayed in the denominator, and excluding cohorts too young to have a day-7. Retention showed no clear shift beyond week-to-week noise, so I recommended a proper A/B test rather than claiming a win from the trend.\"*\n\nExpect: **\"Classic vs rolling vs unbounded retention?\"** and **\"How big a change could you detect with 150 users per cohort?\"**",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

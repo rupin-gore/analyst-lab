@@ -1,0 +1,110 @@
+{
+  "id": "swaadly",
+  "title": "Swaadly food delivery app",
+  "description": "Users, product events and an A/B test assignment log for Swaadly, a fictional Indian food-delivery app, 1 June to 31 August 2025. Times are in IST.",
+  "tables": {
+    "users": {
+      "file": "users.csv",
+      "rows": 4000,
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "VARCHAR",
+          "description": "User key, e.g. U100001"
+        },
+        {
+          "name": "signup_date",
+          "type": "DATE",
+          "description": "Date the account was created (IST)"
+        },
+        {
+          "name": "city",
+          "type": "VARCHAR",
+          "description": "Delivery city"
+        },
+        {
+          "name": "platform",
+          "type": "VARCHAR",
+          "description": "android, ios or web"
+        },
+        {
+          "name": "acquisition_channel",
+          "type": "VARCHAR",
+          "description": "How the user first arrived"
+        },
+        {
+          "name": "is_internal",
+          "type": "INTEGER",
+          "description": "1 = employee or QA test account"
+        }
+      ]
+    },
+    "events": {
+      "file": "events.csv",
+      "rows": 78115,
+      "columns": [
+        {
+          "name": "event_id",
+          "type": "VARCHAR",
+          "description": "Event key"
+        },
+        {
+          "name": "user_id",
+          "type": "VARCHAR",
+          "description": "FK to users"
+        },
+        {
+          "name": "session_id",
+          "type": "VARCHAR",
+          "description": "App session"
+        },
+        {
+          "name": "event_ts_ist",
+          "type": "TIMESTAMP",
+          "description": "Event time in IST"
+        },
+        {
+          "name": "event_name",
+          "type": "VARCHAR",
+          "description": "app_open, restaurant_view, add_to_cart, checkout_start, payment_success, reorder_click"
+        },
+        {
+          "name": "platform",
+          "type": "VARCHAR",
+          "description": "android, ios or web"
+        },
+        {
+          "name": "order_value_inr",
+          "type": "DOUBLE",
+          "description": "Order value, only on payment_success"
+        }
+      ]
+    },
+    "experiment_assignments": {
+      "file": "experiment_assignments.csv",
+      "rows": 2947,
+      "columns": [
+        {
+          "name": "user_id",
+          "type": "VARCHAR",
+          "description": "FK to users"
+        },
+        {
+          "name": "experiment",
+          "type": "VARCHAR",
+          "description": "Experiment key (checkout_v2)"
+        },
+        {
+          "name": "variant",
+          "type": "VARCHAR",
+          "description": "control or treatment"
+        },
+        {
+          "name": "assigned_ts_ist",
+          "type": "TIMESTAMP",
+          "description": "When the user was bucketed"
+        }
+      ]
+    }
+  }
+}

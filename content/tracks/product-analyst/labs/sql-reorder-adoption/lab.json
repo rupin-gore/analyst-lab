@@ -1,0 +1,22 @@
+{
+  "id": "sql-reorder-adoption",
+  "title": "Is anyone using one-tap Reorder?",
+  "order": 4,
+  "difficulty": "Intermediate",
+  "minutes": 20,
+  "skills": ["Feature adoption", "SQL conditional aggregation", "Weekly cohorts"],
+  "workspace": "sql",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Rohan Pillai", "role": "Group Product Manager" },
+  "scenario": "Swaadly launched one-tap **Reorder** on Monday 7 July 2025: returning users can repeat a past order without browsing. Rohan has a roadmap review on Friday and the feature's PM claims *\"huge adoption\"*.\n\n> \"What share of people who order each week are using Reorder, and is it growing?\"",
+  "task": "For each week from **Monday 2025-07-07** through the week of **2025-08-25**, real users only:\n\n- **ordering users**: users with at least one `payment_success` that week\n- **reorder users**: ordering users who also had a `reorder_click` that week\n\nReturn `week_start` (text `YYYY-MM-DD`), `ordering_users`, `reorder_users`, and `adoption_pct` (reorder ÷ ordering × 100, 1 decimal), sorted by week.",
+  "data": [{ "dataset": "swaadly", "tables": ["users", "events"] }],
+  "hints": [
+    "First build one row per (week, user) with two 0/1 flags: `MAX(CASE WHEN event_name = 'payment_success' THEN 1 ELSE 0 END) AS ordered`, and the same for `reorder_click`.",
+    "Then aggregate by week: `SUM(ordered)` and `SUM(ordered * used_reorder)`.",
+    "The denominator is people who **ordered** that week, not everyone who opened the app. Adoption among non-buyers isn't meaningful for this feature."
+  ],
+  "explanation": "**Pick the right denominator.** Reorder only makes sense for people placing an order, so adoption = reorder users ÷ ordering users. Dividing by all active users understates adoption and makes it swing with browsing traffic.\n\n**The per-user flag pattern** (one row per entity per period with `MAX(CASE ...)` flags, then sum the flags) is the workhorse of product analytics: it turns messy event streams into clean, countable facts.\n\n**Reading it:** adoption climbs steadily from about 11% in launch week to over 40% by late August. That's real momentum, but check two things before calling it \"huge\": (1) does Reorder **add** orders, or just change *how* people order (cannibalisation)? (2) Is the rise partly because more users now have a past order to repeat? A holdout group answers both.",
+  "interview": "*\"After a one-tap reorder launch, I measured weekly adoption as the share of ordering users who used the feature, which rose from about 11% to over 40% in eight weeks. I flagged that adoption alone didn't show incremental orders and proposed a holdout to measure cannibalisation, which changed how the team reported the feature's success.\"*\n\nExpect: **\"Adoption vs engagement vs impact?\"** Adoption = who tried it; engagement = how often; impact = what changed in the outcome metric because of it.",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

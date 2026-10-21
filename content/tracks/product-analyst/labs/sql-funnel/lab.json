@@ -1,0 +1,23 @@
+{
+  "id": "sql-funnel",
+  "title": "Build the ordering funnel",
+  "order": 1,
+  "difficulty": "Intermediate",
+  "minutes": 25,
+  "skills": ["Funnel analysis", "SQL", "COUNT DISTINCT", "Window functions"],
+  "workspace": "sql",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Rohan Pillai", "role": "Group Product Manager" },
+  "scenario": "Swaadly is a food-delivery app in 11 Indian cities. Rohan is planning next quarter's roadmap and wants to know where users drop off between opening the app and paying. The marketing dashboard says *\"90% of carts convert!\"*, which nobody on the product team believes.\n\n> \"Give me the August funnel, from app open to payment: how many people reach each step, and what share make it from one step to the next?\"",
+  "task": "For **August 2025** and **real users only** (`users.is_internal = 0`), count **distinct users** who did each event at least once in the month. Return five rows, sorted by `step_order`:\n\n| step_order | step |\n|---|---|\n| 1 | app_open |\n| 2 | restaurant_view |\n| 3 | add_to_cart |\n| 4 | checkout_start |\n| 5 | payment_success |\n\nColumns: `step_order`, `step`, `users`, `pct_of_first` (users ÷ step-1 users × 100, 1 decimal) and `pct_of_previous` (users ÷ previous step's users × 100, 1 decimal; NULL for step 1).",
+  "data": [{ "dataset": "swaadly", "tables": ["users", "events"] }],
+  "hints": [
+    "A small inline table of steps keeps the order: `SELECT * FROM (VALUES (1, 'app_open'), (2, 'restaurant_view'), ...) AS s(step_order, step)`.",
+    "Join `events` to `users` and filter `is_internal = 0`. Check how many events the 35 internal accounts generate; they convert almost perfectly.",
+    "`COUNT(DISTINCT user_id)` per step, not `COUNT(*)`: a user who views five restaurants is one user at that step.",
+    "`FIRST_VALUE(users) OVER (ORDER BY step_order)` and `LAG(users) OVER (ORDER BY step_order)` give the two denominators."
+  ],
+  "explanation": "**Users, not events.** Event counts inflate steps people repeat (restaurant views) and make the funnel non-monotonic. A user-level funnel answers \"what share of people get through?\"\n\n**Exclude internal accounts.** QA and employees test checkout constantly and pay almost every time. They're a tiny share of users but a big share of checkout events, which is exactly how \"90% of carts convert\" happens.\n\n**Reading it:** the biggest leak is **restaurant view → add to cart** (about a third of browsers never add anything), then **checkout → payment** (about a quarter abandon at payment). Those are the two places to focus.\n\n**Caveat:** this is a *monthly, unordered* funnel: a user counts at a step if they ever did it in August. A strict funnel requires steps in order within a session; that's a good follow-up.",
+  "interview": "*\"I built a user-level ordering funnel for August from raw events, excluding internal test accounts that had been inflating checkout conversion on the marketing dashboard. It showed the two biggest drop-offs were browsing-to-cart and checkout-to-payment, which shaped the next quarter's roadmap toward menu discovery and payments.\"*\n\nExpect: **\"Session-level or user-level funnel: which and why?\"** User-level answers \"how many people get through\"; session-level answers \"how well does a single visit convert\". Say which question you're answering.",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

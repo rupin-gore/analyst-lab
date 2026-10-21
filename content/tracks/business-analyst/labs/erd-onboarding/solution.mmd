@@ -1,0 +1,49 @@
+erDiagram
+  SELLER ||--o{ APPLICATION : submits
+  SELLER ||--o{ BANK_ACCOUNT : owns
+  APPLICATION ||--|{ DOCUMENT : includes
+  APPLICATION ||--o{ STATUS_HISTORY : has
+  DOCUMENT ||--o{ VERIFICATION_CHECK : "is checked by"
+  BANK_ACCOUNT ||--o{ VERIFICATION_CHECK : "is verified by"
+
+  SELLER {
+    string seller_id PK
+    string pan
+    string gstin
+    string legal_name
+  }
+  APPLICATION {
+    string application_id PK
+    string seller_id FK
+    date applied_date
+    string channel
+    string current_status
+  }
+  DOCUMENT {
+    string document_id PK
+    string application_id FK
+    string doc_type
+    int version
+    datetime uploaded_at
+  }
+  VERIFICATION_CHECK {
+    string check_id PK
+    string document_id FK
+    string bank_account_id FK
+    string check_type
+    string result
+    datetime checked_at
+  }
+  BANK_ACCOUNT {
+    string bank_account_id PK
+    string seller_id FK
+    string ifsc
+    string holder_name
+  }
+  STATUS_HISTORY {
+    string history_id PK
+    string application_id FK
+    string status
+    datetime changed_at
+    string changed_by
+  }

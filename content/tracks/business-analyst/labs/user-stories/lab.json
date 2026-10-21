@@ -1,0 +1,37 @@
+{
+  "id": "user-stories",
+  "title": "Write user stories with acceptance criteria",
+  "order": 2,
+  "difficulty": "Intermediate",
+  "minutes": 30,
+  "skills": ["User stories", "Acceptance criteria", "Gherkin", "INVEST"],
+  "workspace": "written",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Nikhil Rao", "role": "Engineering Manager, Seller Platform" },
+  "scenario": "Pooja signed off the requirements. Nikhil's team works in two-week sprints in Jira and wants stories they can estimate and test, not a 30-page document.\n\n> \"Give me stories for document checks and seller status updates. Each one small enough for a sprint, with acceptance criteria QA can test directly.\"",
+  "task": "Write **three user stories** covering:\n\n1. Document readability check at upload (FR-1)\n2. Bank account name vs PAN name verification (FR-2)\n3. Seller status notifications (FR-4)\n\nFor each story:\n\n- the format **As a** [role], **I want** [capability], **so that** [benefit]\n- **2–4 acceptance criteria** in **Given / When / Then** form, including at least one **unhappy path** (failure or edge case)\n- a one-line **priority** (Must / Should / Could) with a reason",
+  "data": [],
+  "hints": [
+    "Write from the user's point of view: the *seller* uploads documents; the *KYC reviewer* benefits from cleaner submissions. Which role is the story for?",
+    "Gherkin: *Given* a context, *When* an action, *Then* an observable outcome. \"Then the system works correctly\" isn't testable; \"Then the seller sees the message 'Photo is blurry. Please retake it in good light.'\" is.",
+    "Unhappy paths are where bugs hide: what if the bank name has an initial, or the notification service is down?",
+    "INVEST: Independent, Negotiable, Valuable, Estimable, Small, Testable. If a story needs two sprints, split it."
+  ],
+  "explanation": "Strong stories:\n\n- name a **real role** and a **benefit** the business cares about (the *so that* part is what lets a PO prioritise)\n- are **small**: one capability each\n- have **acceptance criteria that are observable**: a message shown, a status changed, a notification sent within N minutes\n- include **unhappy paths and edge cases**: name variations (\"R. Kumar\" vs \"Ravi Kumar\"), service outages, retries\n\nA useful habit: for any rule with a threshold (name-match similarity, image quality), state the threshold or mark it explicitly *\"to be confirmed in pilot\"*. That way QA isn't guessing and the PO owns the decision.",
+  "interview": "*\"I converted approved onboarding requirements into sprint-sized user stories with Given/When/Then acceptance criteria, deliberately covering unhappy paths such as name variations in bank verification and notification failures. QA used the criteria directly as test cases, and the stories went through two sprints with no scope disputes.\"*\n\nExpect: **\"What makes a good user story?\"** (INVEST) and **\"Acceptance criteria vs definition of done?\"** (criteria are story-specific; DoD applies to every story).",
+  "grading": {
+    "written": {
+      "rubric": [
+        "Three stories in As a / I want / So that format, each with a real role and benefit",
+        "Every story has 2–4 Given/When/Then acceptance criteria",
+        "Each story includes at least one unhappy path or edge case",
+        "Acceptance criteria describe observable outcomes (messages, statuses, timings)",
+        "Each story has a priority with a reason",
+        "Stories are small enough for one sprint"
+      ],
+      "minWords": 180,
+      "maxWords": 700,
+      "suggestedTerms": ["As a", "Given", "When", "Then", "so that"]
+    }
+  }
+}

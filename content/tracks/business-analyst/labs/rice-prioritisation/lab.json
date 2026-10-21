@@ -1,0 +1,47 @@
+{
+  "id": "rice-prioritisation",
+  "title": "Prioritise the backlog with RICE",
+  "order": 7,
+  "difficulty": "Intermediate",
+  "minutes": 20,
+  "skills": ["Prioritisation", "RICE", "Excel formulas", "INDEX/MATCH"],
+  "workspace": "spreadsheet",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Nikhil Rao", "role": "Engineering Manager, Seller Platform" },
+  "scenario": "There are eight onboarding ideas on the backlog and only enough capacity for about six person-weeks before the Diwali code freeze. Everyone has a favourite. Nikhil wants a transparent score so the decision isn't just whoever argues loudest.\n\n> \"Score the backlog with RICE in the sheet. Formulas, so we can tweak the inputs live in the meeting.\"",
+  "task": "The backlog is in **A1:F9** (`reach_per_quarter`, `impact`, `confidence`, `effort_weeks`). **RICE = Reach × Impact × Confidence ÷ Effort.** Fill the yellow cells with **formulas**:\n\n| Cell | What |\n|---|---|\n| G2:G9 | RICE score for each row |\n| J2 | Name of the feature with the **highest** RICE (use `INDEX`/`MATCH` with `MAX`, or `XLOOKUP`) |\n| J3 | The **second-highest** RICE score (`LARGE`) |\n| J4 | Total **effort_weeks** of the **top 3** features by RICE (e.g. `SUMIFS` with `\">=\"&LARGE(G2:G9,3)`) |\n\nNote: `RANK` isn't available in this spreadsheet engine; `LARGE` and `COUNTIF` do the same job.",
+  "data": [{ "dataset": "seller_onboarding", "tables": ["backlog"] }],
+  "sheetSetup": {
+    "G1": "rice",
+    "I2": "Top feature",
+    "I3": "2nd highest RICE",
+    "I4": "Effort of top 3 (weeks)"
+  },
+  "hints": [
+    "G2: `=C2*D2*E2/F2`, then repeat for G3:G9 (each row refers to its own row).",
+    "J2: `=INDEX(B2:B9, MATCH(MAX(G2:G9), G2:G9, 0))` or `=XLOOKUP(MAX(G2:G9), G2:G9, B2:B9)`.",
+    "J3: `=LARGE(G2:G9, 2)`.",
+    "J4: `=SUMIFS(F2:F9, G2:G9, \">=\"&LARGE(G2:G9, 3))`. The `&` joins the operator and the number into a criteria string."
+  ],
+  "explanation": "**RICE** makes trade-offs explicit: *Reach* (how many sellers per quarter), *Impact* (0.5 low to 3 massive), *Confidence* (how sure we are), divided by *Effort*. The output isn't the decision, it's the **start of the conversation**: the scores show which assumptions matter.\n\nResult: **Pincode-based address autofill** (1,400) tops the list because it's tiny effort with broad reach, followed by **penny-drop bank verification** (1,200) and **automatic document clarity checks** (800). The top three need **6 person-weeks**, which fits the capacity before the freeze.\n\nNotice that **Hindi and Tamil screens** score low only because of low confidence (0.5). If a seller survey raised confidence, it could jump. That's why live formulas matter in the meeting.\n\n`\">=\"&LARGE(...)` is a common Excel pattern: SUMIFS criteria are strings, so you build them by concatenation.",
+  "interview": "*\"With eight competing onboarding features and six person-weeks of capacity, I built a RICE model in Excel with live formulas and ran the prioritisation meeting from it. The top three by score fitted exactly within capacity, and adjusting confidence live for a localisation idea showed the team what evidence would change the ranking.\"*\n\nExpect: **\"RICE vs MoSCoW vs Kano?\"** RICE scores numerically; MoSCoW buckets by necessity for a release; Kano classifies by customer delight vs basic needs.",
+  "grading": {
+    "spreadsheet": {
+      "targets": [
+        { "cell": "G2", "label": "RICE B1" },
+        { "cell": "G3", "label": "RICE B2" },
+        { "cell": "G4", "label": "RICE B3" },
+        { "cell": "G5", "label": "RICE B4" },
+        { "cell": "G6", "label": "RICE B5" },
+        { "cell": "G7", "label": "RICE B6" },
+        { "cell": "G8", "label": "RICE B7" },
+        { "cell": "G9", "label": "RICE B8" },
+        { "cell": "J2", "label": "Top feature" },
+        { "cell": "J3", "label": "2nd highest RICE" },
+        { "cell": "J4", "label": "Effort of top 3" }
+      ],
+      "tolerance": 0.01,
+      "requireFormula": true
+    }
+  }
+}

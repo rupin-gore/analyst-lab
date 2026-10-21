@@ -1,0 +1,12 @@
+flowchart TD
+  A[Weekly orders] -->|×| B[Weekly active users]
+  A -->|×| C[Orders per active user]
+  B -->|+| B1[New users<br/>Owner: Growth]
+  B -->|+| B2[Retained users<br/>Owner: Product]
+  B -->|+| B3[Resurrected users<br/>Owner: CRM]
+  C -->|×| D[Sessions per user<br/>Owner: CRM / Notifications]
+  C -->|×| E[Session conversion]
+  E -->|×| E1[Restaurant view rate<br/>Owner: Discovery]
+  E -->|×| E2[Add to cart rate<br/>Owner: Discovery]
+  E -->|×| E3[Checkout start rate<br/>Owner: Checkout]
+  E -->|×| E4[Payment success rate<br/>Owner: Payments]

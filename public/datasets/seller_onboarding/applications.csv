@@ -1,0 +1,1801 @@
+application_id,applied_date,channel,seller_type,state,category,gstin_provided,status,docs_submitted_date,kyc_approved_date,live_date,rejected_date,rejection_reason,resubmissions
+SA20001,2025-01-01,Web,Individual,Maharashtra,Fashion,Y,Live,2025-01-06,2025-01-12,2025-01-15,,,1
+SA20002,2025-01-01,Web,Proprietorship,Delhi,Beauty,Y,Live,2025-01-04,2025-01-07,2025-01-13,,,0
+SA20003,2025-01-01,Web,Proprietorship,Maharashtra,Books,N,Live,2025-01-05,2025-01-11,2025-01-12,,,0
+SA20004,2025-01-01,App,Private Limited,Gujarat,Grocery,Y,Withdrawn,,,,,,0
+SA20005,2025-01-01,Web,Individual,Maharashtra,Home & Kitchen,N,Live,2025-01-03,2025-01-05,2025-01-06,,,0
+SA20006,2025-01-01,App,Individual,Punjab,Books,N,Rejected,2025-01-03,,,2025-01-11,GSTIN mismatch,1
+SA20007,2025-01-02,Assisted,Proprietorship,Rajasthan,Fashion,Y,Live,2025-01-03,2025-01-04,2025-01-07,,,0
+SA20008,2025-01-02,Web,Proprietorship,Telangana,Fashion,Y,Rejected,2025-01-05,,,2025-01-10,Restricted category,0
+SA20009,2025-01-02,Web,Individual,Uttar Pradesh,Books,N,Rejected,2025-01-05,,,2025-01-19,Incomplete address,1
+SA20010,2025-01-02,Web,Private Limited,Uttar Pradesh,Books,N,Withdrawn,,,,,,0
+SA20011,2025-01-02,App,Individual,Maharashtra,Fashion,Y,Live,2025-01-04,2025-01-09,2025-01-15,,,1
+SA20012,2025-01-02,Web,Individual,Gujarat,Beauty,Y,Live,2025-01-04,2025-01-06,2025-01-12,,,0
+SA20013,2025-01-02,Web,Individual,Punjab,Home & Kitchen,Y,Live,2025-01-03,2025-01-06,2025-01-12,,,0
+SA20014,2025-01-02,Web,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-01-05,2025-01-10,2025-01-13,,,0
+SA20015,2025-01-02,Web,Individual,Tamil Nadu,Beauty,N,Rejected,2025-01-05,,,2025-01-13,Blurry or unreadable document,1
+SA20016,2025-01-03,Web,Individual,Delhi,Fashion,N,Live,2025-01-06,2025-01-12,2025-01-14,,,1
+SA20017,2025-01-03,Web,Individual,Uttar Pradesh,Beauty,N,Live,2025-01-07,2025-01-14,2025-01-15,,,1
+SA20018,2025-01-03,App,Individual,Uttar Pradesh,Electronics,Y,Live,2025-01-05,2025-01-13,2025-01-20,,,0
+SA20019,2025-01-03,App,Individual,Gujarat,Beauty,Y,Rejected,2025-01-05,,,2025-01-12,Bank account name mismatch,0
+SA20020,2025-01-03,App,Proprietorship,Gujarat,Fashion,Y,Live,2025-01-07,2025-01-12,2025-01-13,,,0
+SA20021,2025-01-04,Web,Individual,Punjab,Toys,Y,Withdrawn,,,,,,0
+SA20022,2025-01-04,Web,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-01-07,2025-01-14,2025-01-15,,,0
+SA20023,2025-01-04,App,Individual,West Bengal,Fashion,N,Rejected,2025-01-05,,,2025-01-12,Restricted category,0
+SA20024,2025-01-04,App,Private Limited,Punjab,Beauty,Y,Live,2025-01-05,2025-01-15,2025-01-19,,,0
+SA20025,2025-01-04,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-01-08,2025-01-13,2025-01-17,,,1
+SA20026,2025-01-04,Web,Proprietorship,Gujarat,Electronics,Y,Rejected,2025-01-10,,,2025-01-18,GSTIN mismatch,2
+SA20027,2025-01-05,Assisted,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-01-05,2025-01-19,2025-01-22,,,1
+SA20028,2025-01-05,Web,Individual,Gujarat,Fashion,Y,Rejected,2025-01-08,,,2025-01-14,Blurry or unreadable document,1
+SA20029,2025-01-06,Assisted,Individual,Karnataka,Home & Kitchen,Y,Rejected,2025-01-07,,,2025-01-22,Blurry or unreadable document,1
+SA20030,2025-01-06,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-01-09,2025-01-11,2025-01-16,,,0
+SA20031,2025-01-06,Web,Proprietorship,Gujarat,Beauty,Y,Live,2025-01-10,2025-01-13,2025-01-16,,,0
+SA20032,2025-01-06,Web,Private Limited,Maharashtra,Books,N,Live,2025-01-14,2025-01-16,2025-01-18,,,0
+SA20033,2025-01-06,Assisted,Proprietorship,Gujarat,Fashion,Y,Live,2025-01-07,2025-01-08,2025-01-11,,,0
+SA20034,2025-01-06,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-01-10,2025-01-16,2025-01-22,,,0
+SA20035,2025-01-06,Web,Individual,Gujarat,Home & Kitchen,Y,Live,2025-01-08,2025-01-17,2025-01-21,,,1
+SA20036,2025-01-06,Web,Individual,Gujarat,Beauty,Y,Withdrawn,,,,,,0
+SA20037,2025-01-06,App,Private Limited,Punjab,Home & Kitchen,Y,Live,2025-01-10,2025-01-15,2025-01-17,,,0
+SA20038,2025-01-06,App,Private Limited,Maharashtra,Fashion,Y,Live,2025-01-09,2025-01-14,2025-01-16,,,0
+SA20039,2025-01-07,Web,Individual,Telangana,Beauty,Y,Live,2025-01-12,2025-01-15,2025-01-16,,,0
+SA20040,2025-01-07,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Rejected,2025-01-08,,,2025-01-17,Blurry or unreadable document,2
+SA20041,2025-01-07,App,Proprietorship,Uttar Pradesh,Books,N,Rejected,2025-01-09,,,2025-01-17,GSTIN mismatch,0
+SA20042,2025-01-07,App,Proprietorship,Tamil Nadu,Books,N,Rejected,2025-01-14,,,2025-01-20,Incomplete address,1
+SA20043,2025-01-08,Web,Individual,Maharashtra,Books,N,Withdrawn,,,,,,0
+SA20044,2025-01-08,App,Individual,Karnataka,Electronics,Y,Live,2025-01-11,2025-01-14,2025-01-18,,,0
+SA20045,2025-01-08,Web,Private Limited,Karnataka,Books,N,Live,2025-01-10,2025-01-13,2025-01-15,,,0
+SA20046,2025-01-08,Web,Individual,West Bengal,Toys,Y,Live,2025-01-12,2025-01-16,2025-01-19,,,0
+SA20047,2025-01-09,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20048,2025-01-09,Web,Private Limited,West Bengal,Home & Kitchen,Y,Live,2025-01-13,2025-01-15,2025-01-18,,,0
+SA20049,2025-01-09,App,Individual,Karnataka,Fashion,N,Live,2025-01-11,2025-01-20,2025-01-23,,,0
+SA20050,2025-01-09,Assisted,Private Limited,Tamil Nadu,Fashion,Y,Live,2025-01-10,2025-01-12,2025-01-15,,,0
+SA20051,2025-01-09,Web,Private Limited,Telangana,Electronics,Y,Rejected,2025-01-11,,,2025-01-14,Bank account name mismatch,0
+SA20052,2025-01-09,Web,Private Limited,Rajasthan,Beauty,Y,Live,2025-01-22,2025-01-24,2025-01-28,,,0
+SA20053,2025-01-10,Web,Individual,Maharashtra,Books,N,Withdrawn,,,,,,0
+SA20054,2025-01-10,App,Individual,Maharashtra,Grocery,Y,Live,2025-01-12,2025-01-16,2025-01-18,,,0
+SA20055,2025-01-10,App,Proprietorship,Delhi,Beauty,Y,Live,2025-01-11,2025-01-15,2025-01-19,,,0
+SA20056,2025-01-10,Web,Proprietorship,Telangana,Fashion,Y,Live,2025-01-12,2025-01-21,2025-02-05,,,0
+SA20057,2025-01-10,App,Proprietorship,Rajasthan,Home & Kitchen,Y,Live,2025-01-13,2025-01-14,2025-01-18,,,0
+SA20058,2025-01-10,App,Individual,West Bengal,Fashion,Y,Live,2025-01-13,2025-01-21,2025-01-23,,,0
+SA20059,2025-01-10,Web,Individual,Delhi,Toys,Y,Live,2025-01-11,2025-01-14,2025-01-16,,,0
+SA20060,2025-01-10,Web,Individual,Tamil Nadu,Fashion,Y,Live,2025-01-12,2025-01-19,2025-01-22,,,0
+SA20061,2025-01-11,Assisted,Individual,Rajasthan,Electronics,Y,Live,2025-01-13,2025-01-16,2025-01-20,,,0
+SA20062,2025-01-11,App,Individual,Uttar Pradesh,Fashion,Y,Rejected,2025-01-15,,,2025-01-18,Bank account name mismatch,0
+SA20063,2025-01-12,Web,Individual,Delhi,Beauty,Y,Live,2025-01-17,2025-01-19,2025-01-21,,,0
+SA20064,2025-01-12,Web,Proprietorship,Gujarat,Beauty,Y,Rejected,2025-01-14,,,2025-01-25,Bank account name mismatch,2
+SA20065,2025-01-12,App,Proprietorship,Karnataka,Beauty,Y,Live,2025-01-13,2025-01-14,2025-01-17,,,0
+SA20066,2025-01-12,Web,Proprietorship,Gujarat,Grocery,Y,Live,2025-01-17,2025-01-26,2025-01-29,,,0
+SA20067,2025-01-13,Assisted,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-01-14,2025-01-19,2025-01-25,,,0
+SA20068,2025-01-13,Web,Individual,West Bengal,Beauty,Y,Live,2025-01-16,2025-01-22,2025-01-25,,,0
+SA20069,2025-01-13,Assisted,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-01-14,2025-01-19,2025-01-21,,,0
+SA20070,2025-01-13,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Rejected,2025-01-15,,,2025-01-25,GSTIN mismatch,1
+SA20071,2025-01-13,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-01-15,2025-01-18,2025-01-20,,,0
+SA20072,2025-01-13,Web,Proprietorship,West Bengal,Toys,Y,Live,2025-01-16,2025-01-22,2025-01-26,,,0
+SA20073,2025-01-13,Web,Individual,Punjab,Home & Kitchen,Y,Live,2025-01-16,2025-01-20,2025-01-22,,,0
+SA20074,2025-01-13,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Rejected,2025-01-16,,,2025-01-21,Blurry or unreadable document,1
+SA20075,2025-01-13,Web,Individual,Gujarat,Home & Kitchen,N,Live,2025-01-16,2025-01-20,2025-01-22,,,0
+SA20076,2025-01-13,App,Private Limited,Rajasthan,Books,N,Live,2025-01-15,2025-01-19,2025-01-21,,,0
+SA20077,2025-01-14,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-01-16,2025-01-21,2025-01-25,,,0
+SA20078,2025-01-14,App,Proprietorship,West Bengal,Fashion,Y,Live,2025-01-15,2025-01-19,2025-01-24,,,0
+SA20079,2025-01-14,Web,Individual,Gujarat,Fashion,Y,Withdrawn,,,,,,0
+SA20080,2025-01-14,Web,Individual,Maharashtra,Electronics,N,Live,2025-01-17,2025-01-22,2025-01-25,,,0
+SA20081,2025-01-14,App,Individual,Telangana,Fashion,Y,Rejected,2025-01-16,,,2025-01-22,Blurry or unreadable document,1
+SA20082,2025-01-14,Web,Individual,Uttar Pradesh,Home & Kitchen,Y,Live,2025-01-17,2025-01-19,2025-01-24,,,0
+SA20083,2025-01-14,Web,Individual,Rajasthan,Fashion,Y,Rejected,2025-01-17,,,2025-01-26,Incomplete address,2
+SA20084,2025-01-14,App,Proprietorship,Uttar Pradesh,Books,N,Live,2025-01-18,2025-01-24,2025-01-25,,,1
+SA20085,2025-01-14,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Rejected,2025-01-18,,,2025-01-22,GSTIN mismatch,0
+SA20086,2025-01-14,Web,Individual,Punjab,Electronics,Y,Live,2025-01-17,2025-01-22,2025-01-25,,,0
+SA20087,2025-01-14,Web,Private Limited,Uttar Pradesh,Electronics,Y,Rejected,2025-01-17,,,2025-01-27,GSTIN mismatch,2
+SA20088,2025-01-15,Web,Individual,Delhi,Books,N,Rejected,2025-01-19,,,2025-01-27,Blurry or unreadable document,2
+SA20089,2025-01-15,Web,Individual,Punjab,Books,N,Rejected,2025-01-17,,,2025-01-25,Blurry or unreadable document,1
+SA20090,2025-01-15,Web,Proprietorship,Delhi,Fashion,Y,Live,2025-01-18,2025-01-22,2025-01-24,,,0
+SA20091,2025-01-15,Assisted,Individual,Maharashtra,Fashion,Y,Live,2025-01-17,2025-01-21,2025-01-27,,,0
+SA20092,2025-01-15,Web,Individual,Delhi,Books,N,Live,2025-01-19,2025-01-22,2025-01-23,,,0
+SA20093,2025-01-15,Web,Individual,Tamil Nadu,Fashion,N,Rejected,2025-01-20,,,2025-01-23,Bank account name mismatch,0
+SA20094,2025-01-16,Assisted,Individual,Telangana,Grocery,Y,Live,2025-01-17,2025-01-20,2025-01-23,,,0
+SA20095,2025-01-16,Web,Individual,Tamil Nadu,Home & Kitchen,Y,Live,2025-01-18,2025-01-22,2025-01-26,,,0
+SA20096,2025-01-16,App,Individual,Gujarat,Electronics,Y,Live,2025-01-17,2025-01-23,2025-01-26,,,0
+SA20097,2025-01-16,Web,Proprietorship,Punjab,Beauty,Y,Live,2025-01-17,2025-01-19,2025-01-23,,,0
+SA20098,2025-01-16,App,Proprietorship,Tamil Nadu,Electronics,Y,Live,2025-01-17,2025-01-21,2025-01-22,,,0
+SA20099,2025-01-16,App,Proprietorship,Karnataka,Books,N,Live,2025-01-19,2025-01-22,2025-01-31,,,0
+SA20100,2025-01-16,Assisted,Private Limited,Karnataka,Electronics,Y,Live,2025-01-16,2025-01-22,2025-01-28,,,1
+SA20101,2025-01-16,Assisted,Individual,Uttar Pradesh,Fashion,Y,Live,2025-01-17,2025-01-22,2025-01-25,,,0
+SA20102,2025-01-16,Web,Proprietorship,Maharashtra,Books,N,Live,2025-01-18,2025-01-31,2025-02-06,,,1
+SA20103,2025-01-16,Web,Individual,Tamil Nadu,Grocery,Y,Live,2025-01-18,2025-01-22,2025-01-25,,,0
+SA20104,2025-01-17,Assisted,Proprietorship,Punjab,Electronics,Y,Live,2025-01-18,2025-01-22,2025-01-28,,,0
+SA20105,2025-01-17,App,Individual,Gujarat,Fashion,Y,Live,2025-01-18,2025-01-20,2025-01-23,,,0
+SA20106,2025-01-17,Web,Private Limited,Maharashtra,Fashion,Y,Rejected,2025-01-19,,,2025-01-23,Blurry or unreadable document,0
+SA20107,2025-01-18,App,Individual,Telangana,Books,N,Live,2025-01-21,2025-01-29,2025-02-02,,,1
+SA20108,2025-01-18,App,Individual,Punjab,Beauty,N,Rejected,2025-01-21,,,2025-01-25,Bank account name mismatch,0
+SA20109,2025-01-18,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-01-20,2025-01-27,2025-01-28,,,0
+SA20110,2025-01-18,App,Individual,Karnataka,Fashion,Y,Live,2025-01-19,2025-01-28,2025-01-29,,,0
+SA20111,2025-01-18,App,Individual,Maharashtra,Fashion,Y,Live,2025-01-20,2025-01-27,2025-01-28,,,0
+SA20112,2025-01-18,Web,Private Limited,Rajasthan,Beauty,Y,Rejected,2025-01-22,,,2025-01-24,Blurry or unreadable document,0
+SA20113,2025-01-18,Web,Private Limited,Maharashtra,Electronics,Y,Live,2025-01-27,2025-01-31,2025-02-03,,,0
+SA20114,2025-01-18,Assisted,Individual,Rajasthan,Fashion,Y,Live,2025-01-19,2025-01-25,2025-01-29,,,0
+SA20115,2025-01-18,Web,Proprietorship,Gujarat,Toys,Y,Withdrawn,,,,,,0
+SA20116,2025-01-19,Web,Individual,Uttar Pradesh,Home & Kitchen,N,Live,2025-01-25,2025-02-03,2025-02-05,,,0
+SA20117,2025-01-19,Web,Proprietorship,Maharashtra,Electronics,Y,Rejected,2025-01-24,,,2025-01-27,Incomplete address,0
+SA20118,2025-01-19,Web,Proprietorship,Uttar Pradesh,Beauty,Y,Live,2025-01-22,2025-01-28,2025-01-30,,,1
+SA20119,2025-01-19,Web,Individual,Maharashtra,Grocery,Y,Live,2025-01-22,2025-01-27,2025-01-29,,,0
+SA20120,2025-01-19,Web,Individual,Uttar Pradesh,Electronics,Y,Withdrawn,,,,,,0
+SA20121,2025-01-20,Web,Individual,Karnataka,Home & Kitchen,N,Live,2025-01-22,2025-01-27,2025-01-29,,,0
+SA20122,2025-01-20,Web,Private Limited,Maharashtra,Fashion,Y,Rejected,2025-01-22,,,2025-01-29,GSTIN mismatch,1
+SA20123,2025-01-20,Assisted,Individual,Delhi,Fashion,N,Rejected,2025-01-21,,,2025-01-29,Blurry or unreadable document,2
+SA20124,2025-01-20,Web,Proprietorship,Karnataka,Fashion,Y,Live,2025-01-24,2025-01-29,2025-01-30,,,0
+SA20125,2025-01-20,Web,Proprietorship,Delhi,Beauty,Y,Withdrawn,,,,,,0
+SA20126,2025-01-20,Web,Individual,Rajasthan,Fashion,N,Live,2025-01-23,2025-01-30,2025-02-03,,,0
+SA20127,2025-01-20,Web,Individual,Karnataka,Fashion,Y,Live,2025-01-23,2025-01-28,2025-01-30,,,0
+SA20128,2025-01-20,App,Individual,Rajasthan,Home & Kitchen,Y,Live,2025-01-23,2025-02-03,2025-02-04,,,0
+SA20129,2025-01-20,Web,Proprietorship,Punjab,Home & Kitchen,Y,Live,2025-01-25,2025-01-30,2025-01-31,,,0
+SA20130,2025-01-20,Web,Proprietorship,Rajasthan,Fashion,Y,Withdrawn,,,,,,0
+SA20131,2025-01-20,Assisted,Proprietorship,Tamil Nadu,Electronics,Y,Live,2025-01-22,2025-01-26,2025-01-28,,,0
+SA20132,2025-01-20,Web,Private Limited,Karnataka,Beauty,Y,Live,2025-01-22,2025-01-28,2025-01-31,,,0
+SA20133,2025-01-20,App,Proprietorship,Delhi,Grocery,Y,Live,2025-01-21,2025-01-27,2025-01-30,,,1
+SA20134,2025-01-21,Web,Individual,Punjab,Fashion,Y,Live,2025-01-23,2025-01-27,2025-01-28,,,0
+SA20135,2025-01-21,App,Individual,West Bengal,Electronics,Y,Live,2025-01-22,2025-01-29,2025-02-02,,,0
+SA20136,2025-01-21,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-01-23,2025-01-31,2025-02-03,,,0
+SA20137,2025-01-21,Web,Private Limited,Uttar Pradesh,Grocery,Y,Rejected,2025-01-22,,,2025-01-27,Restricted category,0
+SA20138,2025-01-21,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20139,2025-01-21,App,Proprietorship,Tamil Nadu,Beauty,Y,Withdrawn,,,,,,0
+SA20140,2025-01-21,Web,Proprietorship,Maharashtra,Beauty,Y,Withdrawn,,,,,,0
+SA20141,2025-01-21,App,Individual,Karnataka,Electronics,Y,Live,2025-01-23,2025-01-24,2025-01-28,,,0
+SA20142,2025-01-22,Assisted,Individual,Karnataka,Books,N,Live,2025-01-23,2025-01-26,2025-01-29,,,0
+SA20143,2025-01-22,App,Private Limited,West Bengal,Home & Kitchen,Y,Rejected,2025-01-25,,,2025-01-28,Blurry or unreadable document,0
+SA20144,2025-01-22,App,Individual,Rajasthan,Grocery,N,Live,2025-01-24,2025-01-30,2025-02-02,,,0
+SA20145,2025-01-22,Web,Individual,Punjab,Home & Kitchen,Y,Live,2025-01-24,2025-01-26,2025-01-30,,,0
+SA20146,2025-01-22,Web,Proprietorship,Delhi,Books,N,Live,2025-01-24,2025-01-31,2025-02-04,,,0
+SA20147,2025-01-22,Web,Proprietorship,Maharashtra,Grocery,Y,Live,2025-01-27,2025-02-02,2025-02-03,,,1
+SA20148,2025-01-22,App,Private Limited,Gujarat,Fashion,Y,Live,2025-01-24,2025-01-26,2025-01-28,,,0
+SA20149,2025-01-22,Web,Individual,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA20150,2025-01-22,App,Private Limited,Tamil Nadu,Beauty,Y,Live,2025-01-23,2025-01-26,2025-01-28,,,0
+SA20151,2025-01-22,Assisted,Individual,West Bengal,Fashion,Y,Live,2025-01-23,2025-01-28,2025-01-30,,,0
+SA20152,2025-01-23,Web,Proprietorship,Karnataka,Fashion,Y,Rejected,2025-01-24,,,2025-01-29,Duplicate application,0
+SA20153,2025-01-23,Web,Individual,Tamil Nadu,Fashion,Y,Live,2025-01-27,2025-01-31,2025-02-07,,,0
+SA20154,2025-01-23,App,Proprietorship,Gujarat,Home & Kitchen,Y,Rejected,2025-01-26,,,2025-02-05,Blurry or unreadable document,1
+SA20155,2025-01-23,Assisted,Proprietorship,Tamil Nadu,Grocery,Y,Withdrawn,,,,,,0
+SA20156,2025-01-23,Web,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-01-26,2025-01-31,2025-02-02,,,0
+SA20157,2025-01-23,Web,Individual,Tamil Nadu,Grocery,Y,Live,2025-01-26,2025-02-05,2025-02-07,,,0
+SA20158,2025-01-23,Web,Proprietorship,Maharashtra,Grocery,Y,Live,2025-01-30,2025-02-09,2025-02-13,,,1
+SA20159,2025-01-23,Web,Proprietorship,Delhi,Toys,Y,Withdrawn,,,,,,0
+SA20160,2025-01-23,Web,Private Limited,Uttar Pradesh,Fashion,Y,Live,2025-01-26,2025-02-01,2025-02-04,,,0
+SA20161,2025-01-23,Web,Individual,Maharashtra,Grocery,Y,Live,2025-01-25,2025-01-28,2025-01-30,,,0
+SA20162,2025-01-24,Web,Individual,Gujarat,Beauty,N,Rejected,2025-01-29,,,2025-02-08,Blurry or unreadable document,1
+SA20163,2025-01-24,App,Private Limited,Tamil Nadu,Grocery,Y,Live,2025-01-25,2025-02-02,2025-02-03,,,0
+SA20164,2025-01-24,Web,Individual,Gujarat,Grocery,Y,Live,2025-01-27,2025-02-03,2025-02-05,,,0
+SA20165,2025-01-24,Web,Proprietorship,Tamil Nadu,Grocery,Y,Live,2025-01-28,2025-01-31,2025-02-01,,,0
+SA20166,2025-01-24,App,Individual,Telangana,Toys,N,Rejected,2025-01-26,,,2025-02-04,Blurry or unreadable document,1
+SA20167,2025-01-24,Web,Individual,West Bengal,Fashion,Y,Rejected,2025-01-28,,,2025-02-11,Incomplete address,2
+SA20168,2025-01-24,Web,Individual,Tamil Nadu,Home & Kitchen,N,Live,2025-01-25,2025-01-30,2025-02-05,,,1
+SA20169,2025-01-24,App,Individual,Gujarat,Electronics,Y,Live,2025-01-26,2025-01-29,2025-01-31,,,0
+SA20170,2025-01-24,Web,Individual,Gujarat,Beauty,Y,Live,2025-01-27,2025-02-07,2025-02-10,,,0
+SA20171,2025-01-24,Web,Individual,Gujarat,Fashion,N,Rejected,2025-01-28,,,2025-02-01,Bank account name mismatch,0
+SA20172,2025-01-24,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-01-27,2025-01-30,2025-02-04,,,0
+SA20173,2025-01-24,Web,Individual,Gujarat,Home & Kitchen,Y,Rejected,2025-01-27,,,2025-01-31,GSTIN mismatch,0
+SA20174,2025-01-24,App,Individual,Delhi,Beauty,Y,Rejected,2025-01-27,,,2025-02-05,Blurry or unreadable document,2
+SA20175,2025-01-24,Web,Private Limited,Gujarat,Beauty,Y,Live,2025-01-29,2025-02-05,2025-02-11,,,1
+SA20176,2025-01-24,Web,Private Limited,Karnataka,Home & Kitchen,Y,Live,2025-01-27,2025-02-01,2025-02-03,,,0
+SA20177,2025-01-25,Web,Proprietorship,Delhi,Home & Kitchen,Y,Rejected,2025-01-28,,,2025-02-01,GSTIN mismatch,0
+SA20178,2025-01-25,Web,Proprietorship,Tamil Nadu,Electronics,Y,Withdrawn,,,,,,0
+SA20179,2025-01-25,Web,Individual,Tamil Nadu,Beauty,Y,Rejected,2025-01-30,,,2025-02-06,Bank account name mismatch,1
+SA20180,2025-01-26,Web,Proprietorship,Punjab,Books,N,Live,2025-01-31,2025-02-03,2025-02-04,,,0
+SA20181,2025-01-26,App,Proprietorship,Gujarat,Fashion,Y,Live,2025-01-29,2025-02-01,2025-02-04,,,0
+SA20182,2025-01-26,App,Individual,Punjab,Books,N,Live,2025-01-28,2025-02-03,2025-02-05,,,0
+SA20183,2025-01-26,Web,Individual,Telangana,Electronics,Y,Rejected,2025-01-31,,,2025-02-08,GSTIN mismatch,2
+SA20184,2025-01-26,App,Individual,Uttar Pradesh,Fashion,N,Live,2025-01-27,2025-02-02,2025-02-06,,,0
+SA20185,2025-01-26,Web,Proprietorship,Delhi,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20186,2025-01-26,Web,Proprietorship,Uttar Pradesh,Toys,Y,Live,2025-01-28,2025-01-31,2025-02-02,,,0
+SA20187,2025-01-26,Assisted,Private Limited,West Bengal,Fashion,Y,Live,2025-01-27,2025-01-31,2025-02-13,,,0
+SA20188,2025-01-26,App,Proprietorship,Rajasthan,Toys,Y,Live,2025-01-28,2025-02-05,2025-02-06,,,0
+SA20189,2025-01-26,App,Individual,Uttar Pradesh,Electronics,Y,Live,2025-01-30,2025-02-02,2025-02-05,,,0
+SA20190,2025-01-26,Web,Individual,Gujarat,Electronics,Y,Live,2025-01-31,2025-02-04,2025-02-05,,,0
+SA20191,2025-01-26,Web,Private Limited,Delhi,Beauty,Y,Live,2025-01-27,2025-02-01,2025-02-03,,,0
+SA20192,2025-01-26,App,Individual,Maharashtra,Fashion,N,Rejected,2025-01-28,,,2025-02-04,Bank account name mismatch,1
+SA20193,2025-01-26,Web,Individual,West Bengal,Fashion,Y,Live,2025-01-29,2025-02-04,2025-02-06,,,0
+SA20194,2025-01-26,Web,Individual,Tamil Nadu,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20195,2025-01-27,App,Proprietorship,Punjab,Fashion,Y,Rejected,2025-01-28,,,2025-02-09,Blurry or unreadable document,2
+SA20196,2025-01-27,Web,Private Limited,Tamil Nadu,Fashion,Y,Withdrawn,,,,,,0
+SA20197,2025-01-27,Web,Individual,Gujarat,Fashion,N,Live,2025-01-31,2025-02-07,2025-02-10,,,0
+SA20198,2025-01-27,Web,Proprietorship,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA20199,2025-01-27,Web,Individual,Karnataka,Fashion,Y,Live,2025-02-01,2025-02-07,2025-02-09,,,0
+SA20200,2025-01-27,Web,Proprietorship,Punjab,Grocery,Y,Live,2025-01-29,2025-02-09,2025-02-10,,,1
+SA20201,2025-01-27,Web,Individual,Tamil Nadu,Beauty,N,Live,2025-01-29,2025-02-04,2025-02-05,,,0
+SA20202,2025-01-27,App,Individual,Maharashtra,Electronics,N,Live,2025-01-29,2025-02-06,2025-02-17,,,0
+SA20203,2025-01-27,Web,Individual,West Bengal,Fashion,Y,Withdrawn,,,,,,0
+SA20204,2025-01-27,Web,Private Limited,Uttar Pradesh,Fashion,Y,Live,2025-01-29,2025-01-31,2025-02-04,,,0
+SA20205,2025-01-27,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Rejected,2025-01-28,,,2025-02-01,Blurry or unreadable document,0
+SA20206,2025-01-27,Web,Private Limited,Punjab,Books,N,Rejected,2025-02-01,,,2025-02-06,Blurry or unreadable document,0
+SA20207,2025-01-28,Web,Individual,Karnataka,Beauty,N,Live,2025-01-30,2025-02-05,2025-02-08,,,0
+SA20208,2025-01-28,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-01-31,2025-02-03,2025-02-05,,,0
+SA20209,2025-01-28,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-01-30,2025-02-02,2025-02-04,,,0
+SA20210,2025-01-28,Web,Proprietorship,Delhi,Fashion,Y,Live,2025-01-30,2025-02-03,2025-02-05,,,0
+SA20211,2025-01-28,App,Proprietorship,Uttar Pradesh,Electronics,Y,Live,2025-01-30,2025-02-06,2025-02-10,,,0
+SA20212,2025-01-29,App,Proprietorship,Punjab,Grocery,Y,Rejected,2025-01-31,,,2025-02-04,GSTIN mismatch,0
+SA20213,2025-01-29,Web,Private Limited,Uttar Pradesh,Books,N,Live,2025-02-01,2025-02-04,2025-02-06,,,0
+SA20214,2025-01-29,Assisted,Individual,Tamil Nadu,Fashion,Y,Live,2025-01-30,2025-02-02,2025-02-04,,,0
+SA20215,2025-01-29,App,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-02-02,2025-02-12,2025-02-17,,,1
+SA20216,2025-01-29,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-01-30,2025-02-04,2025-02-08,,,0
+SA20217,2025-01-29,Web,Proprietorship,West Bengal,Grocery,Y,Live,2025-01-31,2025-02-08,2025-02-13,,,0
+SA20218,2025-01-29,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Rejected,2025-01-31,,,2025-02-04,GSTIN mismatch,0
+SA20219,2025-01-29,Web,Individual,Rajasthan,Electronics,Y,Rejected,2025-02-01,,,2025-02-11,Incomplete address,0
+SA20220,2025-01-29,Web,Private Limited,Maharashtra,Fashion,Y,Live,2025-02-05,2025-02-07,2025-02-15,,,0
+SA20221,2025-01-30,Assisted,Private Limited,West Bengal,Home & Kitchen,Y,Live,2025-01-30,2025-02-12,2025-02-17,,,1
+SA20222,2025-01-30,Web,Proprietorship,Rajasthan,Grocery,Y,Live,2025-02-03,2025-02-09,2025-02-12,,,0
+SA20223,2025-01-30,App,Individual,Punjab,Fashion,Y,Live,2025-02-01,2025-02-05,2025-02-09,,,0
+SA20224,2025-01-30,Web,Private Limited,Uttar Pradesh,Fashion,Y,Rejected,2025-02-03,,,2025-02-18,Bank account name mismatch,1
+SA20225,2025-01-30,App,Proprietorship,Telangana,Fashion,Y,Live,2025-01-31,2025-02-04,2025-02-05,,,0
+SA20226,2025-01-30,Web,Individual,Maharashtra,Fashion,Y,Rejected,2025-02-07,,,2025-02-16,Bank account name mismatch,2
+SA20227,2025-01-31,Web,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-02-02,2025-02-06,2025-02-08,,,1
+SA20228,2025-01-31,Web,Proprietorship,Delhi,Beauty,Y,Live,2025-02-01,2025-02-06,2025-02-07,,,1
+SA20229,2025-01-31,Web,Individual,Rajasthan,Grocery,Y,Live,2025-02-02,2025-02-06,2025-02-10,,,0
+SA20230,2025-01-31,Web,Private Limited,Gujarat,Fashion,Y,Live,2025-02-03,2025-02-06,2025-02-10,,,0
+SA20231,2025-01-31,Web,Proprietorship,Uttar Pradesh,Beauty,Y,Rejected,2025-02-03,,,2025-02-14,Incomplete address,2
+SA20232,2025-01-31,Web,Private Limited,Tamil Nadu,Fashion,Y,Rejected,2025-02-02,,,2025-02-10,Incomplete address,0
+SA20233,2025-01-31,App,Proprietorship,Rajasthan,Home & Kitchen,Y,Rejected,2025-02-02,,,2025-02-06,Bank account name mismatch,0
+SA20234,2025-01-31,Web,Proprietorship,Telangana,Grocery,Y,Rejected,2025-02-03,,,2025-02-06,Blurry or unreadable document,0
+SA20235,2025-01-31,Assisted,Individual,Uttar Pradesh,Beauty,Y,Live,2025-02-03,2025-02-09,2025-02-13,,,0
+SA20236,2025-01-31,Web,Individual,Uttar Pradesh,Grocery,N,Live,2025-02-01,2025-02-06,2025-02-11,,,0
+SA20237,2025-02-01,Assisted,Individual,West Bengal,Books,N,Live,2025-02-02,2025-02-07,2025-02-10,,,0
+SA20238,2025-02-01,Web,Individual,Punjab,Books,N,Live,2025-02-05,2025-02-10,2025-02-11,,,0
+SA20239,2025-02-01,App,Individual,Gujarat,Books,N,Live,2025-02-04,2025-02-08,2025-02-11,,,0
+SA20240,2025-02-01,App,Private Limited,Maharashtra,Grocery,Y,Live,2025-02-03,2025-02-05,2025-02-09,,,0
+SA20241,2025-02-01,Web,Individual,Uttar Pradesh,Beauty,Y,Live,2025-02-04,2025-02-06,2025-02-08,,,0
+SA20242,2025-02-01,Web,Individual,Maharashtra,Home & Kitchen,N,Live,2025-02-05,2025-02-10,2025-02-13,,,0
+SA20243,2025-02-02,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-02-04,,,2025-02-09,Bank account name mismatch,1
+SA20244,2025-02-02,Assisted,Proprietorship,West Bengal,Electronics,Y,Live,2025-02-03,2025-02-06,2025-02-09,,,0
+SA20245,2025-02-02,App,Private Limited,Punjab,Grocery,Y,Live,2025-02-03,2025-02-07,2025-02-10,,,0
+SA20246,2025-02-02,App,Proprietorship,Karnataka,Fashion,Y,Rejected,2025-02-04,,,2025-02-13,Blurry or unreadable document,1
+SA20247,2025-02-02,App,Private Limited,Telangana,Books,N,Live,2025-02-05,2025-02-12,2025-02-15,,,0
+SA20248,2025-02-02,Web,Private Limited,Telangana,Electronics,Y,Live,2025-02-07,2025-02-17,2025-02-20,,,0
+SA20249,2025-02-02,Assisted,Proprietorship,Gujarat,Fashion,Y,Live,2025-02-02,2025-02-10,2025-02-14,,,0
+SA20250,2025-02-02,Web,Proprietorship,Telangana,Beauty,Y,Live,2025-02-05,2025-02-11,2025-02-15,,,0
+SA20251,2025-02-03,Assisted,Proprietorship,Maharashtra,Electronics,Y,Live,2025-02-04,2025-02-09,2025-02-11,,,0
+SA20252,2025-02-03,App,Individual,Uttar Pradesh,Grocery,Y,Live,2025-02-05,2025-02-07,2025-02-09,,,0
+SA20253,2025-02-03,Web,Individual,Telangana,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20254,2025-02-03,Web,Individual,Delhi,Home & Kitchen,N,Rejected,2025-02-06,,,2025-02-08,Restricted category,0
+SA20255,2025-02-03,Assisted,Individual,Maharashtra,Fashion,N,Live,2025-02-04,2025-02-12,2025-02-16,,,0
+SA20256,2025-02-03,Web,Individual,Uttar Pradesh,Grocery,Y,Live,2025-02-05,2025-02-09,2025-02-11,,,0
+SA20257,2025-02-03,Assisted,Individual,Rajasthan,Grocery,N,Live,2025-02-04,2025-02-09,2025-02-10,,,0
+SA20258,2025-02-03,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-02-08,2025-02-13,2025-02-16,,,0
+SA20259,2025-02-03,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-02-06,2025-02-12,2025-02-15,,,0
+SA20260,2025-02-03,Web,Private Limited,Gujarat,Toys,Y,Rejected,2025-02-05,,,2025-02-07,Blurry or unreadable document,0
+SA20261,2025-02-03,App,Individual,Tamil Nadu,Electronics,Y,Live,2025-02-07,2025-02-12,2025-02-16,,,0
+SA20262,2025-02-03,Web,Individual,Gujarat,Beauty,Y,Withdrawn,,,,,,0
+SA20263,2025-02-04,App,Individual,Maharashtra,Home & Kitchen,N,Live,2025-02-08,2025-02-12,2025-02-13,,,0
+SA20264,2025-02-04,Web,Proprietorship,West Bengal,Fashion,Y,Live,2025-02-06,2025-02-10,2025-02-13,,,0
+SA20265,2025-02-04,Web,Individual,Karnataka,Fashion,Y,Live,2025-02-09,2025-02-22,2025-02-24,,,0
+SA20266,2025-02-04,App,Individual,Tamil Nadu,Fashion,N,Rejected,2025-02-06,,,2025-02-10,GSTIN mismatch,0
+SA20267,2025-02-04,Web,Proprietorship,Maharashtra,Books,N,Live,2025-02-08,2025-02-12,2025-02-15,,,0
+SA20268,2025-02-05,Web,Individual,Karnataka,Fashion,Y,Live,2025-02-07,2025-02-11,2025-02-13,,,0
+SA20269,2025-02-05,App,Individual,Telangana,Books,N,Live,2025-02-07,2025-02-15,2025-02-17,,,1
+SA20270,2025-02-05,App,Individual,Karnataka,Toys,N,Live,2025-02-06,2025-02-11,2025-02-13,,,0
+SA20271,2025-02-05,App,Proprietorship,Maharashtra,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20272,2025-02-05,Web,Individual,Uttar Pradesh,Electronics,Y,Live,2025-02-11,2025-02-16,2025-02-19,,,1
+SA20273,2025-02-05,App,Proprietorship,West Bengal,Electronics,Y,Live,2025-02-06,2025-02-13,2025-02-17,,,0
+SA20274,2025-02-05,Web,Private Limited,Rajasthan,Grocery,Y,Live,2025-02-07,2025-02-12,2025-02-14,,,0
+SA20275,2025-02-05,Web,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-02-07,2025-02-21,2025-02-24,,,0
+SA20276,2025-02-05,Web,Individual,Maharashtra,Toys,N,Live,2025-02-07,2025-02-11,2025-02-18,,,0
+SA20277,2025-02-05,Web,Private Limited,Tamil Nadu,Home & Kitchen,Y,Live,2025-02-08,2025-02-11,2025-02-14,,,0
+SA20278,2025-02-05,Web,Proprietorship,Telangana,Electronics,Y,Rejected,2025-02-08,,,2025-02-11,Blurry or unreadable document,0
+SA20279,2025-02-05,App,Individual,West Bengal,Fashion,N,Live,2025-02-06,2025-02-09,2025-02-15,,,0
+SA20280,2025-02-06,Web,Individual,West Bengal,Beauty,N,Live,2025-02-08,2025-02-10,2025-02-13,,,0
+SA20281,2025-02-06,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-02-11,2025-02-15,2025-02-20,,,0
+SA20282,2025-02-06,App,Individual,Maharashtra,Home & Kitchen,N,Live,2025-02-07,2025-02-11,2025-02-13,,,0
+SA20283,2025-02-06,App,Individual,Gujarat,Beauty,Y,Live,2025-02-11,2025-02-17,2025-02-21,,,1
+SA20284,2025-02-06,App,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20285,2025-02-06,Web,Individual,Uttar Pradesh,Electronics,N,Rejected,2025-02-12,,,2025-02-18,Restricted category,0
+SA20286,2025-02-06,App,Proprietorship,Gujarat,Grocery,Y,Rejected,2025-02-10,,,2025-02-19,Bank account name mismatch,2
+SA20287,2025-02-06,Web,Individual,Tamil Nadu,Fashion,N,Rejected,2025-02-08,,,2025-02-16,Bank account name mismatch,1
+SA20288,2025-02-06,Web,Individual,Maharashtra,Fashion,N,Rejected,2025-02-09,,,2025-02-13,GSTIN mismatch,0
+SA20289,2025-02-06,Web,Proprietorship,Gujarat,Electronics,Y,Rejected,2025-02-09,,,2025-02-11,Blurry or unreadable document,0
+SA20290,2025-02-07,Assisted,Individual,Uttar Pradesh,Electronics,N,Live,2025-02-08,2025-02-13,2025-02-15,,,0
+SA20291,2025-02-07,Web,Individual,Maharashtra,Home & Kitchen,Y,Rejected,2025-02-09,,,2025-02-14,Blurry or unreadable document,1
+SA20292,2025-02-07,App,Private Limited,Maharashtra,Grocery,Y,Live,2025-02-08,2025-02-16,2025-02-20,,,1
+SA20293,2025-02-07,App,Individual,Gujarat,Books,N,Withdrawn,,,,,,0
+SA20294,2025-02-07,Assisted,Proprietorship,Maharashtra,Beauty,Y,Live,2025-02-08,2025-02-09,2025-02-10,,,0
+SA20295,2025-02-07,App,Proprietorship,Karnataka,Toys,Y,Live,2025-02-09,2025-02-17,2025-02-22,,,1
+SA20296,2025-02-07,Web,Individual,Karnataka,Fashion,Y,Live,2025-02-09,2025-02-12,2025-02-17,,,0
+SA20297,2025-02-07,Web,Individual,Tamil Nadu,Fashion,N,Live,2025-02-09,2025-02-17,2025-02-21,,,0
+SA20298,2025-02-07,Web,Proprietorship,Karnataka,Electronics,Y,Live,2025-02-08,2025-02-11,2025-02-16,,,0
+SA20299,2025-02-07,Web,Proprietorship,Maharashtra,Grocery,Y,Live,2025-02-12,2025-02-16,2025-02-20,,,0
+SA20300,2025-02-07,Web,Proprietorship,West Bengal,Beauty,Y,Rejected,2025-02-12,,,2025-02-16,Bank account name mismatch,0
+SA20301,2025-02-08,Web,Individual,Gujarat,Fashion,Y,Rejected,2025-02-10,,,2025-02-15,Incomplete address,0
+SA20302,2025-02-08,App,Individual,Rajasthan,Home & Kitchen,N,Live,2025-02-09,2025-02-14,2025-02-16,,,1
+SA20303,2025-02-08,Web,Proprietorship,Uttar Pradesh,Electronics,Y,Live,2025-02-11,2025-02-17,2025-02-20,,,0
+SA20304,2025-02-08,Web,Proprietorship,Uttar Pradesh,Beauty,Y,Withdrawn,,,,,,0
+SA20305,2025-02-08,Web,Individual,Gujarat,Beauty,Y,Live,2025-02-11,2025-02-18,2025-02-23,,,1
+SA20306,2025-02-08,Web,Proprietorship,Rajasthan,Books,N,Live,2025-02-14,2025-02-19,2025-02-20,,,0
+SA20307,2025-02-08,Web,Individual,Uttar Pradesh,Grocery,Y,Live,2025-02-13,2025-02-17,2025-02-20,,,0
+SA20308,2025-02-09,App,Proprietorship,Rajasthan,Books,N,Rejected,2025-02-12,,,2025-02-18,Blurry or unreadable document,1
+SA20309,2025-02-09,Web,Individual,Tamil Nadu,Toys,Y,Live,2025-02-13,2025-02-22,2025-02-25,,,0
+SA20310,2025-02-09,App,Private Limited,Tamil Nadu,Electronics,Y,Live,2025-02-11,2025-02-13,2025-02-15,,,0
+SA20311,2025-02-09,App,Proprietorship,Gujarat,Fashion,Y,Live,2025-02-10,2025-02-14,2025-02-16,,,0
+SA20312,2025-02-09,App,Proprietorship,Uttar Pradesh,Books,N,Live,2025-02-11,2025-02-16,2025-02-19,,,0
+SA20313,2025-02-09,Web,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-02-12,2025-02-18,2025-02-19,,,1
+SA20314,2025-02-09,Web,Individual,Maharashtra,Electronics,Y,Live,2025-02-11,2025-02-16,2025-02-19,,,0
+SA20315,2025-02-09,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-02-12,2025-02-16,2025-02-22,,,0
+SA20316,2025-02-09,Web,Proprietorship,Gujarat,Toys,Y,Live,2025-02-10,2025-02-18,2025-02-20,,,0
+SA20317,2025-02-09,Assisted,Private Limited,Maharashtra,Fashion,Y,Live,2025-02-10,2025-02-16,2025-02-19,,,0
+SA20318,2025-02-09,Web,Individual,West Bengal,Fashion,N,Live,2025-02-10,2025-02-13,2025-02-16,,,0
+SA20319,2025-02-09,Web,Individual,West Bengal,Beauty,Y,Live,2025-02-10,2025-02-15,2025-02-17,,,0
+SA20320,2025-02-09,Assisted,Proprietorship,Maharashtra,Books,N,Live,2025-02-10,2025-02-16,2025-02-18,,,0
+SA20321,2025-02-10,Web,Private Limited,Telangana,Beauty,Y,Rejected,2025-02-14,,,2025-02-23,Incomplete address,2
+SA20322,2025-02-10,App,Proprietorship,Delhi,Grocery,Y,Live,2025-02-12,2025-02-18,2025-02-24,,,0
+SA20323,2025-02-10,Web,Individual,West Bengal,Home & Kitchen,N,Live,2025-02-15,2025-02-25,2025-02-26,,,1
+SA20324,2025-02-10,Web,Individual,Tamil Nadu,Electronics,Y,Live,2025-02-14,2025-02-17,2025-02-20,,,0
+SA20325,2025-02-10,Web,Proprietorship,Maharashtra,Grocery,Y,Rejected,2025-02-13,,,2025-02-16,Restricted category,0
+SA20326,2025-02-10,App,Proprietorship,Uttar Pradesh,Toys,Y,Live,2025-02-13,2025-02-16,2025-02-18,,,0
+SA20327,2025-02-10,Web,Proprietorship,West Bengal,Fashion,Y,Rejected,2025-02-12,,,2025-02-16,Blurry or unreadable document,0
+SA20328,2025-02-10,Web,Private Limited,Uttar Pradesh,Fashion,Y,Rejected,2025-02-12,,,2025-02-14,Incomplete address,0
+SA20329,2025-02-10,Web,Individual,Uttar Pradesh,Home & Kitchen,Y,Live,2025-02-14,2025-02-15,2025-02-20,,,0
+SA20330,2025-02-10,Web,Individual,Telangana,Fashion,Y,Live,2025-02-12,2025-02-17,2025-02-23,,,0
+SA20331,2025-02-10,Assisted,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-02-11,2025-02-15,2025-02-16,,,0
+SA20332,2025-02-10,Assisted,Individual,Karnataka,Fashion,N,Live,2025-02-11,2025-02-13,2025-02-17,,,0
+SA20333,2025-02-10,Web,Individual,Karnataka,Home & Kitchen,Y,Live,2025-02-15,2025-02-22,2025-02-25,,,0
+SA20334,2025-02-10,App,Private Limited,Maharashtra,Books,N,Live,2025-02-12,2025-02-20,2025-02-26,,,0
+SA20335,2025-02-10,Web,Proprietorship,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA20336,2025-02-10,Web,Individual,Gujarat,Toys,N,Live,2025-02-16,2025-02-19,2025-02-22,,,0
+SA20337,2025-02-11,Assisted,Proprietorship,Rajasthan,Fashion,Y,Live,2025-02-14,2025-02-21,2025-02-22,,,1
+SA20338,2025-02-11,Web,Individual,Delhi,Fashion,Y,Live,2025-02-13,2025-02-19,2025-02-21,,,0
+SA20339,2025-02-11,Web,Individual,Maharashtra,Beauty,Y,Withdrawn,,,,,,0
+SA20340,2025-02-11,Web,Individual,Uttar Pradesh,Books,N,Withdrawn,,,,,,0
+SA20341,2025-02-11,App,Individual,Telangana,Fashion,Y,Rejected,2025-02-14,,,2025-02-19,Bank account name mismatch,0
+SA20342,2025-02-11,Web,Proprietorship,Telangana,Books,N,Live,2025-02-13,2025-02-19,2025-02-21,,,0
+SA20343,2025-02-11,App,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-02-13,2025-02-16,2025-02-20,,,0
+SA20344,2025-02-11,Assisted,Individual,Gujarat,Electronics,N,Rejected,2025-02-12,,,2025-02-14,GSTIN mismatch,0
+SA20345,2025-02-11,App,Proprietorship,Punjab,Home & Kitchen,Y,Live,2025-02-13,2025-02-21,2025-02-24,,,0
+SA20346,2025-02-12,App,Private Limited,Gujarat,Electronics,Y,Withdrawn,,,,,,0
+SA20347,2025-02-12,Web,Proprietorship,Uttar Pradesh,Grocery,Y,Live,2025-02-15,2025-02-17,2025-02-21,,,0
+SA20348,2025-02-12,Web,Individual,Uttar Pradesh,Toys,Y,Rejected,2025-02-14,,,2025-02-18,Blurry or unreadable document,0
+SA20349,2025-02-12,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-02-15,2025-02-18,2025-02-21,,,0
+SA20350,2025-02-12,Assisted,Individual,West Bengal,Electronics,Y,Live,2025-02-13,2025-02-20,2025-02-23,,,0
+SA20351,2025-02-12,Assisted,Private Limited,Maharashtra,Fashion,Y,Live,2025-02-13,2025-02-21,2025-02-22,,,1
+SA20352,2025-02-12,Web,Individual,Delhi,Grocery,N,Live,2025-02-15,2025-02-24,2025-02-28,,,0
+SA20353,2025-02-12,App,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-02-13,2025-02-18,2025-02-22,,,0
+SA20354,2025-02-13,Web,Individual,Delhi,Grocery,Y,Live,2025-02-14,2025-02-26,2025-03-01,,,0
+SA20355,2025-02-13,Web,Individual,Uttar Pradesh,Toys,Y,Live,2025-02-15,2025-02-18,2025-02-22,,,0
+SA20356,2025-02-13,Web,Individual,Telangana,Electronics,N,Live,2025-02-14,2025-02-16,2025-02-18,,,0
+SA20357,2025-02-13,App,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-02-14,2025-02-20,2025-02-24,,,0
+SA20358,2025-02-13,Web,Individual,Delhi,Books,N,Live,2025-02-18,2025-02-23,2025-02-27,,,0
+SA20359,2025-02-13,App,Individual,Gujarat,Fashion,Y,Live,2025-02-14,2025-02-17,2025-02-18,,,0
+SA20360,2025-02-13,App,Private Limited,Rajasthan,Toys,Y,Live,2025-02-14,2025-02-16,2025-02-19,,,0
+SA20361,2025-02-14,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-02-17,2025-02-19,2025-02-26,,,0
+SA20362,2025-02-14,Assisted,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-02-16,2025-02-21,2025-03-01,,,0
+SA20363,2025-02-14,App,Proprietorship,Punjab,Fashion,Y,Live,2025-02-16,2025-02-23,2025-02-25,,,1
+SA20364,2025-02-14,Web,Individual,Uttar Pradesh,Grocery,Y,Rejected,2025-02-16,,,2025-02-25,Blurry or unreadable document,2
+SA20365,2025-02-14,Assisted,Individual,Gujarat,Grocery,N,Live,2025-02-15,2025-02-17,2025-02-20,,,0
+SA20366,2025-02-14,App,Individual,Rajasthan,Grocery,Y,Rejected,2025-02-16,,,2025-02-21,Blurry or unreadable document,1
+SA20367,2025-02-14,App,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-02-17,2025-02-22,2025-03-01,,,0
+SA20368,2025-02-14,Web,Proprietorship,Karnataka,Beauty,Y,Live,2025-02-17,2025-02-21,2025-02-24,,,0
+SA20369,2025-02-14,Assisted,Proprietorship,Gujarat,Grocery,Y,Live,2025-02-15,2025-02-21,2025-02-24,,,0
+SA20370,2025-02-14,Web,Individual,West Bengal,Fashion,N,Withdrawn,,,,,,0
+SA20371,2025-02-14,App,Proprietorship,Maharashtra,Electronics,Y,Rejected,2025-02-15,,,2025-02-19,Restricted category,0
+SA20372,2025-02-15,App,Proprietorship,Maharashtra,Fashion,Y,Live,2025-02-17,2025-02-21,2025-02-24,,,0
+SA20373,2025-02-15,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-02-19,,,2025-03-05,Bank account name mismatch,2
+SA20374,2025-02-15,Web,Individual,Gujarat,Fashion,Y,Live,2025-02-18,2025-02-22,2025-02-25,,,0
+SA20375,2025-02-15,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-02-16,2025-02-18,2025-02-20,,,0
+SA20376,2025-02-15,App,Private Limited,Delhi,Home & Kitchen,Y,Live,2025-02-16,2025-02-18,2025-02-20,,,0
+SA20377,2025-02-15,App,Individual,Gujarat,Home & Kitchen,Y,Live,2025-02-17,2025-02-22,2025-02-24,,,0
+SA20378,2025-02-15,Assisted,Individual,Maharashtra,Fashion,Y,Live,2025-02-17,2025-02-19,2025-02-22,,,0
+SA20379,2025-02-15,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-02-18,2025-02-22,2025-02-26,,,0
+SA20380,2025-02-15,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-02-17,2025-02-21,2025-02-24,,,0
+SA20381,2025-02-16,Web,Individual,Tamil Nadu,Home & Kitchen,N,Rejected,2025-02-18,,,2025-02-26,GSTIN mismatch,2
+SA20382,2025-02-16,Web,Individual,Karnataka,Beauty,Y,Live,2025-02-24,2025-03-04,2025-03-10,,,1
+SA20383,2025-02-16,App,Proprietorship,Maharashtra,Electronics,Y,Rejected,2025-02-20,,,2025-02-22,Incomplete address,0
+SA20384,2025-02-16,App,Proprietorship,Rajasthan,Grocery,Y,Live,2025-02-18,2025-02-21,2025-02-23,,,0
+SA20385,2025-02-16,Assisted,Proprietorship,Delhi,Grocery,Y,Live,2025-02-18,2025-02-23,2025-02-27,,,0
+SA20386,2025-02-16,Web,Individual,Karnataka,Fashion,N,Live,2025-02-18,2025-02-25,2025-02-27,,,0
+SA20387,2025-02-16,Web,Proprietorship,Uttar Pradesh,Electronics,Y,Live,2025-02-21,2025-02-24,2025-02-27,,,0
+SA20388,2025-02-16,App,Proprietorship,Uttar Pradesh,Toys,Y,Live,2025-02-17,2025-02-19,2025-02-21,,,0
+SA20389,2025-02-16,Web,Individual,Uttar Pradesh,Fashion,Y,Withdrawn,,,,,,0
+SA20390,2025-02-17,Web,Individual,West Bengal,Grocery,Y,Rejected,2025-02-20,,,2025-03-04,Blurry or unreadable document,1
+SA20391,2025-02-17,App,Individual,Maharashtra,Fashion,Y,Rejected,2025-02-19,,,2025-02-24,Bank account name mismatch,0
+SA20392,2025-02-17,App,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-02-19,2025-02-25,2025-03-02,,,1
+SA20393,2025-02-17,App,Individual,Uttar Pradesh,Beauty,Y,Live,2025-02-20,2025-02-22,2025-02-24,,,0
+SA20394,2025-02-17,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-02-20,2025-02-23,2025-02-25,,,0
+SA20395,2025-02-17,App,Proprietorship,West Bengal,Beauty,Y,Live,2025-02-20,2025-03-02,2025-03-07,,,0
+SA20396,2025-02-17,App,Private Limited,Telangana,Fashion,Y,Live,2025-02-18,2025-02-28,2025-03-02,,,0
+SA20397,2025-02-17,Web,Individual,Karnataka,Beauty,Y,Live,2025-02-22,2025-03-04,2025-03-08,,,0
+SA20398,2025-02-17,Web,Proprietorship,Telangana,Electronics,Y,Live,2025-02-20,2025-02-24,2025-03-02,,,0
+SA20399,2025-02-17,Web,Proprietorship,West Bengal,Books,N,Live,2025-02-18,2025-02-25,2025-03-02,,,0
+SA20400,2025-02-17,Web,Proprietorship,Delhi,Electronics,Y,Live,2025-02-19,2025-02-22,2025-02-25,,,0
+SA20401,2025-02-17,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-02-19,2025-02-22,2025-02-26,,,0
+SA20402,2025-02-18,Web,Proprietorship,Karnataka,Beauty,Y,Rejected,2025-02-21,,,2025-02-23,Blurry or unreadable document,0
+SA20403,2025-02-18,Web,Individual,Rajasthan,Grocery,Y,Live,2025-02-24,2025-02-27,2025-03-01,,,0
+SA20404,2025-02-18,App,Individual,Tamil Nadu,Fashion,Y,Live,2025-02-20,2025-02-23,2025-02-27,,,0
+SA20405,2025-02-18,Web,Proprietorship,Karnataka,Grocery,Y,Live,2025-02-19,2025-02-21,2025-02-25,,,0
+SA20406,2025-02-18,Web,Private Limited,Maharashtra,Beauty,Y,Live,2025-02-20,2025-02-25,2025-03-01,,,0
+SA20407,2025-02-18,App,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-02-21,2025-03-03,2025-03-06,,,0
+SA20408,2025-02-18,Web,Individual,Tamil Nadu,Grocery,Y,Live,2025-02-20,2025-02-22,2025-02-23,,,0
+SA20409,2025-02-18,Assisted,Individual,Tamil Nadu,Toys,Y,Live,2025-02-19,2025-02-28,2025-03-04,,,1
+SA20410,2025-02-18,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-02-20,2025-02-25,2025-02-28,,,0
+SA20411,2025-02-18,Assisted,Proprietorship,West Bengal,Beauty,Y,Live,2025-02-19,2025-02-21,2025-02-26,,,0
+SA20412,2025-02-18,Web,Proprietorship,Karnataka,Books,N,Live,2025-02-20,2025-02-22,2025-02-26,,,0
+SA20413,2025-02-19,App,Individual,Telangana,Fashion,N,Live,2025-02-21,2025-02-24,2025-02-27,,,0
+SA20414,2025-02-19,Web,Proprietorship,Tamil Nadu,Fashion,Y,Rejected,2025-02-21,,,2025-03-15,Blurry or unreadable document,2
+SA20415,2025-02-19,Assisted,Proprietorship,Gujarat,Fashion,Y,Rejected,2025-02-20,,,2025-03-03,GSTIN mismatch,1
+SA20416,2025-02-19,App,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-02-23,2025-02-24,2025-03-01,,,0
+SA20417,2025-02-19,Web,Proprietorship,Rajasthan,Grocery,Y,Live,2025-02-22,2025-02-25,2025-02-28,,,0
+SA20418,2025-02-19,App,Proprietorship,Maharashtra,Grocery,Y,Live,2025-02-20,2025-02-26,2025-02-27,,,0
+SA20419,2025-02-19,Assisted,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-02-21,2025-03-04,2025-03-06,,,0
+SA20420,2025-02-19,Assisted,Proprietorship,Gujarat,Books,N,Withdrawn,,,,,,0
+SA20421,2025-02-19,Web,Proprietorship,Rajasthan,Grocery,Y,Rejected,2025-02-23,,,2025-03-03,GSTIN mismatch,2
+SA20422,2025-02-19,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-02-25,2025-02-28,2025-03-04,,,0
+SA20423,2025-02-20,App,Private Limited,Punjab,Home & Kitchen,Y,Live,2025-02-21,2025-02-26,2025-02-28,,,0
+SA20424,2025-02-20,Web,Proprietorship,Maharashtra,Electronics,Y,Rejected,2025-02-22,,,2025-03-03,Blurry or unreadable document,1
+SA20425,2025-02-20,Assisted,Proprietorship,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA20426,2025-02-20,App,Individual,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-02-22,,,2025-03-02,Restricted category,0
+SA20427,2025-02-20,App,Individual,West Bengal,Grocery,Y,Withdrawn,,,,,,0
+SA20428,2025-02-20,App,Individual,Karnataka,Fashion,Y,Rejected,2025-02-24,,,2025-03-03,GSTIN mismatch,1
+SA20429,2025-02-21,Web,Proprietorship,Tamil Nadu,Books,N,Live,2025-02-24,2025-02-26,2025-02-28,,,0
+SA20430,2025-02-21,Web,Proprietorship,Rajasthan,Toys,Y,Live,2025-02-27,2025-03-04,2025-03-10,,,1
+SA20431,2025-02-21,App,Individual,Gujarat,Grocery,Y,Live,2025-02-22,2025-02-27,2025-03-02,,,0
+SA20432,2025-02-21,Web,Individual,Gujarat,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20433,2025-02-21,App,Individual,Uttar Pradesh,Electronics,Y,Live,2025-02-23,2025-03-01,2025-03-02,,,0
+SA20434,2025-02-21,Web,Individual,Gujarat,Electronics,Y,Rejected,2025-02-25,,,2025-03-03,GSTIN mismatch,1
+SA20435,2025-02-21,Web,Individual,Telangana,Home & Kitchen,Y,Live,2025-02-26,2025-03-06,2025-03-07,,,0
+SA20436,2025-02-21,Web,Individual,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-02-24,,,2025-03-01,Duplicate application,0
+SA20437,2025-02-21,Web,Proprietorship,Delhi,Fashion,Y,Live,2025-02-25,2025-03-01,2025-03-03,,,0
+SA20438,2025-02-21,Web,Individual,Maharashtra,Electronics,Y,Live,2025-02-23,2025-02-25,2025-03-02,,,0
+SA20439,2025-02-21,Assisted,Individual,Rajasthan,Books,N,Withdrawn,,,,,,0
+SA20440,2025-02-22,Web,Private Limited,Gujarat,Fashion,Y,Rejected,2025-02-26,,,2025-03-09,Blurry or unreadable document,2
+SA20441,2025-02-22,Web,Individual,Gujarat,Electronics,N,Live,2025-02-25,2025-03-03,2025-03-05,,,0
+SA20442,2025-02-22,Assisted,Individual,Karnataka,Beauty,Y,Live,2025-02-25,2025-03-03,2025-03-05,,,0
+SA20443,2025-02-22,Web,Individual,Uttar Pradesh,Books,N,Live,2025-02-25,2025-02-28,2025-03-06,,,0
+SA20444,2025-02-22,Web,Individual,Karnataka,Fashion,Y,Live,2025-02-25,2025-02-28,2025-03-07,,,0
+SA20445,2025-02-22,Web,Proprietorship,West Bengal,Fashion,Y,Live,2025-02-24,2025-03-07,2025-03-09,,,0
+SA20446,2025-02-22,Web,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-02-23,2025-02-28,2025-03-03,,,0
+SA20447,2025-02-22,App,Individual,Karnataka,Fashion,Y,Live,2025-02-23,2025-02-28,2025-03-03,,,0
+SA20448,2025-02-22,App,Individual,Delhi,Fashion,Y,Rejected,2025-02-23,,,2025-03-02,GSTIN mismatch,1
+SA20449,2025-02-22,Web,Individual,Rajasthan,Beauty,Y,Live,2025-02-24,2025-03-06,2025-03-08,,,0
+SA20450,2025-02-22,Assisted,Individual,Uttar Pradesh,Beauty,Y,Live,2025-02-24,2025-03-01,2025-03-06,,,0
+SA20451,2025-02-22,Web,Individual,Telangana,Fashion,Y,Rejected,2025-03-01,,,2025-03-10,Blurry or unreadable document,0
+SA20452,2025-02-22,Assisted,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-02-23,2025-02-25,2025-03-01,,,0
+SA20453,2025-02-22,App,Proprietorship,West Bengal,Home & Kitchen,Y,Rejected,2025-02-25,,,2025-03-06,Incomplete address,2
+SA20454,2025-02-22,App,Proprietorship,Telangana,Electronics,Y,Live,2025-02-23,2025-02-28,2025-03-04,,,0
+SA20455,2025-02-22,Web,Private Limited,Gujarat,Fashion,Y,Rejected,2025-02-25,,,2025-03-06,Blurry or unreadable document,0
+SA20456,2025-02-23,Assisted,Private Limited,Karnataka,Electronics,Y,Live,2025-02-24,2025-03-03,2025-03-08,,,0
+SA20457,2025-02-23,Web,Individual,Tamil Nadu,Electronics,Y,Withdrawn,,,,,,0
+SA20458,2025-02-23,Web,Individual,Karnataka,Fashion,Y,Live,2025-02-26,2025-02-28,2025-03-03,,,0
+SA20459,2025-02-23,App,Proprietorship,Tamil Nadu,Toys,Y,Live,2025-02-26,2025-03-02,2025-03-05,,,0
+SA20460,2025-02-23,App,Individual,Karnataka,Fashion,N,Withdrawn,,,,,,0
+SA20461,2025-02-23,Web,Proprietorship,Tamil Nadu,Beauty,Y,Rejected,2025-03-01,,,2025-03-10,GSTIN mismatch,2
+SA20462,2025-02-24,Web,Individual,Uttar Pradesh,Toys,Y,Live,2025-02-26,2025-03-05,2025-03-07,,,0
+SA20463,2025-02-24,Web,Private Limited,Delhi,Beauty,Y,Live,2025-02-28,2025-03-09,2025-03-13,,,0
+SA20464,2025-02-24,App,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-02-26,2025-03-03,2025-03-06,,,0
+SA20465,2025-02-24,App,Private Limited,Uttar Pradesh,Fashion,Y,Live,2025-02-27,2025-03-03,2025-03-06,,,0
+SA20466,2025-02-24,Web,Individual,Tamil Nadu,Electronics,Y,Live,2025-02-26,2025-02-28,2025-03-04,,,0
+SA20467,2025-02-24,Web,Proprietorship,Tamil Nadu,Fashion,Y,Rejected,2025-02-28,,,2025-03-05,GSTIN mismatch,1
+SA20468,2025-02-24,Web,Individual,Telangana,Beauty,N,Live,2025-02-26,2025-03-04,2025-03-05,,,1
+SA20469,2025-02-24,Web,Private Limited,Punjab,Home & Kitchen,Y,Live,2025-02-26,2025-03-12,2025-03-16,,,0
+SA20470,2025-02-24,Web,Proprietorship,Tamil Nadu,Toys,Y,Live,2025-03-01,2025-03-12,2025-03-17,,,0
+SA20471,2025-02-24,Web,Individual,Uttar Pradesh,Home & Kitchen,Y,Live,2025-02-26,2025-03-03,2025-03-05,,,0
+SA20472,2025-02-24,Web,Individual,Telangana,Fashion,Y,Live,2025-02-27,2025-03-04,2025-03-08,,,0
+SA20473,2025-02-24,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Rejected,2025-03-01,,,2025-03-07,GSTIN mismatch,1
+SA20474,2025-02-25,Web,Individual,West Bengal,Electronics,Y,Withdrawn,,,,,,0
+SA20475,2025-02-25,Web,Proprietorship,West Bengal,Home & Kitchen,Y,Rejected,2025-02-26,,,2025-03-07,Blurry or unreadable document,2
+SA20476,2025-02-25,Web,Proprietorship,Rajasthan,Home & Kitchen,Y,Live,2025-02-27,2025-03-03,2025-03-13,,,0
+SA20477,2025-02-25,App,Individual,Delhi,Home & Kitchen,Y,Live,2025-03-02,2025-03-09,2025-03-12,,,0
+SA20478,2025-02-25,Web,Private Limited,Telangana,Grocery,Y,Rejected,2025-02-28,,,2025-03-05,Blurry or unreadable document,1
+SA20479,2025-02-25,App,Individual,Karnataka,Fashion,N,Live,2025-02-27,2025-03-04,2025-03-06,,,0
+SA20480,2025-02-25,Web,Individual,Tamil Nadu,Electronics,Y,Live,2025-03-03,2025-03-04,2025-03-05,,,0
+SA20481,2025-02-25,App,Proprietorship,Tamil Nadu,Beauty,Y,Rejected,2025-02-28,,,2025-03-04,Blurry or unreadable document,0
+SA20482,2025-02-25,Assisted,Private Limited,Karnataka,Books,N,Live,2025-02-26,2025-03-05,2025-03-07,,,0
+SA20483,2025-02-25,App,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-02-28,2025-03-02,2025-03-03,,,0
+SA20484,2025-02-25,App,Individual,Maharashtra,Grocery,Y,Live,2025-02-27,2025-03-10,2025-03-14,,,0
+SA20485,2025-02-25,App,Proprietorship,Rajasthan,Home & Kitchen,Y,Live,2025-03-01,2025-03-02,2025-03-09,,,0
+SA20486,2025-02-26,Web,Individual,West Bengal,Home & Kitchen,Y,Live,2025-03-06,2025-03-09,2025-03-14,,,0
+SA20487,2025-02-26,Web,Individual,Tamil Nadu,Books,N,Rejected,2025-03-01,,,2025-03-10,Blurry or unreadable document,2
+SA20488,2025-02-26,Web,Individual,Telangana,Home & Kitchen,N,Live,2025-02-28,2025-03-10,2025-03-13,,,0
+SA20489,2025-02-26,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-03-01,,,2025-03-09,Blurry or unreadable document,1
+SA20490,2025-02-26,Assisted,Individual,Gujarat,Toys,Y,Live,2025-02-27,2025-03-04,2025-03-06,,,0
+SA20491,2025-02-26,Web,Proprietorship,Telangana,Fashion,Y,Live,2025-03-02,2025-03-09,2025-03-13,,,1
+SA20492,2025-02-26,Assisted,Individual,Telangana,Electronics,N,Live,2025-02-27,2025-03-02,2025-03-06,,,0
+SA20493,2025-02-26,Assisted,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-02-27,2025-03-02,2025-03-03,,,0
+SA20494,2025-02-26,Web,Individual,Maharashtra,Fashion,Y,Live,2025-03-02,2025-03-05,2025-03-07,,,0
+SA20495,2025-02-27,App,Individual,Tamil Nadu,Electronics,N,Live,2025-03-01,2025-03-04,2025-03-08,,,0
+SA20496,2025-02-27,App,Proprietorship,Delhi,Electronics,Y,Live,2025-02-28,2025-03-07,2025-03-08,,,1
+SA20497,2025-02-27,Web,Individual,Karnataka,Fashion,Y,Rejected,2025-03-03,,,2025-03-09,Blurry or unreadable document,0
+SA20498,2025-02-27,App,Individual,Tamil Nadu,Electronics,N,Live,2025-02-28,2025-03-06,2025-03-09,,,1
+SA20499,2025-02-27,Web,Proprietorship,Rajasthan,Grocery,Y,Rejected,2025-03-03,,,2025-03-19,GSTIN mismatch,2
+SA20500,2025-02-27,Web,Individual,West Bengal,Fashion,Y,Rejected,2025-03-02,,,2025-03-09,Blurry or unreadable document,1
+SA20501,2025-02-27,Web,Proprietorship,Tamil Nadu,Books,N,Withdrawn,,,,,,0
+SA20502,2025-02-27,App,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-02-28,2025-03-03,2025-03-06,,,0
+SA20503,2025-02-28,Web,Proprietorship,Punjab,Books,N,Live,2025-03-02,2025-03-09,2025-03-12,,,0
+SA20504,2025-02-28,App,Individual,Telangana,Fashion,N,Live,2025-03-03,2025-03-09,2025-03-12,,,0
+SA20505,2025-02-28,Web,Individual,Rajasthan,Beauty,N,Live,2025-03-05,2025-03-10,2025-03-17,,,0
+SA20506,2025-02-28,App,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-03-01,2025-03-07,2025-03-09,,,0
+SA20507,2025-02-28,Assisted,Proprietorship,West Bengal,Beauty,Y,Live,2025-03-01,2025-03-03,2025-03-05,,,0
+SA20508,2025-02-28,Web,Individual,Rajasthan,Home & Kitchen,Y,Live,2025-03-03,2025-03-07,2025-03-09,,,0
+SA20509,2025-02-28,Assisted,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-03-01,2025-03-08,2025-03-11,,,1
+SA20510,2025-02-28,App,Proprietorship,Karnataka,Grocery,Y,Live,2025-03-02,2025-03-05,2025-03-07,,,0
+SA20511,2025-03-01,Web,Individual,Rajasthan,Fashion,Y,Rejected,2025-03-05,,,2025-03-08,Duplicate application,0
+SA20512,2025-03-01,Web,Individual,West Bengal,Toys,Y,Rejected,2025-03-05,,,2025-03-12,Bank account name mismatch,1
+SA20513,2025-03-01,Web,Individual,Gujarat,Home & Kitchen,Y,Live,2025-03-03,2025-03-06,2025-03-18,,,0
+SA20514,2025-03-01,Assisted,Individual,West Bengal,Electronics,N,Live,2025-03-02,2025-03-05,2025-03-08,,,0
+SA20515,2025-03-01,Assisted,Proprietorship,Rajasthan,Fashion,Y,Live,2025-03-01,2025-03-06,2025-03-09,,,0
+SA20516,2025-03-01,Web,Private Limited,Karnataka,Fashion,Y,Live,2025-03-06,2025-03-09,2025-03-10,,,0
+SA20517,2025-03-02,App,Proprietorship,Gujarat,Fashion,Y,Live,2025-03-04,2025-03-11,2025-03-15,,,0
+SA20518,2025-03-02,Web,Individual,Maharashtra,Grocery,N,Live,2025-03-06,2025-03-08,2025-03-12,,,0
+SA20519,2025-03-02,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-03-04,2025-03-10,2025-03-12,,,1
+SA20520,2025-03-02,Web,Individual,Tamil Nadu,Grocery,Y,Live,2025-03-07,2025-03-10,2025-03-12,,,0
+SA20521,2025-03-02,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-03-06,2025-03-09,2025-03-13,,,0
+SA20522,2025-03-02,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-03-05,2025-03-10,2025-03-14,,,1
+SA20523,2025-03-02,App,Individual,Gujarat,Home & Kitchen,Y,Live,2025-03-03,2025-03-06,2025-03-08,,,0
+SA20524,2025-03-02,App,Individual,Gujarat,Beauty,N,Live,2025-03-03,2025-03-09,2025-03-15,,,0
+SA20525,2025-03-02,Assisted,Proprietorship,Punjab,Beauty,Y,Live,2025-03-03,2025-03-08,2025-03-15,,,0
+SA20526,2025-03-02,Web,Proprietorship,Punjab,Fashion,Y,Rejected,2025-03-07,,,2025-03-12,GSTIN mismatch,0
+SA20527,2025-03-02,App,Proprietorship,Rajasthan,Fashion,Y,Live,2025-03-05,2025-03-13,2025-03-14,,,0
+SA20528,2025-03-02,Assisted,Proprietorship,Maharashtra,Books,N,Live,2025-03-04,2025-03-06,2025-03-13,,,0
+SA20529,2025-03-03,Web,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-03-09,2025-03-13,2025-03-15,,,0
+SA20530,2025-03-03,App,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-03-05,2025-03-12,2025-03-16,,,0
+SA20531,2025-03-03,Web,Private Limited,Delhi,Home & Kitchen,Y,Live,2025-03-04,2025-03-11,2025-03-15,,,1
+SA20532,2025-03-03,App,Private Limited,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-03-04,,,2025-03-09,Duplicate application,0
+SA20533,2025-03-03,App,Individual,Maharashtra,Beauty,Y,Live,2025-03-04,2025-03-07,2025-03-09,,,0
+SA20534,2025-03-03,Web,Individual,Karnataka,Fashion,Y,Rejected,2025-03-07,,,2025-03-11,Incomplete address,0
+SA20535,2025-03-03,Web,Individual,West Bengal,Electronics,Y,Live,2025-03-18,2025-03-20,2025-03-22,,,0
+SA20536,2025-03-04,Assisted,Private Limited,West Bengal,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20537,2025-03-04,App,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-03-07,,,2025-03-10,Bank account name mismatch,0
+SA20538,2025-03-04,Web,Proprietorship,Karnataka,Fashion,Y,Live,2025-03-10,2025-03-14,2025-03-17,,,0
+SA20539,2025-03-04,Web,Individual,West Bengal,Fashion,Y,Live,2025-03-06,2025-03-15,2025-03-22,,,0
+SA20540,2025-03-04,Web,Individual,Karnataka,Electronics,N,Live,2025-03-08,2025-03-13,2025-03-15,,,0
+SA20541,2025-03-04,Web,Individual,Uttar Pradesh,Toys,Y,Rejected,2025-03-09,,,2025-03-21,Blurry or unreadable document,2
+SA20542,2025-03-04,Web,Proprietorship,Gujarat,Books,N,Live,2025-03-06,2025-03-09,2025-03-14,,,0
+SA20543,2025-03-05,Web,Individual,Tamil Nadu,Grocery,N,Live,2025-03-09,2025-03-14,2025-03-20,,,0
+SA20544,2025-03-05,App,Individual,Delhi,Grocery,Y,Live,2025-03-06,2025-03-10,2025-03-12,,,0
+SA20545,2025-03-05,Assisted,Individual,Uttar Pradesh,Home & Kitchen,N,Live,2025-03-06,2025-03-10,2025-03-12,,,0
+SA20546,2025-03-05,App,Individual,Rajasthan,Toys,Y,Live,2025-03-06,2025-03-09,2025-03-12,,,0
+SA20547,2025-03-05,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-03-07,,,2025-03-20,Blurry or unreadable document,2
+SA20548,2025-03-05,App,Proprietorship,Punjab,Fashion,Y,Rejected,2025-03-07,,,2025-03-12,Duplicate application,0
+SA20549,2025-03-05,App,Individual,Rajasthan,Toys,N,Live,2025-03-07,2025-03-13,2025-03-14,,,0
+SA20550,2025-03-05,Assisted,Proprietorship,Maharashtra,Toys,Y,Rejected,2025-03-06,,,2025-03-19,GSTIN mismatch,2
+SA20551,2025-03-05,App,Individual,Delhi,Toys,Y,Rejected,2025-03-07,,,2025-03-13,Bank account name mismatch,1
+SA20552,2025-03-05,Web,Proprietorship,Telangana,Fashion,Y,Rejected,2025-03-12,,,2025-03-21,Blurry or unreadable document,2
+SA20553,2025-03-05,App,Individual,Gujarat,Electronics,N,Live,2025-03-09,2025-03-22,2025-03-23,,,0
+SA20554,2025-03-05,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-03-07,2025-03-15,2025-03-17,,,0
+SA20555,2025-03-06,Web,Individual,Maharashtra,Electronics,Y,Rejected,2025-03-07,,,2025-03-18,Blurry or unreadable document,2
+SA20556,2025-03-06,App,Private Limited,West Bengal,Electronics,Y,Rejected,2025-03-07,,,2025-03-10,GSTIN mismatch,0
+SA20557,2025-03-06,Web,Individual,Maharashtra,Electronics,Y,Rejected,2025-03-14,,,2025-03-17,Blurry or unreadable document,0
+SA20558,2025-03-06,Web,Individual,Punjab,Fashion,Y,Withdrawn,,,,,,0
+SA20559,2025-03-06,App,Private Limited,Karnataka,Home & Kitchen,Y,Rejected,2025-03-07,,,2025-03-18,Blurry or unreadable document,2
+SA20560,2025-03-06,Web,Proprietorship,Gujarat,Grocery,Y,Live,2025-03-09,2025-03-11,2025-03-13,,,0
+SA20561,2025-03-06,App,Individual,Gujarat,Home & Kitchen,Y,Live,2025-03-09,2025-03-12,2025-03-17,,,0
+SA20562,2025-03-06,Web,Individual,Karnataka,Beauty,N,Live,2025-03-10,2025-03-12,2025-03-15,,,0
+SA20563,2025-03-07,Web,Individual,Delhi,Home & Kitchen,Y,Live,2025-03-12,2025-03-17,2025-03-21,,,0
+SA20564,2025-03-07,Web,Individual,Delhi,Electronics,Y,Live,2025-03-09,2025-03-12,2025-03-14,,,0
+SA20565,2025-03-07,Web,Individual,Rajasthan,Books,N,Live,2025-03-08,2025-03-12,2025-03-16,,,0
+SA20566,2025-03-07,Web,Private Limited,Karnataka,Electronics,Y,Rejected,2025-03-12,,,2025-03-18,GSTIN mismatch,0
+SA20567,2025-03-07,Web,Individual,Gujarat,Electronics,Y,Rejected,2025-03-09,,,2025-03-12,Bank account name mismatch,0
+SA20568,2025-03-07,Web,Individual,Maharashtra,Toys,N,Live,2025-03-08,2025-03-09,2025-03-14,,,0
+SA20569,2025-03-07,App,Individual,Maharashtra,Home & Kitchen,N,Rejected,2025-03-10,,,2025-03-23,Blurry or unreadable document,1
+SA20570,2025-03-08,Web,Proprietorship,Rajasthan,Home & Kitchen,Y,Live,2025-03-11,2025-03-20,2025-03-24,,,0
+SA20571,2025-03-08,Assisted,Proprietorship,Tamil Nadu,Beauty,Y,Live,2025-03-09,2025-03-13,2025-03-16,,,0
+SA20572,2025-03-08,Web,Proprietorship,Tamil Nadu,Grocery,Y,Rejected,2025-03-14,,,2025-03-17,Bank account name mismatch,0
+SA20573,2025-03-08,App,Private Limited,Tamil Nadu,Home & Kitchen,Y,Live,2025-03-10,2025-03-14,2025-03-16,,,0
+SA20574,2025-03-08,App,Proprietorship,Tamil Nadu,Books,N,Rejected,2025-03-09,,,2025-03-20,GSTIN mismatch,2
+SA20575,2025-03-08,Web,Individual,Telangana,Fashion,N,Live,2025-03-09,2025-03-12,2025-03-13,,,0
+SA20576,2025-03-08,Web,Individual,Punjab,Fashion,Y,Live,2025-03-11,2025-03-19,2025-03-21,,,1
+SA20577,2025-03-08,Assisted,Private Limited,Tamil Nadu,Beauty,Y,Live,2025-03-09,2025-03-15,2025-03-16,,,1
+SA20578,2025-03-08,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Rejected,2025-03-13,,,2025-03-17,Blurry or unreadable document,0
+SA20579,2025-03-09,Assisted,Individual,Gujarat,Fashion,Y,Live,2025-03-10,2025-03-13,2025-03-20,,,0
+SA20580,2025-03-09,App,Individual,Uttar Pradesh,Fashion,Y,Live,2025-03-12,2025-03-15,2025-03-18,,,0
+SA20581,2025-03-09,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-03-11,2025-03-15,2025-03-17,,,0
+SA20582,2025-03-09,App,Private Limited,Rajasthan,Beauty,Y,Rejected,2025-03-11,,,2025-03-22,Incomplete address,2
+SA20583,2025-03-09,Web,Individual,Karnataka,Home & Kitchen,N,Live,2025-03-11,2025-03-21,2025-03-27,,,0
+SA20584,2025-03-09,Web,Proprietorship,Delhi,Fashion,Y,Live,2025-03-13,2025-03-21,2025-03-26,,,0
+SA20585,2025-03-10,Web,Proprietorship,Gujarat,Fashion,Y,Rejected,2025-03-14,,,2025-03-17,Restricted category,0
+SA20586,2025-03-10,Web,Private Limited,Delhi,Beauty,Y,Live,2025-03-13,2025-03-20,2025-03-23,,,1
+SA20587,2025-03-10,Assisted,Private Limited,Rajasthan,Electronics,Y,Live,2025-03-12,2025-03-19,2025-03-23,,,1
+SA20588,2025-03-10,Assisted,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-03-15,2025-03-19,2025-03-22,,,0
+SA20589,2025-03-10,App,Proprietorship,Punjab,Home & Kitchen,Y,Rejected,2025-03-12,,,2025-03-17,GSTIN mismatch,0
+SA20590,2025-03-10,Web,Proprietorship,Rajasthan,Fashion,Y,Live,2025-03-12,2025-03-16,2025-03-19,,,0
+SA20591,2025-03-10,Web,Individual,Maharashtra,Fashion,Y,Live,2025-03-18,2025-03-24,2025-03-27,,,0
+SA20592,2025-03-10,App,Individual,Delhi,Fashion,N,Rejected,2025-03-13,,,2025-03-19,Bank account name mismatch,1
+SA20593,2025-03-10,Assisted,Individual,Uttar Pradesh,Beauty,Y,Live,2025-03-11,2025-03-15,2025-03-17,,,0
+SA20594,2025-03-10,Web,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-03-19,2025-03-21,2025-03-31,,,0
+SA20595,2025-03-10,App,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-03-11,2025-03-16,2025-03-19,,,0
+SA20596,2025-03-10,Web,Individual,Tamil Nadu,Beauty,Y,Live,2025-03-13,2025-03-17,2025-03-20,,,0
+SA20597,2025-03-11,Web,Proprietorship,Karnataka,Beauty,Y,Live,2025-03-15,2025-03-18,2025-03-20,,,0
+SA20598,2025-03-11,App,Proprietorship,Maharashtra,Beauty,Y,Live,2025-03-13,2025-03-17,2025-03-21,,,0
+SA20599,2025-03-11,Web,Private Limited,Tamil Nadu,Beauty,Y,Live,2025-03-20,2025-03-25,2025-03-27,,,0
+SA20600,2025-03-11,Assisted,Individual,Maharashtra,Grocery,N,Withdrawn,,,,,,0
+SA20601,2025-03-11,App,Individual,Telangana,Fashion,Y,Live,2025-03-12,2025-03-19,2025-03-23,,,1
+SA20602,2025-03-11,Web,Proprietorship,Gujarat,Fashion,Y,Withdrawn,,,,,,0
+SA20603,2025-03-11,App,Individual,Karnataka,Electronics,Y,Live,2025-03-17,2025-03-23,2025-03-29,,,1
+SA20604,2025-03-11,Web,Individual,Karnataka,Grocery,N,Rejected,2025-03-13,,,2025-03-19,Blurry or unreadable document,0
+SA20605,2025-03-11,App,Private Limited,Maharashtra,Fashion,Y,Rejected,2025-03-13,,,2025-03-20,GSTIN mismatch,0
+SA20606,2025-03-11,App,Proprietorship,Uttar Pradesh,Fashion,Y,Rejected,2025-03-14,,,2025-03-19,GSTIN mismatch,0
+SA20607,2025-03-11,Assisted,Individual,Uttar Pradesh,Home & Kitchen,N,Withdrawn,,,,,,0
+SA20608,2025-03-11,Web,Individual,Uttar Pradesh,Grocery,Y,Withdrawn,,,,,,0
+SA20609,2025-03-12,App,Individual,Uttar Pradesh,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20610,2025-03-12,App,Proprietorship,Uttar Pradesh,Beauty,Y,Live,2025-03-14,2025-03-17,2025-03-19,,,0
+SA20611,2025-03-12,App,Proprietorship,Gujarat,Fashion,Y,Live,2025-03-14,2025-03-19,2025-03-21,,,0
+SA20612,2025-03-12,App,Proprietorship,Karnataka,Fashion,Y,Live,2025-03-14,2025-03-22,2025-03-23,,,1
+SA20613,2025-03-12,App,Private Limited,West Bengal,Books,N,Rejected,2025-03-13,,,2025-03-21,Blurry or unreadable document,1
+SA20614,2025-03-12,App,Individual,Tamil Nadu,Home & Kitchen,N,Live,2025-03-14,2025-03-17,2025-03-20,,,0
+SA20615,2025-03-12,App,Proprietorship,Uttar Pradesh,Beauty,Y,Live,2025-03-13,2025-03-15,2025-03-20,,,0
+SA20616,2025-03-12,Web,Private Limited,West Bengal,Electronics,Y,Rejected,2025-03-14,,,2025-03-19,Bank account name mismatch,0
+SA20617,2025-03-13,App,Individual,Gujarat,Fashion,Y,Live,2025-03-15,2025-03-24,2025-03-26,,,0
+SA20618,2025-03-13,Web,Individual,Maharashtra,Books,N,Rejected,2025-03-19,,,2025-03-28,Blurry or unreadable document,2
+SA20619,2025-03-13,App,Individual,Maharashtra,Fashion,Y,Live,2025-03-17,2025-03-23,2025-03-29,,,1
+SA20620,2025-03-13,Web,Individual,Maharashtra,Fashion,Y,Rejected,2025-03-17,,,2025-03-19,Bank account name mismatch,0
+SA20621,2025-03-13,Web,Individual,Maharashtra,Electronics,N,Live,2025-03-17,2025-03-23,2025-03-27,,,1
+SA20622,2025-03-13,App,Proprietorship,Gujarat,Electronics,Y,Live,2025-03-15,2025-03-19,2025-03-26,,,0
+SA20623,2025-03-13,Web,Proprietorship,Punjab,Home & Kitchen,Y,Live,2025-03-15,2025-03-23,2025-03-26,,,0
+SA20624,2025-03-13,Web,Individual,West Bengal,Electronics,Y,Rejected,2025-03-16,,,2025-03-22,Bank account name mismatch,0
+SA20625,2025-03-13,App,Private Limited,Uttar Pradesh,Grocery,Y,Live,2025-03-15,2025-03-25,2025-03-28,,,1
+SA20626,2025-03-13,Web,Proprietorship,Rajasthan,Beauty,Y,Live,2025-03-15,2025-03-18,2025-03-21,,,0
+SA20627,2025-03-13,App,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-03-15,2025-03-19,2025-03-21,,,0
+SA20628,2025-03-13,Web,Individual,Maharashtra,Electronics,Y,Live,2025-03-17,2025-03-19,2025-03-22,,,0
+SA20629,2025-03-14,Assisted,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-03-15,2025-03-22,2025-03-24,,,1
+SA20630,2025-03-14,Web,Proprietorship,Punjab,Grocery,Y,Rejected,2025-03-17,,,2025-03-26,Incomplete address,1
+SA20631,2025-03-14,Web,Individual,Gujarat,Electronics,Y,Rejected,2025-03-17,,,2025-03-25,Blurry or unreadable document,1
+SA20632,2025-03-14,App,Individual,Maharashtra,Beauty,N,Live,2025-03-15,2025-03-19,2025-03-22,,,0
+SA20633,2025-03-14,App,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-03-17,2025-03-20,2025-03-22,,,0
+SA20634,2025-03-14,Web,Individual,Tamil Nadu,Fashion,Y,Rejected,2025-03-17,,,2025-03-20,GSTIN mismatch,0
+SA20635,2025-03-14,Web,Private Limited,Tamil Nadu,Home & Kitchen,Y,Live,2025-03-19,2025-03-28,2025-04-01,,,0
+SA20636,2025-03-15,Web,Individual,Rajasthan,Fashion,Y,Live,2025-03-18,2025-03-21,2025-03-30,,,0
+SA20637,2025-03-15,Assisted,Proprietorship,Karnataka,Grocery,Y,Rejected,2025-03-16,,,2025-03-20,Incomplete address,0
+SA20638,2025-03-15,Assisted,Individual,Karnataka,Books,N,Live,2025-03-16,2025-03-19,2025-03-28,,,0
+SA20639,2025-03-15,App,Individual,Karnataka,Toys,Y,Rejected,2025-03-17,,,2025-03-20,Blurry or unreadable document,0
+SA20640,2025-03-15,Web,Individual,Karnataka,Fashion,Y,Withdrawn,,,,,,0
+SA20641,2025-03-16,Web,Private Limited,West Bengal,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20642,2025-03-16,Web,Individual,Karnataka,Fashion,Y,Rejected,2025-03-22,,,2025-04-04,Blurry or unreadable document,2
+SA20643,2025-03-16,Assisted,Proprietorship,Maharashtra,Books,N,Live,2025-03-17,2025-03-18,2025-03-21,,,0
+SA20644,2025-03-16,Web,Individual,Rajasthan,Fashion,Y,Live,2025-03-19,2025-03-23,2025-03-26,,,0
+SA20645,2025-03-16,Web,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-03-21,2025-03-29,2025-04-03,,,0
+SA20646,2025-03-16,Web,Proprietorship,Maharashtra,Toys,Y,Live,2025-03-18,2025-03-22,2025-03-26,,,0
+SA20647,2025-03-16,Web,Individual,Tamil Nadu,Fashion,N,Rejected,2025-04-01,,,2025-04-05,Incomplete address,0
+SA20648,2025-03-16,Web,Proprietorship,Telangana,Books,N,Live,2025-03-17,2025-03-20,2025-03-26,,,0
+SA20649,2025-03-16,Web,Proprietorship,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA20650,2025-03-16,App,Individual,Tamil Nadu,Grocery,N,Rejected,2025-03-23,,,2025-03-24,Bank account name mismatch,0
+SA20651,2025-03-16,Assisted,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-03-16,2025-03-22,2025-04-02,,,0
+SA20652,2025-03-17,Web,Proprietorship,Delhi,Beauty,Y,Live,2025-03-20,2025-03-22,2025-03-24,,,0
+SA20653,2025-03-17,Web,Private Limited,Rajasthan,Home & Kitchen,Y,Rejected,2025-03-20,,,2025-03-24,Incomplete address,0
+SA20654,2025-03-17,Assisted,Proprietorship,Maharashtra,Toys,Y,Live,2025-03-18,2025-03-24,2025-03-26,,,0
+SA20655,2025-03-17,App,Private Limited,Uttar Pradesh,Books,N,Live,2025-03-19,2025-03-23,2025-03-24,,,0
+SA20656,2025-03-17,App,Individual,Tamil Nadu,Beauty,Y,Live,2025-03-21,2025-03-24,2025-03-25,,,0
+SA20657,2025-03-17,App,Private Limited,Delhi,Fashion,Y,Live,2025-03-19,2025-03-28,2025-03-30,,,0
+SA20658,2025-03-17,Web,Private Limited,West Bengal,Beauty,Y,Live,2025-03-21,2025-03-28,2025-03-30,,,0
+SA20659,2025-03-17,App,Individual,Karnataka,Home & Kitchen,N,Live,2025-03-19,2025-03-25,2025-03-27,,,0
+SA20660,2025-03-17,Web,Individual,Gujarat,Beauty,Y,Withdrawn,,,,,,0
+SA20661,2025-03-17,Web,Individual,Uttar Pradesh,Grocery,Y,Withdrawn,,,,,,0
+SA20662,2025-03-17,App,Proprietorship,Telangana,Electronics,Y,Live,2025-03-20,2025-03-25,2025-03-30,,,0
+SA20663,2025-03-17,Web,Individual,Maharashtra,Fashion,Y,Live,2025-03-18,2025-03-20,2025-03-26,,,0
+SA20664,2025-03-17,Web,Proprietorship,Delhi,Grocery,Y,Live,2025-03-20,2025-03-22,2025-03-24,,,0
+SA20665,2025-03-18,Assisted,Proprietorship,Karnataka,Beauty,Y,Live,2025-03-19,2025-03-27,2025-04-02,,,0
+SA20666,2025-03-18,Assisted,Individual,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA20667,2025-03-18,App,Individual,West Bengal,Electronics,Y,Live,2025-03-20,2025-03-22,2025-03-28,,,0
+SA20668,2025-03-18,App,Individual,Punjab,Electronics,Y,Live,2025-03-20,2025-03-26,2025-03-27,,,0
+SA20669,2025-03-18,Web,Proprietorship,Tamil Nadu,Fashion,Y,Withdrawn,,,,,,0
+SA20670,2025-03-18,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Rejected,2025-03-22,,,2025-03-27,Blurry or unreadable document,0
+SA20671,2025-03-18,Web,Proprietorship,Maharashtra,Beauty,Y,Withdrawn,,,,,,0
+SA20672,2025-03-18,Web,Individual,Maharashtra,Fashion,Y,Live,2025-03-20,2025-03-26,2025-03-30,,,0
+SA20673,2025-03-18,Web,Individual,Maharashtra,Toys,Y,Rejected,2025-03-25,,,2025-04-04,GSTIN mismatch,2
+SA20674,2025-03-19,Web,Proprietorship,Gujarat,Electronics,Y,Rejected,2025-03-20,,,2025-03-29,Bank account name mismatch,0
+SA20675,2025-03-19,Web,Individual,Karnataka,Fashion,Y,Live,2025-03-21,2025-03-25,2025-03-28,,,0
+SA20676,2025-03-19,Web,Individual,Tamil Nadu,Home & Kitchen,Y,Live,2025-03-22,2025-03-27,2025-03-29,,,0
+SA20677,2025-03-19,Web,Individual,Tamil Nadu,Books,N,Live,2025-03-21,2025-03-23,2025-03-25,,,0
+SA20678,2025-03-19,App,Private Limited,Karnataka,Fashion,Y,Rejected,2025-03-22,,,2025-04-02,Bank account name mismatch,1
+SA20679,2025-03-19,App,Proprietorship,Karnataka,Beauty,Y,Rejected,2025-03-21,,,2025-03-28,Bank account name mismatch,1
+SA20680,2025-03-19,App,Proprietorship,West Bengal,Fashion,Y,Live,2025-03-21,2025-03-23,2025-03-26,,,0
+SA20681,2025-03-19,Web,Individual,Telangana,Home & Kitchen,Y,Live,2025-03-24,2025-03-27,2025-03-29,,,0
+SA20682,2025-03-19,Web,Individual,West Bengal,Electronics,N,Live,2025-03-20,2025-03-23,2025-03-26,,,0
+SA20683,2025-03-19,Assisted,Proprietorship,Uttar Pradesh,Beauty,Y,Live,2025-03-21,2025-03-25,2025-03-30,,,0
+SA20684,2025-03-19,Assisted,Private Limited,Delhi,Electronics,Y,Live,2025-03-20,2025-03-24,2025-03-26,,,0
+SA20685,2025-03-19,App,Proprietorship,Maharashtra,Beauty,Y,Live,2025-03-22,2025-03-25,2025-04-01,,,0
+SA20686,2025-03-20,App,Proprietorship,Gujarat,Books,N,Live,2025-03-21,2025-03-26,2025-03-28,,,0
+SA20687,2025-03-20,Assisted,Individual,Karnataka,Fashion,N,Live,2025-03-21,2025-03-24,2025-03-27,,,0
+SA20688,2025-03-20,Web,Individual,Tamil Nadu,Home & Kitchen,N,Live,2025-03-24,2025-03-27,2025-03-29,,,0
+SA20689,2025-03-20,Web,Proprietorship,Delhi,Beauty,Y,Rejected,2025-03-23,,,2025-03-29,Incomplete address,1
+SA20690,2025-03-20,Web,Private Limited,Maharashtra,Fashion,Y,Live,2025-03-25,2025-03-28,2025-04-01,,,0
+SA20691,2025-03-20,Web,Individual,Uttar Pradesh,Fashion,N,Live,2025-03-23,2025-03-25,2025-03-31,,,0
+SA20692,2025-03-20,Web,Individual,Delhi,Fashion,Y,Live,2025-03-24,2025-03-28,2025-03-31,,,0
+SA20693,2025-03-21,App,Proprietorship,Gujarat,Books,N,Live,2025-03-22,2025-03-25,2025-03-27,,,0
+SA20694,2025-03-21,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-03-25,,,2025-04-04,Blurry or unreadable document,1
+SA20695,2025-03-21,Assisted,Individual,Telangana,Home & Kitchen,Y,Rejected,2025-03-22,,,2025-03-27,Blurry or unreadable document,1
+SA20696,2025-03-21,Web,Private Limited,Karnataka,Beauty,Y,Rejected,2025-03-27,,,2025-03-31,Blurry or unreadable document,0
+SA20697,2025-03-21,Assisted,Private Limited,Gujarat,Fashion,Y,Live,2025-03-22,2025-04-04,2025-04-09,,,0
+SA20698,2025-03-21,Web,Proprietorship,Telangana,Grocery,Y,Live,2025-03-26,2025-04-03,2025-04-05,,,0
+SA20699,2025-03-21,Assisted,Individual,Maharashtra,Books,N,Live,2025-03-22,2025-03-27,2025-03-31,,,0
+SA20700,2025-03-21,App,Private Limited,Karnataka,Fashion,Y,Live,2025-03-23,2025-03-28,2025-04-02,,,0
+SA20701,2025-03-21,Web,Individual,Gujarat,Beauty,Y,Live,2025-03-25,2025-03-27,2025-03-29,,,0
+SA20702,2025-03-21,Web,Private Limited,Rajasthan,Beauty,Y,Withdrawn,,,,,,0
+SA20703,2025-03-22,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-03-26,,,2025-04-03,Blurry or unreadable document,0
+SA20704,2025-03-22,Web,Private Limited,Telangana,Home & Kitchen,Y,Live,2025-03-24,2025-03-27,2025-03-29,,,0
+SA20705,2025-03-22,App,Individual,Rajasthan,Electronics,N,Live,2025-03-24,2025-03-26,2025-03-29,,,0
+SA20706,2025-03-22,Web,Proprietorship,West Bengal,Fashion,Y,Live,2025-03-26,2025-04-02,2025-04-04,,,0
+SA20707,2025-03-22,Assisted,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-03-23,2025-03-28,2025-04-05,,,0
+SA20708,2025-03-22,Web,Private Limited,Maharashtra,Beauty,Y,Live,2025-03-24,2025-03-27,2025-03-29,,,0
+SA20709,2025-03-22,App,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-03-24,2025-03-26,2025-03-29,,,0
+SA20710,2025-03-23,Web,Individual,Karnataka,Fashion,N,Live,2025-03-24,2025-04-01,2025-04-02,,,1
+SA20711,2025-03-23,App,Private Limited,Rajasthan,Grocery,Y,Live,2025-03-26,2025-03-30,2025-04-05,,,0
+SA20712,2025-03-23,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-03-26,2025-03-29,2025-03-30,,,0
+SA20713,2025-03-23,Web,Proprietorship,Punjab,Home & Kitchen,Y,Rejected,2025-03-26,,,2025-04-02,Blurry or unreadable document,1
+SA20714,2025-03-23,App,Proprietorship,Punjab,Home & Kitchen,Y,Live,2025-03-26,2025-03-28,2025-03-30,,,0
+SA20715,2025-03-23,App,Private Limited,Delhi,Fashion,Y,Rejected,2025-03-27,,,2025-04-01,Incomplete address,0
+SA20716,2025-03-23,Web,Individual,Tamil Nadu,Home & Kitchen,N,Live,2025-04-02,2025-04-07,2025-04-09,,,0
+SA20717,2025-03-23,Web,Proprietorship,Karnataka,Fashion,Y,Live,2025-03-26,2025-03-30,2025-04-02,,,0
+SA20718,2025-03-23,App,Individual,West Bengal,Home & Kitchen,N,Live,2025-03-25,2025-03-29,2025-04-02,,,0
+SA20719,2025-03-23,Assisted,Proprietorship,Delhi,Beauty,Y,Live,2025-03-25,2025-03-27,2025-03-29,,,0
+SA20720,2025-03-23,Web,Individual,Gujarat,Beauty,Y,Live,2025-03-28,2025-04-04,2025-04-09,,,0
+SA20721,2025-03-23,Web,Private Limited,Tamil Nadu,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20722,2025-03-24,Web,Proprietorship,Maharashtra,Electronics,Y,Live,2025-03-26,2025-03-30,2025-04-03,,,0
+SA20723,2025-03-24,Web,Proprietorship,Gujarat,Fashion,Y,Rejected,2025-03-29,,,2025-04-01,Bank account name mismatch,0
+SA20724,2025-03-24,App,Private Limited,Tamil Nadu,Home & Kitchen,Y,Live,2025-03-25,2025-03-27,2025-03-30,,,0
+SA20725,2025-03-24,Assisted,Proprietorship,Karnataka,Fashion,Y,Live,2025-03-25,2025-03-30,2025-04-03,,,0
+SA20726,2025-03-24,Web,Individual,Gujarat,Fashion,N,Rejected,2025-03-28,,,2025-04-03,Blurry or unreadable document,0
+SA20727,2025-03-24,Web,Proprietorship,Maharashtra,Electronics,Y,Live,2025-03-25,2025-03-31,2025-04-03,,,1
+SA20728,2025-03-24,App,Individual,Gujarat,Home & Kitchen,N,Rejected,2025-03-26,,,2025-03-30,Blurry or unreadable document,0
+SA20729,2025-03-25,Assisted,Private Limited,Maharashtra,Fashion,Y,Live,2025-03-27,2025-03-30,2025-04-04,,,0
+SA20730,2025-03-25,Web,Proprietorship,Uttar Pradesh,Grocery,Y,Live,2025-03-28,2025-03-31,2025-04-05,,,0
+SA20731,2025-03-25,Web,Proprietorship,Rajasthan,Electronics,Y,Live,2025-03-31,2025-04-02,2025-04-04,,,0
+SA20732,2025-03-25,Web,Individual,Maharashtra,Grocery,Y,Live,2025-03-29,2025-04-03,2025-04-09,,,0
+SA20733,2025-03-25,Assisted,Individual,West Bengal,Electronics,N,Live,2025-03-26,2025-03-30,2025-04-02,,,0
+SA20734,2025-03-25,App,Individual,Delhi,Electronics,Y,Live,2025-03-27,2025-03-29,2025-03-30,,,0
+SA20735,2025-03-25,Web,Individual,Karnataka,Beauty,Y,Rejected,2025-03-27,,,2025-03-31,Incomplete address,0
+SA20736,2025-03-25,Web,Individual,West Bengal,Toys,Y,Rejected,2025-03-30,,,2025-04-02,Incomplete address,0
+SA20737,2025-03-25,Web,Proprietorship,Gujarat,Fashion,Y,Rejected,2025-03-27,,,2025-03-30,Restricted category,0
+SA20738,2025-03-25,App,Proprietorship,Punjab,Books,N,Live,2025-03-27,2025-04-04,2025-04-06,,,1
+SA20739,2025-03-26,App,Individual,Maharashtra,Home & Kitchen,N,Live,2025-03-28,2025-03-31,2025-04-04,,,0
+SA20740,2025-03-26,App,Proprietorship,Delhi,Fashion,Y,Live,2025-03-29,2025-04-04,2025-04-05,,,1
+SA20741,2025-03-26,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-03-29,2025-04-01,2025-04-03,,,0
+SA20742,2025-03-26,Web,Proprietorship,Rajasthan,Electronics,Y,Live,2025-03-27,2025-03-30,2025-04-01,,,0
+SA20743,2025-03-26,Web,Proprietorship,Delhi,Beauty,Y,Rejected,2025-03-30,,,2025-04-06,Incomplete address,1
+SA20744,2025-03-26,App,Individual,Delhi,Home & Kitchen,N,Live,2025-03-27,2025-04-02,2025-04-04,,,0
+SA20745,2025-03-26,Assisted,Individual,West Bengal,Toys,N,Live,2025-03-26,2025-03-31,2025-04-03,,,0
+SA20746,2025-03-26,Web,Private Limited,Maharashtra,Fashion,Y,Rejected,2025-03-30,,,2025-04-02,Restricted category,0
+SA20747,2025-03-26,App,Proprietorship,Rajasthan,Home & Kitchen,Y,Live,2025-03-28,2025-04-04,2025-04-05,,,0
+SA20748,2025-03-26,Web,Individual,Maharashtra,Fashion,N,Rejected,2025-03-28,,,2025-04-03,Blurry or unreadable document,0
+SA20749,2025-03-26,Web,Proprietorship,Punjab,Fashion,Y,Live,2025-03-29,2025-04-05,2025-04-11,,,1
+SA20750,2025-03-26,Assisted,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-03-28,2025-04-01,2025-04-03,,,0
+SA20751,2025-03-27,Web,Proprietorship,Gujarat,Fashion,Y,Live,2025-03-29,2025-04-01,2025-04-06,,,0
+SA20752,2025-03-27,App,Individual,Delhi,Electronics,Y,Live,2025-03-30,2025-04-04,2025-04-08,,,0
+SA20753,2025-03-27,Assisted,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-03-28,2025-04-03,2025-04-04,,,0
+SA20754,2025-03-27,Web,Proprietorship,West Bengal,Beauty,Y,Live,2025-03-30,2025-04-14,2025-04-16,,,0
+SA20755,2025-03-27,Web,Proprietorship,Punjab,Fashion,Y,Live,2025-03-29,2025-04-01,2025-04-07,,,0
+SA20756,2025-03-27,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Withdrawn,,,,,,0
+SA20757,2025-03-27,Web,Individual,Karnataka,Home & Kitchen,N,Rejected,2025-03-31,,,2025-04-04,Bank account name mismatch,0
+SA20758,2025-03-27,Web,Individual,Uttar Pradesh,Fashion,Y,Rejected,2025-03-30,,,2025-04-03,Bank account name mismatch,0
+SA20759,2025-03-27,Web,Proprietorship,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA20760,2025-03-28,App,Individual,Rajasthan,Fashion,N,Rejected,2025-03-30,,,2025-04-04,Duplicate application,0
+SA20761,2025-03-28,App,Individual,Tamil Nadu,Beauty,N,Withdrawn,,,,,,0
+SA20762,2025-03-28,Assisted,Private Limited,Maharashtra,Fashion,Y,Live,2025-03-29,2025-04-02,2025-04-04,,,0
+SA20763,2025-03-28,Web,Individual,Uttar Pradesh,Beauty,N,Live,2025-03-31,2025-04-05,2025-04-08,,,0
+SA20764,2025-03-28,App,Proprietorship,Karnataka,Electronics,Y,Live,2025-03-30,2025-04-01,2025-04-09,,,0
+SA20765,2025-03-28,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20766,2025-03-28,App,Proprietorship,West Bengal,Fashion,Y,Live,2025-04-01,2025-04-03,2025-04-06,,,0
+SA20767,2025-03-29,Web,Individual,Telangana,Electronics,Y,Live,2025-04-01,2025-04-04,2025-04-08,,,0
+SA20768,2025-03-29,Web,Individual,Tamil Nadu,Fashion,Y,Live,2025-03-31,2025-04-06,2025-04-08,,,0
+SA20769,2025-03-29,App,Individual,Maharashtra,Beauty,Y,Live,2025-04-01,2025-04-07,2025-04-08,,,0
+SA20770,2025-03-29,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-04-02,2025-04-05,2025-04-09,,,0
+SA20771,2025-03-29,Web,Individual,Gujarat,Electronics,Y,Live,2025-04-03,2025-04-07,2025-04-15,,,0
+SA20772,2025-03-29,Web,Individual,Tamil Nadu,Electronics,N,Live,2025-04-02,2025-04-05,2025-04-09,,,0
+SA20773,2025-03-29,Web,Proprietorship,Rajasthan,Electronics,Y,Live,2025-04-01,2025-04-02,2025-04-03,,,0
+SA20774,2025-03-30,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-04-02,2025-04-09,2025-04-15,,,0
+SA20775,2025-03-30,App,Private Limited,Delhi,Home & Kitchen,Y,Live,2025-04-01,2025-04-06,2025-04-08,,,0
+SA20776,2025-03-30,Assisted,Proprietorship,Maharashtra,Fashion,Y,Live,2025-04-01,2025-04-04,2025-04-06,,,0
+SA20777,2025-03-30,Web,Individual,Gujarat,Beauty,Y,Rejected,2025-04-03,,,2025-04-06,Blurry or unreadable document,0
+SA20778,2025-03-30,App,Individual,Uttar Pradesh,Electronics,N,Live,2025-04-05,2025-04-16,2025-04-20,,,0
+SA20779,2025-03-30,Assisted,Proprietorship,West Bengal,Fashion,Y,Live,2025-03-31,2025-04-03,2025-04-06,,,0
+SA20780,2025-03-30,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-04-02,2025-04-06,2025-04-09,,,0
+SA20781,2025-03-30,Web,Proprietorship,Gujarat,Fashion,Y,Live,2025-04-03,2025-04-11,2025-04-15,,,1
+SA20782,2025-03-30,Web,Private Limited,Maharashtra,Home & Kitchen,Y,Rejected,2025-04-01,,,2025-04-09,Incomplete address,0
+SA20783,2025-03-31,Web,Proprietorship,Rajasthan,Grocery,Y,Rejected,2025-04-07,,,2025-04-10,Blurry or unreadable document,0
+SA20784,2025-03-31,Web,Individual,Karnataka,Books,N,Rejected,2025-04-02,,,2025-04-13,Incomplete address,2
+SA20785,2025-03-31,App,Private Limited,Rajasthan,Electronics,Y,Withdrawn,,,,,,0
+SA20786,2025-03-31,Web,Individual,Maharashtra,Grocery,Y,Rejected,2025-04-01,,,2025-04-06,Blurry or unreadable document,0
+SA20787,2025-03-31,App,Individual,Telangana,Grocery,Y,Rejected,2025-04-02,,,2025-04-05,Incomplete address,0
+SA20788,2025-03-31,Web,Proprietorship,Karnataka,Fashion,Y,Live,2025-04-02,2025-04-06,2025-04-10,,,0
+SA20789,2025-03-31,Web,Proprietorship,Tamil Nadu,Books,N,Live,2025-04-02,2025-04-05,2025-04-07,,,0
+SA20790,2025-03-31,Web,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-04-02,2025-04-09,2025-04-10,,,0
+SA20791,2025-04-01,App,Private Limited,Gujarat,Fashion,Y,Live,2025-04-03,2025-04-14,2025-04-16,,,0
+SA20792,2025-04-01,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Withdrawn,,,,,,0
+SA20793,2025-04-01,App,Individual,Gujarat,Fashion,N,Live,2025-04-03,2025-04-14,2025-04-18,,,0
+SA20794,2025-04-01,App,Proprietorship,Rajasthan,Electronics,Y,Rejected,2025-04-04,,,2025-04-13,Blurry or unreadable document,0
+SA20795,2025-04-01,Web,Individual,Uttar Pradesh,Fashion,N,Live,2025-04-03,2025-04-08,2025-04-10,,,0
+SA20796,2025-04-01,App,Individual,Karnataka,Grocery,Y,Rejected,2025-04-03,,,2025-04-07,GSTIN mismatch,0
+SA20797,2025-04-01,Web,Individual,Punjab,Fashion,Y,Live,2025-04-03,2025-04-12,2025-04-15,,,0
+SA20798,2025-04-02,App,Individual,Gujarat,Fashion,Y,Live,2025-04-05,2025-04-11,2025-04-15,,,0
+SA20799,2025-04-02,Web,Individual,West Bengal,Grocery,Y,Rejected,2025-04-05,,,2025-04-14,GSTIN mismatch,0
+SA20800,2025-04-02,Web,Proprietorship,Uttar Pradesh,Electronics,Y,Live,2025-04-09,2025-05-05,2025-05-09,,,0
+SA20801,2025-04-02,App,Individual,Delhi,Home & Kitchen,Y,Live,2025-04-04,2025-04-10,2025-04-11,,,0
+SA20802,2025-04-02,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-04-05,2025-04-12,2025-04-16,,,0
+SA20803,2025-04-02,Web,Individual,Gujarat,Home & Kitchen,N,Live,2025-04-04,2025-04-12,2025-04-14,,,0
+SA20804,2025-04-02,Web,Proprietorship,Maharashtra,Electronics,Y,Rejected,2025-04-09,,,2025-04-30,GSTIN mismatch,1
+SA20805,2025-04-02,App,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-04-04,2025-04-10,2025-04-16,,,0
+SA20806,2025-04-02,Assisted,Individual,Karnataka,Home & Kitchen,N,Live,2025-04-03,2025-04-09,2025-04-12,,,0
+SA20807,2025-04-02,App,Individual,Telangana,Fashion,Y,Rejected,2025-04-04,,,2025-04-15,Bank account name mismatch,0
+SA20808,2025-04-02,Web,Individual,Karnataka,Electronics,Y,Live,2025-04-07,2025-04-13,2025-04-15,,,0
+SA20809,2025-04-02,Web,Proprietorship,Punjab,Beauty,Y,Rejected,2025-04-05,,,2025-04-22,Duplicate application,0
+SA20810,2025-04-02,Web,Proprietorship,West Bengal,Electronics,Y,Live,2025-04-07,2025-04-16,2025-04-18,,,0
+SA20811,2025-04-02,App,Proprietorship,Karnataka,Beauty,Y,Live,2025-04-04,2025-04-19,2025-04-21,,,0
+SA20812,2025-04-03,App,Proprietorship,Punjab,Books,N,Rejected,2025-04-05,,,2025-04-11,Incomplete address,0
+SA20813,2025-04-03,Web,Proprietorship,Maharashtra,Electronics,Y,Live,2025-04-05,2025-04-15,2025-04-16,,,0
+SA20814,2025-04-03,Web,Proprietorship,Gujarat,Electronics,Y,Rejected,2025-04-05,,,2025-04-21,Bank account name mismatch,0
+SA20815,2025-04-03,App,Proprietorship,Gujarat,Fashion,Y,Withdrawn,,,,,,0
+SA20816,2025-04-03,App,Individual,Gujarat,Fashion,N,Live,2025-04-04,2025-04-08,2025-04-13,,,0
+SA20817,2025-04-03,Web,Proprietorship,Delhi,Fashion,Y,Live,2025-04-08,2025-04-16,2025-04-20,,,0
+SA20818,2025-04-03,Web,Proprietorship,Punjab,Toys,Y,Live,2025-04-06,2025-04-24,2025-04-27,,,0
+SA20819,2025-04-03,App,Proprietorship,Delhi,Toys,Y,Live,2025-04-04,2025-05-07,2025-05-10,,,0
+SA20820,2025-04-03,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-04-06,2025-04-13,2025-04-20,,,0
+SA20821,2025-04-03,Web,Individual,Maharashtra,Fashion,N,Live,2025-04-07,2025-04-14,2025-04-17,,,1
+SA20822,2025-04-04,Web,Private Limited,Tamil Nadu,Fashion,Y,Live,2025-04-08,2025-04-13,2025-04-15,,,0
+SA20823,2025-04-04,Assisted,Proprietorship,Gujarat,Grocery,Y,Live,2025-04-05,2025-04-13,2025-04-17,,,0
+SA20824,2025-04-04,Web,Proprietorship,Uttar Pradesh,Toys,Y,Rejected,2025-04-09,,,2025-04-25,Blurry or unreadable document,2
+SA20825,2025-04-04,App,Individual,Maharashtra,Fashion,Y,Rejected,2025-04-07,,,2025-04-22,Bank account name mismatch,2
+SA20826,2025-04-04,Web,Proprietorship,Punjab,Grocery,Y,Live,2025-04-07,2025-04-11,2025-04-14,,,0
+SA20827,2025-04-04,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-04-05,2025-04-17,2025-04-22,,,1
+SA20828,2025-04-04,Assisted,Individual,Delhi,Books,N,Live,2025-04-05,2025-04-07,2025-04-13,,,0
+SA20829,2025-04-04,Assisted,Individual,Karnataka,Electronics,Y,Live,2025-04-05,2025-04-17,2025-04-20,,,0
+SA20830,2025-04-04,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Rejected,2025-04-07,,,2025-04-16,Restricted category,0
+SA20831,2025-04-04,Web,Proprietorship,Uttar Pradesh,Toys,Y,Live,2025-04-08,2025-04-12,2025-04-14,,,0
+SA20832,2025-04-05,Web,Private Limited,Maharashtra,Fashion,Y,Live,2025-04-08,2025-04-21,2025-04-26,,,1
+SA20833,2025-04-05,Web,Individual,Maharashtra,Fashion,N,Live,2025-04-07,2025-04-16,2025-04-19,,,0
+SA20834,2025-04-05,App,Individual,Punjab,Beauty,N,Live,2025-04-06,2025-04-19,2025-04-27,,,0
+SA20835,2025-04-05,Web,Proprietorship,Maharashtra,Books,N,Live,2025-04-07,2025-04-21,2025-04-28,,,0
+SA20836,2025-04-05,Web,Individual,Delhi,Electronics,Y,Rejected,2025-04-07,,,2025-04-13,Duplicate application,0
+SA20837,2025-04-05,Web,Individual,Maharashtra,Electronics,N,Live,2025-04-07,2025-04-26,2025-04-27,,,1
+SA20838,2025-04-05,Web,Individual,Rajasthan,Electronics,N,Live,2025-04-11,2025-04-23,2025-05-06,,,1
+SA20839,2025-04-05,Assisted,Proprietorship,Punjab,Grocery,Y,Rejected,2025-04-06,,,2025-04-12,Blurry or unreadable document,0
+SA20840,2025-04-05,Web,Individual,Telangana,Grocery,N,Rejected,2025-04-08,,,2025-04-23,Blurry or unreadable document,2
+SA20841,2025-04-05,App,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-04-09,2025-04-21,2025-04-24,,,0
+SA20842,2025-04-05,Web,Private Limited,Tamil Nadu,Fashion,Y,Withdrawn,,,,,,0
+SA20843,2025-04-06,Assisted,Individual,Tamil Nadu,Electronics,N,Live,2025-04-07,2025-04-15,2025-04-17,,,0
+SA20844,2025-04-06,Web,Individual,Karnataka,Fashion,Y,Live,2025-04-09,2025-04-20,2025-04-22,,,0
+SA20845,2025-04-06,App,Proprietorship,Karnataka,Grocery,Y,Live,2025-04-09,2025-04-14,2025-04-17,,,0
+SA20846,2025-04-06,App,Proprietorship,Karnataka,Fashion,Y,Live,2025-04-09,2025-04-17,2025-04-25,,,0
+SA20847,2025-04-06,Assisted,Individual,Karnataka,Books,N,Live,2025-04-08,2025-04-14,2025-04-18,,,1
+SA20848,2025-04-06,Assisted,Individual,Uttar Pradesh,Fashion,Y,Live,2025-04-07,2025-04-09,2025-04-12,,,0
+SA20849,2025-04-06,Web,Proprietorship,Karnataka,Fashion,Y,Live,2025-04-08,2025-04-12,2025-04-16,,,0
+SA20850,2025-04-06,App,Private Limited,Karnataka,Home & Kitchen,Y,Live,2025-04-07,2025-04-10,2025-04-12,,,0
+SA20851,2025-04-06,App,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-04-10,2025-04-19,2025-04-25,,,1
+SA20852,2025-04-07,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-04-10,2025-04-15,2025-04-20,,,0
+SA20853,2025-04-07,App,Individual,West Bengal,Grocery,Y,Rejected,2025-04-11,,,2025-04-19,Blurry or unreadable document,0
+SA20854,2025-04-07,App,Proprietorship,Punjab,Electronics,Y,Rejected,2025-04-08,,,2025-04-13,Incomplete address,0
+SA20855,2025-04-07,App,Individual,Karnataka,Home & Kitchen,Y,Rejected,2025-04-09,,,2025-04-15,Bank account name mismatch,1
+SA20856,2025-04-07,Web,Individual,Maharashtra,Fashion,Y,Live,2025-04-09,2025-04-13,2025-04-18,,,0
+SA20857,2025-04-07,App,Private Limited,West Bengal,Electronics,Y,Live,2025-04-12,2025-04-18,2025-04-20,,,0
+SA20858,2025-04-08,Web,Individual,Karnataka,Books,N,Rejected,2025-04-12,,,2025-04-23,Bank account name mismatch,0
+SA20859,2025-04-08,Web,Individual,West Bengal,Fashion,Y,Live,2025-04-12,2025-04-23,2025-04-30,,,0
+SA20860,2025-04-08,Web,Proprietorship,Uttar Pradesh,Electronics,Y,Rejected,2025-04-13,,,2025-04-30,Restricted category,0
+SA20861,2025-04-08,Web,Individual,West Bengal,Electronics,Y,Live,2025-04-10,2025-04-17,2025-04-22,,,0
+SA20862,2025-04-09,App,Private Limited,Maharashtra,Toys,Y,Live,2025-04-11,2025-04-16,2025-04-22,,,0
+SA20863,2025-04-09,App,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-04-10,2025-04-15,2025-04-19,,,0
+SA20864,2025-04-09,App,Individual,Gujarat,Grocery,Y,Live,2025-04-11,2025-04-23,2025-04-26,,,1
+SA20865,2025-04-09,Web,Proprietorship,Rajasthan,Home & Kitchen,Y,Rejected,2025-04-11,,,2025-04-15,GSTIN mismatch,0
+SA20866,2025-04-09,Web,Individual,Delhi,Home & Kitchen,N,Live,2025-04-13,2025-04-19,2025-04-22,,,0
+SA20867,2025-04-09,Web,Private Limited,Uttar Pradesh,Home & Kitchen,Y,Live,2025-04-12,2025-04-19,2025-04-22,,,0
+SA20868,2025-04-09,Assisted,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-04-11,2025-04-24,2025-04-28,,,0
+SA20869,2025-04-09,App,Proprietorship,West Bengal,Grocery,Y,Rejected,2025-04-10,,,2025-04-16,Restricted category,0
+SA20870,2025-04-09,Web,Individual,Maharashtra,Toys,Y,Live,2025-04-11,2025-04-15,2025-04-19,,,0
+SA20871,2025-04-09,Web,Individual,Punjab,Home & Kitchen,Y,Rejected,2025-04-10,,,2025-04-18,Blurry or unreadable document,0
+SA20872,2025-04-09,App,Individual,Maharashtra,Fashion,N,Live,2025-04-13,2025-04-24,2025-04-27,,,0
+SA20873,2025-04-09,App,Proprietorship,West Bengal,Grocery,Y,Live,2025-04-15,2025-04-26,2025-04-28,,,1
+SA20874,2025-04-09,App,Proprietorship,Uttar Pradesh,Toys,Y,Rejected,2025-04-11,,,2025-04-21,Blurry or unreadable document,2
+SA20875,2025-04-09,Assisted,Individual,Tamil Nadu,Beauty,N,Live,2025-04-10,2025-04-18,2025-04-27,,,0
+SA20876,2025-04-09,App,Individual,Tamil Nadu,Fashion,Y,Rejected,2025-04-11,,,2025-04-24,GSTIN mismatch,2
+SA20877,2025-04-09,App,Individual,Maharashtra,Books,N,Live,2025-04-10,2025-04-20,2025-04-30,,,0
+SA20878,2025-04-09,Web,Private Limited,Tamil Nadu,Fashion,Y,Live,2025-04-12,2025-04-22,2025-04-25,,,1
+SA20879,2025-04-10,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-04-15,2025-04-18,2025-04-20,,,0
+SA20880,2025-04-10,Web,Proprietorship,Delhi,Toys,Y,Live,2025-04-15,2025-04-17,2025-04-18,,,0
+SA20881,2025-04-10,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-04-14,2025-04-23,2025-04-27,,,0
+SA20882,2025-04-10,App,Individual,Gujarat,Electronics,Y,Live,2025-04-12,2025-04-19,2025-04-21,,,0
+SA20883,2025-04-10,Assisted,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-04-11,2025-04-27,2025-05-01,,,0
+SA20884,2025-04-10,Web,Private Limited,Maharashtra,Beauty,Y,Live,2025-04-14,2025-04-27,2025-05-01,,,0
+SA20885,2025-04-10,App,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-04-13,2025-04-18,2025-04-20,,,0
+SA20886,2025-04-10,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-04-14,2025-04-23,2025-04-24,,,0
+SA20887,2025-04-10,App,Private Limited,Tamil Nadu,Fashion,Y,Live,2025-04-11,2025-04-19,2025-04-26,,,0
+SA20888,2025-04-10,Assisted,Individual,Maharashtra,Grocery,N,Live,2025-04-10,2025-04-18,2025-04-21,,,0
+SA20889,2025-04-10,Web,Individual,Maharashtra,Fashion,N,Live,2025-04-15,2025-04-20,2025-04-26,,,0
+SA20890,2025-04-10,Web,Individual,Maharashtra,Fashion,Y,Rejected,2025-04-12,,,2025-04-18,Incomplete address,1
+SA20891,2025-04-10,Web,Private Limited,Telangana,Books,N,Rejected,2025-04-11,,,2025-04-22,Incomplete address,2
+SA20892,2025-04-10,Web,Individual,Rajasthan,Grocery,Y,Rejected,2025-04-14,,,2025-04-21,GSTIN mismatch,0
+SA20893,2025-04-11,Assisted,Individual,Tamil Nadu,Home & Kitchen,Y,Live,2025-04-12,2025-04-23,2025-04-27,,,0
+SA20894,2025-04-11,Assisted,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-04-13,2025-05-08,2025-05-11,,,0
+SA20895,2025-04-11,App,Private Limited,Gujarat,Home & Kitchen,Y,Rejected,2025-04-13,,,2025-05-05,Duplicate application,0
+SA20896,2025-04-11,App,Individual,Karnataka,Grocery,Y,Live,2025-04-12,2025-04-24,2025-04-26,,,0
+SA20897,2025-04-11,Web,Individual,West Bengal,Grocery,N,Live,2025-04-12,2025-04-19,2025-04-21,,,0
+SA20898,2025-04-11,Web,Private Limited,Karnataka,Fashion,Y,Rejected,2025-04-14,,,2025-04-23,Restricted category,0
+SA20899,2025-04-12,Web,Proprietorship,West Bengal,Fashion,Y,Live,2025-04-18,2025-04-29,2025-05-02,,,0
+SA20900,2025-04-12,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20901,2025-04-12,App,Proprietorship,Maharashtra,Fashion,Y,Live,2025-04-14,2025-04-25,2025-04-29,,,0
+SA20902,2025-04-12,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-04-15,2025-04-19,2025-04-22,,,0
+SA20903,2025-04-12,Web,Individual,Punjab,Books,N,Live,2025-04-15,2025-04-27,2025-04-30,,,1
+SA20904,2025-04-12,Web,Individual,Delhi,Fashion,N,Live,2025-04-14,2025-04-17,2025-04-18,,,0
+SA20905,2025-04-12,Web,Individual,Maharashtra,Fashion,Y,Live,2025-04-19,2025-04-24,2025-04-30,,,0
+SA20906,2025-04-12,App,Individual,Maharashtra,Fashion,N,Rejected,2025-04-17,,,2025-04-22,Blurry or unreadable document,0
+SA20907,2025-04-12,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20908,2025-04-12,App,Proprietorship,Maharashtra,Home & Kitchen,Y,Rejected,2025-04-14,,,2025-04-22,GSTIN mismatch,0
+SA20909,2025-04-12,App,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-04-13,2025-04-19,2025-04-22,,,0
+SA20910,2025-04-12,Assisted,Individual,Rajasthan,Toys,Y,Rejected,2025-04-13,,,2025-04-24,GSTIN mismatch,2
+SA20911,2025-04-12,Assisted,Individual,Maharashtra,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20912,2025-04-12,Assisted,Proprietorship,Karnataka,Beauty,Y,Live,2025-04-14,2025-04-21,2025-04-24,,,0
+SA20913,2025-04-12,Web,Private Limited,Delhi,Fashion,Y,Live,2025-04-15,2025-04-21,2025-04-23,,,0
+SA20914,2025-04-13,App,Individual,Rajasthan,Fashion,Y,Rejected,2025-04-15,,,2025-04-26,Blurry or unreadable document,0
+SA20915,2025-04-13,App,Proprietorship,Rajasthan,Electronics,Y,Rejected,2025-04-16,,,2025-04-20,Blurry or unreadable document,0
+SA20916,2025-04-13,Assisted,Individual,Rajasthan,Electronics,N,Live,2025-04-14,2025-04-24,2025-04-26,,,0
+SA20917,2025-04-13,Web,Proprietorship,Rajasthan,Electronics,Y,Live,2025-04-15,2025-04-24,2025-04-27,,,0
+SA20918,2025-04-13,App,Individual,Uttar Pradesh,Fashion,N,Live,2025-04-14,2025-04-23,2025-04-26,,,0
+SA20919,2025-04-13,Web,Proprietorship,Delhi,Beauty,Y,Live,2025-04-14,2025-04-22,2025-04-29,,,0
+SA20920,2025-04-13,Web,Individual,Uttar Pradesh,Home & Kitchen,Y,Live,2025-04-23,2025-05-03,2025-05-06,,,0
+SA20921,2025-04-13,Assisted,Private Limited,Uttar Pradesh,Home & Kitchen,Y,Live,2025-04-14,2025-04-29,2025-05-04,,,0
+SA20922,2025-04-13,Web,Proprietorship,Uttar Pradesh,Books,N,Withdrawn,,,,,,0
+SA20923,2025-04-13,Web,Individual,Maharashtra,Toys,Y,Live,2025-04-17,2025-04-24,2025-04-26,,,0
+SA20924,2025-04-13,Assisted,Proprietorship,Maharashtra,Grocery,Y,Live,2025-04-15,2025-04-22,2025-04-23,,,0
+SA20925,2025-04-14,Web,Individual,West Bengal,Beauty,N,Rejected,2025-04-16,,,2025-04-19,GSTIN mismatch,0
+SA20926,2025-04-14,App,Individual,Tamil Nadu,Home & Kitchen,N,Live,2025-04-16,2025-04-24,2025-04-26,,,0
+SA20927,2025-04-14,Web,Proprietorship,Punjab,Home & Kitchen,Y,Live,2025-04-17,2025-04-23,2025-04-26,,,0
+SA20928,2025-04-14,Web,Individual,Tamil Nadu,Fashion,N,Live,2025-04-17,2025-04-27,2025-04-28,,,1
+SA20929,2025-04-14,Web,Individual,Rajasthan,Home & Kitchen,N,Live,2025-04-16,2025-05-06,2025-05-10,,,1
+SA20930,2025-04-14,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-04-19,2025-04-29,2025-05-04,,,0
+SA20931,2025-04-14,Web,Proprietorship,Rajasthan,Electronics,Y,Live,2025-04-19,2025-05-16,2025-05-20,,,0
+SA20932,2025-04-14,Web,Private Limited,Karnataka,Toys,Y,Live,2025-04-18,2025-04-26,2025-04-28,,,1
+SA20933,2025-04-14,App,Private Limited,Delhi,Fashion,Y,Live,2025-04-15,2025-04-20,2025-04-28,,,0
+SA20934,2025-04-14,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-04-16,2025-04-24,2025-04-26,,,0
+SA20935,2025-04-14,Web,Individual,Tamil Nadu,Beauty,N,Rejected,2025-04-17,,,2025-04-30,Blurry or unreadable document,1
+SA20936,2025-04-14,Assisted,Individual,Maharashtra,Books,N,Live,2025-04-14,2025-04-18,2025-04-21,,,0
+SA20937,2025-04-14,Web,Individual,Uttar Pradesh,Fashion,Y,Live,2025-04-16,2025-04-21,2025-04-23,,,0
+SA20938,2025-04-14,Assisted,Individual,Uttar Pradesh,Fashion,Y,Live,2025-04-15,2025-04-19,2025-04-21,,,0
+SA20939,2025-04-15,Web,Individual,Uttar Pradesh,Electronics,N,Live,2025-04-18,2025-04-23,2025-04-24,,,1
+SA20940,2025-04-15,Web,Private Limited,Uttar Pradesh,Fashion,Y,Live,2025-04-17,2025-04-24,2025-05-01,,,0
+SA20941,2025-04-15,Web,Private Limited,Uttar Pradesh,Home & Kitchen,Y,Live,2025-04-19,2025-04-27,2025-04-29,,,0
+SA20942,2025-04-15,App,Individual,Karnataka,Home & Kitchen,Y,Live,2025-04-17,2025-04-22,2025-04-24,,,0
+SA20943,2025-04-15,App,Individual,West Bengal,Electronics,N,Live,2025-04-17,2025-04-30,2025-05-02,,,0
+SA20944,2025-04-15,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-04-23,2025-04-27,2025-05-02,,,0
+SA20945,2025-04-15,Web,Individual,Karnataka,Beauty,Y,Live,2025-04-16,2025-04-19,2025-04-25,,,0
+SA20946,2025-04-15,App,Proprietorship,Tamil Nadu,Grocery,Y,Rejected,2025-04-18,,,2025-05-11,Bank account name mismatch,0
+SA20947,2025-04-15,Web,Individual,Maharashtra,Beauty,Y,Withdrawn,,,,,,0
+SA20948,2025-04-15,App,Proprietorship,Maharashtra,Electronics,Y,Live,2025-04-16,2025-04-27,2025-04-29,,,0
+SA20949,2025-04-16,Assisted,Individual,Tamil Nadu,Fashion,Y,Live,2025-04-18,2025-05-04,2025-05-07,,,0
+SA20950,2025-04-16,Web,Individual,Uttar Pradesh,Grocery,Y,Live,2025-04-19,2025-04-26,2025-05-02,,,0
+SA20951,2025-04-16,Web,Individual,Tamil Nadu,Electronics,Y,Rejected,2025-04-20,,,2025-04-26,Bank account name mismatch,0
+SA20952,2025-04-16,App,Private Limited,Rajasthan,Electronics,Y,Rejected,2025-04-21,,,2025-04-25,Duplicate application,0
+SA20953,2025-04-16,Web,Proprietorship,Karnataka,Fashion,Y,Live,2025-04-19,2025-04-26,2025-04-30,,,0
+SA20954,2025-04-16,App,Individual,Tamil Nadu,Fashion,Y,Live,2025-04-19,2025-04-23,2025-04-24,,,0
+SA20955,2025-04-16,Web,Proprietorship,West Bengal,Electronics,Y,Rejected,2025-04-21,,,2025-04-30,Blurry or unreadable document,1
+SA20956,2025-04-16,Assisted,Individual,Delhi,Home & Kitchen,Y,Live,2025-04-17,2025-04-25,2025-04-30,,,0
+SA20957,2025-04-16,App,Proprietorship,Rajasthan,Grocery,Y,Live,2025-04-20,2025-04-30,2025-05-02,,,1
+SA20958,2025-04-16,App,Individual,Karnataka,Home & Kitchen,Y,Live,2025-04-20,2025-04-24,2025-04-29,,,0
+SA20959,2025-04-16,Web,Individual,Uttar Pradesh,Fashion,N,Rejected,2025-04-19,,,2025-04-27,Bank account name mismatch,0
+SA20960,2025-04-16,Web,Individual,Telangana,Fashion,Y,Live,2025-04-21,2025-05-04,2025-05-08,,,1
+SA20961,2025-04-17,App,Proprietorship,West Bengal,Fashion,Y,Live,2025-04-18,2025-04-23,2025-04-25,,,0
+SA20962,2025-04-17,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-04-19,2025-04-23,2025-04-25,,,0
+SA20963,2025-04-17,App,Private Limited,Gujarat,Home & Kitchen,Y,Rejected,2025-04-22,,,2025-05-02,Bank account name mismatch,1
+SA20964,2025-04-17,Web,Individual,Tamil Nadu,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA20965,2025-04-17,App,Private Limited,Gujarat,Fashion,Y,Withdrawn,,,,,,0
+SA20966,2025-04-17,Web,Individual,Gujarat,Home & Kitchen,N,Rejected,2025-04-21,,,2025-05-03,Bank account name mismatch,0
+SA20967,2025-04-17,Web,Private Limited,West Bengal,Fashion,Y,Live,2025-04-20,2025-04-25,2025-04-29,,,0
+SA20968,2025-04-17,Web,Proprietorship,Rajasthan,Beauty,Y,Live,2025-04-20,2025-04-28,2025-04-30,,,0
+SA20969,2025-04-17,Web,Proprietorship,Karnataka,Beauty,Y,Live,2025-04-22,2025-04-30,2025-05-08,,,0
+SA20970,2025-04-17,Web,Individual,Punjab,Fashion,Y,Rejected,2025-04-19,,,2025-05-15,Bank account name mismatch,2
+SA20971,2025-04-17,Web,Proprietorship,Tamil Nadu,Electronics,Y,Live,2025-04-18,2025-04-23,2025-04-26,,,0
+SA20972,2025-04-17,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-04-24,2025-05-03,2025-05-05,,,0
+SA20973,2025-04-17,Web,Proprietorship,Tamil Nadu,Toys,Y,Live,2025-04-20,2025-04-28,2025-04-30,,,0
+SA20974,2025-04-17,Assisted,Proprietorship,Karnataka,Electronics,Y,Withdrawn,,,,,,0
+SA20975,2025-04-18,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-04-24,2025-05-04,2025-05-09,,,0
+SA20976,2025-04-18,Assisted,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-04-19,2025-05-14,2025-05-18,,,1
+SA20977,2025-04-18,Web,Individual,Delhi,Grocery,N,Live,2025-04-23,2025-05-18,2025-05-20,,,0
+SA20978,2025-04-18,Assisted,Proprietorship,Punjab,Grocery,Y,Live,2025-04-19,2025-05-02,2025-05-06,,,1
+SA20979,2025-04-18,Web,Individual,Maharashtra,Grocery,Y,Live,2025-04-19,2025-04-29,2025-05-02,,,0
+SA20980,2025-04-18,Assisted,Individual,Tamil Nadu,Beauty,Y,Rejected,2025-04-19,,,2025-05-03,Blurry or unreadable document,2
+SA20981,2025-04-18,App,Individual,Gujarat,Books,N,Live,2025-04-21,2025-05-02,2025-05-08,,,0
+SA20982,2025-04-18,Web,Individual,Punjab,Home & Kitchen,N,Live,2025-04-25,2025-04-28,2025-04-29,,,0
+SA20983,2025-04-18,Assisted,Proprietorship,Punjab,Home & Kitchen,Y,Rejected,2025-04-19,,,2025-04-27,GSTIN mismatch,1
+SA20984,2025-04-18,App,Individual,Tamil Nadu,Fashion,N,Live,2025-04-23,2025-04-27,2025-05-02,,,0
+SA20985,2025-04-18,Assisted,Individual,Delhi,Books,N,Live,2025-04-19,2025-04-24,2025-04-29,,,0
+SA20986,2025-04-18,App,Proprietorship,Maharashtra,Electronics,Y,Live,2025-04-20,2025-04-24,2025-04-26,,,0
+SA20987,2025-04-18,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-04-22,,,2025-05-15,GSTIN mismatch,2
+SA20988,2025-04-18,Web,Individual,Rajasthan,Toys,N,Live,2025-04-21,2025-04-25,2025-04-27,,,0
+SA20989,2025-04-18,Web,Proprietorship,Delhi,Fashion,Y,Rejected,2025-04-23,,,2025-04-29,Blurry or unreadable document,0
+SA20990,2025-04-19,Assisted,Private Limited,Punjab,Grocery,Y,Live,2025-04-20,2025-04-28,2025-05-02,,,0
+SA20991,2025-04-19,Web,Individual,Maharashtra,Grocery,Y,Live,2025-04-23,2025-05-09,2025-05-13,,,0
+SA20992,2025-04-19,Assisted,Individual,West Bengal,Books,N,Live,2025-04-20,2025-05-08,2025-05-10,,,0
+SA20993,2025-04-19,Web,Proprietorship,Gujarat,Fashion,Y,Live,2025-04-20,2025-05-04,2025-05-07,,,0
+SA20994,2025-04-19,Web,Individual,Gujarat,Grocery,N,Live,2025-04-22,2025-05-01,2025-05-06,,,1
+SA20995,2025-04-19,Assisted,Individual,Maharashtra,Fashion,N,Live,2025-04-19,2025-04-26,2025-04-29,,,0
+SA20996,2025-04-19,Web,Proprietorship,Maharashtra,Electronics,Y,Live,2025-04-23,2025-05-07,2025-05-13,,,0
+SA20997,2025-04-19,App,Individual,Gujarat,Home & Kitchen,Y,Live,2025-04-22,2025-05-03,2025-05-07,,,0
+SA20998,2025-04-19,App,Proprietorship,Maharashtra,Grocery,Y,Live,2025-04-20,2025-04-29,2025-05-02,,,0
+SA20999,2025-04-19,Assisted,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-04-20,2025-04-25,2025-04-27,,,0
+SA21000,2025-04-19,App,Individual,Rajasthan,Grocery,Y,Rejected,2025-04-19,,,2025-05-20,Blurry or unreadable document,1
+SA21001,2025-04-19,Web,Proprietorship,Rajasthan,Home & Kitchen,Y,Live,2025-04-21,2025-04-28,2025-05-05,,,0
+SA21002,2025-04-19,Assisted,Proprietorship,Tamil Nadu,Beauty,Y,Withdrawn,,,,,,0
+SA21003,2025-04-19,Web,Individual,Gujarat,Fashion,Y,Live,2025-04-24,2025-05-03,2025-05-05,,,0
+SA21004,2025-04-19,Assisted,Proprietorship,Punjab,Home & Kitchen,Y,Live,2025-04-20,2025-04-25,2025-04-30,,,0
+SA21005,2025-04-20,App,Proprietorship,Karnataka,Fashion,Y,Rejected,2025-04-22,,,2025-04-26,Blurry or unreadable document,0
+SA21006,2025-04-20,App,Individual,Gujarat,Fashion,Y,Live,2025-04-21,2025-04-27,2025-04-30,,,0
+SA21007,2025-04-20,Web,Proprietorship,Delhi,Grocery,Y,Rejected,2025-04-22,,,2025-04-27,GSTIN mismatch,0
+SA21008,2025-04-20,Assisted,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-04-21,2025-05-14,2025-05-21,,,0
+SA21009,2025-04-20,Web,Individual,Uttar Pradesh,Toys,N,Live,2025-04-23,2025-04-30,2025-05-08,,,0
+SA21010,2025-04-20,Web,Proprietorship,Uttar Pradesh,Grocery,Y,Live,2025-04-21,2025-05-06,2025-05-08,,,0
+SA21011,2025-04-20,Web,Proprietorship,Gujarat,Books,N,Live,2025-04-22,2025-04-28,2025-04-30,,,0
+SA21012,2025-04-20,App,Individual,Karnataka,Fashion,Y,Live,2025-04-23,2025-04-27,2025-05-02,,,0
+SA21013,2025-04-20,App,Individual,West Bengal,Fashion,Y,Rejected,2025-04-23,,,2025-05-07,Bank account name mismatch,2
+SA21014,2025-04-20,Web,Individual,Maharashtra,Beauty,Y,Live,2025-04-23,2025-05-03,2025-05-08,,,0
+SA21015,2025-04-20,App,Private Limited,Delhi,Electronics,Y,Live,2025-04-22,2025-04-25,2025-04-27,,,0
+SA21016,2025-04-21,App,Individual,Delhi,Beauty,N,Live,2025-04-23,2025-05-07,2025-05-09,,,0
+SA21017,2025-04-21,Web,Private Limited,Maharashtra,Fashion,Y,Live,2025-04-24,2025-05-03,2025-05-06,,,1
+SA21018,2025-04-21,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-04-28,2025-05-07,2025-05-10,,,0
+SA21019,2025-04-21,Assisted,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-04-22,2025-05-04,2025-05-07,,,0
+SA21020,2025-04-21,Assisted,Individual,Maharashtra,Toys,Y,Live,2025-04-24,2025-05-01,2025-05-07,,,0
+SA21021,2025-04-21,Assisted,Private Limited,Maharashtra,Beauty,Y,Rejected,2025-04-22,,,2025-05-23,Blurry or unreadable document,2
+SA21022,2025-04-21,App,Proprietorship,Delhi,Grocery,Y,Live,2025-04-23,2025-05-09,2025-05-12,,,0
+SA21023,2025-04-21,Web,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-04-23,2025-04-28,2025-05-03,,,0
+SA21024,2025-04-21,Web,Proprietorship,Gujarat,Fashion,Y,Live,2025-04-24,2025-04-29,2025-04-30,,,0
+SA21025,2025-04-21,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-04-23,2025-05-01,2025-05-02,,,0
+SA21026,2025-04-21,App,Proprietorship,Delhi,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21027,2025-04-21,App,Private Limited,Gujarat,Toys,Y,Rejected,2025-04-22,,,2025-04-27,GSTIN mismatch,0
+SA21028,2025-04-21,Web,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-04-23,2025-04-27,2025-04-29,,,0
+SA21029,2025-04-21,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-04-25,2025-05-13,2025-05-14,,,0
+SA21030,2025-04-21,Web,Proprietorship,West Bengal,Fashion,Y,Withdrawn,,,,,,0
+SA21031,2025-04-22,Web,Proprietorship,Punjab,Electronics,Y,Live,2025-04-26,2025-05-04,2025-05-07,,,0
+SA21032,2025-04-22,App,Individual,Delhi,Fashion,Y,Rejected,2025-04-25,,,2025-05-07,Blurry or unreadable document,0
+SA21033,2025-04-22,Web,Individual,Rajasthan,Fashion,N,Rejected,2025-04-26,,,2025-05-02,Incomplete address,0
+SA21034,2025-04-22,App,Individual,West Bengal,Electronics,Y,Rejected,2025-04-27,,,2025-05-03,Blurry or unreadable document,0
+SA21035,2025-04-22,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Withdrawn,,,,,,0
+SA21036,2025-04-22,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-04-23,2025-05-02,2025-05-05,,,0
+SA21037,2025-04-22,App,Individual,West Bengal,Fashion,Y,Rejected,2025-04-23,,,2025-05-08,Blurry or unreadable document,1
+SA21038,2025-04-22,Web,Proprietorship,Punjab,Fashion,Y,Live,2025-04-26,2025-04-30,2025-05-03,,,0
+SA21039,2025-04-22,Web,Individual,West Bengal,Fashion,Y,Live,2025-04-27,2025-05-07,2025-05-15,,,1
+SA21040,2025-04-22,App,Proprietorship,Uttar Pradesh,Toys,Y,Live,2025-04-24,2025-05-26,2025-06-03,,,1
+SA21041,2025-04-23,Web,Individual,Delhi,Fashion,N,Live,2025-04-25,2025-04-30,2025-05-04,,,0
+SA21042,2025-04-23,Web,Private Limited,West Bengal,Home & Kitchen,Y,Live,2025-04-26,2025-05-07,2025-05-10,,,0
+SA21043,2025-04-23,Web,Individual,Rajasthan,Books,N,Live,2025-04-26,2025-05-12,2025-05-15,,,0
+SA21044,2025-04-23,Web,Individual,Uttar Pradesh,Toys,Y,Rejected,2025-04-24,,,2025-05-01,Blurry or unreadable document,1
+SA21045,2025-04-23,App,Proprietorship,Delhi,Fashion,Y,Rejected,2025-04-27,,,2025-05-11,Incomplete address,2
+SA21046,2025-04-23,Web,Proprietorship,Delhi,Fashion,Y,Live,2025-04-25,2025-05-02,2025-05-04,,,0
+SA21047,2025-04-23,App,Individual,Rajasthan,Home & Kitchen,Y,Live,2025-04-24,2025-05-06,2025-05-14,,,0
+SA21048,2025-04-23,Assisted,Individual,Tamil Nadu,Electronics,Y,Live,2025-04-24,2025-05-09,2025-05-10,,,0
+SA21049,2025-04-23,Web,Individual,Rajasthan,Home & Kitchen,Y,Rejected,2025-04-27,,,2025-05-08,Blurry or unreadable document,1
+SA21050,2025-04-24,Assisted,Individual,Maharashtra,Fashion,N,Live,2025-04-25,2025-05-08,2025-05-16,,,1
+SA21051,2025-04-24,App,Private Limited,Maharashtra,Grocery,Y,Rejected,2025-04-25,,,2025-04-30,Blurry or unreadable document,0
+SA21052,2025-04-24,Web,Individual,Telangana,Fashion,Y,Live,2025-04-28,2025-04-30,2025-05-05,,,0
+SA21053,2025-04-24,App,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-04-26,2025-05-08,2025-05-11,,,0
+SA21054,2025-04-24,Web,Proprietorship,Delhi,Fashion,Y,Live,2025-04-27,2025-05-04,2025-05-08,,,0
+SA21055,2025-04-24,Web,Proprietorship,Gujarat,Electronics,Y,Live,2025-04-26,2025-05-09,2025-05-11,,,0
+SA21056,2025-04-24,Web,Private Limited,Tamil Nadu,Beauty,Y,Live,2025-04-27,2025-05-04,2025-05-06,,,0
+SA21057,2025-04-24,Web,Proprietorship,Gujarat,Books,N,Live,2025-04-27,2025-05-09,2025-05-12,,,0
+SA21058,2025-04-24,App,Proprietorship,Karnataka,Fashion,Y,Live,2025-04-26,2025-05-02,2025-05-05,,,0
+SA21059,2025-04-25,App,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-04-27,2025-05-08,2025-05-10,,,0
+SA21060,2025-04-25,Web,Individual,Rajasthan,Books,N,Rejected,2025-05-03,,,2025-05-18,Incomplete address,2
+SA21061,2025-04-25,Assisted,Proprietorship,Maharashtra,Beauty,Y,Live,2025-04-26,2025-05-02,2025-05-06,,,0
+SA21062,2025-04-25,Assisted,Proprietorship,Maharashtra,Beauty,Y,Live,2025-04-26,2025-05-13,2025-05-18,,,1
+SA21063,2025-04-25,App,Proprietorship,Delhi,Grocery,Y,Live,2025-04-27,2025-05-15,2025-05-16,,,0
+SA21064,2025-04-25,Web,Proprietorship,Maharashtra,Beauty,Y,Rejected,2025-04-29,,,2025-05-04,Bank account name mismatch,0
+SA21065,2025-04-25,Web,Individual,Maharashtra,Beauty,Y,Live,2025-05-02,2025-05-10,2025-05-13,,,0
+SA21066,2025-04-25,Web,Proprietorship,Rajasthan,Beauty,Y,Rejected,2025-04-26,,,2025-04-30,Restricted category,0
+SA21067,2025-04-25,Web,Individual,Uttar Pradesh,Home & Kitchen,N,Live,2025-04-28,2025-05-13,2025-05-17,,,0
+SA21068,2025-04-26,App,Individual,Uttar Pradesh,Electronics,N,Live,2025-04-28,2025-05-02,2025-05-07,,,0
+SA21069,2025-04-26,Web,Private Limited,Maharashtra,Grocery,Y,Live,2025-05-01,2025-05-15,2025-05-18,,,0
+SA21070,2025-04-26,Web,Individual,Delhi,Beauty,N,Rejected,2025-04-28,,,2025-05-09,Restricted category,0
+SA21071,2025-04-26,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-04-30,2025-05-11,2025-05-14,,,0
+SA21072,2025-04-26,Web,Proprietorship,Karnataka,Fashion,Y,Rejected,2025-04-28,,,2025-05-10,GSTIN mismatch,1
+SA21073,2025-04-27,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-05-02,2025-05-11,2025-05-13,,,0
+SA21074,2025-04-27,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-04-29,2025-05-12,2025-05-16,,,0
+SA21075,2025-04-27,App,Individual,Tamil Nadu,Fashion,N,Rejected,2025-04-29,,,2025-05-03,Restricted category,0
+SA21076,2025-04-27,Web,Individual,Punjab,Grocery,N,Withdrawn,,,,,,0
+SA21077,2025-04-27,Web,Individual,Maharashtra,Grocery,Y,Withdrawn,,,,,,0
+SA21078,2025-04-27,Web,Individual,West Bengal,Home & Kitchen,Y,Rejected,2025-04-29,,,2025-05-03,Bank account name mismatch,0
+SA21079,2025-04-27,Web,Proprietorship,Delhi,Electronics,Y,Live,2025-05-08,2025-05-25,2025-05-31,,,0
+SA21080,2025-04-27,Assisted,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-04-28,2025-05-06,2025-05-08,,,0
+SA21081,2025-04-27,Web,Individual,Gujarat,Fashion,Y,Live,2025-04-30,2025-05-05,2025-05-06,,,0
+SA21082,2025-04-27,Web,Individual,Punjab,Home & Kitchen,Y,Live,2025-04-28,2025-05-08,2025-05-10,,,0
+SA21083,2025-04-27,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-04-30,2025-05-20,2025-05-22,,,0
+SA21084,2025-04-27,Assisted,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-04-28,,,2025-05-17,Bank account name mismatch,2
+SA21085,2025-04-27,Assisted,Proprietorship,Gujarat,Fashion,Y,Live,2025-04-28,2025-05-13,2025-05-16,,,0
+SA21086,2025-04-27,Web,Individual,Maharashtra,Home & Kitchen,Y,Rejected,2025-05-03,,,2025-05-12,GSTIN mismatch,1
+SA21087,2025-04-27,Web,Private Limited,Rajasthan,Home & Kitchen,Y,Live,2025-04-29,2025-05-07,2025-05-12,,,0
+SA21088,2025-04-27,Assisted,Proprietorship,Karnataka,Electronics,Y,Withdrawn,,,,,,0
+SA21089,2025-04-27,App,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-04-30,2025-05-17,2025-05-19,,,0
+SA21090,2025-04-27,Web,Private Limited,Karnataka,Grocery,Y,Live,2025-04-30,2025-05-03,2025-05-07,,,0
+SA21091,2025-04-27,App,Proprietorship,Maharashtra,Electronics,Y,Rejected,2025-04-30,,,2025-05-07,Duplicate application,0
+SA21092,2025-04-27,Web,Individual,Uttar Pradesh,Grocery,N,Rejected,2025-05-04,,,2025-05-17,Blurry or unreadable document,2
+SA21093,2025-04-28,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-05-03,2025-05-11,2025-05-14,,,0
+SA21094,2025-04-28,Web,Proprietorship,Tamil Nadu,Books,N,Rejected,2025-04-29,,,2025-05-11,Incomplete address,1
+SA21095,2025-04-28,Assisted,Individual,Maharashtra,Books,N,Withdrawn,,,,,,0
+SA21096,2025-04-28,Assisted,Individual,Uttar Pradesh,Fashion,N,Live,2025-04-29,2025-05-08,2025-05-15,,,0
+SA21097,2025-04-28,Web,Individual,Rajasthan,Electronics,N,Live,2025-05-02,2025-05-10,2025-05-13,,,1
+SA21098,2025-04-28,Assisted,Proprietorship,Gujarat,Fashion,Y,Live,2025-04-29,2025-05-09,2025-05-12,,,0
+SA21099,2025-04-28,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Rejected,2025-05-01,,,2025-05-11,Blurry or unreadable document,1
+SA21100,2025-04-28,Web,Individual,Uttar Pradesh,Fashion,Y,Rejected,2025-05-02,,,2025-05-28,GSTIN mismatch,2
+SA21101,2025-04-28,Assisted,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-04-28,2025-05-05,2025-05-09,,,0
+SA21102,2025-04-28,Assisted,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-04-29,2025-06-03,2025-06-04,,,0
+SA21103,2025-04-28,Web,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-04-30,2025-05-04,2025-05-07,,,0
+SA21104,2025-04-28,Assisted,Individual,Tamil Nadu,Fashion,Y,Live,2025-04-30,2025-05-09,2025-05-12,,,0
+SA21105,2025-04-29,Web,Individual,Gujarat,Home & Kitchen,N,Live,2025-05-04,2025-05-10,2025-05-16,,,0
+SA21106,2025-04-29,Web,Private Limited,Rajasthan,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21107,2025-04-29,Web,Individual,Delhi,Home & Kitchen,N,Live,2025-05-19,2025-05-28,2025-05-31,,,0
+SA21108,2025-04-29,Web,Individual,Karnataka,Electronics,Y,Live,2025-05-04,2025-05-18,2025-05-20,,,1
+SA21109,2025-04-29,Assisted,Private Limited,Uttar Pradesh,Electronics,Y,Live,2025-04-30,2025-05-19,2025-05-23,,,0
+SA21110,2025-04-29,App,Individual,Delhi,Grocery,Y,Live,2025-05-01,2025-05-22,2025-05-25,,,0
+SA21111,2025-04-29,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-05-02,2025-05-10,2025-05-13,,,0
+SA21112,2025-04-29,Web,Individual,Uttar Pradesh,Home & Kitchen,N,Live,2025-05-01,2025-05-20,2025-05-22,,,1
+SA21113,2025-04-29,Web,Individual,Gujarat,Electronics,Y,Rejected,2025-05-01,,,2025-05-05,Restricted category,0
+SA21114,2025-04-29,Web,Proprietorship,Delhi,Electronics,Y,Withdrawn,,,,,,0
+SA21115,2025-04-29,App,Proprietorship,Uttar Pradesh,Books,N,Live,2025-04-30,2025-05-13,2025-05-16,,,0
+SA21116,2025-04-30,Web,Private Limited,Karnataka,Electronics,Y,Live,2025-05-01,2025-05-11,2025-05-14,,,0
+SA21117,2025-04-30,App,Private Limited,Karnataka,Electronics,Y,Rejected,2025-05-02,,,2025-05-07,Duplicate application,0
+SA21118,2025-04-30,Web,Individual,Gujarat,Fashion,N,Live,2025-05-02,2025-05-11,2025-05-17,,,0
+SA21119,2025-04-30,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21120,2025-04-30,App,Individual,Uttar Pradesh,Fashion,N,Live,2025-05-02,2025-05-07,2025-05-12,,,0
+SA21121,2025-04-30,App,Individual,Gujarat,Books,N,Rejected,2025-05-05,,,2025-05-16,Bank account name mismatch,1
+SA21122,2025-04-30,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-05-02,2025-05-05,2025-05-09,,,0
+SA21123,2025-04-30,Web,Individual,Punjab,Electronics,N,Live,2025-05-07,2025-05-28,2025-05-31,,,0
+SA21124,2025-04-30,Web,Proprietorship,Telangana,Grocery,Y,Withdrawn,,,,,,0
+SA21125,2025-04-30,Web,Proprietorship,Telangana,Grocery,Y,Live,2025-05-06,2025-05-15,2025-05-17,,,0
+SA21126,2025-04-30,App,Private Limited,Delhi,Home & Kitchen,Y,Live,2025-05-02,2025-05-13,2025-05-15,,,1
+SA21127,2025-05-01,App,Proprietorship,Telangana,Beauty,Y,Live,2025-05-02,2025-05-13,2025-05-16,,,0
+SA21128,2025-05-01,Web,Proprietorship,Rajasthan,Fashion,Y,Live,2025-05-03,2025-05-06,2025-05-10,,,0
+SA21129,2025-05-01,Assisted,Individual,Gujarat,Grocery,N,Live,2025-05-04,2025-05-15,2025-05-21,,,0
+SA21130,2025-05-01,Web,Proprietorship,Delhi,Beauty,Y,Rejected,2025-05-06,,,2025-05-17,Bank account name mismatch,1
+SA21131,2025-05-01,App,Proprietorship,Delhi,Grocery,Y,Live,2025-05-06,2025-05-15,2025-05-17,,,1
+SA21132,2025-05-01,Assisted,Proprietorship,Maharashtra,Electronics,Y,Live,2025-05-02,2025-05-10,2025-05-13,,,0
+SA21133,2025-05-01,Web,Individual,Maharashtra,Electronics,Y,Rejected,2025-05-03,,,2025-05-18,Incomplete address,2
+SA21134,2025-05-01,Web,Proprietorship,Gujarat,Fashion,Y,Rejected,2025-05-07,,,2025-05-13,Incomplete address,0
+SA21135,2025-05-01,Assisted,Proprietorship,Rajasthan,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21136,2025-05-01,Web,Private Limited,Karnataka,Electronics,Y,Rejected,2025-05-11,,,2025-05-18,GSTIN mismatch,0
+SA21137,2025-05-02,App,Individual,Telangana,Beauty,N,Live,2025-05-03,2025-05-09,2025-05-11,,,0
+SA21138,2025-05-02,Web,Proprietorship,Gujarat,Grocery,Y,Withdrawn,,,,,,0
+SA21139,2025-05-02,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-05-08,2025-05-19,2025-05-21,,,0
+SA21140,2025-05-02,Assisted,Proprietorship,Gujarat,Beauty,Y,Live,2025-05-03,2025-05-17,2025-05-19,,,0
+SA21141,2025-05-02,Assisted,Proprietorship,Tamil Nadu,Fashion,Y,Rejected,2025-05-05,,,2025-05-17,GSTIN mismatch,0
+SA21142,2025-05-02,App,Individual,Gujarat,Fashion,Y,Withdrawn,,,,,,0
+SA21143,2025-05-02,Web,Individual,Karnataka,Fashion,Y,Live,2025-05-03,2025-05-11,2025-05-14,,,0
+SA21144,2025-05-02,Web,Individual,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-05-07,,,2025-05-18,Duplicate application,0
+SA21145,2025-05-02,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-05-03,2025-05-09,2025-05-11,,,0
+SA21146,2025-05-02,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-05-03,2025-05-08,2025-05-12,,,0
+SA21147,2025-05-02,Web,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-05-10,2025-05-22,2025-05-24,,,0
+SA21148,2025-05-02,Assisted,Proprietorship,West Bengal,Electronics,Y,Live,2025-05-04,2025-05-16,2025-05-22,,,0
+SA21149,2025-05-02,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-05-05,2025-05-25,2025-05-28,,,0
+SA21150,2025-05-03,Assisted,Individual,Telangana,Fashion,Y,Live,2025-05-04,2025-05-11,2025-05-13,,,0
+SA21151,2025-05-03,App,Individual,Delhi,Home & Kitchen,N,Withdrawn,,,,,,0
+SA21152,2025-05-03,Assisted,Proprietorship,Rajasthan,Fashion,Y,Live,2025-05-05,2025-06-04,2025-06-05,,,0
+SA21153,2025-05-03,App,Individual,Maharashtra,Beauty,Y,Withdrawn,,,,,,0
+SA21154,2025-05-03,Web,Individual,Rajasthan,Electronics,Y,Rejected,2025-05-06,,,2025-05-09,Bank account name mismatch,0
+SA21155,2025-05-03,Web,Proprietorship,Rajasthan,Beauty,Y,Live,2025-05-07,2025-05-24,2025-05-27,,,0
+SA21156,2025-05-03,App,Private Limited,Gujarat,Grocery,Y,Live,2025-05-06,2025-05-11,2025-05-17,,,0
+SA21157,2025-05-03,Web,Individual,Uttar Pradesh,Home & Kitchen,Y,Rejected,2025-05-05,,,2025-05-11,Bank account name mismatch,0
+SA21158,2025-05-03,Assisted,Individual,Gujarat,Grocery,N,Live,2025-05-05,2025-05-26,2025-05-28,,,0
+SA21159,2025-05-03,Assisted,Proprietorship,Gujarat,Toys,Y,Live,2025-05-04,2025-05-15,2025-05-21,,,0
+SA21160,2025-05-04,Web,Individual,Uttar Pradesh,Grocery,Y,Live,2025-05-06,2025-05-20,2025-05-23,,,0
+SA21161,2025-05-04,App,Proprietorship,Telangana,Beauty,Y,Live,2025-05-07,2025-05-30,2025-06-02,,,0
+SA21162,2025-05-04,Assisted,Private Limited,Tamil Nadu,Fashion,Y,Rejected,2025-05-05,,,2025-05-17,Blurry or unreadable document,1
+SA21163,2025-05-04,Web,Proprietorship,Punjab,Toys,Y,Rejected,2025-05-07,,,2025-05-19,Duplicate application,0
+SA21164,2025-05-04,Web,Private Limited,Rajasthan,Fashion,Y,Live,2025-05-22,2025-06-04,2025-06-06,,,0
+SA21165,2025-05-04,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-05-12,2025-05-19,2025-05-21,,,0
+SA21166,2025-05-04,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Rejected,2025-05-06,,,2025-05-20,Incomplete address,0
+SA21167,2025-05-04,App,Individual,Gujarat,Electronics,Y,Live,2025-05-06,2025-05-11,2025-05-17,,,0
+SA21168,2025-05-04,Web,Individual,Gujarat,Home & Kitchen,Y,Rejected,2025-05-06,,,2025-05-17,Duplicate application,0
+SA21169,2025-05-04,Web,Individual,Maharashtra,Home & Kitchen,N,Live,2025-05-07,2025-05-23,2025-05-25,,,0
+SA21170,2025-05-04,Web,Individual,Tamil Nadu,Beauty,Y,Live,2025-05-15,2025-05-24,2025-05-28,,,1
+SA21171,2025-05-04,App,Proprietorship,Maharashtra,Fashion,Y,Live,2025-05-07,2025-05-19,2025-05-20,,,0
+SA21172,2025-05-04,App,Individual,Delhi,Toys,N,Live,2025-05-05,2025-05-18,2025-05-26,,,0
+SA21173,2025-05-05,Web,Private Limited,Gujarat,Fashion,Y,Live,2025-05-09,2025-05-22,2025-05-25,,,0
+SA21174,2025-05-05,Web,Individual,Karnataka,Home & Kitchen,Y,Live,2025-05-06,2025-05-13,2025-05-18,,,0
+SA21175,2025-05-05,App,Individual,Tamil Nadu,Beauty,Y,Rejected,2025-05-10,,,2025-05-17,Restricted category,0
+SA21176,2025-05-05,App,Proprietorship,Maharashtra,Fashion,Y,Live,2025-05-06,2025-05-11,2025-05-15,,,0
+SA21177,2025-05-05,Web,Proprietorship,Karnataka,Fashion,Y,Rejected,2025-05-06,,,2025-05-13,Restricted category,0
+SA21178,2025-05-05,App,Individual,Delhi,Fashion,Y,Live,2025-05-06,2025-05-15,2025-05-19,,,1
+SA21179,2025-05-05,Assisted,Proprietorship,Uttar Pradesh,Toys,Y,Live,2025-05-05,2025-05-14,2025-05-18,,,0
+SA21180,2025-05-05,Assisted,Proprietorship,West Bengal,Fashion,Y,Withdrawn,,,,,,0
+SA21181,2025-05-05,Web,Individual,Uttar Pradesh,Beauty,Y,Live,2025-05-07,2025-05-19,2025-05-21,,,1
+SA21182,2025-05-05,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Rejected,2025-05-07,,,2025-05-18,Incomplete address,0
+SA21183,2025-05-05,Web,Individual,Rajasthan,Fashion,Y,Live,2025-05-08,2025-05-19,2025-05-23,,,1
+SA21184,2025-05-05,Web,Individual,West Bengal,Electronics,Y,Rejected,2025-05-09,,,2025-05-23,Bank account name mismatch,2
+SA21185,2025-05-06,Web,Individual,Maharashtra,Beauty,Y,Live,2025-05-09,2025-05-15,2025-05-17,,,0
+SA21186,2025-05-06,Web,Private Limited,Gujarat,Beauty,Y,Live,2025-05-09,2025-05-26,2025-05-28,,,0
+SA21187,2025-05-06,Web,Individual,Karnataka,Books,N,Rejected,2025-05-08,,,2025-05-14,Bank account name mismatch,0
+SA21188,2025-05-06,Assisted,Individual,Gujarat,Grocery,Y,Rejected,2025-05-08,,,2025-05-21,Bank account name mismatch,2
+SA21189,2025-05-06,Web,Individual,Tamil Nadu,Fashion,N,Live,2025-05-08,2025-05-14,2025-05-20,,,0
+SA21190,2025-05-06,Web,Individual,Telangana,Home & Kitchen,N,Rejected,2025-05-07,,,2025-05-12,GSTIN mismatch,0
+SA21191,2025-05-06,App,Individual,Gujarat,Fashion,Y,Live,2025-05-09,2025-05-21,2025-05-25,,,1
+SA21192,2025-05-06,Web,Individual,Gujarat,Electronics,Y,Live,2025-05-10,2025-05-18,2025-05-22,,,0
+SA21193,2025-05-07,Web,Individual,Telangana,Fashion,Y,Live,2025-05-11,2025-05-15,2025-05-22,,,0
+SA21194,2025-05-07,Web,Individual,Karnataka,Fashion,N,Withdrawn,,,,,,0
+SA21195,2025-05-07,Assisted,Individual,Maharashtra,Books,N,Live,2025-05-08,2025-05-15,2025-05-19,,,1
+SA21196,2025-05-07,App,Individual,Maharashtra,Electronics,Y,Live,2025-05-08,2025-05-15,2025-05-22,,,0
+SA21197,2025-05-07,Web,Individual,Punjab,Home & Kitchen,Y,Live,2025-05-10,2025-05-17,2025-05-20,,,0
+SA21198,2025-05-07,Web,Proprietorship,West Bengal,Beauty,Y,Rejected,2025-05-09,,,2025-05-21,Bank account name mismatch,2
+SA21199,2025-05-07,App,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-05-11,2025-05-14,2025-05-18,,,0
+SA21200,2025-05-07,App,Private Limited,Tamil Nadu,Fashion,Y,Live,2025-05-09,2025-05-14,2025-05-17,,,0
+SA21201,2025-05-08,App,Proprietorship,Tamil Nadu,Fashion,Y,Rejected,2025-05-10,,,2025-05-17,Incomplete address,0
+SA21202,2025-05-08,Web,Private Limited,Rajasthan,Electronics,Y,Live,2025-05-09,2025-05-23,2025-05-25,,,1
+SA21203,2025-05-08,Assisted,Proprietorship,Uttar Pradesh,Fashion,Y,Rejected,2025-05-09,,,2025-05-17,Incomplete address,1
+SA21204,2025-05-08,Web,Proprietorship,Tamil Nadu,Beauty,Y,Live,2025-05-10,2025-05-20,2025-05-23,,,0
+SA21205,2025-05-08,Assisted,Individual,West Bengal,Electronics,Y,Withdrawn,,,,,,0
+SA21206,2025-05-08,App,Private Limited,Telangana,Fashion,Y,Live,2025-05-10,2025-05-22,2025-05-24,,,0
+SA21207,2025-05-08,App,Proprietorship,Punjab,Fashion,Y,Live,2025-05-13,2025-05-22,2025-05-25,,,1
+SA21208,2025-05-08,Web,Individual,Rajasthan,Books,N,Live,2025-05-11,2025-05-20,2025-05-25,,,0
+SA21209,2025-05-08,App,Individual,Delhi,Home & Kitchen,Y,Live,2025-05-09,2025-05-22,2025-05-26,,,1
+SA21210,2025-05-09,Web,Private Limited,Maharashtra,Fashion,Y,Rejected,2025-05-21,,,2025-06-07,Blurry or unreadable document,2
+SA21211,2025-05-09,Web,Private Limited,Gujarat,Home & Kitchen,Y,Live,2025-05-12,2025-05-17,2025-05-19,,,0
+SA21212,2025-05-09,App,Proprietorship,Maharashtra,Electronics,Y,Live,2025-05-12,2025-05-20,2025-05-22,,,0
+SA21213,2025-05-09,Web,Individual,Gujarat,Home & Kitchen,Y,Live,2025-05-10,2025-05-26,2025-05-29,,,0
+SA21214,2025-05-09,App,Proprietorship,Karnataka,Fashion,Y,Live,2025-05-12,2025-05-25,2025-05-28,,,1
+SA21215,2025-05-09,Assisted,Individual,Rajasthan,Home & Kitchen,Y,Live,2025-05-10,2025-05-21,2025-05-28,,,1
+SA21216,2025-05-09,Web,Individual,Uttar Pradesh,Beauty,Y,Live,2025-05-11,2025-05-16,2025-05-20,,,1
+SA21217,2025-05-09,Web,Proprietorship,Maharashtra,Books,N,Live,2025-05-11,2025-05-22,2025-05-24,,,0
+SA21218,2025-05-09,App,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-05-10,2025-05-21,2025-05-23,,,0
+SA21219,2025-05-09,Assisted,Individual,Maharashtra,Books,N,Withdrawn,,,,,,0
+SA21220,2025-05-09,Assisted,Individual,West Bengal,Beauty,Y,Live,2025-05-10,2025-06-05,2025-06-09,,,1
+SA21221,2025-05-09,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-05-10,2025-05-15,2025-05-21,,,0
+SA21222,2025-05-09,Web,Individual,Maharashtra,Electronics,Y,Live,2025-05-11,2025-05-21,2025-05-23,,,0
+SA21223,2025-05-09,Web,Private Limited,Gujarat,Grocery,Y,Live,2025-05-14,2025-05-20,2025-05-24,,,0
+SA21224,2025-05-09,App,Individual,West Bengal,Home & Kitchen,Y,Live,2025-05-11,2025-05-15,2025-05-18,,,0
+SA21225,2025-05-09,Assisted,Private Limited,Delhi,Fashion,Y,Live,2025-05-10,2025-05-24,2025-05-26,,,0
+SA21226,2025-05-09,App,Private Limited,West Bengal,Fashion,Y,Live,2025-05-11,2025-05-22,2025-05-25,,,0
+SA21227,2025-05-10,App,Proprietorship,Rajasthan,Books,N,Rejected,2025-05-11,,,2025-05-31,Blurry or unreadable document,1
+SA21228,2025-05-10,Web,Individual,Tamil Nadu,Home & Kitchen,N,Live,2025-05-15,2025-05-21,2025-05-26,,,0
+SA21229,2025-05-10,Web,Individual,Gujarat,Grocery,N,Withdrawn,,,,,,0
+SA21230,2025-05-10,Assisted,Private Limited,Uttar Pradesh,Fashion,Y,Live,2025-05-11,2025-05-17,2025-05-20,,,0
+SA21231,2025-05-10,App,Proprietorship,Rajasthan,Fashion,Y,Live,2025-05-13,2025-05-24,2025-05-31,,,0
+SA21232,2025-05-10,Web,Individual,Gujarat,Fashion,N,Live,2025-05-13,2025-05-19,2025-05-21,,,0
+SA21233,2025-05-10,Web,Proprietorship,Gujarat,Beauty,Y,Rejected,2025-05-11,,,2025-05-22,Blurry or unreadable document,1
+SA21234,2025-05-10,Web,Individual,Maharashtra,Fashion,N,Live,2025-05-13,2025-05-25,2025-05-28,,,0
+SA21235,2025-05-10,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-05-14,2025-05-22,2025-05-26,,,0
+SA21236,2025-05-10,App,Proprietorship,Telangana,Fashion,Y,Live,2025-05-15,2025-05-25,2025-05-26,,,0
+SA21237,2025-05-10,Web,Proprietorship,Tamil Nadu,Grocery,Y,Live,2025-05-12,2025-05-20,2025-05-24,,,0
+SA21238,2025-05-11,App,Proprietorship,Delhi,Electronics,Y,Rejected,2025-05-13,,,2025-05-20,Bank account name mismatch,0
+SA21239,2025-05-11,Web,Individual,Telangana,Fashion,Y,Rejected,2025-05-16,,,2025-05-24,Bank account name mismatch,0
+SA21240,2025-05-11,Assisted,Proprietorship,Telangana,Beauty,Y,Live,2025-05-13,2025-05-24,2025-05-27,,,0
+SA21241,2025-05-11,Web,Individual,West Bengal,Home & Kitchen,Y,Rejected,2025-05-12,,,2025-05-18,Bank account name mismatch,0
+SA21242,2025-05-11,Assisted,Individual,Tamil Nadu,Electronics,Y,Live,2025-05-12,2025-05-19,2025-05-26,,,0
+SA21243,2025-05-11,Web,Private Limited,Punjab,Beauty,Y,Live,2025-05-14,2025-06-05,2025-06-07,,,1
+SA21244,2025-05-11,Web,Individual,Uttar Pradesh,Grocery,N,Live,2025-05-17,2025-05-31,2025-06-02,,,1
+SA21245,2025-05-11,Web,Proprietorship,Delhi,Books,N,Live,2025-05-13,2025-05-18,2025-05-23,,,0
+SA21246,2025-05-11,Web,Individual,Tamil Nadu,Home & Kitchen,Y,Live,2025-05-12,2025-05-26,2025-05-31,,,0
+SA21247,2025-05-11,Assisted,Individual,Tamil Nadu,Books,N,Live,2025-05-13,2025-05-24,2025-05-27,,,0
+SA21248,2025-05-11,Web,Proprietorship,Maharashtra,Toys,Y,Rejected,2025-05-12,,,2025-05-27,Bank account name mismatch,0
+SA21249,2025-05-11,Web,Individual,Karnataka,Fashion,Y,Live,2025-05-13,2025-05-25,2025-05-27,,,0
+SA21250,2025-05-12,Assisted,Private Limited,Karnataka,Home & Kitchen,Y,Rejected,2025-05-13,,,2025-05-22,Incomplete address,0
+SA21251,2025-05-12,App,Individual,Maharashtra,Home & Kitchen,Y,Rejected,2025-05-13,,,2025-05-19,Blurry or unreadable document,0
+SA21252,2025-05-12,Web,Individual,Rajasthan,Electronics,N,Live,2025-05-13,2025-05-26,2025-06-01,,,0
+SA21253,2025-05-12,Assisted,Proprietorship,Telangana,Electronics,Y,Live,2025-05-14,2025-05-18,2025-05-21,,,0
+SA21254,2025-05-12,Web,Proprietorship,Tamil Nadu,Beauty,Y,Rejected,2025-05-16,,,2025-05-25,Bank account name mismatch,0
+SA21255,2025-05-12,Web,Proprietorship,Maharashtra,Grocery,Y,Live,2025-05-17,2025-05-23,2025-05-27,,,0
+SA21256,2025-05-12,Web,Individual,Punjab,Home & Kitchen,N,Rejected,2025-05-16,,,2025-05-24,Bank account name mismatch,0
+SA21257,2025-05-12,App,Proprietorship,Delhi,Fashion,Y,Live,2025-05-14,2025-05-27,2025-05-31,,,1
+SA21258,2025-05-12,Web,Proprietorship,Maharashtra,Electronics,Y,Live,2025-05-15,2025-05-31,2025-06-02,,,1
+SA21259,2025-05-12,Web,Individual,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA21260,2025-05-12,Web,Private Limited,Delhi,Grocery,Y,Live,2025-05-17,2025-05-21,2025-05-23,,,0
+SA21261,2025-05-12,Assisted,Proprietorship,Tamil Nadu,Books,N,Live,2025-05-13,2025-05-18,2025-05-25,,,0
+SA21262,2025-05-13,Web,Individual,Karnataka,Fashion,Y,Rejected,2025-05-15,,,2025-05-22,Blurry or unreadable document,0
+SA21263,2025-05-13,Web,Individual,Telangana,Fashion,N,Live,2025-05-16,2025-05-23,2025-05-31,,,0
+SA21264,2025-05-13,App,Proprietorship,West Bengal,Electronics,Y,Live,2025-05-16,2025-05-25,2025-05-31,,,0
+SA21265,2025-05-13,Web,Proprietorship,Delhi,Fashion,Y,Rejected,2025-05-17,,,2025-06-05,Blurry or unreadable document,1
+SA21266,2025-05-13,Assisted,Individual,West Bengal,Fashion,Y,Live,2025-05-14,2025-05-21,2025-05-22,,,0
+SA21267,2025-05-13,Web,Individual,Gujarat,Fashion,N,Live,2025-05-17,2025-05-29,2025-06-04,,,1
+SA21268,2025-05-13,Web,Individual,Rajasthan,Fashion,N,Live,2025-05-15,2025-05-25,2025-05-27,,,1
+SA21269,2025-05-13,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-05-24,2025-05-31,2025-06-03,,,1
+SA21270,2025-05-13,Web,Private Limited,Tamil Nadu,Fashion,Y,Live,2025-05-15,2025-05-20,2025-05-24,,,0
+SA21271,2025-05-13,Web,Proprietorship,Gujarat,Grocery,Y,Rejected,2025-05-17,,,2025-05-28,Duplicate application,0
+SA21272,2025-05-13,Web,Private Limited,Uttar Pradesh,Fashion,Y,Live,2025-05-18,2025-05-25,2025-05-28,,,0
+SA21273,2025-05-13,Web,Individual,Karnataka,Electronics,N,Rejected,2025-05-15,,,2025-05-22,GSTIN mismatch,1
+SA21274,2025-05-13,Web,Individual,Rajasthan,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21275,2025-05-13,App,Private Limited,Uttar Pradesh,Home & Kitchen,Y,Live,2025-05-15,2025-05-20,2025-05-22,,,0
+SA21276,2025-05-14,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-05-17,,,2025-05-25,Duplicate application,0
+SA21277,2025-05-14,Web,Individual,Uttar Pradesh,Books,N,Live,2025-05-17,2025-05-23,2025-05-28,,,0
+SA21278,2025-05-14,Web,Individual,Maharashtra,Fashion,N,Live,2025-05-16,2025-05-23,2025-05-31,,,1
+SA21279,2025-05-14,Assisted,Individual,Gujarat,Fashion,Y,Live,2025-05-15,2025-05-31,2025-06-04,,,0
+SA21280,2025-05-14,App,Individual,Gujarat,Fashion,Y,Live,2025-05-15,2025-05-18,2025-05-24,,,0
+SA21281,2025-05-14,App,Proprietorship,Gujarat,Fashion,Y,Withdrawn,,,,,,0
+SA21282,2025-05-14,Assisted,Proprietorship,Karnataka,Fashion,Y,Live,2025-05-15,2025-05-25,2025-05-27,,,1
+SA21283,2025-05-14,Web,Individual,Maharashtra,Fashion,N,Live,2025-05-16,2025-05-28,2025-05-30,,,1
+SA21284,2025-05-14,Web,Individual,Gujarat,Fashion,Y,Live,2025-05-17,2025-05-19,2025-05-22,,,0
+SA21285,2025-05-14,Assisted,Proprietorship,Rajasthan,Beauty,Y,Live,2025-05-15,2025-06-05,2025-06-08,,,0
+SA21286,2025-05-14,App,Proprietorship,Maharashtra,Fashion,Y,Live,2025-05-15,2025-05-23,2025-05-25,,,1
+SA21287,2025-05-14,Web,Proprietorship,Telangana,Fashion,Y,Withdrawn,,,,,,0
+SA21288,2025-05-15,App,Private Limited,Gujarat,Beauty,Y,Live,2025-05-18,2025-05-31,2025-06-05,,,0
+SA21289,2025-05-15,Assisted,Individual,Uttar Pradesh,Home & Kitchen,N,Live,2025-05-16,2025-05-24,2025-05-27,,,0
+SA21290,2025-05-15,Web,Individual,Uttar Pradesh,Home & Kitchen,Y,Live,2025-05-18,2025-06-02,2025-06-05,,,0
+SA21291,2025-05-15,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Rejected,2025-05-17,,,2025-05-27,Bank account name mismatch,0
+SA21292,2025-05-15,Web,Proprietorship,West Bengal,Beauty,Y,Live,2025-05-17,2025-06-18,2025-06-20,,,0
+SA21293,2025-05-15,Web,Individual,Gujarat,Fashion,N,Live,2025-05-20,2025-05-27,2025-06-02,,,0
+SA21294,2025-05-15,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-05-21,2025-05-27,2025-05-31,,,0
+SA21295,2025-05-15,Web,Individual,West Bengal,Home & Kitchen,Y,Live,2025-05-19,2025-05-26,2025-05-30,,,1
+SA21296,2025-05-15,App,Individual,Rajasthan,Books,N,Live,2025-05-17,2025-05-26,2025-05-28,,,0
+SA21297,2025-05-15,Web,Individual,Gujarat,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21298,2025-05-16,Web,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-05-21,2025-05-29,2025-06-02,,,0
+SA21299,2025-05-16,Web,Individual,Uttar Pradesh,Fashion,Y,Rejected,2025-05-19,,,2025-05-22,Restricted category,0
+SA21300,2025-05-16,Web,Proprietorship,Maharashtra,Electronics,Y,Live,2025-05-18,2025-06-01,2025-06-06,,,0
+SA21301,2025-05-16,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-05-21,2025-05-30,2025-06-02,,,0
+SA21302,2025-05-16,Assisted,Individual,Gujarat,Fashion,Y,Live,2025-05-17,2025-05-24,2025-05-27,,,0
+SA21303,2025-05-16,App,Private Limited,Uttar Pradesh,Beauty,Y,Rejected,2025-05-17,,,2025-05-22,Blurry or unreadable document,0
+SA21304,2025-05-17,Web,Individual,Rajasthan,Electronics,Y,Live,2025-05-20,2025-05-31,2025-06-03,,,1
+SA21305,2025-05-17,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-05-23,2025-06-05,2025-06-12,,,1
+SA21306,2025-05-17,Web,Proprietorship,Delhi,Toys,Y,Live,2025-05-20,2025-05-25,2025-05-28,,,0
+SA21307,2025-05-17,Web,Private Limited,Karnataka,Beauty,Y,Live,2025-05-22,2025-05-28,2025-05-31,,,0
+SA21308,2025-05-17,Web,Individual,Maharashtra,Grocery,Y,Live,2025-05-20,2025-05-30,2025-06-11,,,0
+SA21309,2025-05-17,Web,Individual,Maharashtra,Fashion,Y,Live,2025-05-18,2025-05-24,2025-05-27,,,0
+SA21310,2025-05-17,Assisted,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-05-17,2025-05-25,2025-05-27,,,0
+SA21311,2025-05-18,Web,Individual,West Bengal,Home & Kitchen,Y,Live,2025-05-22,2025-05-28,2025-05-30,,,0
+SA21312,2025-05-18,Web,Individual,Gujarat,Home & Kitchen,Y,Live,2025-05-20,2025-05-27,2025-05-29,,,0
+SA21313,2025-05-18,Assisted,Proprietorship,Maharashtra,Electronics,Y,Live,2025-05-20,2025-06-02,2025-06-04,,,1
+SA21314,2025-05-18,Web,Proprietorship,Delhi,Toys,Y,Rejected,2025-05-22,,,2025-06-02,Blurry or unreadable document,1
+SA21315,2025-05-18,App,Proprietorship,Rajasthan,Toys,Y,Live,2025-05-19,2025-05-26,2025-06-03,,,0
+SA21316,2025-05-18,Web,Proprietorship,Delhi,Fashion,Y,Rejected,2025-05-21,,,2025-06-09,Bank account name mismatch,0
+SA21317,2025-05-18,Web,Proprietorship,Punjab,Fashion,Y,Live,2025-05-21,2025-05-26,2025-05-28,,,0
+SA21318,2025-05-18,App,Proprietorship,Rajasthan,Home & Kitchen,Y,Rejected,2025-05-20,,,2025-05-30,Bank account name mismatch,1
+SA21319,2025-05-18,Web,Individual,Maharashtra,Beauty,Y,Live,2025-05-20,2025-05-24,2025-05-27,,,0
+SA21320,2025-05-18,App,Individual,Maharashtra,Fashion,Y,Rejected,2025-05-19,,,2025-05-27,Restricted category,0
+SA21321,2025-05-19,Web,Proprietorship,Gujarat,Fashion,Y,Rejected,2025-05-27,,,2025-06-06,Bank account name mismatch,0
+SA21322,2025-05-19,App,Individual,Punjab,Beauty,N,Live,2025-05-21,2025-05-31,2025-06-04,,,0
+SA21323,2025-05-19,Assisted,Private Limited,West Bengal,Fashion,Y,Live,2025-05-20,2025-05-29,2025-06-01,,,0
+SA21324,2025-05-19,Web,Individual,Uttar Pradesh,Beauty,N,Live,2025-05-21,2025-05-31,2025-06-02,,,0
+SA21325,2025-05-19,App,Proprietorship,Karnataka,Electronics,Y,Rejected,2025-05-21,,,2025-05-26,Blurry or unreadable document,0
+SA21326,2025-05-19,Assisted,Proprietorship,Rajasthan,Home & Kitchen,Y,Live,2025-05-20,2025-06-01,2025-06-03,,,0
+SA21327,2025-05-19,App,Individual,Tamil Nadu,Electronics,Y,Live,2025-05-21,2025-05-28,2025-06-02,,,0
+SA21328,2025-05-19,App,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-05-20,2025-05-29,2025-06-01,,,0
+SA21329,2025-05-19,Web,Private Limited,Gujarat,Fashion,Y,Live,2025-05-21,2025-05-27,2025-05-30,,,0
+SA21330,2025-05-19,Web,Proprietorship,Uttar Pradesh,Grocery,Y,Live,2025-05-21,2025-05-30,2025-06-01,,,0
+SA21331,2025-05-19,Web,Individual,Delhi,Toys,N,Live,2025-05-24,2025-05-28,2025-05-31,,,0
+SA21332,2025-05-19,Web,Proprietorship,West Bengal,Toys,Y,Live,2025-05-21,2025-05-27,2025-05-30,,,0
+SA21333,2025-05-19,Web,Proprietorship,Uttar Pradesh,Electronics,Y,Live,2025-05-23,2025-06-07,2025-06-11,,,1
+SA21334,2025-05-20,Web,Individual,Gujarat,Home & Kitchen,Y,Rejected,2025-05-23,,,2025-05-28,Restricted category,0
+SA21335,2025-05-20,Web,Individual,Gujarat,Books,N,Withdrawn,,,,,,0
+SA21336,2025-05-20,App,Individual,Gujarat,Electronics,Y,Live,2025-05-22,2025-06-02,2025-06-04,,,0
+SA21337,2025-05-20,App,Individual,Punjab,Beauty,N,Live,2025-05-22,2025-05-27,2025-06-01,,,0
+SA21338,2025-05-20,App,Individual,Delhi,Fashion,Y,Live,2025-05-23,2025-05-31,2025-06-02,,,0
+SA21339,2025-05-20,App,Proprietorship,Tamil Nadu,Books,N,Live,2025-05-22,2025-06-04,2025-06-07,,,0
+SA21340,2025-05-21,Web,Individual,Gujarat,Fashion,Y,Rejected,2025-05-25,,,2025-06-06,Bank account name mismatch,0
+SA21341,2025-05-21,Web,Private Limited,Gujarat,Fashion,Y,Rejected,2025-05-24,,,2025-06-07,Incomplete address,0
+SA21342,2025-05-21,Web,Private Limited,Telangana,Books,N,Rejected,2025-05-25,,,2025-06-05,Blurry or unreadable document,1
+SA21343,2025-05-21,App,Proprietorship,Punjab,Fashion,Y,Live,2025-05-22,2025-06-09,2025-06-10,,,0
+SA21344,2025-05-21,App,Individual,Delhi,Grocery,N,Live,2025-05-24,2025-06-01,2025-06-04,,,0
+SA21345,2025-05-21,App,Private Limited,Karnataka,Books,N,Live,2025-05-24,2025-05-28,2025-06-01,,,0
+SA21346,2025-05-21,Web,Individual,Delhi,Electronics,Y,Live,2025-05-24,2025-05-28,2025-05-31,,,0
+SA21347,2025-05-21,Web,Private Limited,Gujarat,Grocery,Y,Live,2025-05-28,2025-06-04,2025-06-11,,,0
+SA21348,2025-05-21,Web,Proprietorship,Uttar Pradesh,Electronics,Y,Live,2025-05-25,2025-06-01,2025-06-05,,,0
+SA21349,2025-05-21,App,Individual,Rajasthan,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21350,2025-05-22,Assisted,Proprietorship,Gujarat,Grocery,Y,Live,2025-05-24,2025-05-29,2025-06-02,,,0
+SA21351,2025-05-22,Web,Proprietorship,Maharashtra,Books,N,Live,2025-05-28,2025-06-02,2025-06-04,,,0
+SA21352,2025-05-22,Web,Proprietorship,Tamil Nadu,Beauty,Y,Live,2025-05-24,2025-06-06,2025-06-09,,,0
+SA21353,2025-05-22,App,Proprietorship,Punjab,Grocery,Y,Rejected,2025-05-24,,,2025-05-31,Bank account name mismatch,0
+SA21354,2025-05-22,Web,Individual,Gujarat,Grocery,N,Live,2025-05-25,2025-06-04,2025-06-05,,,0
+SA21355,2025-05-22,Assisted,Proprietorship,Maharashtra,Home & Kitchen,Y,Rejected,2025-05-23,,,2025-05-29,Blurry or unreadable document,0
+SA21356,2025-05-22,Assisted,Individual,Rajasthan,Toys,Y,Withdrawn,,,,,,0
+SA21357,2025-05-22,App,Proprietorship,Rajasthan,Home & Kitchen,Y,Live,2025-05-24,2025-05-30,2025-06-03,,,1
+SA21358,2025-05-22,App,Individual,Uttar Pradesh,Fashion,Y,Live,2025-05-26,2025-05-30,2025-06-01,,,0
+SA21359,2025-05-22,Web,Individual,Delhi,Beauty,Y,Live,2025-05-27,2025-06-06,2025-06-07,,,0
+SA21360,2025-05-22,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-05-27,2025-06-02,2025-06-03,,,1
+SA21361,2025-05-22,Assisted,Individual,Uttar Pradesh,Home & Kitchen,Y,Rejected,2025-05-23,,,2025-06-03,Blurry or unreadable document,2
+SA21362,2025-05-22,Web,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-06-01,2025-06-13,2025-06-16,,,0
+SA21363,2025-05-22,Web,Private Limited,West Bengal,Beauty,Y,Live,2025-05-25,2025-05-30,2025-06-01,,,0
+SA21364,2025-05-22,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-05-26,2025-06-02,2025-06-06,,,0
+SA21365,2025-05-22,Assisted,Individual,Karnataka,Electronics,Y,Withdrawn,,,,,,0
+SA21366,2025-05-22,Web,Proprietorship,Uttar Pradesh,Beauty,Y,Live,2025-05-23,2025-06-01,2025-06-04,,,0
+SA21367,2025-05-22,Assisted,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-05-24,2025-05-30,2025-06-03,,,0
+SA21368,2025-05-22,App,Proprietorship,West Bengal,Beauty,Y,Withdrawn,,,,,,0
+SA21369,2025-05-22,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-05-26,2025-06-07,2025-06-09,,,0
+SA21370,2025-05-22,Web,Individual,Delhi,Electronics,Y,Live,2025-05-28,2025-06-09,2025-06-10,,,0
+SA21371,2025-05-22,App,Individual,Uttar Pradesh,Fashion,Y,Live,2025-05-26,2025-06-04,2025-06-06,,,0
+SA21372,2025-05-23,App,Individual,Rajasthan,Home & Kitchen,N,Live,2025-05-25,2025-06-01,2025-06-05,,,1
+SA21373,2025-05-23,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-05-28,2025-06-02,2025-06-04,,,0
+SA21374,2025-05-23,App,Individual,Tamil Nadu,Electronics,N,Live,2025-05-24,2025-05-30,2025-06-03,,,0
+SA21375,2025-05-23,App,Private Limited,Karnataka,Electronics,Y,Live,2025-05-30,2025-06-03,2025-06-06,,,0
+SA21376,2025-05-23,Assisted,Proprietorship,Gujarat,Electronics,Y,Live,2025-05-24,2025-06-04,2025-06-06,,,0
+SA21377,2025-05-23,Web,Individual,Delhi,Fashion,N,Live,2025-05-26,2025-05-29,2025-05-31,,,0
+SA21378,2025-05-23,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-05-26,2025-06-13,2025-06-18,,,1
+SA21379,2025-05-23,Web,Proprietorship,Delhi,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21380,2025-05-23,Web,Individual,Uttar Pradesh,Electronics,Y,Live,2025-05-25,2025-06-06,2025-06-09,,,1
+SA21381,2025-05-23,Web,Private Limited,Gujarat,Toys,Y,Rejected,2025-05-25,,,2025-06-03,Duplicate application,0
+SA21382,2025-05-23,App,Individual,Gujarat,Home & Kitchen,Y,Rejected,2025-05-25,,,2025-06-23,Bank account name mismatch,2
+SA21383,2025-05-23,App,Individual,Delhi,Home & Kitchen,Y,Rejected,2025-05-26,,,2025-06-08,Incomplete address,0
+SA21384,2025-05-23,Web,Individual,Tamil Nadu,Home & Kitchen,N,Live,2025-05-25,2025-06-02,2025-06-04,,,0
+SA21385,2025-05-24,App,Proprietorship,Telangana,Electronics,Y,Live,2025-05-25,2025-05-31,2025-06-03,,,0
+SA21386,2025-05-24,App,Individual,Delhi,Toys,Y,Rejected,2025-05-26,,,2025-06-01,Bank account name mismatch,0
+SA21387,2025-05-24,App,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-05-26,2025-05-31,2025-06-07,,,0
+SA21388,2025-05-24,Web,Proprietorship,Gujarat,Fashion,Y,Rejected,2025-05-29,,,2025-06-15,Blurry or unreadable document,1
+SA21389,2025-05-24,Web,Proprietorship,Rajasthan,Books,N,Live,2025-05-26,2025-06-07,2025-06-12,,,0
+SA21390,2025-05-24,Web,Individual,Gujarat,Home & Kitchen,Y,Live,2025-05-26,2025-05-29,2025-06-02,,,0
+SA21391,2025-05-24,Web,Private Limited,Gujarat,Beauty,Y,Live,2025-05-26,2025-06-14,2025-06-18,,,0
+SA21392,2025-05-24,App,Private Limited,Maharashtra,Fashion,Y,Live,2025-05-26,2025-06-01,2025-06-05,,,0
+SA21393,2025-05-24,Web,Individual,Gujarat,Electronics,Y,Live,2025-05-26,2025-06-01,2025-06-08,,,0
+SA21394,2025-05-25,Web,Individual,Gujarat,Beauty,N,Rejected,2025-05-27,,,2025-06-09,Bank account name mismatch,0
+SA21395,2025-05-25,Web,Proprietorship,Gujarat,Toys,Y,Live,2025-05-28,2025-06-22,2025-06-26,,,0
+SA21396,2025-05-25,App,Proprietorship,Punjab,Fashion,Y,Rejected,2025-05-28,,,2025-06-05,Incomplete address,0
+SA21397,2025-05-25,App,Individual,Uttar Pradesh,Home & Kitchen,N,Rejected,2025-05-27,,,2025-06-07,Bank account name mismatch,1
+SA21398,2025-05-25,App,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-05-26,,,2025-06-02,Blurry or unreadable document,0
+SA21399,2025-05-25,App,Individual,Uttar Pradesh,Beauty,Y,Live,2025-05-30,2025-06-16,2025-06-23,,,0
+SA21400,2025-05-25,App,Proprietorship,Gujarat,Electronics,Y,Live,2025-05-26,2025-05-30,2025-06-01,,,0
+SA21401,2025-05-25,Web,Individual,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-05-29,,,2025-06-12,Blurry or unreadable document,2
+SA21402,2025-05-26,App,Proprietorship,Delhi,Beauty,Y,Rejected,2025-06-04,,,2025-06-11,Blurry or unreadable document,1
+SA21403,2025-05-26,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Rejected,2025-06-03,,,2025-06-08,Blurry or unreadable document,0
+SA21404,2025-05-26,Web,Individual,Tamil Nadu,Beauty,Y,Rejected,2025-05-28,,,2025-06-06,GSTIN mismatch,0
+SA21405,2025-05-26,Web,Proprietorship,Punjab,Electronics,Y,Rejected,2025-05-28,,,2025-06-12,Blurry or unreadable document,2
+SA21406,2025-05-26,Web,Proprietorship,Delhi,Toys,Y,Live,2025-05-30,2025-06-03,2025-06-06,,,0
+SA21407,2025-05-26,Web,Private Limited,Maharashtra,Fashion,Y,Rejected,2025-05-30,,,2025-06-09,Blurry or unreadable document,1
+SA21408,2025-05-26,App,Individual,Karnataka,Fashion,Y,Live,2025-05-28,2025-06-02,2025-06-04,,,0
+SA21409,2025-05-26,App,Individual,Rajasthan,Electronics,Y,Live,2025-05-27,2025-06-04,2025-06-09,,,0
+SA21410,2025-05-27,Web,Private Limited,Punjab,Fashion,Y,Live,2025-05-29,2025-06-08,2025-06-10,,,0
+SA21411,2025-05-27,Assisted,Individual,Uttar Pradesh,Home & Kitchen,Y,Live,2025-05-28,2025-06-27,2025-06-29,,,0
+SA21412,2025-05-27,Web,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-06-04,2025-06-09,2025-06-11,,,0
+SA21413,2025-05-27,App,Individual,Maharashtra,Books,N,Live,2025-05-29,2025-06-06,2025-06-11,,,1
+SA21414,2025-05-27,Web,Individual,Gujarat,Fashion,N,Rejected,2025-05-31,,,2025-06-13,GSTIN mismatch,0
+SA21415,2025-05-27,Assisted,Proprietorship,Gujarat,Beauty,Y,Live,2025-05-28,2025-06-06,2025-06-08,,,0
+SA21416,2025-05-27,Web,Private Limited,Karnataka,Fashion,Y,Live,2025-05-29,2025-06-02,2025-06-05,,,0
+SA21417,2025-05-27,Web,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-06-04,2025-06-09,2025-06-11,,,0
+SA21418,2025-05-27,Web,Individual,Tamil Nadu,Books,N,Rejected,2025-05-29,,,2025-06-04,Blurry or unreadable document,0
+SA21419,2025-05-27,App,Individual,Gujarat,Electronics,N,Withdrawn,,,,,,0
+SA21420,2025-05-27,Web,Individual,Maharashtra,Fashion,Y,Live,2025-06-01,2025-06-21,2025-06-24,,,0
+SA21421,2025-05-27,Web,Private Limited,Maharashtra,Fashion,Y,Rejected,2025-05-31,,,2025-06-07,Bank account name mismatch,1
+SA21422,2025-05-27,Web,Proprietorship,Gujarat,Fashion,Y,Live,2025-05-28,2025-06-06,2025-06-10,,,0
+SA21423,2025-05-27,Web,Individual,Delhi,Home & Kitchen,Y,Live,2025-06-01,2025-06-07,2025-06-12,,,0
+SA21424,2025-05-27,Web,Proprietorship,Gujarat,Books,N,Rejected,2025-06-03,,,2025-06-11,GSTIN mismatch,1
+SA21425,2025-05-28,Web,Individual,Rajasthan,Fashion,Y,Rejected,2025-05-30,,,2025-06-10,Bank account name mismatch,0
+SA21426,2025-05-28,Web,Proprietorship,Maharashtra,Grocery,Y,Live,2025-05-30,2025-06-04,2025-06-08,,,0
+SA21427,2025-05-28,Web,Individual,Telangana,Toys,Y,Live,2025-06-05,2025-06-13,2025-06-20,,,0
+SA21428,2025-05-28,Web,Private Limited,West Bengal,Grocery,Y,Live,2025-06-02,2025-06-11,2025-06-13,,,0
+SA21429,2025-05-28,Web,Proprietorship,Telangana,Grocery,Y,Live,2025-06-04,2025-06-16,2025-06-20,,,1
+SA21430,2025-05-29,Assisted,Proprietorship,Delhi,Fashion,Y,Live,2025-05-30,2025-06-08,2025-06-11,,,0
+SA21431,2025-05-29,Web,Private Limited,Rajasthan,Beauty,Y,Rejected,2025-05-31,,,2025-06-15,Incomplete address,0
+SA21432,2025-05-29,App,Individual,Tamil Nadu,Home & Kitchen,Y,Live,2025-05-30,2025-06-02,2025-06-04,,,0
+SA21433,2025-05-29,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-05-30,2025-06-10,2025-06-12,,,0
+SA21434,2025-05-29,Web,Individual,Uttar Pradesh,Fashion,N,Rejected,2025-06-01,,,2025-06-07,Restricted category,0
+SA21435,2025-05-29,Web,Individual,Delhi,Beauty,Y,Rejected,2025-05-30,,,2025-06-09,Bank account name mismatch,1
+SA21436,2025-05-29,Assisted,Individual,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA21437,2025-05-29,App,Individual,Delhi,Home & Kitchen,Y,Rejected,2025-05-30,,,2025-06-09,Incomplete address,1
+SA21438,2025-05-29,Web,Proprietorship,West Bengal,Grocery,Y,Live,2025-06-01,2025-06-05,2025-06-08,,,0
+SA21439,2025-05-29,Web,Individual,Tamil Nadu,Toys,N,Live,2025-05-31,2025-06-11,2025-06-17,,,0
+SA21440,2025-05-29,Web,Proprietorship,Uttar Pradesh,Electronics,Y,Live,2025-05-31,2025-06-07,2025-06-11,,,0
+SA21441,2025-05-30,Web,Proprietorship,Gujarat,Grocery,Y,Live,2025-06-02,2025-06-14,2025-06-20,,,0
+SA21442,2025-05-30,Assisted,Individual,Gujarat,Beauty,N,Live,2025-05-31,2025-06-10,2025-06-14,,,0
+SA21443,2025-05-30,Web,Proprietorship,Delhi,Home & Kitchen,Y,Rejected,2025-06-03,,,2025-06-09,Incomplete address,0
+SA21444,2025-05-30,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-06-02,,,2025-06-25,Incomplete address,2
+SA21445,2025-05-30,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-06-06,2025-06-11,2025-06-15,,,0
+SA21446,2025-05-30,Web,Proprietorship,Tamil Nadu,Fashion,Y,Live,2025-06-07,2025-06-20,2025-06-22,,,1
+SA21447,2025-05-30,Web,Proprietorship,Tamil Nadu,Beauty,Y,Live,2025-06-01,2025-06-07,2025-06-09,,,0
+SA21448,2025-05-30,Web,Individual,Gujarat,Home & Kitchen,N,Live,2025-06-01,2025-06-10,2025-06-12,,,0
+SA21449,2025-05-30,App,Proprietorship,Rajasthan,Fashion,Y,Rejected,2025-06-02,,,2025-06-08,Bank account name mismatch,0
+SA21450,2025-05-30,App,Private Limited,West Bengal,Fashion,Y,Live,2025-06-02,2025-06-11,2025-06-13,,,1
+SA21451,2025-05-31,Assisted,Private Limited,Gujarat,Grocery,Y,Live,2025-06-01,2025-06-06,2025-06-09,,,0
+SA21452,2025-05-31,Web,Proprietorship,Telangana,Electronics,Y,Live,2025-06-02,2025-06-13,2025-06-18,,,0
+SA21453,2025-05-31,Web,Individual,Karnataka,Fashion,Y,Rejected,2025-06-02,,,2025-06-06,GSTIN mismatch,0
+SA21454,2025-05-31,Web,Proprietorship,Punjab,Beauty,Y,Rejected,2025-06-06,,,2025-06-14,Bank account name mismatch,1
+SA21455,2025-05-31,Web,Proprietorship,Telangana,Fashion,Y,Live,2025-06-03,2025-06-13,2025-06-20,,,0
+SA21456,2025-05-31,App,Individual,Maharashtra,Fashion,N,Rejected,2025-06-01,,,2025-06-22,Blurry or unreadable document,2
+SA21457,2025-05-31,Web,Private Limited,Delhi,Fashion,Y,Live,2025-06-03,2025-06-23,2025-06-28,,,0
+SA21458,2025-06-01,Web,Individual,Gujarat,Grocery,Y,Live,2025-06-02,2025-06-07,2025-06-12,,,0
+SA21459,2025-06-01,Web,Individual,Maharashtra,Electronics,Y,Live,2025-06-08,2025-06-20,2025-06-22,,,0
+SA21460,2025-06-01,App,Individual,Karnataka,Home & Kitchen,Y,Live,2025-06-02,2025-06-09,2025-06-11,,,0
+SA21461,2025-06-01,Web,Private Limited,Maharashtra,Toys,Y,Rejected,2025-06-03,,,2025-06-08,Duplicate application,0
+SA21462,2025-06-01,Assisted,Individual,Gujarat,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21463,2025-06-01,Web,Individual,Gujarat,Home & Kitchen,N,Live,2025-06-03,2025-06-07,2025-06-08,,,0
+SA21464,2025-06-01,Web,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-06-05,2025-06-07,2025-06-09,,,0
+SA21465,2025-06-01,App,Proprietorship,Delhi,Fashion,Y,Withdrawn,,,,,,0
+SA21466,2025-06-01,Web,Individual,Uttar Pradesh,Fashion,N,Live,2025-06-05,2025-06-13,2025-06-15,,,1
+SA21467,2025-06-01,Web,Individual,Delhi,Grocery,Y,Live,2025-06-04,2025-06-08,2025-06-10,,,0
+SA21468,2025-06-01,Web,Private Limited,Tamil Nadu,Beauty,Y,Live,2025-06-04,2025-06-09,2025-06-11,,,0
+SA21469,2025-06-01,Web,Individual,Karnataka,Beauty,Y,Rejected,2025-06-03,,,2025-06-10,Incomplete address,1
+SA21470,2025-06-01,Assisted,Individual,Punjab,Fashion,N,Live,2025-06-03,2025-06-07,2025-06-09,,,0
+SA21471,2025-06-01,App,Individual,Karnataka,Fashion,Y,Rejected,2025-06-03,,,2025-06-10,GSTIN mismatch,0
+SA21472,2025-06-02,Assisted,Proprietorship,Rajasthan,Beauty,Y,Rejected,2025-06-03,,,2025-06-13,Blurry or unreadable document,1
+SA21473,2025-06-02,Assisted,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-06-03,2025-06-12,2025-06-14,,,1
+SA21474,2025-06-02,Assisted,Individual,Uttar Pradesh,Fashion,Y,Live,2025-06-03,2025-06-12,2025-06-14,,,0
+SA21475,2025-06-02,Web,Individual,Rajasthan,Fashion,Y,Live,2025-06-08,2025-07-01,2025-07-07,,,1
+SA21476,2025-06-02,Assisted,Proprietorship,Maharashtra,Fashion,Y,Live,2025-06-03,2025-06-21,2025-06-29,,,0
+SA21477,2025-06-02,App,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-06-04,2025-06-12,2025-06-13,,,0
+SA21478,2025-06-02,Web,Private Limited,Uttar Pradesh,Grocery,Y,Live,2025-06-04,2025-06-12,2025-06-20,,,0
+SA21479,2025-06-03,Web,Individual,Delhi,Fashion,Y,Live,2025-06-06,2025-06-11,2025-06-24,,,0
+SA21480,2025-06-03,Web,Individual,Punjab,Home & Kitchen,Y,Live,2025-06-07,2025-06-17,2025-06-20,,,0
+SA21481,2025-06-03,Web,Private Limited,Punjab,Fashion,Y,Live,2025-06-04,2025-06-16,2025-06-19,,,1
+SA21482,2025-06-03,Web,Individual,Uttar Pradesh,Home & Kitchen,Y,Rejected,2025-06-09,,,2025-06-16,Restricted category,0
+SA21483,2025-06-03,Web,Individual,Gujarat,Beauty,Y,Live,2025-06-07,2025-06-16,2025-06-20,,,0
+SA21484,2025-06-03,App,Proprietorship,Uttar Pradesh,Books,N,Live,2025-06-05,2025-06-15,2025-06-23,,,0
+SA21485,2025-06-03,App,Individual,West Bengal,Fashion,Y,Live,2025-06-04,2025-06-19,2025-06-23,,,0
+SA21486,2025-06-03,App,Individual,West Bengal,Fashion,Y,Live,2025-06-04,2025-06-11,2025-06-13,,,0
+SA21487,2025-06-03,Web,Private Limited,Delhi,Fashion,Y,Live,2025-06-04,2025-06-13,2025-06-17,,,0
+SA21488,2025-06-04,Web,Proprietorship,Telangana,Fashion,Y,Rejected,2025-06-11,,,2025-06-24,Duplicate application,0
+SA21489,2025-06-04,Web,Private Limited,Tamil Nadu,Electronics,Y,Rejected,2025-06-08,,,2025-06-14,Blurry or unreadable document,0
+SA21490,2025-06-04,App,Individual,Delhi,Fashion,N,Rejected,2025-06-05,,,2025-06-08,Restricted category,0
+SA21491,2025-06-04,App,Proprietorship,Gujarat,Grocery,Y,Withdrawn,,,,,,0
+SA21492,2025-06-04,Assisted,Individual,Gujarat,Beauty,N,Withdrawn,,,,,,0
+SA21493,2025-06-04,Assisted,Proprietorship,Rajasthan,Home & Kitchen,Y,Rejected,2025-06-05,,,2025-06-18,GSTIN mismatch,1
+SA21494,2025-06-04,Assisted,Individual,Maharashtra,Fashion,N,Live,2025-06-05,2025-06-11,2025-06-16,,,0
+SA21495,2025-06-04,App,Proprietorship,Delhi,Toys,Y,Live,2025-06-05,2025-06-17,2025-06-26,,,0
+SA21496,2025-06-04,Web,Individual,Gujarat,Grocery,N,Live,2025-06-06,2025-06-16,2025-06-19,,,0
+SA21497,2025-06-04,Web,Individual,Karnataka,Books,N,Live,2025-06-06,2025-06-16,2025-06-20,,,0
+SA21498,2025-06-05,Assisted,Private Limited,Rajasthan,Home & Kitchen,Y,Live,2025-06-05,2025-06-14,2025-06-21,,,0
+SA21499,2025-06-05,Web,Proprietorship,Maharashtra,Books,N,Live,2025-06-09,2025-06-16,2025-06-18,,,0
+SA21500,2025-06-05,Assisted,Private Limited,West Bengal,Fashion,Y,Rejected,2025-06-07,,,2025-06-10,Blurry or unreadable document,0
+SA21501,2025-06-05,Web,Individual,Punjab,Home & Kitchen,Y,Rejected,2025-06-12,,,2025-06-26,GSTIN mismatch,1
+SA21502,2025-06-05,Web,Proprietorship,Rajasthan,Home & Kitchen,Y,Rejected,2025-06-07,,,2025-06-17,Blurry or unreadable document,0
+SA21503,2025-06-05,Web,Proprietorship,Punjab,Home & Kitchen,Y,Live,2025-06-07,2025-06-14,2025-06-19,,,0
+SA21504,2025-06-05,Web,Private Limited,Telangana,Fashion,Y,Rejected,2025-06-07,,,2025-06-15,Blurry or unreadable document,0
+SA21505,2025-06-05,App,Individual,Gujarat,Beauty,Y,Live,2025-06-07,2025-06-25,2025-06-27,,,0
+SA21506,2025-06-06,App,Individual,Telangana,Beauty,N,Live,2025-06-09,2025-06-15,2025-06-19,,,0
+SA21507,2025-06-06,Web,Individual,Maharashtra,Fashion,Y,Live,2025-06-10,2025-06-15,2025-06-21,,,0
+SA21508,2025-06-06,App,Individual,West Bengal,Fashion,N,Live,2025-06-09,2025-06-12,2025-06-15,,,0
+SA21509,2025-06-06,Assisted,Proprietorship,Uttar Pradesh,Beauty,Y,Live,2025-06-07,2025-06-12,2025-06-14,,,0
+SA21510,2025-06-06,Web,Proprietorship,Rajasthan,Fashion,Y,Live,2025-06-07,2025-06-16,2025-06-23,,,1
+SA21511,2025-06-06,Web,Individual,Gujarat,Fashion,Y,Live,2025-06-13,2025-06-20,2025-06-22,,,0
+SA21512,2025-06-06,Web,Proprietorship,Punjab,Electronics,Y,Live,2025-06-11,2025-06-16,2025-06-19,,,0
+SA21513,2025-06-06,Web,Individual,Delhi,Beauty,N,Rejected,2025-06-09,,,2025-06-23,Blurry or unreadable document,0
+SA21514,2025-06-06,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-06-08,2025-06-13,2025-06-16,,,0
+SA21515,2025-06-06,Web,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-06-09,2025-07-02,2025-07-04,,,0
+SA21516,2025-06-06,App,Private Limited,Rajasthan,Fashion,Y,Live,2025-06-08,2025-06-15,2025-06-19,,,0
+SA21517,2025-06-06,App,Individual,Karnataka,Fashion,Y,Live,2025-06-10,2025-06-17,2025-06-20,,,0
+SA21518,2025-06-06,Assisted,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-06-07,2025-06-17,2025-06-27,,,0
+SA21519,2025-06-06,App,Proprietorship,Uttar Pradesh,Beauty,Y,Live,2025-06-09,2025-06-19,2025-06-21,,,0
+SA21520,2025-06-06,Web,Individual,Tamil Nadu,Electronics,Y,Live,2025-06-09,2025-06-23,2025-06-29,,,0
+SA21521,2025-06-06,App,Individual,Karnataka,Grocery,N,Rejected,2025-06-07,,,2025-06-23,Blurry or unreadable document,0
+SA21522,2025-06-06,Web,Individual,Rajasthan,Beauty,Y,Live,2025-06-08,2025-06-15,2025-06-20,,,0
+SA21523,2025-06-06,Web,Individual,Punjab,Books,N,Rejected,2025-06-09,,,2025-06-18,Restricted category,0
+SA21524,2025-06-06,Web,Individual,West Bengal,Home & Kitchen,N,Rejected,2025-06-10,,,2025-07-01,GSTIN mismatch,0
+SA21525,2025-06-06,App,Individual,Gujarat,Books,N,Live,2025-06-08,2025-06-11,2025-06-13,,,0
+SA21526,2025-06-07,Web,Private Limited,Maharashtra,Books,N,Live,2025-06-10,2025-06-16,2025-06-20,,,1
+SA21527,2025-06-07,Web,Private Limited,Delhi,Beauty,Y,Live,2025-06-13,2025-06-21,2025-06-25,,,0
+SA21528,2025-06-07,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-06-09,2025-06-20,2025-06-22,,,0
+SA21529,2025-06-07,App,Private Limited,Maharashtra,Fashion,Y,Live,2025-06-08,2025-06-15,2025-06-17,,,0
+SA21530,2025-06-07,Web,Private Limited,Maharashtra,Home & Kitchen,Y,Live,2025-06-10,2025-06-22,2025-06-27,,,0
+SA21531,2025-06-07,App,Proprietorship,Delhi,Fashion,Y,Live,2025-06-09,2025-06-19,2025-06-22,,,0
+SA21532,2025-06-07,Web,Proprietorship,Karnataka,Books,N,Withdrawn,,,,,,0
+SA21533,2025-06-07,Web,Proprietorship,Karnataka,Toys,Y,Rejected,2025-06-10,,,2025-06-21,Blurry or unreadable document,1
+SA21534,2025-06-07,App,Individual,Uttar Pradesh,Grocery,N,Live,2025-06-09,2025-06-20,2025-06-24,,,0
+SA21535,2025-06-07,Assisted,Proprietorship,Punjab,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21536,2025-06-07,Web,Individual,Maharashtra,Electronics,N,Rejected,2025-06-16,,,2025-06-19,GSTIN mismatch,0
+SA21537,2025-06-07,Assisted,Proprietorship,Punjab,Beauty,Y,Live,2025-06-08,2025-06-15,2025-06-19,,,0
+SA21538,2025-06-07,Assisted,Proprietorship,Gujarat,Electronics,Y,Live,2025-06-08,2025-06-13,2025-06-21,,,0
+SA21539,2025-06-08,App,Proprietorship,Delhi,Home & Kitchen,Y,Live,2025-06-10,2025-06-30,2025-07-01,,,1
+SA21540,2025-06-08,App,Individual,Uttar Pradesh,Grocery,Y,Live,2025-06-10,2025-06-20,2025-06-24,,,1
+SA21541,2025-06-08,Assisted,Proprietorship,West Bengal,Electronics,Y,Live,2025-06-09,2025-06-18,2025-06-23,,,1
+SA21542,2025-06-08,App,Proprietorship,Rajasthan,Fashion,Y,Live,2025-06-09,2025-06-17,2025-06-20,,,0
+SA21543,2025-06-08,Web,Individual,Telangana,Fashion,N,Live,2025-06-11,2025-06-21,2025-06-25,,,0
+SA21544,2025-06-08,Assisted,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21545,2025-06-08,App,Proprietorship,West Bengal,Beauty,Y,Live,2025-06-10,2025-06-15,2025-06-21,,,0
+SA21546,2025-06-08,Assisted,Proprietorship,Punjab,Fashion,Y,Rejected,2025-06-10,,,2025-06-24,Duplicate application,0
+SA21547,2025-06-08,Web,Private Limited,Karnataka,Toys,Y,Live,2025-06-15,2025-06-26,2025-07-01,,,0
+SA21548,2025-06-08,Web,Proprietorship,Gujarat,Toys,Y,Live,2025-06-11,2025-06-24,2025-06-26,,,0
+SA21549,2025-06-08,Web,Proprietorship,Rajasthan,Fashion,Y,Live,2025-06-11,2025-06-15,2025-06-17,,,0
+SA21550,2025-06-08,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-06-10,2025-06-14,2025-06-15,,,0
+SA21551,2025-06-08,Web,Proprietorship,Karnataka,Toys,Y,Live,2025-06-14,2025-06-18,2025-06-20,,,0
+SA21552,2025-06-09,Web,Proprietorship,Maharashtra,Grocery,Y,Live,2025-06-13,2025-06-21,2025-06-27,,,0
+SA21553,2025-06-09,Web,Individual,Maharashtra,Fashion,Y,Live,2025-06-15,2025-06-21,2025-06-24,,,0
+SA21554,2025-06-09,Web,Private Limited,Telangana,Home & Kitchen,Y,Rejected,2025-06-11,,,2025-06-26,Duplicate application,0
+SA21555,2025-06-09,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-06-13,2025-06-17,2025-06-18,,,0
+SA21556,2025-06-09,App,Individual,Gujarat,Home & Kitchen,Y,Live,2025-06-11,2025-06-14,2025-06-18,,,0
+SA21557,2025-06-09,Web,Individual,Delhi,Fashion,N,Rejected,2025-06-15,,,2025-06-18,Bank account name mismatch,0
+SA21558,2025-06-09,Assisted,Individual,West Bengal,Grocery,Y,Live,2025-06-10,2025-06-17,2025-06-19,,,1
+SA21559,2025-06-09,Web,Individual,Telangana,Home & Kitchen,Y,Rejected,2025-06-14,,,2025-06-25,Blurry or unreadable document,1
+SA21560,2025-06-09,Web,Private Limited,Rajasthan,Beauty,Y,Live,2025-06-10,2025-06-13,2025-06-17,,,0
+SA21561,2025-06-10,Web,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-06-14,2025-06-19,2025-06-22,,,0
+SA21562,2025-06-10,App,Private Limited,Karnataka,Beauty,Y,Withdrawn,,,,,,0
+SA21563,2025-06-10,Web,Individual,Tamil Nadu,Toys,Y,Live,2025-06-13,2025-06-22,2025-06-27,,,1
+SA21564,2025-06-10,Web,Private Limited,Maharashtra,Toys,Y,Live,2025-06-12,2025-06-28,2025-06-29,,,1
+SA21565,2025-06-10,Web,Individual,Delhi,Beauty,N,Live,2025-06-11,2025-06-23,2025-06-27,,,0
+SA21566,2025-06-10,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-06-12,2025-06-19,2025-06-20,,,0
+SA21567,2025-06-11,Assisted,Individual,Gujarat,Fashion,N,Rejected,2025-06-12,,,2025-06-27,Blurry or unreadable document,2
+SA21568,2025-06-11,App,Individual,Gujarat,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21569,2025-06-11,Web,Individual,Karnataka,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21570,2025-06-11,App,Proprietorship,Gujarat,Beauty,Y,Live,2025-06-13,2025-06-21,2025-06-27,,,0
+SA21571,2025-06-11,Assisted,Proprietorship,Maharashtra,Fashion,Y,Live,2025-06-12,2025-06-18,2025-06-22,,,0
+SA21572,2025-06-11,Web,Individual,Uttar Pradesh,Beauty,N,Live,2025-06-15,2025-06-23,2025-06-27,,,0
+SA21573,2025-06-11,Assisted,Individual,Delhi,Grocery,Y,Live,2025-06-12,2025-06-19,2025-06-20,,,0
+SA21574,2025-06-11,Web,Private Limited,Punjab,Fashion,Y,Live,2025-06-14,2025-06-17,2025-06-19,,,0
+SA21575,2025-06-11,App,Individual,Maharashtra,Grocery,N,Live,2025-06-14,2025-06-23,2025-06-24,,,1
+SA21576,2025-06-11,Web,Proprietorship,Uttar Pradesh,Electronics,Y,Live,2025-06-15,2025-06-19,2025-06-25,,,0
+SA21577,2025-06-11,Web,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-06-12,2025-06-21,2025-06-25,,,0
+SA21578,2025-06-11,Web,Individual,Delhi,Beauty,Y,Rejected,2025-06-16,,,2025-06-24,Bank account name mismatch,0
+SA21579,2025-06-11,Web,Individual,Delhi,Home & Kitchen,Y,Live,2025-06-19,2025-06-25,2025-06-29,,,0
+SA21580,2025-06-11,Assisted,Individual,Delhi,Beauty,Y,Live,2025-06-12,2025-06-16,2025-06-18,,,0
+SA21581,2025-06-11,Assisted,Individual,Maharashtra,Grocery,N,Withdrawn,,,,,,0
+SA21582,2025-06-11,Assisted,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-06-12,2025-06-21,2025-06-27,,,0
+SA21583,2025-06-11,Web,Individual,Maharashtra,Fashion,Y,Live,2025-06-18,2025-07-01,2025-07-06,,,1
+SA21584,2025-06-12,Web,Individual,Delhi,Electronics,Y,Live,2025-06-17,2025-06-20,2025-06-28,,,0
+SA21585,2025-06-12,Web,Individual,Maharashtra,Electronics,Y,Live,2025-06-16,2025-06-27,2025-07-01,,,0
+SA21586,2025-06-12,Web,Proprietorship,Telangana,Home & Kitchen,Y,Live,2025-06-14,2025-06-20,2025-06-23,,,0
+SA21587,2025-06-12,Web,Proprietorship,Maharashtra,Beauty,Y,Live,2025-06-16,2025-06-25,2025-06-27,,,0
+SA21588,2025-06-12,App,Private Limited,Uttar Pradesh,Home & Kitchen,Y,Live,2025-06-15,2025-06-22,2025-06-24,,,0
+SA21589,2025-06-12,Web,Proprietorship,Gujarat,Home & Kitchen,Y,Live,2025-06-15,2025-06-23,2025-06-25,,,0
+SA21590,2025-06-12,Web,Individual,Rajasthan,Home & Kitchen,Y,Live,2025-06-16,2025-06-30,2025-07-05,,,0
+SA21591,2025-06-12,App,Individual,Uttar Pradesh,Beauty,Y,Live,2025-06-17,2025-06-27,2025-06-29,,,0
+SA21592,2025-06-12,Web,Individual,Gujarat,Fashion,Y,Live,2025-06-15,2025-06-23,2025-06-26,,,0
+SA21593,2025-06-12,Web,Proprietorship,Tamil Nadu,Home & Kitchen,Y,Live,2025-06-13,2025-06-20,2025-06-26,,,0
+SA21594,2025-06-12,App,Individual,West Bengal,Beauty,Y,Live,2025-06-15,2025-06-18,2025-06-20,,,0
+SA21595,2025-06-12,Web,Individual,Gujarat,Books,N,Live,2025-06-15,2025-06-20,2025-06-28,,,0
+SA21596,2025-06-12,Web,Individual,Punjab,Books,N,Live,2025-06-14,2025-06-27,2025-06-28,,,0
+SA21597,2025-06-12,Web,Private Limited,Telangana,Fashion,Y,Withdrawn,,,,,,0
+SA21598,2025-06-12,Assisted,Private Limited,Gujarat,Grocery,Y,Live,2025-06-13,2025-06-18,2025-06-19,,,0
+SA21599,2025-06-13,App,Individual,Rajasthan,Grocery,N,Live,2025-06-16,2025-06-30,2025-07-01,,,0
+SA21600,2025-06-13,App,Individual,Karnataka,Fashion,Y,Rejected,2025-06-16,,,2025-07-04,Blurry or unreadable document,1
+SA21601,2025-06-13,App,Proprietorship,West Bengal,Fashion,Y,Live,2025-06-14,2025-06-18,2025-06-24,,,0
+SA21602,2025-06-13,Web,Proprietorship,Karnataka,Fashion,Y,In progress,2025-06-15,2025-07-10,,,,0
+SA21603,2025-06-13,Web,Individual,Rajasthan,Books,N,Live,2025-06-15,2025-06-19,2025-06-26,,,0
+SA21604,2025-06-13,Web,Individual,Delhi,Electronics,Y,Live,2025-06-17,2025-06-29,2025-07-02,,,1
+SA21605,2025-06-13,Web,Individual,Gujarat,Fashion,N,Live,2025-06-15,2025-06-24,2025-07-02,,,0
+SA21606,2025-06-13,Assisted,Individual,Gujarat,Fashion,Y,Live,2025-06-14,2025-06-23,2025-06-28,,,0
+SA21607,2025-06-13,Web,Individual,West Bengal,Beauty,N,Rejected,2025-06-15,,,2025-06-24,Incomplete address,1
+SA21608,2025-06-13,App,Individual,Delhi,Beauty,Y,Live,2025-06-15,2025-06-27,2025-06-29,,,0
+SA21609,2025-06-13,Assisted,Proprietorship,Delhi,Grocery,Y,Live,2025-06-13,2025-06-21,2025-06-24,,,0
+SA21610,2025-06-13,Assisted,Proprietorship,Karnataka,Fashion,Y,Live,2025-06-14,2025-06-25,2025-07-01,,,0
+SA21611,2025-06-13,Assisted,Private Limited,West Bengal,Toys,Y,Live,2025-06-15,2025-07-04,2025-07-06,,,1
+SA21612,2025-06-13,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-06-16,,,2025-06-23,GSTIN mismatch,0
+SA21613,2025-06-13,Web,Proprietorship,Gujarat,Grocery,Y,Rejected,2025-06-18,,,2025-07-02,Duplicate application,0
+SA21614,2025-06-13,App,Proprietorship,Delhi,Grocery,Y,Live,2025-06-15,2025-06-23,2025-06-25,,,0
+SA21615,2025-06-14,App,Individual,Gujarat,Fashion,N,Live,2025-06-17,2025-06-26,2025-06-29,,,0
+SA21616,2025-06-14,Web,Individual,Tamil Nadu,Grocery,N,Live,2025-06-16,2025-06-25,2025-06-27,,,0
+SA21617,2025-06-14,Assisted,Proprietorship,Uttar Pradesh,Beauty,Y,Live,2025-06-15,2025-06-21,2025-06-23,,,0
+SA21618,2025-06-14,Web,Individual,Maharashtra,Fashion,Y,In progress,2025-06-20,,,,,0
+SA21619,2025-06-15,Web,Private Limited,Karnataka,Home & Kitchen,Y,Live,2025-06-23,2025-06-28,2025-06-30,,,0
+SA21620,2025-06-15,App,Proprietorship,Tamil Nadu,Books,N,Rejected,2025-06-17,,,2025-06-22,Bank account name mismatch,0
+SA21621,2025-06-15,Web,Individual,Karnataka,Beauty,N,Rejected,2025-06-20,,,2025-07-10,Blurry or unreadable document,0
+SA21622,2025-06-15,Web,Individual,Uttar Pradesh,Fashion,Y,Live,2025-06-18,2025-06-24,2025-06-26,,,0
+SA21623,2025-06-15,Web,Proprietorship,Tamil Nadu,Beauty,Y,Live,2025-06-18,2025-06-27,2025-06-28,,,0
+SA21624,2025-06-16,Assisted,Private Limited,Uttar Pradesh,Fashion,Y,Withdrawn,,,,,,0
+SA21625,2025-06-16,Web,Individual,Delhi,Beauty,Y,Live,2025-06-18,2025-06-30,2025-07-02,,,0
+SA21626,2025-06-16,App,Proprietorship,Karnataka,Fashion,Y,Live,2025-06-19,2025-06-23,2025-06-24,,,0
+SA21627,2025-06-16,Web,Proprietorship,Telangana,Beauty,Y,Live,2025-06-19,2025-06-27,2025-06-30,,,0
+SA21628,2025-06-16,App,Proprietorship,Gujarat,Home & Kitchen,Y,Rejected,2025-06-18,,,2025-06-27,Blurry or unreadable document,1
+SA21629,2025-06-16,App,Private Limited,Punjab,Grocery,Y,Live,2025-06-18,2025-07-01,2025-07-10,,,0
+SA21630,2025-06-16,App,Proprietorship,Punjab,Fashion,Y,Rejected,2025-06-17,,,2025-06-23,Restricted category,0
+SA21631,2025-06-16,App,Private Limited,Karnataka,Fashion,Y,Live,2025-06-21,2025-06-27,2025-07-01,,,0
+SA21632,2025-06-17,App,Proprietorship,Telangana,Electronics,Y,Rejected,2025-06-20,,,2025-06-28,Restricted category,0
+SA21633,2025-06-17,App,Individual,West Bengal,Grocery,Y,Withdrawn,,,,,,0
+SA21634,2025-06-17,Web,Individual,Gujarat,Grocery,N,Live,2025-06-26,2025-07-04,2025-07-06,,,0
+SA21635,2025-06-17,Web,Proprietorship,Telangana,Beauty,Y,Live,2025-06-20,2025-06-30,2025-07-07,,,0
+SA21636,2025-06-17,Web,Individual,Maharashtra,Electronics,Y,Rejected,2025-06-25,,,2025-07-04,Bank account name mismatch,1
+SA21637,2025-06-17,Assisted,Individual,Rajasthan,Home & Kitchen,Y,Live,2025-06-19,2025-06-30,2025-07-02,,,0
+SA21638,2025-06-17,App,Individual,Telangana,Fashion,Y,In progress,2025-06-18,,,,,0
+SA21639,2025-06-17,Web,Proprietorship,Karnataka,Electronics,Y,Live,2025-06-20,2025-07-06,2025-07-10,,,0
+SA21640,2025-06-17,App,Proprietorship,West Bengal,Home & Kitchen,Y,Live,2025-06-19,2025-06-29,2025-07-01,,,0
+SA21641,2025-06-17,Web,Individual,Gujarat,Electronics,Y,Rejected,2025-06-18,,,2025-07-03,Blurry or unreadable document,1
+SA21642,2025-06-17,Web,Proprietorship,Telangana,Toys,Y,Rejected,2025-06-20,,,2025-07-03,Blurry or unreadable document,1
+SA21643,2025-06-18,App,Proprietorship,Gujarat,Beauty,Y,Rejected,2025-06-19,,,2025-06-29,Blurry or unreadable document,0
+SA21644,2025-06-18,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-06-20,,,2025-07-04,Incomplete address,0
+SA21645,2025-06-18,Web,Proprietorship,Rajasthan,Beauty,Y,Live,2025-06-20,2025-06-27,2025-06-29,,,0
+SA21646,2025-06-18,App,Proprietorship,Uttar Pradesh,Home & Kitchen,Y,Live,2025-06-19,2025-06-29,2025-07-03,,,0
+SA21647,2025-06-18,Web,Individual,Punjab,Fashion,Y,Live,2025-06-21,2025-07-01,2025-07-04,,,0
+SA21648,2025-06-18,App,Individual,West Bengal,Fashion,Y,In progress,2025-06-21,,,,,2
+SA21649,2025-06-18,Web,Individual,Maharashtra,Books,N,Rejected,2025-06-21,,,2025-06-26,Blurry or unreadable document,0
+SA21650,2025-06-18,Web,Individual,Rajasthan,Home & Kitchen,Y,In progress,2025-06-22,,,,,0
+SA21651,2025-06-18,Web,Proprietorship,Tamil Nadu,Beauty,Y,Live,2025-06-21,2025-06-28,2025-07-02,,,0
+SA21652,2025-06-18,Web,Proprietorship,Uttar Pradesh,Beauty,Y,Rejected,2025-06-21,,,2025-06-27,Bank account name mismatch,0
+SA21653,2025-06-18,App,Individual,Maharashtra,Toys,Y,In progress,2025-06-20,2025-07-09,,,,1
+SA21654,2025-06-18,Web,Proprietorship,Rajasthan,Fashion,Y,Live,2025-06-23,2025-07-02,2025-07-05,,,0
+SA21655,2025-06-18,Web,Private Limited,Delhi,Grocery,Y,Live,2025-06-23,2025-07-03,2025-07-09,,,1
+SA21656,2025-06-18,Web,Private Limited,Tamil Nadu,Beauty,Y,Live,2025-06-19,2025-06-23,2025-06-25,,,0
+SA21657,2025-06-18,Web,Proprietorship,Uttar Pradesh,Grocery,Y,Live,2025-06-19,2025-06-27,2025-06-30,,,1
+SA21658,2025-06-19,App,Proprietorship,Telangana,Fashion,Y,Rejected,2025-06-20,,,2025-07-01,Blurry or unreadable document,2
+SA21659,2025-06-19,Web,Individual,Rajasthan,Grocery,Y,Withdrawn,,,,,,0
+SA21660,2025-06-19,Web,Private Limited,Delhi,Electronics,Y,Live,2025-06-20,2025-06-24,2025-06-29,,,0
+SA21661,2025-06-19,Web,Individual,Uttar Pradesh,Electronics,Y,In progress,2025-06-22,2025-07-08,,,,0
+SA21662,2025-06-19,Web,Proprietorship,Maharashtra,Fashion,Y,Withdrawn,,,,,,0
+SA21663,2025-06-19,App,Individual,Maharashtra,Beauty,Y,Live,2025-06-21,2025-06-29,2025-07-05,,,0
+SA21664,2025-06-19,Web,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-06-21,2025-06-30,2025-07-03,,,0
+SA21665,2025-06-19,Assisted,Proprietorship,Punjab,Home & Kitchen,Y,Live,2025-06-20,2025-06-27,2025-06-29,,,0
+SA21666,2025-06-19,App,Individual,Uttar Pradesh,Fashion,Y,Live,2025-06-20,2025-06-26,2025-07-01,,,0
+SA21667,2025-06-19,Web,Individual,Maharashtra,Home & Kitchen,Y,Rejected,2025-06-22,,,2025-07-07,Bank account name mismatch,2
+SA21668,2025-06-19,Web,Individual,Maharashtra,Electronics,Y,Live,2025-06-22,2025-07-04,2025-07-10,,,0
+SA21669,2025-06-19,Web,Individual,Uttar Pradesh,Beauty,Y,Live,2025-06-20,2025-06-26,2025-06-28,,,0
+SA21670,2025-06-19,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-06-21,2025-06-28,2025-07-02,,,0
+SA21671,2025-06-19,App,Proprietorship,Karnataka,Beauty,Y,Rejected,2025-06-24,,,2025-07-05,Restricted category,0
+SA21672,2025-06-19,Web,Proprietorship,Telangana,Fashion,Y,Rejected,2025-06-23,,,2025-06-29,Incomplete address,0
+SA21673,2025-06-19,App,Proprietorship,Maharashtra,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21674,2025-06-20,Web,Proprietorship,Delhi,Electronics,Y,Live,2025-06-24,2025-07-03,2025-07-05,,,1
+SA21675,2025-06-20,Web,Proprietorship,Delhi,Fashion,Y,Rejected,2025-06-24,,,2025-07-03,Blurry or unreadable document,2
+SA21676,2025-06-20,Web,Proprietorship,Karnataka,Grocery,Y,Live,2025-06-21,2025-07-04,2025-07-07,,,0
+SA21677,2025-06-20,Web,Proprietorship,West Bengal,Fashion,Y,Rejected,2025-06-21,,,2025-06-30,Blurry or unreadable document,0
+SA21678,2025-06-20,Web,Proprietorship,Maharashtra,Electronics,Y,Withdrawn,,,,,,0
+SA21679,2025-06-20,Web,Proprietorship,Rajasthan,Beauty,Y,Live,2025-07-01,2025-07-04,2025-07-07,,,0
+SA21680,2025-06-20,Web,Private Limited,Delhi,Home & Kitchen,Y,Live,2025-06-24,2025-06-29,2025-07-02,,,0
+SA21681,2025-06-20,Web,Private Limited,Uttar Pradesh,Home & Kitchen,Y,In progress,2025-06-24,2025-07-05,,,,0
+SA21682,2025-06-20,Web,Proprietorship,Karnataka,Toys,Y,Live,2025-06-22,2025-07-05,2025-07-08,,,0
+SA21683,2025-06-20,Assisted,Proprietorship,Gujarat,Grocery,Y,Live,2025-06-21,2025-06-29,2025-07-01,,,0
+SA21684,2025-06-21,Web,Proprietorship,Gujarat,Fashion,Y,Live,2025-06-26,2025-07-01,2025-07-07,,,0
+SA21685,2025-06-21,App,Private Limited,Gujarat,Fashion,Y,Withdrawn,,,,,,0
+SA21686,2025-06-21,App,Proprietorship,Delhi,Fashion,Y,Live,2025-06-22,2025-06-26,2025-06-30,,,0
+SA21687,2025-06-21,App,Private Limited,Gujarat,Grocery,Y,Rejected,2025-06-22,,,2025-07-03,Bank account name mismatch,2
+SA21688,2025-06-21,Web,Private Limited,Gujarat,Books,N,Rejected,2025-06-24,,,2025-07-07,GSTIN mismatch,2
+SA21689,2025-06-21,Web,Private Limited,Maharashtra,Toys,Y,Live,2025-06-24,2025-07-07,2025-07-10,,,1
+SA21690,2025-06-21,Web,Individual,Maharashtra,Toys,Y,Live,2025-06-29,2025-07-08,2025-07-10,,,0
+SA21691,2025-06-21,Web,Private Limited,Gujarat,Fashion,Y,In progress,2025-06-25,,,,,0
+SA21692,2025-06-21,App,Private Limited,West Bengal,Home & Kitchen,Y,Live,2025-06-22,2025-07-01,2025-07-05,,,0
+SA21693,2025-06-21,Assisted,Proprietorship,Uttar Pradesh,Grocery,Y,Live,2025-06-22,2025-06-27,2025-06-29,,,0
+SA21694,2025-06-21,App,Individual,Maharashtra,Grocery,Y,Rejected,2025-06-23,,,2025-07-07,GSTIN mismatch,2
+SA21695,2025-06-21,App,Proprietorship,Karnataka,Home & Kitchen,Y,Live,2025-06-22,2025-06-30,2025-07-03,,,0
+SA21696,2025-06-21,App,Proprietorship,Tamil Nadu,Grocery,Y,Rejected,2025-06-22,,,2025-07-06,Incomplete address,2
+SA21697,2025-06-21,App,Proprietorship,Punjab,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21698,2025-06-22,Web,Private Limited,Gujarat,Home & Kitchen,Y,Live,2025-06-25,2025-07-06,2025-07-07,,,0
+SA21699,2025-06-22,Web,Proprietorship,Telangana,Fashion,Y,In progress,2025-06-27,2025-07-09,,,,0
+SA21700,2025-06-22,Web,Proprietorship,Delhi,Fashion,Y,In progress,2025-06-26,,,,,2
+SA21701,2025-06-22,Assisted,Individual,Rajasthan,Electronics,Y,Rejected,2025-06-24,,,2025-07-05,GSTIN mismatch,0
+SA21702,2025-06-22,Assisted,Proprietorship,West Bengal,Beauty,Y,Withdrawn,,,,,,0
+SA21703,2025-06-22,App,Private Limited,Karnataka,Grocery,Y,Live,2025-06-23,2025-07-06,2025-07-08,,,1
+SA21704,2025-06-23,Assisted,Individual,Gujarat,Fashion,N,Live,2025-06-23,2025-06-26,2025-06-30,,,0
+SA21705,2025-06-23,App,Private Limited,Gujarat,Beauty,Y,Rejected,2025-06-27,,,2025-07-09,Bank account name mismatch,1
+SA21706,2025-06-23,App,Proprietorship,Maharashtra,Home & Kitchen,Y,Live,2025-06-25,2025-07-04,2025-07-10,,,1
+SA21707,2025-06-23,App,Individual,Rajasthan,Books,N,Live,2025-06-25,2025-06-29,2025-06-30,,,0
+SA21708,2025-06-23,Web,Private Limited,Delhi,Fashion,Y,Live,2025-06-25,2025-07-06,2025-07-09,,,0
+SA21709,2025-06-23,Web,Proprietorship,Tamil Nadu,Fashion,Y,Rejected,2025-06-27,,,2025-07-09,GSTIN mismatch,0
+SA21710,2025-06-23,Assisted,Individual,Maharashtra,Home & Kitchen,Y,Live,2025-06-24,2025-06-28,2025-07-05,,,0
+SA21711,2025-06-23,App,Proprietorship,Tamil Nadu,Fashion,Y,Withdrawn,,,,,,0
+SA21712,2025-06-23,Assisted,Individual,West Bengal,Fashion,Y,Live,2025-06-24,2025-07-01,2025-07-02,,,0
+SA21713,2025-06-23,Assisted,Individual,West Bengal,Fashion,Y,Live,2025-06-24,2025-06-30,2025-07-02,,,0
+SA21714,2025-06-23,Web,Private Limited,Karnataka,Toys,Y,Withdrawn,,,,,,0
+SA21715,2025-06-23,App,Proprietorship,Rajasthan,Fashion,Y,Live,2025-06-24,2025-07-04,2025-07-06,,,0
+SA21716,2025-06-23,App,Individual,Tamil Nadu,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21717,2025-06-23,Assisted,Individual,Delhi,Books,N,In progress,2025-06-25,,,,,0
+SA21718,2025-06-23,Assisted,Proprietorship,Gujarat,Beauty,Y,Live,2025-06-24,2025-07-03,2025-07-06,,,0
+SA21719,2025-06-23,Web,Proprietorship,Gujarat,Fashion,Y,Live,2025-06-25,2025-07-04,2025-07-07,,,1
+SA21720,2025-06-24,Web,Individual,Maharashtra,Beauty,Y,Live,2025-06-27,2025-07-04,2025-07-08,,,0
+SA21721,2025-06-24,Web,Proprietorship,Karnataka,Books,N,In progress,2025-06-26,,,,,0
+SA21722,2025-06-24,Web,Individual,Gujarat,Fashion,N,Live,2025-06-26,2025-07-05,2025-07-07,,,0
+SA21723,2025-06-24,App,Proprietorship,Maharashtra,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21724,2025-06-24,Web,Proprietorship,Gujarat,Fashion,Y,In progress,2025-06-28,,,,,0
+SA21725,2025-06-24,Web,Proprietorship,Maharashtra,Fashion,Y,Live,2025-06-28,2025-07-06,2025-07-08,,,0
+SA21726,2025-06-24,App,Proprietorship,Gujarat,Home & Kitchen,Y,In progress,2025-06-26,,,,,0
+SA21727,2025-06-24,Web,Proprietorship,Gujarat,Grocery,Y,In progress,2025-06-27,,,,,0
+SA21728,2025-06-24,App,Individual,Gujarat,Books,N,In progress,2025-06-26,2025-07-05,,,,0
+SA21729,2025-06-24,Web,Individual,West Bengal,Grocery,N,Live,2025-06-27,2025-07-05,2025-07-10,,,0
+SA21730,2025-06-24,Assisted,Private Limited,Punjab,Toys,Y,Live,2025-06-26,2025-07-03,2025-07-06,,,0
+SA21731,2025-06-24,Web,Proprietorship,Tamil Nadu,Beauty,Y,Live,2025-06-27,2025-07-06,2025-07-08,,,0
+SA21732,2025-06-25,App,Individual,Gujarat,Home & Kitchen,Y,In progress,2025-06-27,,,,,0
+SA21733,2025-06-25,Assisted,Proprietorship,Karnataka,Toys,Y,In progress,2025-06-27,,,,,0
+SA21734,2025-06-25,Web,Private Limited,Rajasthan,Beauty,Y,Rejected,2025-06-27,,,2025-07-03,GSTIN mismatch,0
+SA21735,2025-06-25,App,Proprietorship,Maharashtra,Beauty,Y,Rejected,2025-06-28,,,2025-07-07,Bank account name mismatch,0
+SA21736,2025-06-25,Assisted,Individual,Gujarat,Electronics,Y,In progress,2025-06-27,2025-07-09,,,,0
+SA21737,2025-06-25,App,Individual,Telangana,Beauty,N,Live,2025-06-27,2025-07-04,2025-07-10,,,0
+SA21738,2025-06-25,Web,Proprietorship,Delhi,Home & Kitchen,Y,In progress,2025-06-28,,,,,2
+SA21739,2025-06-25,App,Proprietorship,Gujarat,Fashion,Y,In progress,2025-06-26,2025-07-06,,,,0
+SA21740,2025-06-25,Web,Individual,Gujarat,Beauty,N,Live,2025-06-29,2025-07-06,2025-07-10,,,0
+SA21741,2025-06-25,Web,Proprietorship,Gujarat,Fashion,Y,Live,2025-06-30,2025-07-07,2025-07-10,,,0
+SA21742,2025-06-25,Web,Proprietorship,Delhi,Home & Kitchen,Y,Rejected,2025-06-26,,,2025-07-05,Restricted category,0
+SA21743,2025-06-25,App,Private Limited,Tamil Nadu,Home & Kitchen,Y,Rejected,2025-06-27,,,2025-07-10,Bank account name mismatch,2
+SA21744,2025-06-25,Web,Proprietorship,West Bengal,Toys,Y,In progress,2025-06-26,,,,,1
+SA21745,2025-06-26,Assisted,Proprietorship,Tamil Nadu,Beauty,Y,Withdrawn,,,,,,0
+SA21746,2025-06-26,App,Individual,Rajasthan,Home & Kitchen,Y,In progress,2025-06-28,,,,,1
+SA21747,2025-06-26,Assisted,Individual,Uttar Pradesh,Grocery,Y,Live,2025-06-27,2025-07-02,2025-07-05,,,0
+SA21748,2025-06-26,Web,Individual,Karnataka,Toys,N,In progress,2025-07-03,,,,,0
+SA21749,2025-06-26,Web,Individual,Gujarat,Fashion,Y,In progress,2025-06-30,,,,,0
+SA21750,2025-06-26,Web,Proprietorship,Maharashtra,Fashion,Y,Rejected,2025-06-28,,,2025-07-06,Incomplete address,0
+SA21751,2025-06-26,App,Individual,Delhi,Beauty,Y,In progress,2025-06-27,,,,,0
+SA21752,2025-06-26,App,Proprietorship,Karnataka,Fashion,Y,In progress,2025-06-30,2025-07-10,,,,0
+SA21753,2025-06-26,Web,Private Limited,Maharashtra,Fashion,Y,Live,2025-06-28,2025-07-02,2025-07-05,,,0
+SA21754,2025-06-26,Web,Proprietorship,Rajasthan,Fashion,Y,Rejected,2025-06-30,,,2025-07-04,Restricted category,0
+SA21755,2025-06-26,Web,Proprietorship,Punjab,Home & Kitchen,Y,In progress,2025-07-07,,,,,0
+SA21756,2025-06-26,App,Individual,Delhi,Home & Kitchen,Y,Rejected,2025-06-27,,,2025-07-02,Blurry or unreadable document,0
+SA21757,2025-06-26,Web,Individual,Maharashtra,Electronics,N,Live,2025-06-29,2025-07-06,2025-07-10,,,1
+SA21758,2025-06-27,Web,Proprietorship,Uttar Pradesh,Books,N,Rejected,2025-06-29,,,2025-07-03,GSTIN mismatch,0
+SA21759,2025-06-27,Assisted,Proprietorship,Uttar Pradesh,Fashion,Y,Live,2025-06-28,2025-07-04,2025-07-07,,,0
+SA21760,2025-06-27,Assisted,Proprietorship,Maharashtra,Grocery,Y,In progress,2025-06-28,,,,,2
+SA21761,2025-06-27,Web,Private Limited,Telangana,Home & Kitchen,Y,Live,2025-06-30,2025-07-05,2025-07-07,,,0
+SA21762,2025-06-27,Web,Private Limited,Delhi,Fashion,Y,In progress,2025-07-01,,,,,0
+SA21763,2025-06-27,Web,Proprietorship,Karnataka,Beauty,Y,Live,2025-07-01,2025-07-07,2025-07-10,,,0
+SA21764,2025-06-27,Web,Private Limited,Tamil Nadu,Beauty,Y,In progress,2025-06-30,,,,,1
+SA21765,2025-06-27,Web,Individual,Telangana,Fashion,N,Rejected,2025-06-30,,,2025-07-05,GSTIN mismatch,0
+SA21766,2025-06-27,Web,Individual,Rajasthan,Beauty,Y,In progress,2025-07-04,,,,,0
+SA21767,2025-06-27,App,Proprietorship,Gujarat,Home & Kitchen,Y,In progress,2025-07-01,2025-07-09,,,,0
+SA21768,2025-06-27,Web,Individual,Tamil Nadu,Toys,Y,Live,2025-06-30,2025-07-03,2025-07-06,,,0
+SA21769,2025-06-27,App,Individual,Uttar Pradesh,Electronics,Y,In progress,2025-06-29,,,,,0
+SA21770,2025-06-27,App,Proprietorship,Gujarat,Toys,Y,Live,2025-06-29,2025-07-06,2025-07-08,,,1
+SA21771,2025-06-27,App,Proprietorship,Maharashtra,Fashion,Y,In progress,2025-06-30,,,,,0
+SA21772,2025-06-27,Assisted,Individual,Maharashtra,Home & Kitchen,Y,Rejected,2025-06-28,,,2025-07-04,Bank account name mismatch,0
+SA21773,2025-06-28,App,Proprietorship,Gujarat,Home & Kitchen,Y,In progress,2025-07-02,2025-07-07,,,,0
+SA21774,2025-06-28,Assisted,Individual,Karnataka,Fashion,Y,In progress,2025-07-01,,,,,0
+SA21775,2025-06-28,App,Private Limited,Uttar Pradesh,Home & Kitchen,Y,Rejected,2025-06-29,,,2025-07-07,Incomplete address,0
+SA21776,2025-06-28,Web,Individual,Rajasthan,Toys,Y,In progress,2025-07-06,,,,,0
+SA21777,2025-06-28,Web,Individual,Telangana,Electronics,N,Live,2025-06-29,2025-07-03,2025-07-05,,,0
+SA21778,2025-06-28,Web,Individual,Gujarat,Fashion,N,In progress,2025-06-30,2025-07-10,,,,0
+SA21779,2025-06-28,Web,Private Limited,Maharashtra,Fashion,Y,In progress,2025-06-30,2025-07-10,,,,0
+SA21780,2025-06-28,Web,Individual,Gujarat,Fashion,Y,In progress,2025-06-30,2025-07-10,,,,0
+SA21781,2025-06-28,Web,Proprietorship,Delhi,Home & Kitchen,Y,In progress,2025-07-01,,,,,0
+SA21782,2025-06-28,Assisted,Proprietorship,Telangana,Fashion,Y,In progress,2025-06-30,,,,,2
+SA21783,2025-06-28,Web,Private Limited,Maharashtra,Electronics,Y,Rejected,2025-06-29,,,2025-07-09,Blurry or unreadable document,0
+SA21784,2025-06-28,Web,Proprietorship,West Bengal,Grocery,Y,Rejected,2025-06-29,,,2025-07-06,Bank account name mismatch,0
+SA21785,2025-06-28,App,Proprietorship,Karnataka,Home & Kitchen,Y,In progress,2025-06-30,,,,,1
+SA21786,2025-06-28,App,Private Limited,Gujarat,Beauty,Y,Live,2025-06-29,2025-07-08,2025-07-10,,,0
+SA21787,2025-06-29,Web,Proprietorship,Telangana,Fashion,Y,In progress,2025-07-08,,,,,0
+SA21788,2025-06-29,App,Private Limited,Tamil Nadu,Grocery,Y,Withdrawn,,,,,,0
+SA21789,2025-06-29,App,Individual,Rajasthan,Fashion,Y,In progress,2025-06-30,2025-07-09,,,,0
+SA21790,2025-06-29,App,Proprietorship,Gujarat,Fashion,Y,In progress,2025-07-02,,,,,1
+SA21791,2025-06-29,Web,Proprietorship,Karnataka,Home & Kitchen,Y,In progress,2025-07-02,,,,,0
+SA21792,2025-06-29,Web,Private Limited,Maharashtra,Fashion,Y,In progress,2025-07-03,2025-07-09,,,,0
+SA21793,2025-06-29,Web,Private Limited,Telangana,Fashion,Y,Live,2025-07-02,2025-07-07,2025-07-10,,,0
+SA21794,2025-06-29,Web,Proprietorship,Karnataka,Home & Kitchen,Y,Withdrawn,,,,,,0
+SA21795,2025-06-29,Web,Individual,Maharashtra,Fashion,Y,In progress,2025-07-02,,,,,0
+SA21796,2025-06-29,App,Individual,West Bengal,Fashion,Y,Live,2025-06-30,2025-07-05,2025-07-09,,,0
+SA21797,2025-06-29,Web,Individual,Gujarat,Fashion,N,Live,2025-07-01,2025-07-06,2025-07-10,,,0
+SA21798,2025-06-29,Web,Individual,Uttar Pradesh,Toys,N,In progress,2025-07-03,2025-07-08,,,,0
+SA21799,2025-06-29,App,Private Limited,Maharashtra,Home & Kitchen,Y,In progress,2025-06-30,2025-07-06,,,,0
+SA21800,2025-06-29,Web,Private Limited,Gujarat,Home & Kitchen,Y,Withdrawn,,,,,,0

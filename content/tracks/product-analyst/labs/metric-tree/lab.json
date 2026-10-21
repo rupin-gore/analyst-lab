@@ -1,0 +1,34 @@
+{
+  "id": "metric-tree",
+  "title": "Draw the metric tree for weekly orders",
+  "order": 8,
+  "difficulty": "Beginner",
+  "minutes": 20,
+  "skills": ["Metric trees", "Metric decomposition", "Mermaid"],
+  "workspace": "diagram",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Rohan Pillai", "role": "Group Product Manager" },
+  "scenario": "Every Q4 planning meeting at Swaadly turns into an argument about which team \"owns\" growth. Rohan wants a single picture that breaks weekly orders into the inputs each team can actually move, so each team can pick its own metric and see how it rolls up.\n\n> \"Draw me the metric tree for weekly orders, down to the levers each team controls.\"",
+  "task": "Draw a Mermaid flowchart with **Weekly orders** at the root, decomposed into multiplicative or additive drivers. It should include:\n\n- **Weekly active users** split into **new**, **retained** and **resurrected** users\n- **orders per active user** (or **order rate**), broken into **sessions per user** and **session conversion**\n- session conversion broken into funnel steps: **restaurant view**, **add to cart**, **checkout**, **payment success**\n- an **owner** label on at least the leaf metrics (e.g. Growth, Discovery, Checkout, Payments)\n\nUse `-->` from parent to child, and put the operator (× or +) in the node text or the edge label.",
+  "data": [],
+  "hints": [
+    "Start with the identity: `A[Weekly orders] --> B[Weekly active users]` and `A --> C[Orders per active user]`, labelled with ×.",
+    "Users add up, rates multiply: `B --> B1[New users]`, `B --> B2[Retained users]`, `B --> B3[Resurrected users]` with +.",
+    "Orders per active user = sessions per user × session conversion.",
+    "Put the owning team in the node text, e.g. `P[Payment success rate<br/>Owner: Payments]`."
+  ],
+  "explanation": "A metric tree turns one outcome into **inputs that teams can move**:\n\n- **Additive splits** for populations (WAU = new + retained + resurrected) tell you *where* users come from.\n- **Multiplicative splits** for rates (orders per user = sessions per user × conversion; conversion = view × cart × checkout × payment) tell you *how* each step contributes. A 5% gain at any multiplicative step is a 5% gain at the root, all else equal.\n- **Owners on leaves** make it a planning tool, not just a diagram: Growth owns new users, CRM owns resurrected, Discovery owns view and cart rates, Checkout and Payments own the last steps.\n\nUse it in every \"why did orders drop?\" investigation: walk the tree from the root, find the branch that moved, then segment it.",
+  "interview": "*\"To end a debate about growth ownership, I built a metric tree that decomposed weekly orders into active users (new, retained, resurrected) and a conversion chain from restaurant view to payment, with an owner on each leaf. Each team adopted its leaf as its quarterly KPI, and weekly reviews started with walking the tree to see which branch moved.\"*\n\nCommon prompt: **\"Build a metric tree for [GMV / rides / bookings] on the whiteboard.\"** Practise drawing one for any product in five minutes.",
+  "grading": {
+    "diagram": {
+      "requiredTerms": ["weekly orders", "active users", "new", "retained", "resurrected", ["sessions per user", "sessions"], "conversion", ["restaurant view", "view"], ["add to cart", "cart"], "checkout", "payment", ["owner", "growth"]],
+      "rubric": [
+        "The root is weekly orders",
+        "Active users are split additively into new, retained and resurrected",
+        "Rates are split multiplicatively down to funnel steps",
+        "Each leaf names an owning team",
+        "Every node is a metric someone can measure weekly"
+      ]
+    }
+  }
+}

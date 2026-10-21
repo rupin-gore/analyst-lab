@@ -1,0 +1,9 @@
+flowchart TD
+  subgraph S[Seller]
+    A[Start application] --> B[Upload documents]
+  end
+  subgraph SYS[System]
+    C1{Readable?}
+  end
+  B --> C1
+  C1 -->|No| B

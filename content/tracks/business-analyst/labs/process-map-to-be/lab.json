@@ -1,0 +1,35 @@
+{
+  "id": "process-map-to-be",
+  "title": "Design the to-be onboarding process",
+  "order": 5,
+  "difficulty": "Intermediate",
+  "minutes": 30,
+  "skills": ["Process mapping", "To-be design", "Automation opportunities", "Mermaid"],
+  "workspace": "diagram",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Pooja Sharma", "role": "Head of Seller Operations" },
+  "scenario": "Today: the seller uploads documents → waits ~8 days → a KYC reviewer checks everything by hand → if anything is wrong, the seller gets an email, re-uploads **all** documents and waits again → after approval the catalogue team sets up the first listing (~3 days).\n\nThe approved changes are: automatic **document readability check** at upload, **penny-drop bank verification** (deposit ₹1 and read back the account holder name), **GSTIN auto-validation**, a **48-hour SLA** for manual KYC review, **WhatsApp status updates**, and **re-upload of only the failed document**.\n\n> \"Show me the new flow on one page, so ops, engineering and the KYC team agree on who does what.\"",
+  "task": "Draw the **to-be** process as a Mermaid flowchart. Include:\n\n- the seller's **upload** with the **automatic checks** (readability, penny-drop bank check, GSTIN) and what happens when each fails\n- **manual KYC review** with its **48-hour SLA**\n- **approve** and **reject** paths, with **re-upload of the failed document only**\n- **WhatsApp** notifications at key status changes\n- the end state: seller **live**\n\nUse subgraphs (lanes) for at least two actors, e.g. `subgraph Seller` and `subgraph KYC team`.",
+  "data": [],
+  "hints": [
+    "Lanes in Mermaid: `subgraph S[Seller] ... end`. Nodes can link across subgraphs.",
+    "Automatic checks are decisions: `C1{Readable?} -->|No| U[Retake photo]`, which loops back to upload *before* submission. That's the whole point.",
+    "Show where the SLA applies: `K[Manual KYC review<br/>SLA 48 h]`.",
+    "Rejection should loop to re-uploading **the failed document only**, not the whole application."
+  ],
+  "explanation": "A to-be map is judged on whether it **removes the pain points** found in the as-is:\n\n- **Shift-left validation**: readability, bank name and GSTIN are checked *at upload*, so most bad submissions never reach the KYC queue (they caused ~77% of rejections).\n- **Shorter loops**: a rejected seller re-uploads one document instead of restarting.\n- **Visible SLAs**: the 48-hour review target sits on the manual step, so it can be measured.\n- **Proactive communication**: WhatsApp updates replace \"call support to ask\".\n- **Lanes make ownership explicit**, which is what lets ops, engineering and KYC agree.\n\nCompare with the example. Your layout can differ; check that every approved change appears and every decision has labelled exits.",
+  "interview": "*\"After mapping the as-is seller onboarding, I designed the to-be flow with swimlanes for seller, system and KYC team, moving document, bank and GSTIN checks to the point of upload and adding a 48-hour SLA on manual review. Walking ops and engineering through one diagram got sign-off in a single meeting.\"*\n\nExpect: **\"How would you measure whether the to-be process works?\"** % live within 10 days, first-time-right rate, KYC queue age and status calls per week.",
+  "grading": {
+    "diagram": {
+      "requiredTerms": ["upload", ["readab", "blurry"], ["penny", "bank"], "GSTIN", ["48", "SLA"], ["KYC"], ["approve", "approved"], ["reject", "rejected"], ["failed document", "re-upload"], "WhatsApp", "live", "subgraph"],
+      "rubric": [
+        "Automatic checks happen before submission, with a loop back on failure",
+        "Manual KYC review shows the 48-hour SLA",
+        "Rejection loops to re-uploading only the failed document",
+        "WhatsApp updates appear at key status changes",
+        "At least two lanes (subgraphs) show who does each step",
+        "Every decision has labelled exits"
+      ]
+    }
+  }
+}

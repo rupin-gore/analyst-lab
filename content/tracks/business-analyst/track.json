@@ -1,7 +1,142 @@
 {
   "id": "business-analyst",
   "title": "Business Analyst",
-  "short": "From stakeholder interview to requirements, user stories, process maps, gap analysis, UAT and prioritisation.",
+  "short": "From stakeholder interview to requirements, user stories, data-backed business case, to-be process, gap analysis, prioritisation, UAT and data model, on one realistic project.",
   "order": 3,
-  "status": "planned"
+  "status": "ready",
+  "role": {
+    "day": "A business analyst connects **the business** (operations, finance, sales, customers) with **the delivery team** (engineering, QA, vendors). In Indian IT services, banks, insurers, e-commerce and SaaS companies, a fresher BA typically:\n\n- **Runs requirement workshops and interviews**, then writes them up as BRDs, FRDs or user stories in Jira and Confluence.\n- **Maps processes** (as-is and to-be) and finds where time and errors come from.\n- **Uses data** (SQL or Excel) to size problems and build the business case: *\"KYC time doubled since April\"* lands better than *\"it's slow\"*.\n- **Grooms the backlog** with the product owner, clarifies acceptance criteria in sprint ceremonies, and answers developers' questions daily.\n- **Coordinates UAT** with business users and tracks defects to closure.\n\nThis track follows **one project end to end** (Bazaarly's seller onboarding revamp), because that's how the job actually feels: every artefact builds on the previous one.",
+    "teams": ["Business stakeholders / operations", "Product owner", "Engineering", "QA", "PMO", "Compliance / legal"],
+    "tools": ["Jira / Azure DevOps", "Confluence", "Excel", "SQL", "Visio / Lucidchart / draw.io", "Power BI", "Balsamiq / Figma (wireframes)"],
+    "keywords": ["Requirement Gathering", "BRD", "FRD", "User Stories", "Acceptance Criteria", "Agile / Scrum", "JIRA", "Confluence", "Process Mapping", "Gap Analysis", "UAT", "Stakeholder Management", "SQL", "Excel", "Documentation"]
+  },
+  "capstone": {
+    "title": "BRD for the seller onboarding revamp",
+    "brief": "Bring every artefact from this track together into one **Business Requirements Document** that a steering committee could approve and an engineering team could start from. It should read as one coherent story: problem → evidence → solution → scope → acceptance.",
+    "steps": [
+      "Executive summary: the problem, the measured baseline, the target, the ask.",
+      "Business case: the turnaround and Pareto analysis (with the SQL in an appendix).",
+      "Scope: in, out, and later (from your RICE prioritisation).",
+      "As-is and to-be process maps, and the gap analysis.",
+      "Requirements (FR/NFR) and user stories with acceptance criteria.",
+      "Data model, UAT approach with entry and exit criteria, risks, assumptions and open questions."
+    ],
+    "deliverables": [
+      "BRD_seller_onboarding.md (or .docx), 6–10 pages",
+      "diagrams/: the as-is, to-be and ER diagrams (.mmd plus exported .png)",
+      "analysis.sql: the queries behind every number",
+      "uat_pack.md: the test cases"
+    ],
+    "template": {
+      "filename": "BRD_seller_onboarding.md",
+      "content": "# Business Requirements Document: Seller onboarding revamp\n\n| | |\n|---|---|\n| Version | 0.1 (draft) |\n| Author | |\n| Sponsor | Pooja Sharma, Head of Seller Operations |\n| Date | |\n\n## 1. Executive summary\n\n## 2. Business objective and success metrics\n| Metric | Baseline | Target | By |\n|---|---|---|---|\n| % sellers live within 10 days | | 80% | Diwali |\n\n## 3. Business case (evidence)\n\n## 4. Scope\n- In scope:\n- Out of scope:\n- Later:\n\n## 5. Stakeholders\n| Name | Role | Interest | Involvement |\n|---|---|---|---|\n\n## 6. As-is process\n\n## 7. To-be process\n\n## 8. Gap analysis\n\n## 9. Functional requirements\n\n## 10. Non-functional requirements\n\n## 11. User stories and acceptance criteria\n\n## 12. Data requirements (logical model)\n\n## 13. UAT approach\n\n## 14. Risks, assumptions, dependencies, open questions\n\n## 15. Sign-off\n"
+    }
+  },
+  "interview": [
+    {
+      "type": "Technical",
+      "q": "What is the difference between a BRD and an FRD (or SRS)?",
+      "a": "A **BRD** (Business Requirements Document) states *why* and *what* from the business view: objectives, scope, business rules, success metrics, high-level requirements. An **FRD/SRS** details *what the system must do*: functional behaviour, inputs and outputs, validations, non-functional requirements, so engineering can build and test it. In agile teams, the BRD often becomes an epic brief and the FRD becomes user stories with acceptance criteria."
+    },
+    {
+      "type": "Technical",
+      "q": "Functional vs non-functional requirements: give an example of each.",
+      "a": "**Functional**: what the system does. *\"The system shall verify that the bank account name matches the PAN name.\"* **Non-functional**: how well it does it. *\"Verification shall respond within 30 seconds for 99% of requests\"*, *\"KYC documents shall be retained for 8 years and visible only to the KYC role.\"* Non-functional covers performance, security, availability, usability, compliance and scalability."
+    },
+    {
+      "type": "Technical",
+      "q": "What makes a good user story? What is INVEST?",
+      "a": "Format: *As a [role], I want [capability], so that [benefit]*, with clear acceptance criteria. INVEST: **I**ndependent, **N**egotiable, **V**aluable, **E**stimable, **S**mall (fits a sprint), **T**estable. Bad: *\"As a user I want a better upload.\"* Good: *\"As a seller, I want to know immediately if my photo is unreadable, so that my application isn't rejected a week later.\"*"
+    },
+    {
+      "type": "Technical",
+      "q": "What are acceptance criteria? How are they different from the definition of done?",
+      "a": "Acceptance criteria are **story-specific** conditions that must be true for the story to be accepted, often in Given/When/Then form. The **definition of done** applies to **every** story: code reviewed, tests passing, deployed to staging, documentation updated. A story can meet its acceptance criteria and still not be done."
+    },
+    {
+      "type": "Technical",
+      "q": "Explain MoSCoW prioritisation.",
+      "a": "**Must** have (release fails without it), **Should** have (important but not critical), **Could** have (nice to have if time allows), **Won't** have this time. It's simple and works well for fixed-date releases. Its weakness is that everything drifts into Must; push back by asking \"what happens on launch day if this is missing?\""
+    },
+    {
+      "type": "Technical",
+      "q": "What is UAT? How is it different from SIT and regression testing?",
+      "a": "**SIT** (system integration testing) checks the components work together technically, run by QA. **UAT** (user acceptance testing) checks the solution meets business needs, run by **business users** with realistic scenarios, signed off by the business owner. **Regression testing** checks that new changes didn't break existing functionality. A BA usually writes or reviews UAT cases and manages UAT defects."
+    },
+    {
+      "type": "Technical",
+      "q": "What is a requirements traceability matrix (RTM)?",
+      "a": "A table linking each requirement to its source (stakeholder, regulation), design element, user story, test cases and defects. It proves every requirement is built and tested, shows the impact of a change, and is often demanded in audits at banks and insurers."
+    },
+    {
+      "type": "Technical",
+      "q": "What is the difference between an as-is and a to-be process map, and why do both?",
+      "a": "As-is documents how work happens **today**, including workarounds and exceptions; to-be shows the **future** process after the change. Doing the as-is first builds shared understanding, reveals the real bottlenecks (often not where people think), and gives a baseline to measure improvement against."
+    },
+    {
+      "type": "Technical",
+      "q": "Write a SQL query to find applications stuck in KYC for more than 5 days.",
+      "a": "```sql\nSELECT application_id, docs_submitted_date,\n       CURRENT_DATE - docs_submitted_date AS days_waiting\nFROM applications\nWHERE status = 'In progress'\n  AND docs_submitted_date IS NOT NULL\n  AND kyc_approved_date IS NULL\n  AND rejected_date IS NULL\n  AND CURRENT_DATE - docs_submitted_date > 5\nORDER BY days_waiting DESC;\n```\nMentioning the NULL checks explicitly shows you understand the data."
+    },
+    {
+      "type": "Technical",
+      "q": "What is a use case, and how does it differ from a user story?",
+      "a": "A **use case** describes a complete interaction between an actor and the system, with preconditions, a main flow, alternative flows and postconditions. It's detailed and good for complex flows. A **user story** is a short, negotiable statement of need, refined through conversation and acceptance criteria. Use cases suit waterfall or regulated projects; stories suit agile teams."
+    },
+    {
+      "type": "Case",
+      "q": "Two senior stakeholders want conflicting things. What do you do?",
+      "a": "Understand each one's underlying goal (often they're compatible), and trace both requests back to the project objective. Make the trade-off visible with data (cost, impact, risk of each option), then bring it to the sponsor or decision-maker with a recommendation. Don't pick a side quietly, and document the decision and its rationale."
+    },
+    {
+      "type": "Case",
+      "q": "Halfway through a sprint, the business asks for a 'small' change. How do you handle it?",
+      "a": "Capture it, assess the impact with the team (effort, dependencies, risk to the sprint goal), and take it to the product owner. Usually it goes into the backlog for the next sprint; if it's truly urgent, something of equal size comes out. Never let changes slip in informally; that's how scope creep and missed deadlines happen."
+    },
+    {
+      "type": "Case",
+      "q": "How would you gather requirements for a feature where users can't articulate what they want?",
+      "a": "Observe them working (shadowing), study the data (where do they fail or drop off?), use prototypes or wireframes to react to, ask about recent concrete situations (\"walk me through the last time…\") instead of hypotheticals, and validate assumptions with a small pilot. Users are experts in their problems, not in solutions."
+    },
+    {
+      "type": "Case",
+      "q": "The client says the delivered feature is 'not what we asked for'. What went wrong and how do you recover?",
+      "a": "Usual causes: vague requirements, no acceptance criteria, no review of designs or prototypes, or requirements that changed without being recorded. Recover: compare the delivery against the signed-off requirements and criteria, separate defects (team fixes) from change requests (re-prioritise), agree a fix plan. Prevent it next time with demos every sprint and testable acceptance criteria."
+    },
+    {
+      "type": "Case",
+      "q": "How would you build a business case for automating a manual process?",
+      "a": "Baseline the current cost and performance: volume, time per item, error or rework rate, FTE cost, customer impact (delays, complaints). Estimate the future state and one-time plus running costs. Quantify benefits (FTE hours saved, revenue from faster onboarding, fewer errors), compute payback, and state risks and assumptions. Keep the evidence traceable to data."
+    },
+    {
+      "type": "Case",
+      "q": "A stakeholder keeps adding requirements after sign-off. How do you manage it?",
+      "a": "Use a change-control process: log each request, assess impact on scope, time and cost, and get a decision from the sponsor or change board. Show the cumulative impact (\"these 6 additions add 3 weeks\"). Offer phasing: a must-have in this release, the rest later. Keep the relationship positive; they're usually reacting to a real need."
+    },
+    {
+      "type": "Guesstimate",
+      "q": "How many sellers might list on Indian e-commerce marketplaces?",
+      "a": "~65 mn MSMEs in India; ~30% sell physical goods that ship well ≈ 20 mn; digitally ready (GST-registered, smartphone, bank account) maybe 30% ≈ 6 mn; ~25–35% have tried at least one marketplace ≈ **1.5–2 mn sellers**, with many on more than one platform. State that it's a funnel and that GST registration is the binding constraint."
+    },
+    {
+      "type": "Guesstimate",
+      "q": "Estimate how many KYC reviewers Bazaarly needs during the festive peak.",
+      "a": "Peak ~120 applications/day (from the data context). Manual review ~12 minutes each, plus rework for ~25% rejected and resubmitted → ~150 reviews/day × 12 min = 30 hours. A reviewer gives ~6 productive hours → **~5 reviewers**, versus 4 today, which explains the backlog. With automatic checks cutting rejections by ~70%, 4 is enough. A neat link between capacity and requirements."
+    },
+    {
+      "type": "Behavioural",
+      "q": "Tell me about a time you had to explain a technical constraint to a non-technical stakeholder.",
+      "a": "STAR, with an analogy: *\"The ops head wanted real-time GSTIN checks for every field edit. I explained that the API charges per call and has rate limits, like paying per phone call, and proposed checking once at submission with a manual retry. She agreed, and we saved an estimated 80% of API cost.\"* Show empathy, translate into business terms, offer an alternative."
+    },
+    {
+      "type": "Behavioural",
+      "q": "Describe a time you found a gap in requirements late. What did you do?",
+      "a": "Own it: describe how you noticed (UAT, a developer's question, data), how you assessed the impact, who you told and how fast, and the fix (a change request, a workaround, re-testing). End with the process change you made: e.g. adding edge-case review or data validation to your requirement checklist."
+    },
+    {
+      "type": "Behavioural",
+      "q": "Why business analysis, and why should we hire a data science graduate as a BA?",
+      "a": "Be specific: you enjoy understanding how a business works and turning messy problems into clear requirements, and you like seeing delivered change. Your edge: you can **use data to size problems and validate requirements** (SQL, Python, dashboards), which makes your business cases stronger and your acceptance criteria measurable. Give one example from an internship where data changed a requirement."
+    }
+  ]
 }

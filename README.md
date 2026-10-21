@@ -67,7 +67,7 @@ e2e/smoke.spec.ts                             Playwright smoke test
 ## Status
 
 - **Phase 1 (done):** platform, all six workspaces, graders with tests, progress storage with export/import, Foundations track with one sample lab per workspace type.
-- **Phase 2:** Data Analyst, Business Analyst and Product Analyst tracks in full.
+- **Phase 2 (done):** Data Analyst, Business Analyst and Product Analyst tracks in full: 9 labs, a capstone and 21–22 interview questions each, plus two new datasets.
 - **Phase 3:** remaining tracks.
 - **Phase 4:** skills map, readiness scores, search, accessibility and Lighthouse pass.
 

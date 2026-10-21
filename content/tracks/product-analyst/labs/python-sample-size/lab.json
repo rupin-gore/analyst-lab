@@ -1,0 +1,23 @@
+{
+  "id": "python-sample-size",
+  "title": "How long should the next test run?",
+  "order": 7,
+  "difficulty": "Intermediate",
+  "minutes": 25,
+  "skills": ["Power analysis", "Sample size", "Experiment design"],
+  "workspace": "python",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Ananya Reddy", "role": "Product Manager, Checkout" },
+  "scenario": "Ananya's next idea is saving UPI IDs so returning users pay in one tap. She expects a smaller effect than the one-page checkout and wants to plan the test properly this time, instead of stopping it when the dashboard \"looks good\".\n\n> \"If the real effect is +2 points on checkout conversion, how many users do we need and how many weeks is that?\"",
+  "task": "Use the **pre-experiment** window **2025-07-07 to 2025-08-03** (4 full weeks, `event_ts_ist >= '2025-07-07'` and `< '2025-08-04'`), real users only (`is_internal = 0`).\n\n1. **`baseline`**: of distinct users with a `checkout_start` in the window, the share who also had a `payment_success` in the window.\n2. **`weekly_checkout_users`**: distinct checkout users in the window ÷ 4.\n3. **`n_per_arm`**: users needed **per arm** to detect **+2 percentage points** (absolute) with α = 0.05 two-sided and power = 0.8, using\n\n   n = (z₁₋α/₂·√(2·p̄(1−p̄)) + z₁₋β·√(p₁(1−p₁) + p₂(1−p₂)))² ÷ (p₂ − p₁)², with p₂ = p₁ + 0.02 and p̄ = (p₁ + p₂)/2. Round **up**.\n4. **`weeks_needed`**: ⌈2 × n_per_arm ÷ weekly_checkout_users⌉.",
+  "data": [{ "dataset": "swaadly", "tables": ["users", "events"] }],
+  "hints": [
+    "Sets make user-level metrics easy: `len(checkout_users & paid_users) / len(checkout_users)`.",
+    "`stats.norm.ppf(0.975)` ≈ 1.96 and `stats.norm.ppf(0.8)` ≈ 0.84.",
+    "An absolute MDE of 2 pp means p₂ = p₁ + 0.02, **not** p₁ × 1.02. That mistake shrinks the effect to about 1.4 pp and nearly doubles n.",
+    "Both arms need `n_per_arm`, so the test needs 2 × n users in total."
+  ],
+  "explanation": "**The result:** with a baseline around 70%, detecting +2 pp needs roughly **7,700 users per arm**. Swaadly sees only a few hundred checkout users a week, so the test would take **about 50 weeks, almost a year**, which is not practical.\n\nThat's the real lesson: **power analysis often tells you a test is not feasible**, and that's valuable before anyone builds anything. Options to discuss with Ananya:\n\n- **Test a bigger change** (a larger expected effect needs far fewer users: n scales with 1/MDE²).\n- **Use a more sensitive metric** closer to the change, e.g. time-to-pay for returning UPI users.\n- **Accept lower power** or a one-sided test, and say so explicitly.\n- **Ship without a test** if the change is low-risk, and monitor.\n\nCaveat on the weekly figure: over a long test the same users keep coming back, so *new* unique users accumulate more slowly than this per-week figure suggests. The real duration would be even longer.",
+  "interview": "*\"Before a payments experiment, I ran a power analysis from the pre-period baseline and found that detecting a 2-point lift needed about 7,700 users per arm, which at our traffic meant almost a year. Instead of running an underpowered test, we tested a bolder variant with a larger expected effect and used a more sensitive primary metric.\"*\n\nExpect: **\"What happens if you stop a test as soon as it hits p < 0.05?\"** (Peeking inflates false positives; fix the sample size in advance or use sequential methods.)",
+  "grading": {}
+}

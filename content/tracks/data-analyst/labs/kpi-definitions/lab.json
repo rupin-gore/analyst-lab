@@ -1,0 +1,45 @@
+{
+  "id": "kpi-definitions",
+  "title": "Write the KPI dictionary",
+  "order": 8,
+  "difficulty": "Beginner",
+  "minutes": 25,
+  "skills": ["KPI definitions", "Metric design", "Documentation"],
+  "workspace": "written",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Meenal Rao", "role": "Finance Controller" },
+  "scenario": "In the last leadership review, Finance said FY revenue was ₹2.32 crore, Marketing said ₹2.6 crore and the Growth dashboard showed ₹2.5 crore. All three were \"right\" by their own definitions. Meenal has asked the data team for a single KPI dictionary that everyone must use.\n\n> \"Write me precise definitions for our four headline KPIs. Precise enough that two analysts who've never met would get the same number.\"",
+  "task": "Define these four KPIs for Bazaarly: **Net revenue**, **Average order value (AOV)**, **Repeat purchase rate**, **Cancellation rate**.\n\nFor each, give:\n\n- the **formula** (numerator and denominator)\n- **what's included and excluded** (order statuses, GST, shipping, duplicates, test or B2B orders)\n- the **date logic** (which timestamp, which time zone, which period)\n- the **grain** (per order, per customer or per person) and an **owner**\n\nUse a list or a small table per KPI. You'll be graded on the rubric; then compare with the model answer.",
+  "facts": [
+    { "label": "FY2024-25 net revenue (Finance definition)", "value": "₹2.32 crore" },
+    { "label": "Delivered orders FY2024-25", "value": "7,788" },
+    { "label": "Orders table timestamps", "value": "UTC" },
+    { "label": "Order statuses", "value": "Delivered, Shipped, Cancelled, Returned" },
+    { "label": "Known data issues", "value": "duplicate rows, duplicate accounts, B2B bulk orders" }
+  ],
+  "data": [],
+  "hints": [
+    "Start from the disagreement: what could make Marketing's ₹2.6 crore bigger than Finance's ₹2.32 crore? GST? Cancelled orders? Gross instead of net?",
+    "AOV's denominator matters: all orders or delivered orders? Per order or per customer?",
+    "Repeat purchase rate needs a **window** (e.g. a second order within 90 days of the first) and a population (customers whose first order was at least 90 days ago, otherwise new customers drag it down).",
+    "Cancellation rate: is the denominator all orders placed, or orders placed minus those still in transit?"
+  ],
+  "explanation": "A good KPI definition removes every choice an analyst could make differently. The usual sources of disagreement are:\n\n- **Amount**: gross vs net of discount; with or without GST; with or without shipping.\n- **Status**: which order statuses count, and *when* (a returned order was counted as revenue last month).\n- **Date**: order date vs delivery date; UTC vs IST; calendar vs financial year.\n- **Duplicates and identity**: duplicate rows, duplicate customer accounts.\n- **Population**: test, employee and B2B orders.\n- **Windows** for rate metrics: repeat *within how long*, and only for customers who've had that long.\n\nAlso give each KPI an **owner** (who decides when the definition changes) and a **version date**. Compare your answer with the model answer below; differences in choices are fine as long as each choice is explicit.",
+  "interview": "*\"Three teams were reporting different revenue numbers for the same year, so I wrote a KPI dictionary defining net revenue, AOV, repeat rate and cancellation rate down to the time zone, order statuses and de-duplication rules, with an owner for each. Once adopted, the leadership review stopped debating numbers and started discussing decisions.\"*\n\nCommon interview prompt: **\"Define 'active user' for our app.\"** Use the same checklist: action, window, population, time zone, owner.",
+  "grading": {
+    "written": {
+      "rubric": [
+        "Each KPI has an explicit formula with numerator and denominator",
+        "States which order statuses are included and excluded",
+        "States GST, shipping and discount treatment for revenue",
+        "Specifies date logic: which timestamp, IST, and the period",
+        "Handles duplicates (rows and customer accounts) and test/B2B orders",
+        "Repeat rate has a time window and an eligible population",
+        "Names an owner for each KPI"
+      ],
+      "minWords": 150,
+      "maxWords": 600,
+      "suggestedTerms": ["Delivered", "GST", "IST", "duplicate", "owner"]
+    }
+  }
+}

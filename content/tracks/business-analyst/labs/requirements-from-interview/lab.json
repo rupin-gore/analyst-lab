@@ -1,0 +1,37 @@
+{
+  "id": "requirements-from-interview",
+  "title": "Turn a stakeholder interview into requirements",
+  "order": 1,
+  "difficulty": "Beginner",
+  "minutes": 30,
+  "skills": ["Requirements elicitation", "Functional requirements", "Non-functional requirements", "Assumptions"],
+  "workspace": "written",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Pooja Sharma", "role": "Head of Seller Operations" },
+  "scenario": "Bazaarly wants more sellers live on the marketplace before the festive season. Onboarding has become slow and sellers complain. You interviewed Pooja for 30 minutes. Your notes:\n\n> \"Sellers start on web or app, upload PAN, GSTIN certificate, a cancelled cheque and an address proof. Then my KYC team checks everything by hand: four people, about 120 applications a day in peak. Since April we're at 8–9 days just for KYC; it used to be 4–5. Honestly a third of rejections are blurry photos; the seller only finds out a week later by email, re-uploads, and waits again. Bank name mismatches are next: the name on the cheque doesn't match the PAN. GSTIN we type into the GST portal one by one. Sellers keep calling to ask for status; we get maybe 200 calls a week. Field agents onboard some sellers in tier-2 towns and those go much smoother. Whatever we build has to work on low-end Android phones and 3G. Legal says we must keep KYC documents for 8 years and only my team can see them. Our target from leadership is 10 days from application to live, for 80% of sellers, by Diwali.\"",
+  "task": "Write a requirements list from these notes, grouped under headings:\n\n1. **Business objective**: with a measurable target\n2. **Functional requirements**: numbered (`FR-1`, `FR-2`, …), each one testable, starting with *\"The system shall…\"*\n3. **Non-functional requirements**: numbered (`NFR-1`, …): performance, security, retention, device support\n4. **Assumptions and open questions**: what you still need to confirm and with whom\n\nAim for 5–8 FRs and 3–5 NFRs. Don't design screens; state *what*, not *how*.",
+  "data": [],
+  "hints": [
+    "The objective is already in the notes: 10 days application-to-live for 80% of sellers by Diwali. Write it so it can be measured.",
+    "Every pain point suggests a requirement: blurry photos → check image quality at upload; status calls → status notifications; GSTIN typed by hand → automatic GSTIN validation.",
+    "\"Low-end Android and 3G\", \"keep for 8 years\", \"only my team can see\" are non-functional: they constrain *how well* the system works, not *what* it does.",
+    "Open questions are a sign of a good BA: Which notification channel? Which GST API, and its cost? What image-quality threshold? Who approves exceptions?"
+  ],
+  "explanation": "Good requirements are **specific, testable and solution-neutral**. Compare:\n\n- ✗ *\"Make document upload better.\"*\n- ✓ *\"FR-1: The system shall check each uploaded document image for readability and ask the seller to re-upload before submission if it fails.\"*\n\nThe second can be tested in UAT; the first can't.\n\nSeparate **functional** (what the system does) from **non-functional** (performance, security, compliance, usability) requirements, because they're tested and owned differently. Writing **assumptions and open questions** explicitly is how a BA avoids building the wrong thing; each should name who will answer it.\n\nAlso notice what's *not* a requirement: \"four people in KYC\" is context, and \"field agents go smoother\" is an insight to explore (why?), not a feature.",
+  "interview": "*\"After interviewing the seller operations head, I translated her notes into a business objective with a measurable target, eight testable functional requirements and four non-functional ones covering 3G performance, access control and 8-year document retention, plus a list of open questions with owners. It became the baseline for the BRD and cut the back-and-forth with engineering in sprint planning.\"*\n\nExpect: **\"How do you handle conflicting requirements from two stakeholders?\"** Trace each back to the business objective, make the trade-off visible, and get the sponsor to decide.",
+  "grading": {
+    "written": {
+      "rubric": [
+        "States the business objective with a measurable target and date",
+        "Functional requirements are numbered, testable and start with 'The system shall'",
+        "Covers document quality checks, bank verification, GSTIN validation and seller status updates",
+        "Non-functional requirements cover performance on low-end devices/3G, access control and 8-year retention",
+        "Requirements say what, not how (no screen designs or technology choices)",
+        "Lists assumptions or open questions, each with who will answer it"
+      ],
+      "minWords": 150,
+      "maxWords": 600,
+      "suggestedTerms": ["FR-1", "NFR-1", "shall", "retention"]
+    }
+  }
+}

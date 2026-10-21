@@ -1,0 +1,33 @@
+{
+  "id": "chart-checkout-by-platform",
+  "title": "Is web checkout broken?",
+  "order": 2,
+  "difficulty": "Beginner",
+  "minutes": 20,
+  "skills": ["Segmentation", "Session-level metrics", "Choosing a chart"],
+  "workspace": "chart",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Ananya Reddy", "role": "Product Manager, Checkout" },
+  "scenario": "Customer support has seen a rise in tickets from web users saying payment \"just spins\". Ananya needs to decide whether to pull an engineer onto web checkout this sprint.\n\n> \"Compare checkout conversion across android, iOS and web for August. If web is clearly worse, I'll prioritise it.\"",
+  "task": "1. For **August 2025**, real users only, take every **session** that had a `checkout_start`. Checkout conversion = share of those sessions that also had a `payment_success`, × 100, 1 decimal. Return `platform` and `checkout_conversion_pct`, highest first.\n2. Chart it and submit.",
+  "data": [{ "dataset": "swaadly", "tables": ["users", "events"] }],
+  "hints": [
+    "`GROUP BY platform, session_id` and compute two flags: `MAX(CASE WHEN event_name = 'checkout_start' THEN 1 ELSE 0 END)` and the same for `payment_success`.",
+    "Keep only sessions where the checkout flag is 1 (`HAVING ...`), then average the payment flag per platform.",
+    "Why sessions and not events? Some `payment_success` events fire twice, so event ratios are inflated.",
+    "Three categories, one number each: which chart compares them most clearly?"
+  ],
+  "explanation": "**Session-level conversion** is the right unit for \"does checkout work?\": each session that reaches checkout is one attempt. User-level monthly conversion hides the problem because a frustrated web user who fails twice and succeeds on the third try still counts as converted. Event ratios are worse still: double-fired payment events push them up.\n\n**Result:** web converts about **8 points lower** than android at checkout. That's a large gap at the very last step, which supports Ananya's call. Web also loses many more users *before* checkout (cart → checkout), so it's worth a full web-funnel review.\n\n**Chart:** a **bar chart** compares a value across a few categories. Rates don't sum to a whole, so a pie doesn't fit.",
+  "interview": "*\"Support reported web payments failing, so I compared session-level checkout conversion by platform. Web was about eight points below android, a gap that user-level monthly numbers had hidden because users retried. That evidence got a web payments fix prioritised in the next sprint.\"*\n\nFollow-up: **\"How would you confirm it's a bug and not a different kind of user?\"** Check web conversion by browser, device and payment method, and look at error logs for the failing sessions.",
+  "grading": {
+    "chart": {
+      "acceptedTypes": ["bar"],
+      "typeFeedback": {
+        "pie": "Conversion rates for different platforms don't add up to a whole, so a pie chart misleads.",
+        "line": "A line implies an ordered axis; platforms are unordered categories.",
+        "area": "An area chart implies a continuous ordered axis; platforms are separate categories.",
+        "scatter": "A scatter plot needs two numeric measures."
+      }
+    }
+  }
+}

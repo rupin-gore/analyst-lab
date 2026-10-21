@@ -1,0 +1,23 @@
+{
+  "id": "sql-onboarding-tat",
+  "title": "Size the problem: onboarding turnaround by month",
+  "order": 3,
+  "difficulty": "Intermediate",
+  "minutes": 25,
+  "skills": ["SQL aggregation", "MEDIAN", "NULL handling", "Baselining"],
+  "workspace": "sql",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Pooja Sharma", "role": "Head of Seller Operations" },
+  "scenario": "The steering committee will only fund the onboarding revamp if the business case shows a real, measured problem. Pooja says *\"it's gotten much slower since April\"*, but the CFO wants numbers.\n\n> \"Can you baseline the funnel by month: how many applied, how many went live, and how long it took? Leave out the duplicate applications; they're the same sellers applying twice.\"",
+  "task": "From `applications`, **excluding** rows whose `rejection_reason` is `'Duplicate application'` (but keeping every row where it is NULL), return one row per **applied month** (`YYYY-MM`), sorted by month:\n\n1. `month`\n2. `applications`: all applications started that month\n3. `live`: with status `Live`\n4. `live_pct`: live ÷ applications × 100, 1 decimal\n5. `median_days_to_live`: median of `live_date − applied_date` for live applications\n6. `median_kyc_days`: median of `kyc_approved_date − docs_submitted_date` where KYC was approved",
+  "data": [{ "dataset": "seller_onboarding", "tables": ["applications"] }],
+  "hints": [
+    "`rejection_reason <> 'Duplicate application'` is **not** true for NULLs (NULL compared with anything is unknown), so it silently removes every non-rejected application. Use `IS DISTINCT FROM`, or `COALESCE(rejection_reason, '') <> ...`.",
+    "Subtracting two DATEs in DuckDB gives a number of days.",
+    "`MEDIAN(x) FILTER (WHERE ...)` computes the median over a subset inside a GROUP BY.",
+    "Why median and not average? A handful of applications that took 40 days drag the mean up."
+  ],
+  "explanation": "**NULL logic is the trap.** In SQL, `NULL <> 'x'` evaluates to unknown, so `WHERE rejection_reason <> 'Duplicate application'` removes every application *without* a rejection reason: Live, In progress and Withdrawn. Your monthly counts collapse to only the rejected rows. `IS DISTINCT FROM` treats NULL as a normal value.\n\n**Median for turnaround times.** Durations are right-skewed; the median describes the typical seller and isn't distorted by a few stuck cases.\n\n**What the numbers say:** median days to live jumped from **10 (Jan–Mar)** to **14–15 (Apr–Jun)**, and median KYC time from **4–5 to 8–9 days**. KYC is where the extra time went. That's the business case in one line.\n\n**Careful with June:** live % drops to ~57% partly because many June applications are still in progress at the extract date (10 July). That's *right-censoring*, not necessarily worse performance. Say so in the business case, or you'll be challenged on it.",
+  "interview": "*\"To build the business case for an onboarding revamp, I baselined the funnel by month in SQL and showed median time-to-live rising from 10 to 15 days, with KYC review accounting for most of the increase. I caught a NULL-comparison bug that had been dropping non-rejected applications from an earlier report, and flagged that the latest month was incomplete. The steering committee approved the project on those numbers.\"*\n\nExpect: **\"Why does `<>` drop NULLs?\"** Three-valued logic: comparisons with NULL return unknown, and WHERE keeps only true.",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

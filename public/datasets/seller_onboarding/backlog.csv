@@ -1,0 +1,9 @@
+id,feature,reach_per_quarter,impact,confidence,effort_weeks
+B1,Auto-check document clarity at upload,1500,2,0.8,3
+B2,Penny-drop bank account verification,1200,2,1.0,2
+B3,GSTIN auto-fetch from GST portal,900,1,0.8,4
+B4,Hindi and Tamil onboarding screens,2500,0.5,0.5,6
+B5,WhatsApp status updates for sellers,3000,0.5,0.8,2
+B6,Bulk catalogue upload via Excel,600,3,0.8,8
+B7,Pincode-based address autofill,1400,1,1.0,1
+B8,Assisted onboarding call-back,400,2,0.5,5

@@ -1,0 +1,24 @@
+{
+  "id": "python-rfm",
+  "title": "RFM customer segmentation in pandas",
+  "order": 5,
+  "difficulty": "Intermediate",
+  "minutes": 35,
+  "skills": ["pandas groupby", "pd.qcut", "Customer segmentation", "RFM"],
+  "workspace": "python",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Arjun Menon", "role": "CRM Lead" },
+  "scenario": "Arjun's team sends the same WhatsApp offer to every customer. Open rates are falling and the CFO is asking why CRM costs keep rising. Arjun wants to split customers into a few groups that each get a different message, and he wants a method he can explain to his team in two minutes.\n\n> \"Can you segment our customers with RFM? Rules simple enough that my team can repeat them every quarter.\"",
+  "task": "Build a DataFrame **`rfm`** with one row per `customer_id` (as index or column) using **Delivered**, de-duplicated orders placed **before 2025-04-01 IST**. Snapshot date: `2025-04-01`.\n\n| Column | Definition |\n|---|---|\n| `recency_days` | days from the customer's last order **date** (IST) to the snapshot |\n| `frequency` | number of orders |\n| `monetary` | sum of `net_amount_inr` |\n| `R`, `F`, `M` | quintile scores 1–5 with `pd.qcut(x.rank(method='first'), 5, labels=...)` on the rows in `customer_id` order; **R = 5 for the most recent** |\n| `segment` | first rule that matches, top to bottom |\n\nSegment rules: **Champions** R≥4 and F≥4 → **Loyal** F≥4 → **New** R≥4 and F≤2 → **At risk** R≤2 and F≥3 → **Hibernating** R≤2 → otherwise **Needs attention**.",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders"] }],
+  "hints": [
+    "Cleaning first: `orders.drop_duplicates()`, then IST: `pd.to_datetime(o['order_ts_utc']) + pd.Timedelta(hours=5, minutes=30)`.",
+    "Named aggregation: `o.groupby('customer_id').agg(last_order=('order_ts_ist','max'), frequency=('order_id','count'), monetary=('net_amount_inr','sum'))`.",
+    "Use whole dates for recency: `(snapshot - last_order.dt.normalize()).dt.days`.",
+    "Most customers have 1 or 2 orders, so `pd.qcut(frequency, 5)` fails on duplicate bin edges. Ranking first (`.rank(method='first')`) spreads ties so every bin has 20% of customers.",
+    "Write the segment rules as a function with `if ... return` in order, then `rfm.apply(segment, axis=1)`."
+  ],
+  "explanation": "**Why rank before qcut?** Frequency is heavily tied (most customers ordered once or twice). `qcut` on raw values can't make five equal bins and raises *Bin edges must be unique*. Ranking with `method='first'` gives every customer a unique position, so each score holds exactly 20% of customers. The cost is that tied customers can land in neighbouring scores, so document it.\n\n**Why reversed labels for R?** Fewer days since the last order is better, so the lowest recency gets 5.\n\n**Reading the segments:** look at revenue per segment, not just counts. Champions and Loyal are a small share of customers but a large share of revenue; *At risk* is the CRM team's most valuable target (they used to buy often but have gone quiet).\n\nIn production you'd also merge duplicate accounts by email first, as in the Top 10 customers lab.",
+  "interview": "*\"I segmented about 2,500 e-commerce customers with RFM in pandas, scoring recency, frequency and spend as quintiles and mapping them to six segments with simple ordered rules. I ranked before binning because most customers had one or two orders, which breaks equal-width quintiles. The CRM team used the 'At risk' segment, about a tenth of customers with an outsized share of revenue, for a win-back campaign instead of blasting everyone.\"*\n\nExpect: **\"Why not k-means?\"** RFM rules are explainable and stable quarter to quarter; clustering can be better for discovery but is harder to operationalise.",
+  "grading": {}
+}

@@ -6,8 +6,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import bazaarly  # noqa: E402
 import saffron_trails  # noqa: E402
+import seller_onboarding  # noqa: E402
+import swaadly  # noqa: E402
 
-GENERATORS = [bazaarly, saffron_trails]
+GENERATORS = [bazaarly, saffron_trails, swaadly, seller_onboarding]
 
 if __name__ == "__main__":
     for g in GENERATORS:

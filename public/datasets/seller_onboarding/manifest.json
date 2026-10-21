@@ -1,0 +1,119 @@
+{
+  "id": "seller_onboarding",
+  "title": "Bazaarly seller onboarding",
+  "description": "Seller applications to list on Bazaarly (January to June 2025, extracted 10 July 2025) and the onboarding team's product backlog.",
+  "tables": {
+    "applications": {
+      "file": "applications.csv",
+      "rows": 1800,
+      "columns": [
+        {
+          "name": "application_id",
+          "type": "VARCHAR",
+          "description": "Application key"
+        },
+        {
+          "name": "applied_date",
+          "type": "DATE",
+          "description": "Date the seller started the application"
+        },
+        {
+          "name": "channel",
+          "type": "VARCHAR",
+          "description": "Web, App or Assisted (field agent)"
+        },
+        {
+          "name": "seller_type",
+          "type": "VARCHAR",
+          "description": "Individual, Proprietorship or Private Limited"
+        },
+        {
+          "name": "state",
+          "type": "VARCHAR",
+          "description": "Seller's registered state"
+        },
+        {
+          "name": "category",
+          "type": "VARCHAR",
+          "description": "Main product category"
+        },
+        {
+          "name": "gstin_provided",
+          "type": "VARCHAR",
+          "description": "Y if a GSTIN was provided"
+        },
+        {
+          "name": "status",
+          "type": "VARCHAR",
+          "description": "Live, Rejected, In progress or Withdrawn"
+        },
+        {
+          "name": "docs_submitted_date",
+          "type": "DATE",
+          "description": "All KYC documents uploaded"
+        },
+        {
+          "name": "kyc_approved_date",
+          "type": "DATE",
+          "description": "KYC approved by the verification team"
+        },
+        {
+          "name": "live_date",
+          "type": "DATE",
+          "description": "First listing went live"
+        },
+        {
+          "name": "rejected_date",
+          "type": "DATE",
+          "description": "Application rejected"
+        },
+        {
+          "name": "rejection_reason",
+          "type": "VARCHAR",
+          "description": "Why it was rejected"
+        },
+        {
+          "name": "resubmissions",
+          "type": "INTEGER",
+          "description": "Times documents were re-uploaded"
+        }
+      ]
+    },
+    "backlog": {
+      "file": "backlog.csv",
+      "rows": 8,
+      "columns": [
+        {
+          "name": "id",
+          "type": "VARCHAR",
+          "description": "Backlog item"
+        },
+        {
+          "name": "feature",
+          "type": "VARCHAR",
+          "description": "Proposed feature"
+        },
+        {
+          "name": "reach_per_quarter",
+          "type": "INTEGER",
+          "description": "Sellers affected per quarter"
+        },
+        {
+          "name": "impact",
+          "type": "DOUBLE",
+          "description": "0.5 low, 1 medium, 2 high, 3 massive"
+        },
+        {
+          "name": "confidence",
+          "type": "DOUBLE",
+          "description": "0.5 to 1.0"
+        },
+        {
+          "name": "effort_weeks",
+          "type": "DOUBLE",
+          "description": "Person-weeks of work"
+        }
+      ]
+    }
+  }
+}

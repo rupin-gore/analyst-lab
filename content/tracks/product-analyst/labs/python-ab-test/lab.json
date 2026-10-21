@@ -1,0 +1,23 @@
+{
+  "id": "python-ab-test",
+  "title": "Read out the one-page checkout A/B test",
+  "order": 6,
+  "difficulty": "Advanced",
+  "minutes": 45,
+  "skills": ["A/B testing", "Hypothesis testing", "Confidence intervals", "SRM", "scipy"],
+  "workspace": "python",
+  "company": "Swaadly",
+  "stakeholder": { "name": "Ananya Reddy", "role": "Product Manager, Checkout" },
+  "scenario": "Swaadly ran `checkout_v2`, a one-page checkout, from 1 to 28 August 2025. Ananya's team already shared a screenshot saying *\"+5 points, ship it!\"*. The engineering lead mentioned in passing that a bucketing bug put some users in both arms for a few days. Ananya needs a proper readout for the launch review.\n\n> \"Is the lift real? Give me the numbers I can defend in front of the CPO: the effect, the confidence interval, and whether the experiment itself was healthy.\"",
+  "task": "Create these variables (numbers, not strings):\n\n1. **`clean`**: assignments for real users only. Drop `is_internal = 1` users and every user who appears in **both** variants. One row per user.\n2. **`srm_p`**: chi-square p-value testing whether the clean counts fit a 50/50 split (`stats.chisquare`).\n3. Metric: among clean users who had a `checkout_start` **at or after their assignment time and before 2025-08-29**, the share who also had a `payment_success` in that window. Store **`control_rate`** and **`treatment_rate`** as proportions (0–1).\n4. **`lift_pp`**: (treatment − control) × 100.\n5. **`p_value`**: two-sided, **pooled** two-proportion z-test.\n6. **`ci_low`**, **`ci_high`**: 95% CI for the difference in percentage points, using the **unpooled** standard error and 1.96.\n\nThen decide what you'd tell Ananya.",
+  "data": [{ "dataset": "swaadly", "tables": ["users", "events", "experiment_assignments"] }],
+  "hints": [
+    "Find double-bucketed users with `experiment_assignments.groupby('user_id')['variant'].nunique() > 1`.",
+    "Count **users**, not events: a user who checks out three times is one trial. Build per-user flags (did they start checkout? did they pay?) before computing rates.",
+    "Pooled z-test: `p = (x1 + x2) / (n1 + n2)`, `se = sqrt(p(1-p)(1/n1 + 1/n2))`, `z = (p2 - p1) / se`, `p_value = 2 * (1 - stats.norm.cdf(abs(z)))`.",
+    "CI: `se = sqrt(p1(1-p1)/n1 + p2(1-p2)/n2)`; difference ± 1.96 × se, × 100 for percentage points."
+  ],
+  "explanation": "**1. Check the experiment before the result.** Users in both arms were exposed to both checkouts, so their outcome can't be attributed to either; drop them. Internal test accounts convert at ~98% and would inflate whichever arm they landed in. After cleaning, the **SRM check** (p well above 0.05) says the split is healthy. If SRM had failed, you'd stop and debug assignment rather than read the result.\n\n**2. The result.** Control converts about **71.7%** of users who reach checkout, treatment about **76.6%**: a lift of roughly **+4.9 pp**, p ≈ **0.03**, with a 95% CI of roughly **+0.4 to +9.3 pp**.\n\n**3. What to tell Ananya.** The lift is statistically significant at 5%, but the interval is wide: the true effect could be anywhere from tiny to large. Ship if the change has no downside (it's simpler and faster), set expectations at \"a few points\", and monitor payment success after launch. Also note this was **one metric chosen in advance**: if the team checked ten metrics, one would look significant by chance.\n\n**Why pooled for the test but unpooled for the CI?** The z-test assumes the null hypothesis (no difference, so a shared rate); the confidence interval describes the plausible difference, so each arm keeps its own variance.",
+  "interview": "*\"I analysed a checkout A/B test where a bucketing bug had put some users in both arms. I removed those users and internal test accounts, confirmed there was no sample ratio mismatch, then ran a two-proportion z-test on user-level checkout conversion. The lift was about 5 points with p around 0.03 but a wide confidence interval, so I recommended shipping while setting expectations at 'a few points' and monitoring post-launch.\"*\n\nExpect: **\"What is a p-value?\"** (The probability of seeing a difference at least this large if there were truly no effect; *not* the probability that the treatment works.) And: **\"What would you do if SRM failed?\"**",
+  "grading": {}
+}

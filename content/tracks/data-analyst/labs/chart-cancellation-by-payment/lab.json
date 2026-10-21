@@ -1,0 +1,32 @@
+{
+  "id": "chart-cancellation-by-payment",
+  "title": "Which payment method gets cancelled most?",
+  "order": 4,
+  "difficulty": "Beginner",
+  "minutes": 15,
+  "skills": ["Rates vs shares", "SQL FILTER", "Choosing a chart"],
+  "workspace": "chart",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Sneha Kulkarni", "role": "Customer Operations Manager" },
+  "scenario": "Cancelled orders cost Bazaarly courier fees and warehouse effort. Sneha suspects cash-on-delivery is the problem, but the payments team says COD is just the most popular method so of course it has the most cancellations.\n\n> \"Settle this for me with one chart: for each payment method, what share of orders get cancelled?\"",
+  "task": "1. For **FY2024-25** (IST), all de-duplicated orders, compute for each `payment_method` the **cancellation rate**: cancelled orders ÷ all orders of that method × 100, rounded to 1 decimal. Return `payment_method` and the rate, highest first.\n2. Pick the chart that best compares the five methods, and submit.",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders"] }],
+  "hints": [
+    "A **rate** has the method's own total in the denominator. A **share** has the overall total. The payments team is quoting shares.",
+    "`COUNT(*) FILTER (WHERE order_status = 'Cancelled')` counts only cancelled rows inside each group.",
+    "Five categories, one number each, no time order: which chart compares lengths best?"
+  ],
+  "explanation": "This lab is about **rate vs share**. COD's *share* of all cancellations is high partly because many orders are COD; its *rate* (14% vs ~5–6% for prepaid methods) shows COD orders are about 2.5× more likely to be cancelled. That answers Sneha's question; the share does not.\n\n**Chart:** a **bar chart** sorted from highest to lowest is the standard for comparing a value across a handful of categories. A pie shows parts of a whole, but rates don't add up to a whole, so a pie of rates is meaningless. A line implies an order between methods that doesn't exist.",
+  "interview": "*\"Operations believed COD drove cancellations, while Payments argued it only looked that way because COD is common. I compared cancellation **rates** within each method instead of shares of total, and COD came out at 14% against about 5–6% for prepaid methods. That settled the debate and led to a prepaid nudge at checkout.\"*\n\nFollow-up: **\"Could something else explain it?\"** Yes. COD is more common in tier-2 cities and for some categories, so check the rate within city tier too (Simpson's paradox).",
+  "grading": {
+    "chart": {
+      "acceptedTypes": ["bar"],
+      "typeFeedback": {
+        "pie": "Rates for different methods don't add up to a whole, so a pie chart of rates is misleading.",
+        "line": "A line implies an order or a trend between payment methods, but they are unordered categories.",
+        "area": "An area chart implies a continuous ordered axis; payment methods are separate categories.",
+        "scatter": "A scatter plot needs two numeric measures; here you compare one number across categories."
+      }
+    }
+  }
+}

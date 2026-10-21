@@ -1,0 +1,4001 @@
+user_id,signup_date,city,platform,acquisition_channel,is_internal
+U100001,2025-08-23,Delhi,android,Organic,0
+U100002,2025-08-11,Kolkata,android,Google Ads,0
+U100003,2025-06-06,Hyderabad,android,Instagram,0
+U100004,2024-11-14,Mumbai,android,Organic,0
+U100005,2025-07-15,Chennai,android,Google Ads,0
+U100006,2025-08-08,Bengaluru,android,Google Ads,0
+U100007,2025-02-23,Ahmedabad,web,Instagram,0
+U100008,2025-03-07,Pune,android,Organic,0
+U100009,2025-02-15,Pune,android,Instagram,0
+U100010,2025-06-02,Mumbai,android,Google Ads,0
+U100011,2025-06-20,Jaipur,ios,Instagram,0
+U100012,2025-07-31,Mumbai,android,Google Ads,0
+U100013,2025-03-21,Kolkata,android,Instagram,0
+U100014,2025-08-14,Hyderabad,android,Instagram,0
+U100015,2025-06-03,Chennai,android,Organic,0
+U100016,2025-07-29,Lucknow,android,Organic,0
+U100017,2025-08-18,Kolkata,android,Organic,0
+U100018,2025-03-27,Delhi,android,Instagram,0
+U100019,2024-12-01,Pune,android,Referral,0
+U100020,2025-07-03,Kolkata,android,Instagram,0
+U100021,2025-08-09,Ahmedabad,web,Referral,0
+U100022,2025-06-17,Mumbai,android,Google Ads,0
+U100023,2024-10-26,Delhi,web,Referral,0
+U100024,2025-03-29,Mumbai,android,Organic,0
+U100025,2025-02-15,Pune,android,Instagram,0
+U100026,2025-07-29,Delhi,android,Instagram,0
+U100027,2025-07-08,Bengaluru,android,Organic,0
+U100028,2025-08-19,Bengaluru,web,Instagram,0
+U100029,2025-02-05,Chennai,android,Organic,0
+U100030,2025-08-22,Bengaluru,android,Organic,0
+U100031,2025-08-16,Bengaluru,web,Instagram,0
+U100032,2025-02-05,Pune,android,Instagram,0
+U100033,2025-06-20,Hyderabad,android,Referral,0
+U100034,2025-03-25,Hyderabad,ios,Organic,0
+U100035,2024-10-10,Lucknow,android,Google Ads,0
+U100036,2024-11-29,Mumbai,android,Referral,0
+U100037,2025-04-03,Bengaluru,android,Organic,0
+U100038,2025-05-01,Mumbai,android,Google Ads,0
+U100039,2024-12-25,Hyderabad,android,Organic,0
+U100040,2025-04-21,Delhi,android,Organic,0
+U100041,2025-05-02,Hyderabad,ios,Instagram,0
+U100042,2025-07-02,Delhi,android,Referral,0
+U100043,2025-06-18,Delhi,web,Organic,0
+U100044,2024-10-01,Bengaluru,web,Organic,1
+U100045,2025-06-23,Bengaluru,android,Instagram,0
+U100046,2025-06-20,Pune,ios,Organic,0
+U100047,2025-01-21,Bengaluru,android,Instagram,0
+U100048,2025-07-16,Hyderabad,android,Instagram,0
+U100049,2025-06-27,Mumbai,web,Referral,0
+U100050,2025-06-28,Mumbai,android,Organic,0
+U100051,2025-08-05,Pune,android,Referral,0
+U100052,2025-08-08,Jaipur,android,Google Ads,0
+U100053,2025-07-28,Bengaluru,android,Organic,0
+U100054,2025-01-07,Pune,android,Instagram,0
+U100055,2025-08-14,Mumbai,android,Instagram,0
+U100056,2025-03-23,Pune,web,Referral,0
+U100057,2024-12-04,Mumbai,android,Instagram,0
+U100058,2025-06-14,Mumbai,android,Referral,0
+U100059,2025-07-24,Kolkata,android,Instagram,0
+U100060,2025-08-23,Mumbai,android,Organic,0
+U100061,2025-04-27,Chennai,android,Google Ads,0
+U100062,2025-08-26,Kolkata,web,Organic,0
+U100063,2025-08-13,Hyderabad,android,Organic,0
+U100064,2024-11-10,Delhi,android,Organic,0
+U100065,2024-12-29,Bengaluru,android,Organic,0
+U100066,2025-07-05,Pune,android,Referral,0
+U100067,2025-07-15,Delhi,android,Referral,0
+U100068,2024-10-01,Chennai,web,Organic,1
+U100069,2025-08-02,Mumbai,android,Google Ads,0
+U100070,2025-08-02,Hyderabad,ios,Organic,0
+U100071,2024-12-17,Kolkata,android,Google Ads,0
+U100072,2025-07-31,Bengaluru,android,Referral,0
+U100073,2025-06-17,Mumbai,ios,Organic,0
+U100074,2025-04-13,Bengaluru,ios,Referral,0
+U100075,2025-01-15,Bengaluru,ios,Organic,0
+U100076,2024-10-26,Mumbai,android,Organic,0
+U100077,2025-08-11,Pune,ios,Instagram,0
+U100078,2025-03-19,Pune,android,Instagram,0
+U100079,2025-06-04,Kolkata,android,Referral,0
+U100080,2025-07-16,Pune,android,Referral,0
+U100081,2025-07-01,Delhi,android,Instagram,0
+U100082,2025-07-07,Ahmedabad,ios,Google Ads,0
+U100083,2025-06-23,Hyderabad,web,Referral,0
+U100084,2025-01-11,Mumbai,android,Organic,0
+U100085,2025-05-05,Delhi,android,Google Ads,0
+U100086,2024-11-13,Mumbai,android,Instagram,0
+U100087,2024-10-08,Ahmedabad,web,Instagram,0
+U100088,2025-07-28,Pune,android,Organic,0
+U100089,2024-12-27,Hyderabad,ios,Organic,0
+U100090,2025-07-22,Mumbai,web,Referral,0
+U100091,2025-01-19,Delhi,android,Organic,0
+U100092,2025-02-19,Lucknow,ios,Organic,0
+U100093,2025-08-03,Bengaluru,android,Organic,0
+U100094,2025-01-07,Pune,android,Google Ads,0
+U100095,2025-01-18,Hyderabad,android,Google Ads,0
+U100096,2024-10-30,Bengaluru,android,Organic,0
+U100097,2025-03-22,Delhi,android,Google Ads,0
+U100098,2024-10-29,Delhi,android,Google Ads,0
+U100099,2025-06-20,Delhi,web,Organic,0
+U100100,2025-08-30,Bengaluru,android,Referral,0
+U100101,2025-08-21,Mumbai,android,Google Ads,0
+U100102,2025-08-27,Kolkata,android,Organic,0
+U100103,2025-08-04,Delhi,android,Instagram,0
+U100104,2025-08-02,Ahmedabad,ios,Organic,0
+U100105,2025-06-17,Delhi,ios,Instagram,0
+U100106,2025-08-22,Ahmedabad,web,Google Ads,0
+U100107,2025-02-16,Mumbai,android,Google Ads,0
+U100108,2025-07-18,Chennai,android,Referral,0
+U100109,2025-07-10,Kolkata,ios,Google Ads,0
+U100110,2025-06-02,Bengaluru,android,Organic,0
+U100111,2025-01-06,Pune,ios,Referral,0
+U100112,2025-04-13,Hyderabad,android,Organic,0
+U100113,2025-06-11,Chennai,android,Google Ads,0
+U100114,2025-01-27,Chennai,android,Google Ads,0
+U100115,2025-06-12,Mumbai,android,Organic,0
+U100116,2025-06-09,Mumbai,web,Referral,0
+U100117,2025-02-16,Hyderabad,ios,Referral,0
+U100118,2025-08-07,Bengaluru,android,Referral,0
+U100119,2025-07-18,Delhi,android,Instagram,0
+U100120,2025-08-21,Mumbai,ios,Instagram,0
+U100121,2024-10-17,Mumbai,android,Organic,0
+U100122,2024-11-27,Pune,web,Instagram,0
+U100123,2024-10-15,Bengaluru,android,Organic,0
+U100124,2025-08-27,Mumbai,android,Organic,0
+U100125,2025-06-29,Delhi,android,Instagram,0
+U100126,2025-05-24,Mumbai,ios,Organic,0
+U100127,2025-06-19,Delhi,android,Organic,0
+U100128,2025-04-11,Pune,android,Organic,0
+U100129,2025-01-06,Chennai,android,Organic,0
+U100130,2025-07-26,Chennai,ios,Google Ads,0
+U100131,2025-08-04,Mumbai,ios,Google Ads,0
+U100132,2025-02-07,Bengaluru,android,Instagram,0
+U100133,2024-12-07,Kolkata,android,Google Ads,0
+U100134,2025-05-14,Pune,android,Instagram,0
+U100135,2025-07-28,Mumbai,ios,Google Ads,0
+U100136,2025-02-06,Pune,web,Organic,0
+U100137,2025-07-21,Pune,android,Organic,0
+U100138,2025-04-22,Lucknow,android,Google Ads,0
+U100139,2024-11-21,Hyderabad,android,Instagram,0
+U100140,2025-05-05,Bengaluru,ios,Google Ads,0
+U100141,2025-03-22,Mumbai,android,Instagram,0
+U100142,2025-08-30,Ahmedabad,android,Referral,0
+U100143,2025-07-10,Kolkata,android,Instagram,0
+U100144,2025-07-13,Jaipur,android,Referral,0
+U100145,2024-10-18,Lucknow,android,Google Ads,0
+U100146,2025-02-25,Mumbai,android,Organic,0
+U100147,2024-10-11,Bengaluru,android,Instagram,0
+U100148,2025-04-22,Chennai,android,Organic,0
+U100149,2024-10-16,Hyderabad,android,Organic,0
+U100150,2025-07-31,Chennai,android,Referral,0
+U100151,2025-07-17,Mumbai,android,Instagram,0
+U100152,2025-05-05,Bengaluru,ios,Referral,0
+U100153,2025-07-06,Bengaluru,android,Referral,0
+U100154,2025-05-23,Bengaluru,android,Instagram,0
+U100155,2025-06-19,Delhi,android,Google Ads,0
+U100156,2025-06-02,Delhi,android,Google Ads,0
+U100157,2024-11-10,Lucknow,android,Google Ads,0
+U100158,2024-10-10,Hyderabad,ios,Instagram,0
+U100159,2025-07-11,Delhi,android,Organic,0
+U100160,2025-07-06,Bengaluru,android,Google Ads,0
+U100161,2025-06-25,Mumbai,ios,Organic,0
+U100162,2024-12-20,Bengaluru,android,Organic,0
+U100163,2025-06-08,Pune,android,Instagram,0
+U100164,2025-06-01,Bengaluru,android,Organic,0
+U100165,2025-07-04,Bengaluru,android,Organic,0
+U100166,2025-08-07,Jaipur,ios,Organic,0
+U100167,2025-08-30,Pune,android,Referral,0
+U100168,2025-05-14,Bengaluru,android,Organic,0
+U100169,2025-08-08,Pune,android,Referral,0
+U100170,2025-08-12,Delhi,ios,Referral,0
+U100171,2025-08-05,Bengaluru,android,Google Ads,0
+U100172,2025-08-18,Bengaluru,android,Google Ads,0
+U100173,2024-12-08,Hyderabad,ios,Google Ads,0
+U100174,2025-01-28,Jaipur,android,Organic,0
+U100175,2025-07-09,Hyderabad,android,Google Ads,0
+U100176,2025-05-19,Pune,android,Instagram,0
+U100177,2025-07-14,Kolkata,android,Google Ads,0
+U100178,2024-11-27,Delhi,android,Referral,0
+U100179,2025-06-23,Delhi,android,Referral,0
+U100180,2025-06-15,Mumbai,ios,Instagram,0
+U100181,2025-08-27,Mumbai,android,Instagram,0
+U100182,2025-08-01,Chennai,web,Referral,0
+U100183,2025-07-23,Hyderabad,ios,Organic,0
+U100184,2025-02-20,Mumbai,android,Referral,0
+U100185,2024-11-16,Bengaluru,android,Organic,0
+U100186,2025-01-07,Mumbai,android,Instagram,0
+U100187,2025-06-04,Jaipur,ios,Instagram,0
+U100188,2024-10-31,Mumbai,android,Organic,0
+U100189,2025-08-27,Hyderabad,android,Instagram,0
+U100190,2025-08-15,Jaipur,android,Organic,0
+U100191,2025-06-30,Mumbai,android,Organic,0
+U100192,2024-10-01,Delhi,android,Organic,1
+U100193,2025-07-08,Bengaluru,android,Organic,0
+U100194,2024-10-19,Mumbai,android,Google Ads,0
+U100195,2025-07-04,Lucknow,android,Organic,0
+U100196,2025-06-09,Jaipur,web,Organic,0
+U100197,2025-02-02,Ahmedabad,android,Google Ads,0
+U100198,2025-06-04,Hyderabad,web,Referral,0
+U100199,2025-07-20,Ahmedabad,android,Instagram,0
+U100200,2025-07-02,Pune,web,Google Ads,0
+U100201,2025-08-21,Delhi,android,Instagram,0
+U100202,2025-08-04,Bengaluru,android,Referral,0
+U100203,2025-08-20,Jaipur,android,Google Ads,0
+U100204,2025-03-20,Bengaluru,android,Instagram,0
+U100205,2024-12-09,Delhi,ios,Organic,0
+U100206,2025-05-19,Delhi,android,Referral,0
+U100207,2025-08-07,Lucknow,android,Google Ads,0
+U100208,2025-07-05,Bengaluru,android,Instagram,0
+U100209,2025-03-27,Hyderabad,ios,Organic,0
+U100210,2024-11-27,Hyderabad,android,Organic,0
+U100211,2025-08-21,Mumbai,android,Google Ads,0
+U100212,2025-03-12,Ahmedabad,android,Instagram,0
+U100213,2025-07-05,Delhi,android,Organic,0
+U100214,2025-08-17,Delhi,web,Referral,0
+U100215,2024-10-31,Mumbai,web,Organic,0
+U100216,2025-07-18,Pune,web,Organic,0
+U100217,2025-07-06,Mumbai,android,Organic,0
+U100218,2025-06-11,Mumbai,ios,Instagram,0
+U100219,2025-04-14,Delhi,android,Organic,0
+U100220,2025-07-10,Mumbai,web,Organic,0
+U100221,2024-11-09,Jaipur,ios,Google Ads,0
+U100222,2025-05-07,Hyderabad,android,Organic,0
+U100223,2025-07-05,Bengaluru,android,Google Ads,0
+U100224,2025-07-13,Bengaluru,ios,Referral,0
+U100225,2024-12-14,Pune,ios,Google Ads,0
+U100226,2025-06-30,Mumbai,android,Organic,0
+U100227,2024-10-30,Bengaluru,android,Organic,0
+U100228,2025-05-11,Delhi,android,Google Ads,0
+U100229,2024-10-30,Mumbai,android,Organic,0
+U100230,2025-03-12,Delhi,android,Google Ads,0
+U100231,2025-06-28,Bengaluru,ios,Google Ads,0
+U100232,2024-10-06,Kolkata,ios,Referral,0
+U100233,2025-07-01,Hyderabad,android,Google Ads,0
+U100234,2025-08-08,Bengaluru,android,Referral,0
+U100235,2024-10-27,Delhi,android,Organic,0
+U100236,2025-03-27,Delhi,android,Organic,0
+U100237,2025-06-09,Hyderabad,android,Organic,0
+U100238,2025-07-18,Delhi,android,Instagram,0
+U100239,2024-12-04,Kochi,android,Referral,0
+U100240,2025-01-18,Mumbai,android,Organic,0
+U100241,2025-08-01,Ahmedabad,android,Google Ads,0
+U100242,2025-06-07,Kolkata,android,Organic,0
+U100243,2025-07-28,Delhi,android,Referral,0
+U100244,2024-11-02,Delhi,android,Google Ads,0
+U100245,2024-10-30,Delhi,ios,Referral,0
+U100246,2025-01-11,Hyderabad,web,Instagram,0
+U100247,2025-07-13,Bengaluru,android,Organic,0
+U100248,2024-10-08,Lucknow,android,Organic,0
+U100249,2025-05-20,Chennai,android,Organic,0
+U100250,2025-06-23,Ahmedabad,ios,Google Ads,0
+U100251,2025-05-13,Bengaluru,android,Organic,0
+U100252,2024-12-26,Chennai,android,Organic,0
+U100253,2025-01-16,Pune,android,Organic,0
+U100254,2025-08-24,Kochi,android,Google Ads,0
+U100255,2025-04-13,Hyderabad,ios,Instagram,0
+U100256,2025-08-05,Hyderabad,android,Organic,0
+U100257,2025-03-01,Jaipur,android,Instagram,0
+U100258,2025-07-03,Kolkata,android,Organic,0
+U100259,2024-12-22,Mumbai,android,Referral,0
+U100260,2024-11-16,Hyderabad,android,Instagram,0
+U100261,2025-03-01,Bengaluru,android,Organic,0
+U100262,2024-10-04,Delhi,android,Referral,0
+U100263,2025-07-07,Delhi,android,Referral,0
+U100264,2025-04-20,Bengaluru,web,Instagram,0
+U100265,2024-11-27,Mumbai,android,Organic,0
+U100266,2025-06-14,Ahmedabad,ios,Organic,0
+U100267,2024-11-28,Chennai,android,Organic,0
+U100268,2025-08-22,Hyderabad,android,Referral,0
+U100269,2025-07-14,Delhi,android,Organic,0
+U100270,2025-08-07,Mumbai,android,Referral,0
+U100271,2025-08-14,Bengaluru,ios,Google Ads,0
+U100272,2025-05-15,Ahmedabad,android,Instagram,0
+U100273,2025-08-12,Pune,android,Instagram,0
+U100274,2025-06-15,Bengaluru,android,Organic,0
+U100275,2025-01-16,Ahmedabad,android,Instagram,0
+U100276,2024-10-27,Ahmedabad,android,Organic,0
+U100277,2025-03-07,Chennai,android,Google Ads,0
+U100278,2025-06-22,Mumbai,android,Organic,0
+U100279,2025-06-01,Bengaluru,android,Organic,0
+U100280,2025-05-10,Delhi,web,Referral,0
+U100281,2025-06-08,Ahmedabad,android,Google Ads,0
+U100282,2025-05-24,Bengaluru,android,Organic,0
+U100283,2025-02-10,Ahmedabad,ios,Google Ads,0
+U100284,2024-10-10,Mumbai,android,Referral,0
+U100285,2025-07-09,Mumbai,ios,Organic,0
+U100286,2025-01-16,Mumbai,android,Organic,0
+U100287,2025-07-24,Bengaluru,android,Organic,0
+U100288,2025-03-18,Mumbai,android,Google Ads,0
+U100289,2025-08-23,Hyderabad,web,Referral,0
+U100290,2025-08-29,Mumbai,android,Organic,0
+U100291,2025-08-18,Hyderabad,android,Referral,0
+U100292,2025-06-20,Delhi,android,Google Ads,0
+U100293,2024-12-19,Mumbai,ios,Google Ads,0
+U100294,2025-03-20,Pune,ios,Referral,0
+U100295,2024-11-09,Mumbai,ios,Organic,0
+U100296,2024-11-05,Lucknow,android,Organic,0
+U100297,2025-07-26,Bengaluru,android,Instagram,0
+U100298,2025-07-05,Delhi,android,Organic,0
+U100299,2025-02-11,Bengaluru,ios,Organic,0
+U100300,2025-06-23,Bengaluru,android,Instagram,0
+U100301,2025-07-18,Bengaluru,android,Organic,0
+U100302,2025-06-25,Kolkata,ios,Google Ads,0
+U100303,2024-12-17,Lucknow,android,Organic,0
+U100304,2025-08-06,Pune,ios,Instagram,0
+U100305,2025-08-20,Pune,android,Referral,0
+U100306,2025-07-21,Mumbai,web,Organic,0
+U100307,2025-06-19,Hyderabad,ios,Organic,0
+U100308,2025-08-18,Chennai,web,Organic,0
+U100309,2025-07-03,Bengaluru,android,Organic,0
+U100310,2024-11-28,Bengaluru,android,Referral,0
+U100311,2025-08-28,Pune,android,Instagram,0
+U100312,2025-08-27,Bengaluru,android,Instagram,0
+U100313,2024-10-03,Delhi,android,Instagram,0
+U100314,2025-07-01,Bengaluru,ios,Organic,0
+U100315,2024-12-01,Delhi,android,Google Ads,0
+U100316,2024-11-14,Hyderabad,ios,Referral,0
+U100317,2024-11-23,Delhi,android,Referral,0
+U100318,2025-08-01,Bengaluru,ios,Organic,0
+U100319,2025-07-01,Ahmedabad,ios,Referral,0
+U100320,2025-02-20,Pune,android,Organic,0
+U100321,2025-08-04,Mumbai,android,Organic,0
+U100322,2024-11-13,Hyderabad,android,Google Ads,0
+U100323,2025-07-22,Ahmedabad,android,Google Ads,0
+U100324,2025-08-28,Bengaluru,android,Referral,0
+U100325,2024-10-18,Delhi,android,Referral,0
+U100326,2025-04-23,Mumbai,android,Organic,0
+U100327,2025-07-22,Bengaluru,android,Referral,0
+U100328,2025-07-29,Delhi,web,Instagram,0
+U100329,2025-07-21,Chennai,ios,Organic,0
+U100330,2025-08-26,Hyderabad,ios,Organic,0
+U100331,2025-05-06,Bengaluru,android,Referral,0
+U100332,2025-08-29,Hyderabad,android,Google Ads,0
+U100333,2025-08-03,Hyderabad,android,Referral,0
+U100334,2024-10-13,Ahmedabad,ios,Referral,0
+U100335,2025-08-14,Bengaluru,android,Instagram,0
+U100336,2025-07-20,Bengaluru,android,Referral,0
+U100337,2025-08-26,Ahmedabad,ios,Organic,0
+U100338,2024-11-03,Chennai,android,Organic,0
+U100339,2025-06-12,Mumbai,ios,Organic,0
+U100340,2025-02-23,Kolkata,android,Organic,0
+U100341,2024-11-08,Delhi,android,Google Ads,0
+U100342,2025-01-22,Ahmedabad,android,Google Ads,0
+U100343,2025-06-28,Hyderabad,ios,Referral,0
+U100344,2025-04-02,Hyderabad,android,Organic,0
+U100345,2025-05-05,Pune,android,Referral,0
+U100346,2025-05-14,Bengaluru,web,Referral,0
+U100347,2025-08-17,Bengaluru,web,Organic,0
+U100348,2025-06-16,Bengaluru,web,Organic,0
+U100349,2024-10-07,Hyderabad,ios,Referral,0
+U100350,2025-08-01,Mumbai,android,Referral,0
+U100351,2025-06-17,Pune,web,Organic,0
+U100352,2025-07-12,Chennai,android,Organic,0
+U100353,2025-06-21,Chennai,android,Google Ads,0
+U100354,2025-08-28,Hyderabad,android,Google Ads,0
+U100355,2025-07-02,Hyderabad,android,Instagram,0
+U100356,2025-07-05,Pune,android,Google Ads,0
+U100357,2024-11-16,Mumbai,android,Organic,0
+U100358,2025-07-05,Hyderabad,android,Organic,0
+U100359,2025-08-23,Lucknow,web,Organic,0
+U100360,2024-12-07,Bengaluru,android,Organic,0
+U100361,2025-01-30,Bengaluru,web,Organic,0
+U100362,2025-08-10,Hyderabad,ios,Organic,0
+U100363,2024-11-13,Lucknow,android,Organic,0
+U100364,2025-08-30,Bengaluru,android,Organic,0
+U100365,2025-08-14,Pune,android,Organic,0
+U100366,2025-07-31,Mumbai,android,Instagram,0
+U100367,2025-02-16,Mumbai,android,Referral,0
+U100368,2025-08-26,Pune,android,Instagram,0
+U100369,2025-03-02,Mumbai,android,Organic,0
+U100370,2025-08-06,Delhi,ios,Referral,0
+U100371,2025-03-07,Hyderabad,android,Google Ads,0
+U100372,2025-08-24,Bengaluru,android,Organic,0
+U100373,2025-08-05,Hyderabad,android,Organic,0
+U100374,2025-08-05,Hyderabad,android,Organic,0
+U100375,2025-06-08,Jaipur,android,Organic,0
+U100376,2025-08-01,Ahmedabad,web,Google Ads,0
+U100377,2025-07-10,Pune,android,Organic,0
+U100378,2025-07-14,Bengaluru,android,Referral,0
+U100379,2025-06-15,Mumbai,web,Instagram,0
+U100380,2024-10-15,Hyderabad,android,Organic,0
+U100381,2025-02-08,Bengaluru,ios,Referral,0
+U100382,2025-06-22,Pune,android,Organic,0
+U100383,2025-08-29,Bengaluru,android,Organic,0
+U100384,2025-01-16,Bengaluru,web,Referral,0
+U100385,2025-08-14,Ahmedabad,android,Organic,0
+U100386,2025-05-16,Bengaluru,android,Google Ads,0
+U100387,2025-08-20,Delhi,ios,Referral,0
+U100388,2025-02-02,Kochi,android,Google Ads,0
+U100389,2025-06-25,Chennai,android,Google Ads,0
+U100390,2025-03-11,Kochi,android,Referral,0
+U100391,2025-04-26,Mumbai,android,Instagram,0
+U100392,2025-05-12,Kolkata,android,Organic,0
+U100393,2025-07-01,Mumbai,web,Instagram,0
+U100394,2025-02-26,Lucknow,android,Instagram,0
+U100395,2025-08-30,Ahmedabad,ios,Organic,0
+U100396,2025-07-14,Delhi,android,Organic,0
+U100397,2025-06-23,Delhi,android,Google Ads,0
+U100398,2025-05-30,Mumbai,android,Instagram,0
+U100399,2025-08-07,Pune,android,Organic,0
+U100400,2024-10-01,Hyderabad,android,Organic,1
+U100401,2025-04-30,Mumbai,web,Instagram,0
+U100402,2025-08-24,Hyderabad,android,Instagram,0
+U100403,2025-04-15,Mumbai,android,Organic,0
+U100404,2025-08-08,Mumbai,web,Organic,0
+U100405,2025-03-20,Kolkata,android,Instagram,0
+U100406,2025-07-26,Kolkata,android,Organic,0
+U100407,2025-07-18,Jaipur,android,Instagram,0
+U100408,2024-11-28,Delhi,android,Google Ads,0
+U100409,2024-12-20,Bengaluru,android,Instagram,0
+U100410,2024-11-08,Hyderabad,android,Organic,0
+U100411,2024-12-13,Chennai,android,Google Ads,0
+U100412,2025-04-24,Mumbai,web,Organic,0
+U100413,2025-05-29,Bengaluru,android,Organic,0
+U100414,2025-07-23,Mumbai,android,Organic,0
+U100415,2025-02-24,Hyderabad,ios,Organic,0
+U100416,2025-08-07,Hyderabad,android,Google Ads,0
+U100417,2025-08-12,Mumbai,android,Organic,0
+U100418,2024-12-12,Hyderabad,ios,Referral,0
+U100419,2025-01-31,Lucknow,ios,Instagram,0
+U100420,2025-08-20,Delhi,web,Google Ads,0
+U100421,2025-01-18,Lucknow,ios,Organic,0
+U100422,2025-02-27,Bengaluru,android,Google Ads,0
+U100423,2025-07-16,Delhi,android,Google Ads,0
+U100424,2025-03-06,Bengaluru,ios,Instagram,0
+U100425,2025-07-20,Mumbai,ios,Organic,0
+U100426,2025-01-15,Delhi,android,Referral,0
+U100427,2025-07-24,Delhi,android,Organic,0
+U100428,2025-03-25,Mumbai,ios,Organic,0
+U100429,2025-08-17,Chennai,android,Google Ads,0
+U100430,2025-08-20,Hyderabad,web,Organic,0
+U100431,2025-05-06,Pune,android,Google Ads,0
+U100432,2025-07-26,Hyderabad,android,Organic,0
+U100433,2024-12-24,Delhi,ios,Google Ads,0
+U100434,2025-08-29,Bengaluru,web,Referral,0
+U100435,2025-07-10,Delhi,ios,Organic,0
+U100436,2025-02-16,Delhi,android,Organic,0
+U100437,2024-10-02,Delhi,web,Referral,0
+U100438,2025-05-27,Mumbai,android,Google Ads,0
+U100439,2025-07-09,Mumbai,android,Organic,0
+U100440,2024-10-29,Mumbai,android,Organic,0
+U100441,2025-08-19,Delhi,android,Organic,0
+U100442,2025-08-28,Pune,android,Instagram,0
+U100443,2025-02-03,Delhi,android,Instagram,0
+U100444,2025-07-06,Mumbai,android,Organic,0
+U100445,2025-08-09,Bengaluru,android,Referral,0
+U100446,2025-06-25,Bengaluru,android,Google Ads,0
+U100447,2025-08-17,Delhi,android,Referral,0
+U100448,2025-08-29,Pune,android,Organic,0
+U100449,2025-07-21,Mumbai,android,Organic,0
+U100450,2025-03-30,Lucknow,android,Organic,0
+U100451,2025-03-25,Bengaluru,android,Organic,0
+U100452,2025-08-10,Bengaluru,android,Instagram,0
+U100453,2025-06-03,Mumbai,android,Google Ads,0
+U100454,2025-07-10,Hyderabad,ios,Referral,0
+U100455,2024-10-16,Bengaluru,android,Referral,0
+U100456,2025-08-17,Kochi,ios,Referral,0
+U100457,2025-07-29,Bengaluru,web,Referral,0
+U100458,2025-05-23,Lucknow,android,Organic,0
+U100459,2025-06-18,Mumbai,android,Organic,0
+U100460,2025-08-17,Delhi,android,Referral,0
+U100461,2025-04-10,Mumbai,android,Google Ads,0
+U100462,2025-07-23,Hyderabad,android,Instagram,0
+U100463,2024-10-15,Bengaluru,ios,Referral,0
+U100464,2024-11-24,Mumbai,android,Referral,0
+U100465,2025-05-17,Bengaluru,android,Organic,0
+U100466,2025-06-05,Mumbai,android,Referral,0
+U100467,2025-08-02,Mumbai,android,Organic,0
+U100468,2025-08-06,Mumbai,ios,Referral,0
+U100469,2024-12-15,Mumbai,ios,Google Ads,0
+U100470,2025-08-16,Bengaluru,ios,Google Ads,0
+U100471,2025-07-13,Mumbai,android,Organic,0
+U100472,2025-01-20,Bengaluru,android,Organic,0
+U100473,2025-07-26,Pune,android,Organic,0
+U100474,2024-12-28,Bengaluru,web,Google Ads,0
+U100475,2025-08-30,Mumbai,android,Google Ads,0
+U100476,2024-12-12,Delhi,android,Referral,0
+U100477,2025-01-13,Delhi,android,Organic,0
+U100478,2025-08-19,Bengaluru,android,Google Ads,0
+U100479,2025-08-08,Ahmedabad,android,Google Ads,0
+U100480,2025-07-30,Pune,android,Google Ads,0
+U100481,2025-01-29,Ahmedabad,web,Organic,0
+U100482,2024-10-21,Bengaluru,android,Referral,0
+U100483,2025-03-06,Ahmedabad,ios,Google Ads,0
+U100484,2025-05-19,Mumbai,android,Instagram,0
+U100485,2024-12-21,Kolkata,ios,Instagram,0
+U100486,2025-01-26,Jaipur,android,Organic,0
+U100487,2025-03-28,Mumbai,android,Organic,0
+U100488,2025-08-25,Bengaluru,android,Instagram,0
+U100489,2025-08-23,Delhi,android,Instagram,0
+U100490,2025-07-28,Kochi,ios,Organic,0
+U100491,2024-10-24,Mumbai,android,Organic,0
+U100492,2025-06-19,Mumbai,ios,Instagram,0
+U100493,2025-07-27,Delhi,android,Google Ads,0
+U100494,2025-08-09,Hyderabad,android,Organic,0
+U100495,2025-06-19,Hyderabad,android,Organic,0
+U100496,2025-06-03,Delhi,android,Referral,0
+U100497,2025-02-18,Lucknow,android,Organic,0
+U100498,2025-06-12,Hyderabad,web,Instagram,0
+U100499,2025-08-04,Chennai,android,Referral,0
+U100500,2025-07-23,Mumbai,android,Google Ads,0
+U100501,2025-08-02,Mumbai,android,Google Ads,0
+U100502,2025-02-19,Bengaluru,android,Google Ads,0
+U100503,2025-03-11,Delhi,android,Organic,0
+U100504,2025-08-11,Chennai,android,Instagram,0
+U100505,2025-08-13,Pune,android,Organic,0
+U100506,2025-08-04,Pune,android,Google Ads,0
+U100507,2025-07-14,Mumbai,android,Referral,0
+U100508,2025-03-15,Delhi,android,Organic,0
+U100509,2025-07-17,Hyderabad,android,Referral,0
+U100510,2025-08-09,Bengaluru,android,Instagram,0
+U100511,2025-07-16,Chennai,android,Instagram,0
+U100512,2024-10-22,Delhi,android,Organic,0
+U100513,2025-08-16,Jaipur,android,Organic,0
+U100514,2024-12-02,Chennai,android,Organic,0
+U100515,2025-08-14,Chennai,android,Organic,0
+U100516,2025-08-25,Jaipur,ios,Instagram,0
+U100517,2025-01-18,Delhi,android,Instagram,0
+U100518,2025-05-19,Mumbai,android,Instagram,0
+U100519,2025-07-19,Bengaluru,android,Google Ads,0
+U100520,2025-05-02,Chennai,ios,Organic,0
+U100521,2025-03-06,Delhi,ios,Organic,0
+U100522,2025-07-08,Delhi,android,Organic,0
+U100523,2025-04-03,Jaipur,android,Google Ads,0
+U100524,2025-02-18,Mumbai,android,Organic,0
+U100525,2025-08-02,Chennai,ios,Google Ads,0
+U100526,2024-10-15,Jaipur,android,Referral,0
+U100527,2025-07-25,Delhi,android,Organic,0
+U100528,2025-04-04,Hyderabad,android,Organic,0
+U100529,2025-06-28,Chennai,ios,Referral,0
+U100530,2024-11-20,Delhi,android,Organic,0
+U100531,2025-05-20,Bengaluru,android,Organic,0
+U100532,2025-06-15,Delhi,android,Instagram,0
+U100533,2025-08-05,Bengaluru,android,Google Ads,0
+U100534,2025-08-19,Bengaluru,android,Organic,0
+U100535,2025-06-13,Ahmedabad,android,Instagram,0
+U100536,2025-07-07,Hyderabad,android,Organic,0
+U100537,2025-06-03,Bengaluru,android,Organic,0
+U100538,2025-03-27,Bengaluru,ios,Organic,0
+U100539,2025-06-12,Ahmedabad,ios,Google Ads,0
+U100540,2025-07-04,Mumbai,android,Google Ads,0
+U100541,2025-05-19,Chennai,android,Organic,0
+U100542,2025-06-07,Kolkata,android,Referral,0
+U100543,2025-04-10,Delhi,android,Google Ads,0
+U100544,2025-07-03,Kolkata,android,Organic,0
+U100545,2025-08-15,Bengaluru,ios,Instagram,0
+U100546,2025-07-23,Chennai,ios,Google Ads,0
+U100547,2025-07-09,Ahmedabad,android,Organic,0
+U100548,2025-07-11,Bengaluru,ios,Instagram,0
+U100549,2025-04-14,Chennai,android,Google Ads,0
+U100550,2025-06-12,Chennai,android,Organic,0
+U100551,2024-11-01,Delhi,ios,Organic,0
+U100552,2025-04-15,Delhi,android,Organic,0
+U100553,2025-05-01,Chennai,ios,Instagram,0
+U100554,2025-02-28,Bengaluru,android,Google Ads,0
+U100555,2025-03-30,Mumbai,android,Referral,0
+U100556,2024-11-16,Bengaluru,android,Referral,0
+U100557,2025-08-25,Pune,android,Organic,0
+U100558,2024-11-21,Delhi,android,Organic,0
+U100559,2025-04-15,Hyderabad,android,Organic,0
+U100560,2025-07-14,Kochi,android,Organic,0
+U100561,2025-08-12,Delhi,android,Organic,0
+U100562,2025-04-29,Kolkata,web,Google Ads,0
+U100563,2025-06-09,Delhi,android,Organic,0
+U100564,2024-10-05,Jaipur,ios,Organic,0
+U100565,2025-06-25,Jaipur,web,Referral,0
+U100566,2025-06-12,Ahmedabad,android,Google Ads,0
+U100567,2025-06-24,Mumbai,android,Instagram,0
+U100568,2025-06-26,Pune,android,Organic,0
+U100569,2025-06-19,Bengaluru,android,Google Ads,0
+U100570,2024-10-27,Mumbai,android,Organic,0
+U100571,2024-10-05,Chennai,ios,Google Ads,0
+U100572,2025-08-26,Ahmedabad,android,Organic,0
+U100573,2025-03-13,Mumbai,android,Organic,0
+U100574,2025-08-17,Jaipur,android,Referral,0
+U100575,2025-01-20,Bengaluru,android,Google Ads,0
+U100576,2025-04-01,Mumbai,android,Referral,0
+U100577,2024-12-04,Chennai,android,Instagram,0
+U100578,2025-08-24,Ahmedabad,ios,Referral,0
+U100579,2025-07-28,Mumbai,ios,Organic,0
+U100580,2025-01-11,Chennai,web,Instagram,0
+U100581,2025-06-30,Pune,android,Organic,0
+U100582,2025-08-25,Delhi,android,Organic,0
+U100583,2025-06-19,Hyderabad,android,Instagram,0
+U100584,2025-04-07,Chennai,android,Referral,0
+U100585,2025-07-01,Mumbai,web,Google Ads,0
+U100586,2025-01-05,Chennai,android,Google Ads,0
+U100587,2025-07-19,Bengaluru,android,Instagram,0
+U100588,2024-10-21,Mumbai,android,Referral,0
+U100589,2025-08-29,Bengaluru,android,Organic,0
+U100590,2025-07-19,Hyderabad,android,Google Ads,0
+U100591,2024-10-16,Mumbai,android,Referral,0
+U100592,2025-04-12,Hyderabad,android,Instagram,0
+U100593,2024-11-23,Chennai,android,Organic,0
+U100594,2025-07-09,Chennai,android,Organic,0
+U100595,2025-07-28,Bengaluru,android,Organic,0
+U100596,2025-06-03,Mumbai,android,Instagram,0
+U100597,2025-06-30,Hyderabad,ios,Organic,0
+U100598,2025-03-26,Delhi,ios,Organic,0
+U100599,2025-08-21,Mumbai,ios,Google Ads,0
+U100600,2025-08-23,Bengaluru,android,Google Ads,0
+U100601,2025-05-18,Kolkata,android,Instagram,0
+U100602,2025-05-26,Mumbai,android,Organic,0
+U100603,2025-08-15,Ahmedabad,android,Google Ads,0
+U100604,2025-07-26,Chennai,ios,Organic,0
+U100605,2025-08-10,Delhi,android,Instagram,0
+U100606,2024-10-26,Jaipur,android,Instagram,0
+U100607,2025-07-03,Pune,android,Organic,0
+U100608,2025-07-02,Hyderabad,ios,Instagram,0
+U100609,2025-07-02,Kochi,android,Organic,0
+U100610,2024-12-10,Delhi,android,Instagram,0
+U100611,2025-08-10,Bengaluru,android,Organic,0
+U100612,2024-12-11,Mumbai,ios,Instagram,0
+U100613,2025-05-17,Chennai,android,Referral,0
+U100614,2025-07-31,Bengaluru,android,Organic,0
+U100615,2025-04-30,Bengaluru,android,Google Ads,0
+U100616,2024-12-29,Bengaluru,android,Referral,0
+U100617,2025-01-23,Mumbai,ios,Google Ads,0
+U100618,2025-07-06,Kolkata,ios,Referral,0
+U100619,2025-05-29,Bengaluru,android,Organic,0
+U100620,2025-08-22,Mumbai,android,Organic,0
+U100621,2025-07-10,Hyderabad,web,Organic,0
+U100622,2025-07-05,Hyderabad,web,Organic,0
+U100623,2024-10-28,Kochi,web,Referral,0
+U100624,2025-03-04,Jaipur,android,Google Ads,0
+U100625,2025-07-27,Pune,android,Instagram,0
+U100626,2024-11-30,Pune,web,Organic,0
+U100627,2024-12-29,Delhi,android,Referral,0
+U100628,2025-04-18,Mumbai,android,Organic,0
+U100629,2025-08-04,Hyderabad,ios,Organic,0
+U100630,2025-08-24,Bengaluru,android,Organic,0
+U100631,2024-10-01,Delhi,android,Google Ads,1
+U100632,2025-05-25,Mumbai,web,Organic,0
+U100633,2025-08-07,Delhi,android,Organic,0
+U100634,2025-01-15,Bengaluru,ios,Organic,0
+U100635,2024-10-26,Bengaluru,ios,Organic,0
+U100636,2025-08-21,Mumbai,web,Google Ads,0
+U100637,2025-07-23,Bengaluru,web,Referral,0
+U100638,2024-10-01,Chennai,android,Referral,1
+U100639,2025-05-27,Kolkata,ios,Instagram,0
+U100640,2025-08-18,Bengaluru,ios,Organic,0
+U100641,2025-08-20,Bengaluru,android,Google Ads,0
+U100642,2025-08-09,Jaipur,android,Google Ads,0
+U100643,2025-06-17,Mumbai,web,Instagram,0
+U100644,2025-07-14,Bengaluru,android,Organic,0
+U100645,2024-11-06,Chennai,ios,Organic,0
+U100646,2025-07-07,Pune,android,Organic,0
+U100647,2025-05-18,Delhi,android,Google Ads,0
+U100648,2024-11-15,Bengaluru,android,Organic,0
+U100649,2025-01-28,Bengaluru,android,Google Ads,0
+U100650,2024-12-27,Chennai,ios,Referral,0
+U100651,2025-08-07,Jaipur,android,Organic,0
+U100652,2025-03-02,Mumbai,android,Organic,0
+U100653,2025-07-02,Bengaluru,android,Google Ads,0
+U100654,2025-08-30,Mumbai,android,Instagram,0
+U100655,2025-03-27,Delhi,android,Google Ads,0
+U100656,2025-08-21,Hyderabad,android,Instagram,0
+U100657,2025-05-08,Hyderabad,android,Instagram,0
+U100658,2025-07-31,Chennai,android,Referral,0
+U100659,2025-06-06,Mumbai,android,Organic,0
+U100660,2025-07-26,Delhi,android,Organic,0
+U100661,2025-08-23,Ahmedabad,android,Google Ads,0
+U100662,2025-07-17,Chennai,android,Google Ads,0
+U100663,2025-06-03,Bengaluru,web,Organic,0
+U100664,2025-08-27,Bengaluru,ios,Google Ads,0
+U100665,2025-01-11,Jaipur,android,Referral,0
+U100666,2025-06-22,Bengaluru,android,Organic,0
+U100667,2025-06-28,Bengaluru,ios,Organic,0
+U100668,2024-12-24,Kolkata,android,Google Ads,0
+U100669,2025-07-20,Kochi,android,Instagram,0
+U100670,2025-08-12,Ahmedabad,android,Organic,0
+U100671,2025-03-05,Hyderabad,android,Organic,0
+U100672,2025-07-26,Bengaluru,ios,Referral,0
+U100673,2025-03-25,Delhi,android,Google Ads,0
+U100674,2025-08-27,Mumbai,ios,Organic,0
+U100675,2024-10-01,Bengaluru,ios,Referral,1
+U100676,2025-07-27,Delhi,android,Google Ads,0
+U100677,2025-07-13,Delhi,ios,Organic,0
+U100678,2025-07-05,Bengaluru,android,Organic,0
+U100679,2025-07-26,Lucknow,android,Instagram,0
+U100680,2025-06-28,Delhi,android,Referral,0
+U100681,2025-07-23,Delhi,android,Organic,0
+U100682,2025-04-25,Mumbai,android,Instagram,0
+U100683,2025-08-08,Chennai,android,Organic,0
+U100684,2025-06-14,Mumbai,android,Organic,0
+U100685,2025-08-10,Hyderabad,android,Google Ads,0
+U100686,2024-12-02,Hyderabad,web,Organic,0
+U100687,2025-02-08,Mumbai,android,Instagram,0
+U100688,2025-06-11,Bengaluru,ios,Organic,0
+U100689,2025-07-20,Mumbai,android,Organic,0
+U100690,2025-08-29,Kolkata,android,Organic,0
+U100691,2025-08-16,Chennai,android,Google Ads,0
+U100692,2025-07-10,Ahmedabad,ios,Organic,0
+U100693,2024-11-22,Delhi,ios,Organic,0
+U100694,2025-02-23,Kochi,android,Organic,0
+U100695,2025-08-11,Mumbai,android,Instagram,0
+U100696,2025-08-21,Bengaluru,ios,Instagram,0
+U100697,2025-08-05,Delhi,android,Google Ads,0
+U100698,2025-08-07,Delhi,android,Google Ads,0
+U100699,2025-07-15,Delhi,web,Organic,0
+U100700,2025-01-16,Chennai,android,Organic,0
+U100701,2025-03-29,Pune,android,Organic,0
+U100702,2025-04-18,Pune,android,Organic,0
+U100703,2025-06-30,Jaipur,android,Instagram,0
+U100704,2025-07-23,Mumbai,android,Google Ads,0
+U100705,2025-05-19,Bengaluru,android,Organic,0
+U100706,2025-08-20,Bengaluru,android,Organic,0
+U100707,2024-12-22,Kolkata,web,Organic,0
+U100708,2025-08-03,Hyderabad,android,Google Ads,0
+U100709,2025-07-14,Mumbai,ios,Google Ads,0
+U100710,2025-07-18,Kolkata,android,Organic,0
+U100711,2024-11-19,Delhi,android,Instagram,0
+U100712,2025-06-21,Hyderabad,ios,Instagram,0
+U100713,2024-10-18,Pune,android,Referral,0
+U100714,2025-03-18,Delhi,ios,Referral,0
+U100715,2025-04-29,Hyderabad,android,Google Ads,0
+U100716,2024-11-21,Kolkata,web,Google Ads,0
+U100717,2025-04-26,Mumbai,android,Referral,0
+U100718,2025-08-23,Bengaluru,android,Google Ads,0
+U100719,2025-03-19,Pune,ios,Organic,0
+U100720,2025-08-04,Mumbai,ios,Referral,0
+U100721,2025-08-06,Chennai,android,Google Ads,0
+U100722,2025-08-03,Delhi,android,Organic,0
+U100723,2025-04-12,Hyderabad,android,Organic,0
+U100724,2024-10-03,Ahmedabad,ios,Google Ads,0
+U100725,2025-06-12,Mumbai,android,Google Ads,0
+U100726,2025-08-15,Mumbai,android,Referral,0
+U100727,2024-12-05,Bengaluru,android,Organic,0
+U100728,2025-06-18,Delhi,android,Organic,0
+U100729,2024-10-01,Delhi,android,Google Ads,1
+U100730,2025-08-20,Chennai,android,Organic,0
+U100731,2024-10-01,Kolkata,android,Referral,1
+U100732,2025-06-28,Delhi,android,Organic,0
+U100733,2025-07-24,Jaipur,web,Organic,0
+U100734,2025-05-31,Bengaluru,ios,Instagram,0
+U100735,2024-10-30,Hyderabad,android,Organic,0
+U100736,2024-12-14,Ahmedabad,android,Organic,0
+U100737,2025-04-19,Hyderabad,android,Referral,0
+U100738,2025-07-01,Delhi,android,Instagram,0
+U100739,2024-10-15,Delhi,android,Instagram,0
+U100740,2025-02-21,Kolkata,ios,Organic,0
+U100741,2025-02-19,Pune,android,Referral,0
+U100742,2024-10-09,Mumbai,android,Instagram,0
+U100743,2024-11-18,Delhi,android,Google Ads,0
+U100744,2025-07-07,Delhi,android,Organic,0
+U100745,2025-02-24,Bengaluru,android,Google Ads,0
+U100746,2025-05-26,Kolkata,android,Google Ads,0
+U100747,2024-12-02,Bengaluru,web,Referral,0
+U100748,2025-04-29,Mumbai,android,Google Ads,0
+U100749,2025-08-19,Mumbai,android,Google Ads,0
+U100750,2025-04-28,Bengaluru,ios,Google Ads,0
+U100751,2025-07-11,Chennai,android,Organic,0
+U100752,2025-05-02,Kolkata,android,Organic,0
+U100753,2025-08-06,Mumbai,android,Organic,0
+U100754,2025-08-16,Jaipur,android,Google Ads,0
+U100755,2025-07-26,Bengaluru,android,Referral,0
+U100756,2025-01-07,Pune,android,Instagram,0
+U100757,2025-08-06,Pune,android,Referral,0
+U100758,2025-05-27,Pune,android,Instagram,0
+U100759,2025-05-23,Hyderabad,ios,Instagram,0
+U100760,2024-11-13,Hyderabad,android,Referral,0
+U100761,2025-08-21,Delhi,android,Google Ads,0
+U100762,2025-08-20,Bengaluru,android,Organic,0
+U100763,2025-01-07,Chennai,ios,Google Ads,0
+U100764,2025-07-28,Chennai,web,Instagram,0
+U100765,2025-05-26,Hyderabad,android,Organic,0
+U100766,2025-01-26,Bengaluru,android,Organic,0
+U100767,2025-08-18,Pune,ios,Google Ads,0
+U100768,2025-06-24,Kolkata,android,Instagram,0
+U100769,2025-08-15,Pune,ios,Organic,0
+U100770,2025-07-20,Bengaluru,ios,Google Ads,0
+U100771,2025-06-26,Mumbai,android,Organic,0
+U100772,2025-06-26,Pune,web,Organic,0
+U100773,2025-07-09,Ahmedabad,android,Referral,0
+U100774,2025-04-16,Delhi,ios,Organic,0
+U100775,2025-04-20,Kolkata,android,Instagram,0
+U100776,2025-07-29,Hyderabad,ios,Organic,0
+U100777,2025-05-19,Mumbai,web,Organic,0
+U100778,2024-12-13,Pune,android,Organic,0
+U100779,2025-07-22,Hyderabad,android,Referral,0
+U100780,2025-04-06,Hyderabad,android,Organic,0
+U100781,2024-12-23,Pune,android,Organic,0
+U100782,2025-08-01,Chennai,ios,Organic,0
+U100783,2025-05-10,Mumbai,ios,Instagram,0
+U100784,2024-11-28,Delhi,android,Instagram,0
+U100785,2025-02-21,Delhi,ios,Instagram,0
+U100786,2025-01-08,Kochi,web,Referral,0
+U100787,2025-07-15,Delhi,android,Organic,0
+U100788,2024-12-04,Bengaluru,android,Instagram,0
+U100789,2024-12-23,Mumbai,android,Organic,0
+U100790,2025-06-13,Pune,ios,Organic,0
+U100791,2025-07-13,Pune,ios,Organic,0
+U100792,2025-03-13,Hyderabad,android,Google Ads,0
+U100793,2025-08-30,Jaipur,android,Organic,0
+U100794,2024-12-31,Bengaluru,android,Instagram,0
+U100795,2025-07-30,Bengaluru,android,Google Ads,0
+U100796,2025-08-09,Mumbai,android,Organic,0
+U100797,2025-07-05,Mumbai,ios,Instagram,0
+U100798,2025-08-04,Lucknow,android,Organic,0
+U100799,2024-10-04,Mumbai,android,Organic,0
+U100800,2025-03-18,Bengaluru,android,Instagram,0
+U100801,2025-07-22,Pune,android,Instagram,0
+U100802,2025-04-09,Delhi,android,Referral,0
+U100803,2025-08-03,Hyderabad,android,Referral,0
+U100804,2025-06-09,Pune,ios,Instagram,0
+U100805,2024-12-24,Bengaluru,android,Google Ads,0
+U100806,2025-07-01,Kochi,android,Referral,0
+U100807,2025-08-06,Chennai,android,Referral,0
+U100808,2025-04-18,Mumbai,android,Organic,0
+U100809,2024-12-09,Kolkata,android,Google Ads,0
+U100810,2025-06-14,Lucknow,ios,Google Ads,0
+U100811,2025-06-13,Pune,android,Instagram,0
+U100812,2025-06-26,Hyderabad,android,Google Ads,0
+U100813,2024-12-18,Bengaluru,ios,Organic,0
+U100814,2025-08-21,Ahmedabad,android,Organic,0
+U100815,2025-03-18,Delhi,web,Organic,0
+U100816,2025-03-15,Pune,ios,Organic,0
+U100817,2025-08-15,Lucknow,ios,Google Ads,0
+U100818,2025-07-08,Mumbai,android,Organic,0
+U100819,2025-02-17,Mumbai,ios,Google Ads,0
+U100820,2024-10-05,Delhi,web,Organic,0
+U100821,2024-12-11,Mumbai,android,Referral,0
+U100822,2025-04-08,Mumbai,android,Referral,0
+U100823,2025-08-24,Delhi,ios,Instagram,0
+U100824,2024-12-30,Bengaluru,android,Google Ads,0
+U100825,2025-04-24,Delhi,android,Google Ads,0
+U100826,2024-10-25,Bengaluru,android,Organic,0
+U100827,2025-06-28,Mumbai,android,Organic,0
+U100828,2025-08-10,Mumbai,web,Organic,0
+U100829,2024-11-09,Bengaluru,ios,Instagram,0
+U100830,2025-08-06,Delhi,android,Google Ads,0
+U100831,2024-12-24,Bengaluru,web,Google Ads,0
+U100832,2025-07-20,Jaipur,android,Instagram,0
+U100833,2025-02-11,Pune,android,Referral,0
+U100834,2025-05-25,Kochi,ios,Organic,0
+U100835,2025-08-19,Lucknow,android,Organic,0
+U100836,2025-01-14,Ahmedabad,android,Organic,0
+U100837,2025-03-11,Chennai,android,Instagram,0
+U100838,2025-07-02,Kolkata,android,Organic,0
+U100839,2025-06-30,Kolkata,android,Google Ads,0
+U100840,2025-08-21,Pune,android,Google Ads,0
+U100841,2025-07-18,Delhi,android,Referral,0
+U100842,2025-04-30,Hyderabad,ios,Organic,0
+U100843,2025-06-10,Chennai,android,Organic,0
+U100844,2025-07-02,Lucknow,android,Referral,0
+U100845,2025-06-04,Bengaluru,android,Referral,0
+U100846,2025-08-30,Bengaluru,android,Referral,0
+U100847,2025-08-20,Hyderabad,android,Organic,0
+U100848,2025-02-12,Hyderabad,android,Organic,0
+U100849,2025-05-26,Hyderabad,android,Google Ads,0
+U100850,2025-03-17,Kochi,ios,Referral,0
+U100851,2025-07-31,Chennai,android,Referral,0
+U100852,2025-01-23,Kolkata,ios,Google Ads,0
+U100853,2025-01-14,Pune,android,Instagram,0
+U100854,2025-07-07,Hyderabad,android,Organic,0
+U100855,2025-08-29,Mumbai,ios,Organic,0
+U100856,2025-07-26,Lucknow,android,Google Ads,0
+U100857,2025-04-28,Mumbai,ios,Instagram,0
+U100858,2025-03-08,Chennai,android,Organic,0
+U100859,2025-05-02,Chennai,android,Instagram,0
+U100860,2024-10-30,Hyderabad,android,Organic,0
+U100861,2025-06-17,Delhi,android,Organic,0
+U100862,2024-12-25,Pune,ios,Google Ads,0
+U100863,2025-01-31,Hyderabad,android,Instagram,0
+U100864,2024-10-31,Bengaluru,android,Instagram,0
+U100865,2025-08-27,Bengaluru,android,Organic,0
+U100866,2025-05-09,Bengaluru,android,Organic,0
+U100867,2025-01-19,Jaipur,ios,Organic,0
+U100868,2024-10-16,Lucknow,ios,Google Ads,0
+U100869,2025-07-08,Chennai,ios,Referral,0
+U100870,2025-08-25,Jaipur,ios,Organic,0
+U100871,2025-03-23,Chennai,android,Organic,0
+U100872,2025-04-09,Bengaluru,android,Organic,0
+U100873,2025-07-27,Ahmedabad,android,Referral,0
+U100874,2025-07-17,Delhi,ios,Google Ads,0
+U100875,2025-06-22,Ahmedabad,android,Google Ads,0
+U100876,2025-07-01,Bengaluru,ios,Instagram,0
+U100877,2025-08-05,Mumbai,android,Organic,0
+U100878,2025-03-14,Kochi,ios,Referral,0
+U100879,2025-06-21,Bengaluru,android,Organic,0
+U100880,2025-08-26,Bengaluru,android,Referral,0
+U100881,2025-02-08,Pune,ios,Organic,0
+U100882,2025-07-11,Mumbai,ios,Google Ads,0
+U100883,2025-07-06,Kolkata,android,Google Ads,0
+U100884,2025-08-23,Mumbai,android,Instagram,0
+U100885,2025-07-22,Kolkata,web,Referral,0
+U100886,2025-07-10,Bengaluru,android,Referral,0
+U100887,2025-07-21,Hyderabad,android,Google Ads,0
+U100888,2025-08-04,Hyderabad,android,Google Ads,0
+U100889,2024-10-01,Chennai,android,Organic,1
+U100890,2025-05-26,Chennai,android,Organic,0
+U100891,2025-04-24,Hyderabad,web,Google Ads,0
+U100892,2025-03-30,Chennai,android,Referral,0
+U100893,2024-12-10,Chennai,android,Referral,0
+U100894,2025-07-22,Bengaluru,android,Referral,0
+U100895,2025-03-28,Kolkata,android,Organic,0
+U100896,2025-08-27,Hyderabad,android,Organic,0
+U100897,2025-05-28,Bengaluru,android,Organic,0
+U100898,2025-08-08,Delhi,web,Google Ads,0
+U100899,2025-07-20,Ahmedabad,android,Google Ads,0
+U100900,2025-03-15,Pune,android,Organic,0
+U100901,2025-01-17,Mumbai,android,Organic,0
+U100902,2025-08-27,Pune,ios,Organic,0
+U100903,2025-07-25,Bengaluru,android,Organic,0
+U100904,2025-04-23,Mumbai,android,Organic,0
+U100905,2024-10-04,Mumbai,android,Referral,0
+U100906,2025-08-06,Mumbai,android,Referral,0
+U100907,2025-01-11,Bengaluru,ios,Google Ads,0
+U100908,2025-07-20,Bengaluru,web,Organic,0
+U100909,2024-11-20,Mumbai,android,Google Ads,0
+U100910,2025-08-13,Chennai,android,Instagram,0
+U100911,2025-06-11,Bengaluru,android,Referral,0
+U100912,2025-07-27,Hyderabad,android,Instagram,0
+U100913,2024-11-10,Kolkata,ios,Instagram,0
+U100914,2024-11-14,Delhi,android,Google Ads,0
+U100915,2025-05-03,Bengaluru,android,Google Ads,0
+U100916,2025-03-03,Delhi,android,Referral,0
+U100917,2024-11-28,Bengaluru,android,Google Ads,0
+U100918,2025-07-10,Bengaluru,android,Organic,0
+U100919,2025-06-10,Mumbai,android,Instagram,0
+U100920,2025-08-05,Delhi,android,Google Ads,0
+U100921,2025-02-19,Delhi,web,Organic,0
+U100922,2025-07-14,Bengaluru,android,Organic,0
+U100923,2025-07-06,Kolkata,android,Instagram,0
+U100924,2025-06-18,Delhi,ios,Google Ads,0
+U100925,2025-07-28,Chennai,android,Instagram,0
+U100926,2025-01-26,Delhi,android,Google Ads,0
+U100927,2025-08-17,Pune,android,Organic,0
+U100928,2025-07-11,Jaipur,android,Organic,0
+U100929,2025-08-17,Pune,android,Organic,0
+U100930,2025-07-12,Hyderabad,android,Instagram,0
+U100931,2025-01-23,Pune,ios,Referral,0
+U100932,2025-07-22,Mumbai,ios,Google Ads,0
+U100933,2024-10-20,Delhi,web,Referral,0
+U100934,2025-08-12,Delhi,android,Organic,0
+U100935,2025-01-18,Ahmedabad,ios,Organic,0
+U100936,2025-08-21,Bengaluru,android,Organic,0
+U100937,2025-06-21,Mumbai,web,Organic,0
+U100938,2025-08-21,Pune,android,Organic,0
+U100939,2025-08-28,Ahmedabad,android,Google Ads,0
+U100940,2025-07-30,Hyderabad,android,Instagram,0
+U100941,2024-12-07,Hyderabad,android,Organic,0
+U100942,2025-08-24,Mumbai,ios,Google Ads,0
+U100943,2025-06-30,Hyderabad,android,Instagram,0
+U100944,2025-03-08,Bengaluru,android,Instagram,0
+U100945,2024-12-06,Lucknow,ios,Organic,0
+U100946,2025-07-28,Jaipur,android,Referral,0
+U100947,2025-05-25,Delhi,android,Referral,0
+U100948,2024-10-16,Delhi,android,Referral,0
+U100949,2025-01-17,Ahmedabad,android,Referral,0
+U100950,2024-10-01,Delhi,android,Organic,1
+U100951,2025-03-09,Delhi,android,Instagram,0
+U100952,2025-08-19,Delhi,ios,Referral,0
+U100953,2025-08-10,Bengaluru,android,Organic,0
+U100954,2025-01-03,Bengaluru,android,Organic,0
+U100955,2025-05-11,Kochi,android,Referral,0
+U100956,2025-08-29,Bengaluru,android,Instagram,0
+U100957,2025-08-17,Bengaluru,android,Organic,0
+U100958,2025-07-23,Bengaluru,android,Organic,0
+U100959,2025-03-28,Mumbai,android,Referral,0
+U100960,2025-02-21,Kolkata,web,Organic,0
+U100961,2025-04-14,Pune,web,Organic,0
+U100962,2025-06-22,Lucknow,android,Google Ads,0
+U100963,2025-06-26,Delhi,android,Referral,0
+U100964,2025-05-04,Mumbai,android,Organic,0
+U100965,2025-07-25,Ahmedabad,ios,Google Ads,0
+U100966,2024-12-20,Delhi,android,Referral,0
+U100967,2025-08-17,Bengaluru,ios,Organic,0
+U100968,2025-02-28,Mumbai,android,Google Ads,0
+U100969,2025-05-15,Bengaluru,ios,Organic,0
+U100970,2025-05-31,Hyderabad,web,Organic,0
+U100971,2025-04-30,Lucknow,android,Referral,0
+U100972,2025-07-18,Lucknow,android,Instagram,0
+U100973,2024-12-20,Delhi,web,Organic,0
+U100974,2025-06-10,Mumbai,ios,Organic,0
+U100975,2025-08-03,Delhi,android,Google Ads,0
+U100976,2024-10-13,Hyderabad,android,Instagram,0
+U100977,2025-08-24,Mumbai,android,Google Ads,0
+U100978,2025-08-11,Bengaluru,android,Organic,0
+U100979,2025-07-19,Mumbai,android,Referral,0
+U100980,2025-07-28,Delhi,android,Referral,0
+U100981,2025-08-04,Bengaluru,android,Organic,0
+U100982,2025-07-15,Pune,android,Organic,0
+U100983,2025-04-23,Kolkata,android,Instagram,0
+U100984,2025-07-10,Delhi,android,Google Ads,0
+U100985,2025-01-28,Bengaluru,ios,Google Ads,0
+U100986,2025-08-29,Jaipur,web,Instagram,0
+U100987,2024-10-12,Lucknow,android,Instagram,0
+U100988,2025-07-12,Chennai,web,Organic,0
+U100989,2025-02-07,Delhi,android,Referral,0
+U100990,2025-06-21,Chennai,ios,Referral,0
+U100991,2025-08-18,Pune,ios,Organic,0
+U100992,2025-08-14,Chennai,android,Organic,0
+U100993,2025-08-23,Pune,android,Instagram,0
+U100994,2025-06-07,Pune,android,Referral,0
+U100995,2025-07-24,Chennai,android,Google Ads,0
+U100996,2025-06-29,Hyderabad,ios,Google Ads,0
+U100997,2025-04-12,Mumbai,android,Google Ads,0
+U100998,2025-06-14,Chennai,android,Referral,0
+U100999,2025-07-25,Delhi,android,Organic,0
+U101000,2025-04-02,Bengaluru,android,Organic,0
+U101001,2025-08-20,Hyderabad,android,Google Ads,0
+U101002,2025-07-03,Mumbai,android,Organic,0
+U101003,2025-05-02,Hyderabad,android,Organic,0
+U101004,2025-01-30,Mumbai,web,Organic,0
+U101005,2024-12-19,Jaipur,android,Referral,0
+U101006,2025-01-25,Bengaluru,android,Instagram,0
+U101007,2024-11-17,Pune,android,Organic,0
+U101008,2025-02-12,Chennai,android,Referral,0
+U101009,2025-05-20,Bengaluru,android,Organic,0
+U101010,2024-11-23,Mumbai,ios,Referral,0
+U101011,2025-07-25,Bengaluru,web,Google Ads,0
+U101012,2025-03-26,Pune,android,Organic,0
+U101013,2025-04-27,Mumbai,android,Google Ads,0
+U101014,2025-08-28,Mumbai,android,Organic,0
+U101015,2025-03-01,Chennai,ios,Google Ads,0
+U101016,2024-10-12,Chennai,android,Google Ads,0
+U101017,2025-08-18,Delhi,android,Google Ads,0
+U101018,2024-10-04,Chennai,ios,Organic,0
+U101019,2024-12-02,Kolkata,ios,Organic,0
+U101020,2024-11-30,Chennai,ios,Google Ads,0
+U101021,2025-08-11,Bengaluru,ios,Referral,0
+U101022,2025-08-12,Mumbai,android,Referral,0
+U101023,2025-08-02,Mumbai,android,Organic,0
+U101024,2025-07-27,Hyderabad,android,Referral,0
+U101025,2025-07-19,Hyderabad,android,Google Ads,0
+U101026,2025-02-25,Delhi,ios,Organic,0
+U101027,2025-08-14,Delhi,android,Referral,0
+U101028,2025-02-24,Bengaluru,android,Instagram,0
+U101029,2025-06-24,Kochi,android,Google Ads,0
+U101030,2025-01-03,Mumbai,android,Instagram,0
+U101031,2025-07-27,Bengaluru,ios,Instagram,0
+U101032,2025-07-24,Pune,ios,Google Ads,0
+U101033,2025-06-18,Mumbai,android,Organic,0
+U101034,2025-07-31,Delhi,ios,Instagram,0
+U101035,2025-08-29,Mumbai,android,Organic,0
+U101036,2025-08-22,Delhi,android,Organic,0
+U101037,2025-03-04,Mumbai,android,Instagram,0
+U101038,2025-01-01,Mumbai,android,Referral,0
+U101039,2025-07-24,Bengaluru,android,Organic,0
+U101040,2025-05-17,Mumbai,ios,Organic,0
+U101041,2025-05-24,Chennai,android,Referral,0
+U101042,2025-05-22,Kolkata,android,Instagram,0
+U101043,2025-04-21,Delhi,android,Instagram,0
+U101044,2025-07-08,Mumbai,android,Organic,0
+U101045,2025-07-28,Ahmedabad,android,Organic,0
+U101046,2025-02-04,Kolkata,android,Referral,0
+U101047,2025-07-17,Hyderabad,android,Google Ads,0
+U101048,2025-08-10,Mumbai,android,Referral,0
+U101049,2025-08-18,Bengaluru,android,Organic,0
+U101050,2025-04-24,Lucknow,android,Referral,0
+U101051,2025-08-24,Hyderabad,web,Organic,0
+U101052,2025-06-19,Pune,android,Referral,0
+U101053,2025-07-16,Hyderabad,android,Organic,0
+U101054,2025-06-18,Bengaluru,android,Instagram,0
+U101055,2025-08-29,Lucknow,android,Organic,0
+U101056,2024-11-08,Bengaluru,android,Organic,0
+U101057,2025-07-10,Mumbai,android,Instagram,0
+U101058,2025-04-22,Pune,android,Instagram,0
+U101059,2025-06-26,Bengaluru,android,Google Ads,0
+U101060,2024-12-12,Pune,web,Referral,0
+U101061,2024-10-13,Mumbai,android,Organic,0
+U101062,2025-02-27,Hyderabad,ios,Referral,0
+U101063,2025-06-04,Kochi,android,Organic,0
+U101064,2024-10-14,Delhi,android,Organic,0
+U101065,2025-07-16,Hyderabad,android,Instagram,0
+U101066,2025-01-03,Mumbai,android,Google Ads,0
+U101067,2025-01-18,Jaipur,ios,Organic,0
+U101068,2024-12-27,Bengaluru,ios,Referral,0
+U101069,2024-11-06,Mumbai,android,Referral,0
+U101070,2024-11-25,Jaipur,android,Instagram,0
+U101071,2024-11-07,Hyderabad,ios,Organic,0
+U101072,2025-08-25,Pune,android,Referral,0
+U101073,2025-08-29,Delhi,android,Google Ads,0
+U101074,2025-03-17,Hyderabad,android,Instagram,0
+U101075,2025-05-03,Delhi,android,Instagram,0
+U101076,2025-08-02,Kolkata,web,Referral,0
+U101077,2025-01-05,Hyderabad,android,Google Ads,0
+U101078,2025-07-19,Delhi,ios,Organic,0
+U101079,2025-07-29,Bengaluru,android,Organic,0
+U101080,2025-06-22,Hyderabad,ios,Referral,0
+U101081,2025-01-16,Bengaluru,android,Instagram,0
+U101082,2025-05-13,Chennai,android,Instagram,0
+U101083,2025-03-14,Pune,android,Google Ads,0
+U101084,2025-03-12,Hyderabad,android,Organic,0
+U101085,2025-06-10,Mumbai,android,Instagram,0
+U101086,2025-03-23,Delhi,ios,Google Ads,0
+U101087,2025-07-24,Mumbai,android,Instagram,0
+U101088,2025-08-01,Kolkata,ios,Organic,0
+U101089,2025-08-08,Bengaluru,android,Google Ads,0
+U101090,2025-06-11,Pune,android,Instagram,0
+U101091,2025-01-12,Bengaluru,android,Instagram,0
+U101092,2025-08-23,Pune,android,Instagram,0
+U101093,2025-07-24,Kolkata,ios,Organic,0
+U101094,2025-06-09,Delhi,android,Organic,0
+U101095,2025-05-21,Kolkata,ios,Instagram,0
+U101096,2025-07-24,Delhi,android,Organic,0
+U101097,2025-03-10,Chennai,ios,Referral,0
+U101098,2025-04-11,Pune,android,Google Ads,0
+U101099,2025-03-09,Bengaluru,android,Instagram,0
+U101100,2024-10-01,Bengaluru,ios,Organic,1
+U101101,2025-07-21,Kolkata,ios,Instagram,0
+U101102,2025-07-29,Hyderabad,android,Organic,0
+U101103,2025-08-05,Bengaluru,android,Organic,0
+U101104,2025-04-08,Mumbai,android,Organic,0
+U101105,2025-02-01,Pune,web,Google Ads,0
+U101106,2025-02-08,Kochi,android,Organic,0
+U101107,2025-08-18,Bengaluru,ios,Organic,0
+U101108,2025-06-10,Bengaluru,android,Organic,0
+U101109,2025-01-09,Chennai,web,Referral,0
+U101110,2025-08-12,Kochi,android,Google Ads,0
+U101111,2025-08-11,Jaipur,android,Google Ads,0
+U101112,2025-07-10,Hyderabad,android,Google Ads,0
+U101113,2025-07-27,Hyderabad,ios,Google Ads,0
+U101114,2025-01-11,Bengaluru,android,Google Ads,0
+U101115,2025-02-06,Kochi,android,Google Ads,0
+U101116,2024-10-22,Chennai,android,Organic,0
+U101117,2024-10-12,Mumbai,android,Organic,0
+U101118,2025-08-04,Hyderabad,ios,Organic,0
+U101119,2025-05-29,Hyderabad,android,Organic,0
+U101120,2025-08-17,Lucknow,android,Google Ads,0
+U101121,2025-01-25,Kolkata,android,Google Ads,0
+U101122,2025-03-12,Mumbai,android,Referral,0
+U101123,2025-06-28,Chennai,android,Referral,0
+U101124,2025-07-04,Jaipur,android,Organic,0
+U101125,2025-07-16,Delhi,ios,Organic,0
+U101126,2025-01-10,Mumbai,android,Organic,0
+U101127,2025-06-14,Kolkata,android,Organic,0
+U101128,2025-07-12,Delhi,android,Organic,0
+U101129,2025-08-01,Bengaluru,ios,Organic,0
+U101130,2025-06-13,Delhi,ios,Referral,0
+U101131,2025-08-05,Bengaluru,android,Organic,0
+U101132,2025-02-04,Bengaluru,android,Referral,0
+U101133,2025-06-21,Hyderabad,android,Referral,0
+U101134,2025-06-18,Bengaluru,android,Organic,0
+U101135,2025-08-15,Bengaluru,web,Organic,0
+U101136,2024-10-06,Bengaluru,android,Organic,0
+U101137,2025-01-20,Delhi,android,Google Ads,0
+U101138,2024-10-13,Hyderabad,android,Referral,0
+U101139,2025-08-01,Mumbai,android,Organic,0
+U101140,2025-04-10,Pune,android,Referral,0
+U101141,2025-07-29,Bengaluru,android,Organic,0
+U101142,2025-08-01,Lucknow,ios,Referral,0
+U101143,2025-08-22,Bengaluru,android,Organic,0
+U101144,2025-08-18,Mumbai,android,Referral,0
+U101145,2025-07-23,Pune,android,Organic,0
+U101146,2025-08-06,Lucknow,android,Organic,0
+U101147,2025-05-26,Kochi,android,Organic,0
+U101148,2025-05-09,Bengaluru,web,Instagram,0
+U101149,2025-03-17,Delhi,ios,Google Ads,0
+U101150,2025-07-02,Ahmedabad,ios,Referral,0
+U101151,2025-06-13,Pune,android,Organic,0
+U101152,2025-07-28,Jaipur,android,Google Ads,0
+U101153,2025-03-09,Mumbai,android,Instagram,0
+U101154,2025-06-18,Mumbai,android,Organic,0
+U101155,2025-08-05,Pune,android,Organic,0
+U101156,2024-12-10,Bengaluru,android,Referral,0
+U101157,2025-01-14,Delhi,web,Referral,0
+U101158,2025-07-20,Hyderabad,android,Instagram,0
+U101159,2025-07-10,Delhi,android,Organic,0
+U101160,2025-02-04,Hyderabad,android,Organic,0
+U101161,2025-08-03,Jaipur,android,Organic,0
+U101162,2025-08-03,Chennai,android,Organic,0
+U101163,2025-03-21,Kolkata,ios,Referral,0
+U101164,2025-08-25,Hyderabad,android,Organic,0
+U101165,2025-08-11,Jaipur,android,Google Ads,0
+U101166,2025-08-28,Bengaluru,android,Referral,0
+U101167,2025-08-23,Mumbai,ios,Referral,0
+U101168,2025-06-29,Mumbai,ios,Organic,0
+U101169,2025-08-22,Hyderabad,android,Organic,0
+U101170,2025-07-03,Bengaluru,ios,Organic,0
+U101171,2025-07-28,Kolkata,ios,Organic,0
+U101172,2025-08-28,Pune,android,Organic,0
+U101173,2025-03-07,Hyderabad,android,Organic,0
+U101174,2025-08-03,Delhi,android,Instagram,0
+U101175,2025-08-07,Jaipur,android,Google Ads,0
+U101176,2025-05-18,Hyderabad,android,Instagram,0
+U101177,2025-08-24,Hyderabad,android,Organic,0
+U101178,2025-01-12,Pune,android,Google Ads,0
+U101179,2025-07-18,Hyderabad,android,Organic,0
+U101180,2025-04-15,Mumbai,android,Referral,0
+U101181,2024-10-01,Hyderabad,ios,Organic,1
+U101182,2024-12-25,Mumbai,android,Referral,0
+U101183,2025-08-24,Bengaluru,android,Organic,0
+U101184,2025-07-29,Ahmedabad,android,Organic,0
+U101185,2025-08-09,Bengaluru,android,Instagram,0
+U101186,2024-11-26,Delhi,android,Organic,0
+U101187,2025-01-10,Delhi,android,Google Ads,0
+U101188,2025-07-06,Hyderabad,ios,Organic,0
+U101189,2025-01-15,Hyderabad,android,Instagram,0
+U101190,2025-03-03,Kochi,android,Organic,0
+U101191,2025-06-26,Hyderabad,web,Organic,0
+U101192,2024-11-28,Pune,android,Instagram,0
+U101193,2024-11-06,Bengaluru,android,Organic,0
+U101194,2025-07-31,Lucknow,ios,Google Ads,0
+U101195,2025-08-05,Kolkata,android,Organic,0
+U101196,2025-05-02,Delhi,ios,Google Ads,0
+U101197,2025-08-02,Delhi,web,Referral,0
+U101198,2025-08-12,Chennai,android,Google Ads,0
+U101199,2025-07-04,Mumbai,ios,Google Ads,0
+U101200,2025-05-09,Mumbai,android,Organic,0
+U101201,2024-11-28,Bengaluru,android,Organic,0
+U101202,2025-07-13,Mumbai,android,Organic,0
+U101203,2025-08-19,Lucknow,android,Organic,0
+U101204,2025-07-26,Hyderabad,android,Organic,0
+U101205,2025-08-18,Bengaluru,web,Organic,0
+U101206,2025-03-06,Mumbai,android,Organic,0
+U101207,2024-10-04,Kolkata,ios,Referral,0
+U101208,2025-02-07,Bengaluru,ios,Google Ads,0
+U101209,2025-08-19,Chennai,android,Google Ads,0
+U101210,2025-08-24,Pune,android,Organic,0
+U101211,2025-07-21,Mumbai,android,Organic,0
+U101212,2025-02-14,Pune,web,Referral,0
+U101213,2025-04-07,Hyderabad,android,Organic,0
+U101214,2024-12-04,Bengaluru,web,Organic,0
+U101215,2025-08-21,Bengaluru,android,Google Ads,0
+U101216,2025-06-16,Mumbai,ios,Google Ads,0
+U101217,2025-05-17,Kolkata,web,Instagram,0
+U101218,2025-07-31,Jaipur,android,Referral,0
+U101219,2025-06-21,Hyderabad,android,Referral,0
+U101220,2025-08-04,Jaipur,web,Instagram,0
+U101221,2025-08-24,Delhi,android,Instagram,0
+U101222,2025-08-25,Mumbai,ios,Organic,0
+U101223,2025-06-19,Lucknow,android,Google Ads,0
+U101224,2025-08-09,Hyderabad,android,Organic,0
+U101225,2025-01-19,Bengaluru,android,Referral,0
+U101226,2025-07-21,Mumbai,ios,Instagram,0
+U101227,2024-12-29,Mumbai,android,Organic,0
+U101228,2025-08-12,Mumbai,ios,Google Ads,0
+U101229,2025-04-02,Delhi,ios,Referral,0
+U101230,2025-06-25,Bengaluru,ios,Organic,0
+U101231,2025-08-20,Mumbai,android,Instagram,0
+U101232,2025-07-23,Mumbai,android,Organic,0
+U101233,2025-08-03,Hyderabad,android,Instagram,0
+U101234,2025-07-19,Mumbai,android,Organic,0
+U101235,2025-08-11,Kochi,android,Referral,0
+U101236,2025-01-28,Bengaluru,android,Referral,0
+U101237,2025-06-07,Mumbai,android,Referral,0
+U101238,2025-08-17,Mumbai,android,Organic,0
+U101239,2025-05-27,Bengaluru,android,Instagram,0
+U101240,2025-02-17,Chennai,android,Organic,0
+U101241,2025-07-16,Mumbai,android,Google Ads,0
+U101242,2025-08-10,Kolkata,android,Referral,0
+U101243,2025-02-22,Bengaluru,android,Instagram,0
+U101244,2025-06-06,Delhi,android,Referral,0
+U101245,2025-07-04,Hyderabad,android,Organic,0
+U101246,2025-07-26,Chennai,android,Google Ads,0
+U101247,2025-06-18,Pune,ios,Referral,0
+U101248,2025-03-29,Chennai,android,Instagram,0
+U101249,2025-04-07,Delhi,android,Instagram,0
+U101250,2025-07-03,Hyderabad,web,Organic,0
+U101251,2024-10-31,Pune,android,Organic,0
+U101252,2024-10-17,Bengaluru,ios,Instagram,0
+U101253,2025-07-14,Bengaluru,android,Google Ads,0
+U101254,2024-12-20,Ahmedabad,web,Organic,0
+U101255,2025-06-26,Mumbai,android,Organic,0
+U101256,2025-08-01,Delhi,ios,Organic,0
+U101257,2025-08-15,Pune,android,Referral,0
+U101258,2025-07-26,Bengaluru,android,Referral,0
+U101259,2025-03-20,Bengaluru,android,Google Ads,0
+U101260,2025-08-06,Mumbai,ios,Organic,0
+U101261,2024-10-13,Chennai,android,Google Ads,0
+U101262,2024-12-15,Bengaluru,android,Organic,0
+U101263,2024-11-09,Bengaluru,web,Organic,0
+U101264,2025-08-19,Lucknow,web,Organic,0
+U101265,2024-10-01,Delhi,android,Google Ads,0
+U101266,2025-04-23,Mumbai,web,Instagram,0
+U101267,2025-07-17,Bengaluru,android,Google Ads,0
+U101268,2025-08-04,Mumbai,android,Instagram,0
+U101269,2025-08-12,Hyderabad,ios,Referral,0
+U101270,2025-04-20,Hyderabad,android,Google Ads,0
+U101271,2025-08-23,Bengaluru,android,Instagram,0
+U101272,2025-08-22,Delhi,android,Organic,0
+U101273,2025-08-03,Delhi,android,Organic,0
+U101274,2024-12-12,Mumbai,android,Referral,0
+U101275,2025-06-29,Mumbai,android,Instagram,0
+U101276,2025-03-07,Hyderabad,android,Organic,0
+U101277,2025-07-07,Delhi,android,Instagram,0
+U101278,2025-02-25,Kolkata,android,Referral,0
+U101279,2025-06-25,Hyderabad,android,Google Ads,0
+U101280,2025-08-13,Jaipur,android,Instagram,0
+U101281,2025-07-10,Delhi,android,Referral,0
+U101282,2024-10-01,Delhi,android,Organic,1
+U101283,2025-02-07,Delhi,android,Referral,0
+U101284,2025-07-25,Delhi,web,Organic,0
+U101285,2025-03-17,Bengaluru,android,Organic,0
+U101286,2024-12-15,Delhi,android,Instagram,0
+U101287,2025-08-19,Pune,android,Organic,0
+U101288,2025-04-19,Mumbai,android,Organic,0
+U101289,2024-10-26,Mumbai,android,Organic,0
+U101290,2025-08-07,Bengaluru,android,Google Ads,0
+U101291,2025-06-26,Mumbai,android,Google Ads,0
+U101292,2025-04-17,Hyderabad,android,Instagram,0
+U101293,2025-07-20,Bengaluru,web,Organic,0
+U101294,2025-05-14,Delhi,android,Organic,0
+U101295,2025-06-21,Mumbai,android,Google Ads,0
+U101296,2025-06-20,Hyderabad,android,Referral,0
+U101297,2025-07-09,Bengaluru,android,Referral,0
+U101298,2025-04-15,Jaipur,android,Instagram,0
+U101299,2025-08-19,Bengaluru,android,Organic,0
+U101300,2025-01-29,Chennai,ios,Organic,0
+U101301,2024-11-01,Delhi,android,Google Ads,0
+U101302,2025-06-15,Bengaluru,android,Organic,0
+U101303,2024-11-28,Jaipur,android,Google Ads,0
+U101304,2024-10-04,Delhi,android,Instagram,0
+U101305,2025-06-27,Delhi,android,Instagram,0
+U101306,2025-02-27,Delhi,ios,Google Ads,0
+U101307,2025-08-16,Kolkata,android,Referral,0
+U101308,2025-02-18,Ahmedabad,android,Referral,0
+U101309,2025-07-08,Pune,web,Organic,0
+U101310,2025-08-02,Delhi,ios,Google Ads,0
+U101311,2025-07-11,Mumbai,ios,Instagram,0
+U101312,2024-10-09,Hyderabad,ios,Organic,0
+U101313,2025-05-31,Chennai,android,Instagram,0
+U101314,2025-06-15,Chennai,android,Instagram,0
+U101315,2025-06-11,Bengaluru,android,Organic,0
+U101316,2025-06-05,Mumbai,android,Organic,0
+U101317,2025-03-06,Mumbai,android,Google Ads,0
+U101318,2025-06-26,Chennai,android,Organic,0
+U101319,2025-07-08,Kolkata,android,Organic,0
+U101320,2025-03-01,Bengaluru,android,Instagram,0
+U101321,2025-01-24,Bengaluru,android,Google Ads,0
+U101322,2025-06-25,Delhi,android,Instagram,0
+U101323,2025-01-08,Delhi,android,Organic,0
+U101324,2025-08-13,Mumbai,android,Referral,0
+U101325,2025-02-27,Mumbai,ios,Google Ads,0
+U101326,2024-10-29,Kolkata,ios,Google Ads,0
+U101327,2025-06-14,Bengaluru,android,Organic,0
+U101328,2025-07-03,Bengaluru,android,Instagram,0
+U101329,2025-08-06,Chennai,web,Organic,0
+U101330,2025-06-10,Delhi,android,Instagram,0
+U101331,2025-01-02,Pune,web,Organic,0
+U101332,2025-07-13,Hyderabad,android,Instagram,0
+U101333,2025-07-30,Pune,android,Organic,0
+U101334,2025-08-15,Delhi,ios,Referral,0
+U101335,2025-07-28,Hyderabad,android,Referral,0
+U101336,2025-07-15,Delhi,android,Organic,0
+U101337,2025-05-03,Kolkata,android,Referral,0
+U101338,2025-07-15,Lucknow,ios,Organic,0
+U101339,2025-06-23,Delhi,android,Organic,0
+U101340,2025-05-11,Mumbai,android,Google Ads,0
+U101341,2025-06-26,Bengaluru,android,Organic,0
+U101342,2025-08-18,Bengaluru,android,Referral,0
+U101343,2024-12-30,Ahmedabad,android,Google Ads,0
+U101344,2024-11-26,Kolkata,android,Organic,0
+U101345,2024-11-01,Delhi,android,Instagram,0
+U101346,2025-03-20,Mumbai,android,Organic,0
+U101347,2025-06-27,Delhi,android,Google Ads,0
+U101348,2024-12-27,Delhi,ios,Instagram,0
+U101349,2025-06-25,Hyderabad,web,Organic,0
+U101350,2025-07-18,Pune,web,Google Ads,0
+U101351,2025-05-18,Chennai,ios,Organic,0
+U101352,2025-03-10,Kolkata,ios,Organic,0
+U101353,2025-08-20,Bengaluru,android,Instagram,0
+U101354,2025-06-28,Delhi,ios,Instagram,0
+U101355,2025-08-02,Delhi,web,Organic,0
+U101356,2025-08-30,Delhi,web,Referral,0
+U101357,2024-12-14,Mumbai,android,Instagram,0
+U101358,2025-07-05,Lucknow,android,Google Ads,0
+U101359,2025-02-26,Jaipur,web,Organic,0
+U101360,2025-08-03,Mumbai,android,Google Ads,0
+U101361,2025-02-11,Kolkata,android,Referral,0
+U101362,2024-11-13,Kolkata,android,Organic,0
+U101363,2024-10-22,Bengaluru,ios,Instagram,0
+U101364,2025-01-25,Ahmedabad,android,Organic,0
+U101365,2025-07-11,Bengaluru,android,Instagram,0
+U101366,2025-06-27,Bengaluru,ios,Organic,0
+U101367,2025-07-20,Chennai,android,Referral,0
+U101368,2025-05-06,Lucknow,android,Referral,0
+U101369,2025-03-19,Hyderabad,ios,Google Ads,0
+U101370,2024-11-28,Delhi,ios,Organic,0
+U101371,2024-11-18,Delhi,android,Organic,0
+U101372,2025-07-21,Hyderabad,ios,Referral,0
+U101373,2025-06-20,Hyderabad,android,Organic,0
+U101374,2025-02-27,Delhi,android,Organic,0
+U101375,2025-02-23,Delhi,android,Instagram,0
+U101376,2025-06-02,Delhi,ios,Instagram,0
+U101377,2025-07-10,Delhi,android,Referral,0
+U101378,2025-08-08,Chennai,ios,Organic,0
+U101379,2025-06-20,Hyderabad,android,Organic,0
+U101380,2025-07-08,Bengaluru,ios,Google Ads,0
+U101381,2025-07-26,Chennai,ios,Organic,0
+U101382,2024-10-01,Bengaluru,ios,Instagram,1
+U101383,2025-07-05,Kolkata,web,Organic,0
+U101384,2025-06-06,Delhi,ios,Google Ads,0
+U101385,2025-04-20,Jaipur,android,Organic,0
+U101386,2025-07-09,Hyderabad,android,Organic,0
+U101387,2025-07-06,Hyderabad,web,Instagram,0
+U101388,2025-05-24,Kolkata,web,Referral,0
+U101389,2025-05-16,Mumbai,android,Google Ads,0
+U101390,2025-07-17,Ahmedabad,ios,Google Ads,0
+U101391,2025-08-15,Mumbai,android,Referral,0
+U101392,2025-02-06,Ahmedabad,android,Instagram,0
+U101393,2024-10-29,Chennai,ios,Organic,0
+U101394,2025-02-25,Chennai,android,Organic,0
+U101395,2025-08-08,Chennai,android,Organic,0
+U101396,2025-08-08,Delhi,ios,Google Ads,0
+U101397,2025-05-09,Bengaluru,android,Organic,0
+U101398,2025-07-29,Chennai,ios,Google Ads,0
+U101399,2024-10-31,Ahmedabad,android,Referral,0
+U101400,2025-06-28,Lucknow,android,Organic,0
+U101401,2025-06-25,Bengaluru,ios,Referral,0
+U101402,2025-07-20,Mumbai,ios,Organic,0
+U101403,2025-08-11,Pune,android,Referral,0
+U101404,2025-08-08,Chennai,web,Organic,0
+U101405,2025-02-12,Bengaluru,android,Organic,0
+U101406,2024-12-13,Hyderabad,android,Organic,0
+U101407,2025-08-17,Bengaluru,android,Google Ads,0
+U101408,2025-08-16,Chennai,android,Google Ads,0
+U101409,2025-06-05,Hyderabad,android,Organic,0
+U101410,2025-07-12,Hyderabad,android,Organic,0
+U101411,2025-06-23,Mumbai,android,Google Ads,0
+U101412,2025-08-20,Bengaluru,android,Organic,0
+U101413,2025-08-18,Chennai,ios,Referral,0
+U101414,2025-05-17,Bengaluru,android,Instagram,0
+U101415,2025-06-07,Hyderabad,android,Organic,0
+U101416,2025-08-28,Pune,web,Organic,0
+U101417,2025-08-10,Mumbai,android,Referral,0
+U101418,2025-06-28,Bengaluru,android,Referral,0
+U101419,2024-11-09,Hyderabad,android,Google Ads,0
+U101420,2025-08-19,Bengaluru,android,Organic,0
+U101421,2025-07-16,Bengaluru,android,Organic,0
+U101422,2025-08-18,Chennai,android,Google Ads,0
+U101423,2025-05-29,Mumbai,ios,Organic,0
+U101424,2025-02-10,Bengaluru,android,Instagram,0
+U101425,2025-08-12,Bengaluru,android,Organic,0
+U101426,2025-07-14,Delhi,android,Organic,0
+U101427,2025-05-13,Ahmedabad,android,Organic,0
+U101428,2024-10-06,Hyderabad,ios,Instagram,0
+U101429,2024-10-06,Bengaluru,android,Organic,0
+U101430,2025-05-20,Mumbai,android,Google Ads,0
+U101431,2025-08-09,Mumbai,web,Google Ads,0
+U101432,2025-08-24,Kolkata,ios,Organic,0
+U101433,2024-10-01,Delhi,android,Instagram,0
+U101434,2025-08-23,Mumbai,android,Google Ads,0
+U101435,2025-04-16,Chennai,android,Organic,0
+U101436,2024-10-04,Pune,android,Referral,0
+U101437,2025-08-15,Mumbai,android,Referral,0
+U101438,2024-11-13,Jaipur,android,Google Ads,0
+U101439,2025-06-25,Jaipur,android,Organic,0
+U101440,2025-03-21,Jaipur,android,Referral,0
+U101441,2025-07-03,Mumbai,android,Google Ads,0
+U101442,2024-11-21,Chennai,android,Google Ads,0
+U101443,2025-04-14,Delhi,ios,Instagram,0
+U101444,2024-10-19,Chennai,android,Google Ads,0
+U101445,2025-01-10,Bengaluru,android,Organic,0
+U101446,2025-06-21,Bengaluru,android,Organic,0
+U101447,2025-08-11,Kolkata,ios,Google Ads,0
+U101448,2025-01-29,Delhi,web,Google Ads,0
+U101449,2025-02-11,Ahmedabad,android,Organic,0
+U101450,2025-08-01,Bengaluru,android,Google Ads,0
+U101451,2025-05-25,Chennai,android,Organic,0
+U101452,2024-10-29,Mumbai,web,Referral,0
+U101453,2025-07-30,Ahmedabad,android,Organic,0
+U101454,2025-08-11,Bengaluru,android,Google Ads,0
+U101455,2025-06-24,Delhi,android,Organic,0
+U101456,2025-05-04,Bengaluru,android,Google Ads,0
+U101457,2024-11-01,Lucknow,android,Referral,0
+U101458,2024-12-04,Bengaluru,ios,Referral,0
+U101459,2025-08-05,Bengaluru,ios,Instagram,0
+U101460,2025-04-01,Kolkata,android,Referral,0
+U101461,2025-08-27,Delhi,android,Referral,0
+U101462,2025-06-23,Hyderabad,android,Google Ads,0
+U101463,2025-04-16,Hyderabad,android,Google Ads,0
+U101464,2025-07-07,Chennai,web,Referral,0
+U101465,2025-06-20,Ahmedabad,android,Google Ads,0
+U101466,2025-07-09,Jaipur,android,Organic,0
+U101467,2025-08-15,Jaipur,ios,Organic,0
+U101468,2025-07-30,Delhi,android,Organic,0
+U101469,2024-10-21,Ahmedabad,web,Organic,0
+U101470,2025-08-17,Pune,android,Google Ads,0
+U101471,2025-07-16,Mumbai,web,Organic,0
+U101472,2024-10-06,Bengaluru,android,Instagram,0
+U101473,2025-08-14,Hyderabad,android,Organic,0
+U101474,2025-07-15,Ahmedabad,android,Google Ads,0
+U101475,2025-08-18,Bengaluru,android,Google Ads,0
+U101476,2025-08-15,Pune,web,Organic,0
+U101477,2025-05-15,Mumbai,android,Referral,0
+U101478,2025-06-18,Bengaluru,ios,Organic,0
+U101479,2025-08-15,Mumbai,ios,Organic,0
+U101480,2025-02-26,Bengaluru,android,Organic,0
+U101481,2025-07-28,Mumbai,ios,Google Ads,0
+U101482,2025-08-18,Delhi,android,Instagram,0
+U101483,2025-02-11,Delhi,android,Organic,0
+U101484,2025-08-10,Hyderabad,android,Instagram,0
+U101485,2025-07-28,Delhi,ios,Google Ads,0
+U101486,2025-01-14,Pune,android,Organic,0
+U101487,2025-07-25,Bengaluru,ios,Instagram,0
+U101488,2025-03-24,Bengaluru,ios,Referral,0
+U101489,2025-06-22,Bengaluru,android,Organic,0
+U101490,2025-07-10,Mumbai,ios,Organic,0
+U101491,2025-08-19,Ahmedabad,android,Referral,0
+U101492,2025-07-29,Kochi,ios,Organic,0
+U101493,2025-07-27,Bengaluru,web,Referral,0
+U101494,2025-06-17,Pune,ios,Organic,0
+U101495,2025-03-20,Kochi,android,Organic,0
+U101496,2025-04-08,Delhi,android,Referral,0
+U101497,2025-06-03,Kochi,android,Organic,0
+U101498,2025-08-21,Mumbai,android,Instagram,0
+U101499,2025-06-21,Mumbai,android,Referral,0
+U101500,2024-11-24,Delhi,android,Instagram,0
+U101501,2025-07-26,Kolkata,android,Organic,0
+U101502,2025-05-21,Chennai,android,Instagram,0
+U101503,2024-11-06,Mumbai,android,Google Ads,0
+U101504,2025-08-20,Hyderabad,android,Organic,0
+U101505,2025-04-03,Bengaluru,android,Google Ads,0
+U101506,2025-01-19,Pune,android,Instagram,0
+U101507,2025-04-07,Bengaluru,android,Google Ads,0
+U101508,2024-10-01,Kolkata,android,Instagram,1
+U101509,2024-11-10,Chennai,android,Organic,0
+U101510,2025-07-16,Jaipur,android,Google Ads,0
+U101511,2025-07-25,Delhi,android,Instagram,0
+U101512,2025-05-28,Delhi,ios,Instagram,0
+U101513,2025-08-23,Chennai,android,Organic,0
+U101514,2025-03-11,Chennai,android,Instagram,0
+U101515,2025-01-01,Mumbai,android,Organic,0
+U101516,2024-12-28,Pune,android,Organic,0
+U101517,2025-07-20,Mumbai,android,Organic,0
+U101518,2025-06-08,Jaipur,android,Referral,0
+U101519,2025-07-10,Kolkata,android,Google Ads,0
+U101520,2025-06-30,Hyderabad,ios,Organic,0
+U101521,2025-08-14,Bengaluru,android,Referral,0
+U101522,2025-06-24,Lucknow,web,Instagram,0
+U101523,2024-10-01,Pune,android,Instagram,0
+U101524,2025-06-17,Pune,android,Organic,0
+U101525,2025-02-02,Bengaluru,android,Organic,0
+U101526,2025-08-02,Hyderabad,android,Instagram,0
+U101527,2025-02-28,Bengaluru,web,Organic,0
+U101528,2025-01-05,Lucknow,android,Google Ads,0
+U101529,2025-08-12,Chennai,android,Organic,0
+U101530,2024-12-16,Pune,android,Google Ads,0
+U101531,2025-08-08,Delhi,android,Organic,0
+U101532,2025-05-04,Bengaluru,ios,Referral,0
+U101533,2024-11-28,Bengaluru,android,Organic,0
+U101534,2025-08-11,Chennai,android,Organic,0
+U101535,2025-06-19,Kolkata,android,Organic,0
+U101536,2024-10-01,Pune,android,Organic,1
+U101537,2025-07-18,Jaipur,android,Organic,0
+U101538,2024-10-01,Pune,android,Instagram,1
+U101539,2025-05-29,Delhi,web,Google Ads,0
+U101540,2025-01-21,Hyderabad,ios,Referral,0
+U101541,2024-11-29,Pune,ios,Instagram,0
+U101542,2025-08-14,Pune,web,Referral,0
+U101543,2025-08-16,Bengaluru,ios,Organic,0
+U101544,2025-07-04,Mumbai,web,Instagram,0
+U101545,2024-10-20,Pune,ios,Organic,0
+U101546,2025-04-15,Mumbai,ios,Google Ads,0
+U101547,2025-07-24,Jaipur,web,Google Ads,0
+U101548,2025-08-19,Delhi,android,Google Ads,0
+U101549,2025-06-06,Delhi,ios,Google Ads,0
+U101550,2025-07-10,Hyderabad,android,Organic,0
+U101551,2025-02-23,Kolkata,ios,Organic,0
+U101552,2025-08-26,Hyderabad,web,Google Ads,0
+U101553,2024-11-07,Hyderabad,ios,Google Ads,0
+U101554,2025-08-01,Delhi,android,Organic,0
+U101555,2024-11-08,Lucknow,ios,Instagram,0
+U101556,2025-08-05,Ahmedabad,android,Referral,0
+U101557,2025-03-15,Lucknow,ios,Referral,0
+U101558,2024-12-11,Kolkata,android,Organic,0
+U101559,2025-06-04,Hyderabad,android,Instagram,0
+U101560,2024-10-08,Bengaluru,android,Referral,0
+U101561,2025-07-21,Hyderabad,android,Instagram,0
+U101562,2025-03-06,Kolkata,android,Instagram,0
+U101563,2024-11-07,Kolkata,android,Instagram,0
+U101564,2025-08-08,Pune,ios,Instagram,0
+U101565,2025-08-19,Ahmedabad,android,Organic,0
+U101566,2025-05-14,Kolkata,android,Organic,0
+U101567,2024-11-11,Hyderabad,ios,Organic,0
+U101568,2025-05-14,Delhi,android,Referral,0
+U101569,2025-01-01,Bengaluru,android,Organic,0
+U101570,2025-03-15,Mumbai,ios,Referral,0
+U101571,2025-08-27,Kolkata,android,Instagram,0
+U101572,2025-06-19,Chennai,ios,Organic,0
+U101573,2025-06-03,Kolkata,android,Organic,0
+U101574,2025-06-19,Kolkata,android,Instagram,0
+U101575,2025-02-08,Pune,android,Organic,0
+U101576,2025-06-21,Delhi,ios,Organic,0
+U101577,2025-06-26,Chennai,android,Organic,0
+U101578,2025-06-19,Kolkata,web,Organic,0
+U101579,2025-02-11,Chennai,ios,Instagram,0
+U101580,2025-08-23,Bengaluru,android,Organic,0
+U101581,2025-06-22,Delhi,android,Google Ads,0
+U101582,2024-11-12,Mumbai,android,Google Ads,0
+U101583,2025-07-11,Jaipur,android,Organic,0
+U101584,2025-07-20,Mumbai,android,Google Ads,0
+U101585,2025-07-22,Pune,android,Google Ads,0
+U101586,2025-05-10,Hyderabad,android,Google Ads,0
+U101587,2025-08-12,Hyderabad,android,Organic,0
+U101588,2025-08-25,Pune,android,Referral,0
+U101589,2025-03-30,Kochi,android,Organic,0
+U101590,2025-04-15,Bengaluru,android,Organic,0
+U101591,2025-07-07,Delhi,android,Google Ads,0
+U101592,2025-07-14,Mumbai,android,Organic,0
+U101593,2025-06-04,Mumbai,android,Instagram,0
+U101594,2025-06-26,Hyderabad,android,Instagram,0
+U101595,2024-10-23,Hyderabad,android,Organic,0
+U101596,2025-03-19,Hyderabad,ios,Referral,0
+U101597,2025-05-21,Pune,android,Organic,0
+U101598,2025-06-20,Chennai,android,Organic,0
+U101599,2025-04-10,Hyderabad,android,Referral,0
+U101600,2025-08-28,Hyderabad,android,Google Ads,0
+U101601,2025-02-09,Lucknow,ios,Google Ads,0
+U101602,2025-06-03,Hyderabad,android,Organic,0
+U101603,2024-10-25,Mumbai,android,Organic,0
+U101604,2025-05-22,Hyderabad,android,Referral,0
+U101605,2025-06-10,Pune,android,Referral,0
+U101606,2025-04-29,Kolkata,web,Instagram,0
+U101607,2025-07-18,Bengaluru,android,Referral,0
+U101608,2025-03-20,Delhi,android,Referral,0
+U101609,2024-11-10,Bengaluru,ios,Organic,0
+U101610,2024-12-17,Bengaluru,android,Organic,0
+U101611,2025-07-29,Delhi,android,Referral,0
+U101612,2024-12-03,Pune,ios,Organic,0
+U101613,2025-08-11,Chennai,android,Google Ads,0
+U101614,2025-07-16,Pune,android,Google Ads,0
+U101615,2025-04-12,Mumbai,ios,Referral,0
+U101616,2025-07-03,Delhi,android,Google Ads,0
+U101617,2025-06-02,Pune,ios,Referral,0
+U101618,2025-07-20,Kolkata,android,Instagram,0
+U101619,2024-11-02,Mumbai,android,Organic,0
+U101620,2025-03-07,Mumbai,android,Google Ads,0
+U101621,2024-10-18,Jaipur,android,Instagram,0
+U101622,2025-08-21,Jaipur,android,Organic,0
+U101623,2024-11-23,Mumbai,android,Organic,0
+U101624,2025-05-17,Delhi,android,Organic,0
+U101625,2025-05-18,Chennai,android,Organic,0
+U101626,2025-07-26,Kolkata,android,Organic,0
+U101627,2025-08-20,Kolkata,ios,Google Ads,0
+U101628,2025-03-08,Ahmedabad,android,Instagram,0
+U101629,2025-07-17,Chennai,ios,Google Ads,0
+U101630,2025-05-19,Delhi,android,Organic,0
+U101631,2025-07-09,Kolkata,android,Referral,0
+U101632,2025-01-18,Mumbai,android,Instagram,0
+U101633,2025-06-16,Bengaluru,android,Organic,0
+U101634,2025-08-18,Bengaluru,android,Instagram,0
+U101635,2025-05-08,Delhi,android,Google Ads,0
+U101636,2024-11-16,Ahmedabad,android,Organic,0
+U101637,2025-04-15,Jaipur,ios,Instagram,0
+U101638,2025-07-27,Chennai,web,Organic,0
+U101639,2025-08-18,Hyderabad,android,Organic,0
+U101640,2025-07-10,Pune,android,Organic,0
+U101641,2025-01-07,Lucknow,android,Organic,0
+U101642,2025-07-25,Kolkata,ios,Organic,0
+U101643,2025-07-04,Ahmedabad,web,Referral,0
+U101644,2025-06-13,Bengaluru,ios,Organic,0
+U101645,2025-04-02,Hyderabad,android,Referral,0
+U101646,2025-02-20,Delhi,android,Organic,0
+U101647,2025-07-20,Lucknow,android,Organic,0
+U101648,2025-08-10,Ahmedabad,web,Google Ads,0
+U101649,2025-06-07,Kolkata,ios,Organic,0
+U101650,2025-06-22,Delhi,android,Organic,0
+U101651,2025-07-22,Chennai,android,Organic,0
+U101652,2025-05-22,Delhi,ios,Referral,0
+U101653,2025-08-02,Hyderabad,android,Organic,0
+U101654,2025-01-05,Chennai,ios,Instagram,0
+U101655,2025-06-05,Kochi,android,Organic,0
+U101656,2025-02-07,Kolkata,android,Organic,0
+U101657,2025-07-12,Hyderabad,android,Referral,0
+U101658,2024-10-14,Bengaluru,android,Google Ads,0
+U101659,2024-10-27,Bengaluru,android,Organic,0
+U101660,2025-03-05,Pune,android,Google Ads,0
+U101661,2025-01-26,Bengaluru,android,Google Ads,0
+U101662,2025-06-13,Jaipur,android,Organic,0
+U101663,2025-08-27,Mumbai,android,Referral,0
+U101664,2025-03-29,Kochi,android,Organic,0
+U101665,2025-05-24,Pune,android,Referral,0
+U101666,2025-08-11,Jaipur,android,Referral,0
+U101667,2025-07-02,Bengaluru,android,Google Ads,0
+U101668,2025-08-22,Chennai,ios,Instagram,0
+U101669,2024-11-28,Kolkata,android,Organic,0
+U101670,2025-08-07,Bengaluru,android,Google Ads,0
+U101671,2025-02-11,Bengaluru,ios,Organic,0
+U101672,2025-06-24,Mumbai,android,Organic,0
+U101673,2025-07-14,Delhi,android,Organic,0
+U101674,2025-08-22,Pune,android,Referral,0
+U101675,2025-08-03,Pune,web,Organic,0
+U101676,2024-10-03,Pune,android,Google Ads,0
+U101677,2024-11-07,Mumbai,android,Referral,0
+U101678,2025-08-04,Chennai,android,Organic,0
+U101679,2025-01-24,Mumbai,web,Referral,0
+U101680,2025-08-16,Delhi,ios,Google Ads,0
+U101681,2025-01-07,Ahmedabad,android,Instagram,0
+U101682,2025-05-23,Mumbai,android,Google Ads,0
+U101683,2025-07-12,Hyderabad,android,Google Ads,0
+U101684,2025-07-02,Kolkata,android,Instagram,0
+U101685,2024-12-09,Kochi,android,Organic,0
+U101686,2025-07-17,Delhi,web,Google Ads,0
+U101687,2025-08-03,Bengaluru,web,Google Ads,0
+U101688,2025-03-04,Hyderabad,android,Organic,0
+U101689,2024-11-10,Kochi,android,Organic,0
+U101690,2024-12-10,Kochi,ios,Organic,0
+U101691,2025-07-18,Jaipur,android,Organic,0
+U101692,2025-06-04,Delhi,android,Organic,0
+U101693,2025-03-22,Delhi,ios,Referral,0
+U101694,2025-08-09,Mumbai,ios,Organic,0
+U101695,2024-11-24,Mumbai,android,Google Ads,0
+U101696,2025-05-03,Hyderabad,android,Instagram,0
+U101697,2025-08-15,Pune,android,Organic,0
+U101698,2024-12-15,Mumbai,android,Organic,0
+U101699,2025-07-21,Chennai,web,Referral,0
+U101700,2024-12-25,Hyderabad,ios,Google Ads,0
+U101701,2025-07-15,Pune,android,Google Ads,0
+U101702,2024-11-08,Bengaluru,android,Referral,0
+U101703,2025-01-06,Bengaluru,android,Referral,0
+U101704,2025-07-16,Pune,android,Organic,0
+U101705,2025-08-18,Delhi,android,Instagram,0
+U101706,2025-04-21,Hyderabad,android,Organic,0
+U101707,2025-07-30,Bengaluru,web,Organic,0
+U101708,2025-03-16,Ahmedabad,android,Referral,0
+U101709,2025-01-10,Mumbai,android,Google Ads,0
+U101710,2024-12-30,Mumbai,android,Organic,0
+U101711,2025-06-13,Mumbai,android,Google Ads,0
+U101712,2024-12-05,Mumbai,android,Google Ads,0
+U101713,2024-11-27,Mumbai,android,Referral,0
+U101714,2025-07-17,Bengaluru,android,Google Ads,0
+U101715,2025-05-27,Mumbai,android,Google Ads,0
+U101716,2025-06-06,Pune,android,Organic,0
+U101717,2025-06-21,Ahmedabad,android,Instagram,0
+U101718,2025-06-08,Mumbai,web,Referral,0
+U101719,2025-08-04,Bengaluru,web,Referral,0
+U101720,2025-07-14,Mumbai,android,Instagram,0
+U101721,2024-11-08,Hyderabad,web,Organic,0
+U101722,2025-04-27,Delhi,android,Google Ads,0
+U101723,2025-03-03,Pune,android,Organic,0
+U101724,2024-10-26,Delhi,web,Google Ads,0
+U101725,2025-05-07,Mumbai,ios,Organic,0
+U101726,2025-07-11,Bengaluru,android,Organic,0
+U101727,2025-07-13,Hyderabad,android,Organic,0
+U101728,2025-07-22,Lucknow,android,Organic,0
+U101729,2025-06-29,Bengaluru,android,Organic,0
+U101730,2025-01-02,Bengaluru,ios,Google Ads,0
+U101731,2025-08-22,Ahmedabad,android,Organic,0
+U101732,2025-06-17,Chennai,android,Organic,0
+U101733,2025-02-12,Mumbai,android,Instagram,0
+U101734,2025-05-19,Hyderabad,android,Referral,0
+U101735,2025-07-18,Chennai,ios,Google Ads,0
+U101736,2025-07-07,Bengaluru,android,Referral,0
+U101737,2025-06-29,Delhi,web,Google Ads,0
+U101738,2025-08-03,Bengaluru,android,Organic,0
+U101739,2025-06-28,Chennai,ios,Google Ads,0
+U101740,2025-03-19,Mumbai,ios,Google Ads,0
+U101741,2025-08-08,Mumbai,android,Referral,0
+U101742,2025-03-07,Hyderabad,web,Organic,0
+U101743,2025-06-06,Hyderabad,android,Organic,0
+U101744,2025-03-09,Delhi,ios,Organic,0
+U101745,2024-12-29,Jaipur,ios,Organic,0
+U101746,2025-08-19,Bengaluru,ios,Referral,0
+U101747,2025-08-20,Bengaluru,web,Organic,0
+U101748,2024-11-25,Bengaluru,ios,Instagram,0
+U101749,2025-08-22,Kolkata,ios,Instagram,0
+U101750,2025-08-04,Pune,ios,Referral,0
+U101751,2025-07-29,Hyderabad,android,Referral,0
+U101752,2025-03-21,Mumbai,ios,Organic,0
+U101753,2024-11-01,Pune,ios,Referral,0
+U101754,2025-08-07,Kolkata,android,Google Ads,0
+U101755,2024-10-03,Delhi,ios,Google Ads,0
+U101756,2024-10-12,Delhi,android,Referral,0
+U101757,2025-07-19,Ahmedabad,android,Google Ads,0
+U101758,2025-02-16,Delhi,web,Organic,0
+U101759,2025-06-01,Delhi,android,Organic,0
+U101760,2025-08-19,Hyderabad,android,Instagram,0
+U101761,2025-08-13,Jaipur,web,Instagram,0
+U101762,2025-03-28,Mumbai,ios,Organic,0
+U101763,2025-02-15,Chennai,android,Referral,0
+U101764,2025-08-01,Hyderabad,android,Referral,0
+U101765,2025-06-24,Kolkata,android,Instagram,0
+U101766,2025-01-01,Kochi,android,Organic,0
+U101767,2025-07-09,Hyderabad,android,Google Ads,0
+U101768,2025-04-05,Chennai,android,Google Ads,0
+U101769,2025-07-07,Mumbai,ios,Google Ads,0
+U101770,2025-06-16,Pune,ios,Referral,0
+U101771,2025-06-05,Kolkata,android,Organic,0
+U101772,2025-04-14,Chennai,web,Instagram,0
+U101773,2025-07-02,Bengaluru,ios,Instagram,0
+U101774,2025-02-27,Bengaluru,android,Organic,0
+U101775,2025-06-21,Pune,android,Referral,0
+U101776,2025-02-05,Chennai,android,Referral,0
+U101777,2025-06-20,Chennai,ios,Instagram,0
+U101778,2025-07-18,Chennai,android,Organic,0
+U101779,2025-07-21,Chennai,android,Organic,0
+U101780,2024-12-08,Mumbai,android,Instagram,0
+U101781,2024-11-18,Delhi,ios,Organic,0
+U101782,2025-07-18,Kolkata,android,Organic,0
+U101783,2024-10-01,Bengaluru,android,Organic,1
+U101784,2025-07-03,Bengaluru,ios,Google Ads,0
+U101785,2024-10-25,Ahmedabad,android,Referral,0
+U101786,2025-06-19,Mumbai,android,Referral,0
+U101787,2025-07-01,Hyderabad,android,Referral,0
+U101788,2025-07-16,Chennai,android,Google Ads,0
+U101789,2025-08-15,Hyderabad,android,Google Ads,0
+U101790,2025-01-31,Bengaluru,android,Organic,0
+U101791,2024-12-24,Jaipur,ios,Google Ads,0
+U101792,2025-06-21,Delhi,ios,Organic,0
+U101793,2025-07-26,Chennai,android,Organic,0
+U101794,2025-06-11,Chennai,android,Instagram,0
+U101795,2025-07-27,Mumbai,android,Instagram,0
+U101796,2025-07-24,Pune,android,Organic,0
+U101797,2025-06-07,Pune,android,Organic,0
+U101798,2025-01-26,Jaipur,android,Instagram,0
+U101799,2024-10-03,Jaipur,android,Organic,0
+U101800,2025-07-06,Kolkata,android,Google Ads,0
+U101801,2025-01-06,Bengaluru,android,Organic,0
+U101802,2025-07-24,Delhi,android,Google Ads,0
+U101803,2025-07-14,Bengaluru,web,Referral,0
+U101804,2025-01-11,Bengaluru,android,Google Ads,0
+U101805,2024-11-14,Bengaluru,ios,Instagram,0
+U101806,2025-07-23,Bengaluru,ios,Google Ads,0
+U101807,2025-07-06,Bengaluru,ios,Referral,0
+U101808,2025-06-09,Bengaluru,android,Google Ads,0
+U101809,2024-12-26,Pune,web,Organic,0
+U101810,2025-07-26,Bengaluru,android,Instagram,0
+U101811,2025-08-12,Delhi,web,Instagram,0
+U101812,2025-04-18,Mumbai,android,Organic,0
+U101813,2025-03-23,Delhi,android,Instagram,0
+U101814,2025-05-27,Delhi,ios,Organic,0
+U101815,2025-07-07,Ahmedabad,android,Organic,0
+U101816,2024-11-10,Ahmedabad,android,Organic,0
+U101817,2025-08-29,Bengaluru,android,Referral,0
+U101818,2025-05-13,Jaipur,android,Referral,0
+U101819,2025-04-23,Hyderabad,android,Referral,0
+U101820,2025-01-31,Mumbai,android,Organic,0
+U101821,2025-07-09,Mumbai,ios,Instagram,0
+U101822,2025-02-27,Bengaluru,ios,Organic,0
+U101823,2024-10-04,Bengaluru,android,Referral,0
+U101824,2025-07-21,Chennai,web,Instagram,0
+U101825,2025-08-03,Mumbai,ios,Instagram,0
+U101826,2024-10-30,Delhi,android,Google Ads,0
+U101827,2025-07-29,Mumbai,android,Referral,0
+U101828,2025-07-19,Pune,android,Referral,0
+U101829,2025-07-11,Pune,android,Google Ads,0
+U101830,2024-10-01,Pune,android,Instagram,1
+U101831,2025-08-01,Hyderabad,android,Referral,0
+U101832,2025-08-22,Bengaluru,android,Organic,0
+U101833,2025-06-25,Pune,android,Google Ads,0
+U101834,2025-04-07,Delhi,android,Organic,0
+U101835,2025-04-07,Mumbai,android,Google Ads,0
+U101836,2025-07-20,Chennai,android,Organic,0
+U101837,2025-05-11,Pune,android,Google Ads,0
+U101838,2024-10-06,Bengaluru,android,Organic,0
+U101839,2025-06-23,Bengaluru,android,Organic,0
+U101840,2025-06-30,Bengaluru,android,Organic,0
+U101841,2025-07-06,Mumbai,android,Google Ads,0
+U101842,2024-12-05,Delhi,android,Google Ads,0
+U101843,2025-05-08,Pune,android,Referral,0
+U101844,2024-12-02,Delhi,android,Organic,0
+U101845,2024-11-19,Mumbai,ios,Organic,0
+U101846,2025-08-02,Pune,android,Instagram,0
+U101847,2025-06-19,Kolkata,android,Google Ads,0
+U101848,2025-08-29,Kolkata,android,Instagram,0
+U101849,2025-05-25,Delhi,web,Google Ads,0
+U101850,2025-08-15,Delhi,android,Referral,0
+U101851,2025-06-21,Bengaluru,android,Google Ads,0
+U101852,2024-10-21,Kolkata,android,Google Ads,0
+U101853,2025-07-26,Delhi,web,Google Ads,0
+U101854,2025-08-20,Chennai,android,Referral,0
+U101855,2025-08-09,Bengaluru,ios,Organic,0
+U101856,2025-08-28,Chennai,ios,Google Ads,0
+U101857,2025-08-21,Hyderabad,web,Organic,0
+U101858,2025-06-17,Delhi,ios,Organic,0
+U101859,2024-11-21,Chennai,web,Referral,0
+U101860,2025-05-13,Hyderabad,android,Instagram,0
+U101861,2025-08-14,Bengaluru,android,Instagram,0
+U101862,2025-06-27,Lucknow,android,Organic,0
+U101863,2024-10-17,Delhi,android,Referral,0
+U101864,2025-07-06,Pune,android,Instagram,0
+U101865,2025-08-27,Mumbai,android,Organic,0
+U101866,2025-02-22,Bengaluru,android,Referral,0
+U101867,2025-06-17,Chennai,android,Google Ads,0
+U101868,2025-05-09,Mumbai,web,Google Ads,0
+U101869,2025-07-01,Bengaluru,android,Google Ads,0
+U101870,2025-06-29,Chennai,android,Instagram,0
+U101871,2025-03-31,Pune,ios,Referral,0
+U101872,2025-04-29,Pune,ios,Organic,0
+U101873,2025-08-18,Bengaluru,android,Google Ads,0
+U101874,2025-08-23,Bengaluru,android,Organic,0
+U101875,2024-12-13,Mumbai,android,Organic,0
+U101876,2025-08-19,Chennai,android,Instagram,0
+U101877,2025-07-19,Chennai,android,Google Ads,0
+U101878,2025-03-29,Delhi,android,Organic,0
+U101879,2024-12-30,Bengaluru,android,Google Ads,0
+U101880,2025-08-28,Bengaluru,android,Referral,0
+U101881,2025-02-03,Bengaluru,android,Instagram,0
+U101882,2025-07-09,Chennai,android,Instagram,0
+U101883,2025-07-18,Mumbai,android,Referral,0
+U101884,2025-05-23,Kolkata,ios,Instagram,0
+U101885,2025-06-13,Bengaluru,android,Referral,0
+U101886,2025-04-13,Hyderabad,ios,Organic,0
+U101887,2025-06-30,Hyderabad,android,Organic,0
+U101888,2025-08-17,Bengaluru,android,Instagram,0
+U101889,2025-04-05,Bengaluru,android,Organic,0
+U101890,2025-04-20,Delhi,android,Google Ads,0
+U101891,2025-01-13,Hyderabad,android,Referral,0
+U101892,2025-03-15,Bengaluru,ios,Instagram,0
+U101893,2025-03-21,Pune,android,Google Ads,0
+U101894,2025-02-02,Delhi,android,Instagram,0
+U101895,2025-05-09,Pune,android,Google Ads,0
+U101896,2025-08-02,Bengaluru,ios,Instagram,0
+U101897,2025-08-10,Delhi,ios,Referral,0
+U101898,2025-06-12,Delhi,android,Organic,0
+U101899,2025-07-27,Kolkata,android,Instagram,0
+U101900,2025-01-05,Hyderabad,android,Organic,0
+U101901,2025-06-08,Delhi,android,Organic,0
+U101902,2025-07-07,Hyderabad,android,Google Ads,0
+U101903,2025-06-21,Mumbai,android,Organic,0
+U101904,2025-04-01,Bengaluru,android,Instagram,0
+U101905,2024-10-02,Delhi,android,Organic,0
+U101906,2024-11-14,Chennai,android,Google Ads,0
+U101907,2025-08-25,Delhi,android,Organic,0
+U101908,2025-08-09,Jaipur,android,Google Ads,0
+U101909,2025-07-21,Chennai,android,Organic,0
+U101910,2025-06-17,Kolkata,android,Organic,0
+U101911,2025-07-07,Pune,ios,Organic,0
+U101912,2025-04-17,Delhi,android,Organic,0
+U101913,2025-08-07,Jaipur,android,Google Ads,0
+U101914,2025-02-09,Delhi,android,Referral,0
+U101915,2025-02-10,Lucknow,web,Google Ads,0
+U101916,2025-07-30,Mumbai,ios,Organic,0
+U101917,2024-11-03,Delhi,android,Organic,0
+U101918,2025-08-17,Mumbai,web,Google Ads,0
+U101919,2025-08-21,Jaipur,ios,Organic,0
+U101920,2025-07-15,Chennai,ios,Google Ads,0
+U101921,2025-08-14,Mumbai,android,Organic,0
+U101922,2024-10-30,Bengaluru,android,Referral,0
+U101923,2025-08-08,Delhi,android,Referral,0
+U101924,2025-07-26,Bengaluru,android,Organic,0
+U101925,2025-07-01,Bengaluru,ios,Referral,0
+U101926,2025-08-07,Delhi,android,Referral,0
+U101927,2025-08-19,Delhi,android,Referral,0
+U101928,2025-03-26,Mumbai,android,Organic,0
+U101929,2024-12-31,Bengaluru,ios,Referral,0
+U101930,2025-07-01,Ahmedabad,ios,Instagram,0
+U101931,2025-06-08,Delhi,ios,Referral,0
+U101932,2024-10-27,Bengaluru,android,Referral,0
+U101933,2025-07-24,Bengaluru,android,Referral,0
+U101934,2025-01-21,Bengaluru,android,Referral,0
+U101935,2025-01-14,Kolkata,android,Google Ads,0
+U101936,2025-06-12,Pune,android,Organic,0
+U101937,2024-10-16,Hyderabad,android,Organic,0
+U101938,2025-03-07,Jaipur,android,Instagram,0
+U101939,2025-07-17,Delhi,android,Organic,0
+U101940,2025-08-22,Pune,web,Google Ads,0
+U101941,2024-12-06,Mumbai,android,Organic,0
+U101942,2025-03-13,Delhi,android,Organic,0
+U101943,2025-04-15,Kochi,android,Google Ads,0
+U101944,2025-06-25,Lucknow,android,Organic,0
+U101945,2025-07-16,Hyderabad,android,Google Ads,0
+U101946,2025-07-10,Chennai,android,Organic,0
+U101947,2025-07-20,Ahmedabad,ios,Organic,0
+U101948,2025-02-03,Bengaluru,android,Organic,0
+U101949,2025-05-15,Pune,android,Google Ads,0
+U101950,2025-06-07,Jaipur,android,Google Ads,0
+U101951,2025-03-10,Ahmedabad,android,Organic,0
+U101952,2025-01-09,Bengaluru,ios,Referral,0
+U101953,2025-06-24,Delhi,android,Referral,0
+U101954,2025-05-04,Delhi,android,Organic,0
+U101955,2025-06-15,Ahmedabad,android,Referral,0
+U101956,2024-10-16,Hyderabad,android,Instagram,0
+U101957,2025-08-28,Delhi,android,Referral,0
+U101958,2024-10-18,Ahmedabad,android,Referral,0
+U101959,2024-10-05,Mumbai,android,Google Ads,0
+U101960,2025-06-25,Jaipur,android,Referral,0
+U101961,2025-06-09,Delhi,android,Organic,0
+U101962,2024-12-30,Chennai,android,Referral,0
+U101963,2025-04-03,Bengaluru,ios,Organic,0
+U101964,2024-10-29,Lucknow,android,Organic,0
+U101965,2025-07-05,Pune,android,Organic,0
+U101966,2025-03-11,Mumbai,web,Google Ads,0
+U101967,2025-08-15,Bengaluru,android,Organic,0
+U101968,2025-07-29,Bengaluru,ios,Google Ads,0
+U101969,2024-10-24,Ahmedabad,web,Organic,0
+U101970,2025-08-08,Kolkata,android,Referral,0
+U101971,2025-08-23,Mumbai,android,Instagram,0
+U101972,2025-06-18,Jaipur,android,Referral,0
+U101973,2025-02-07,Ahmedabad,android,Organic,0
+U101974,2025-05-20,Pune,android,Instagram,0
+U101975,2025-07-11,Kolkata,web,Organic,0
+U101976,2025-08-09,Kolkata,ios,Organic,0
+U101977,2024-12-15,Bengaluru,android,Organic,0
+U101978,2024-10-25,Ahmedabad,android,Organic,0
+U101979,2025-01-24,Pune,android,Google Ads,0
+U101980,2025-08-06,Bengaluru,android,Organic,0
+U101981,2025-07-13,Bengaluru,android,Referral,0
+U101982,2025-08-29,Pune,android,Google Ads,0
+U101983,2025-07-29,Bengaluru,ios,Google Ads,0
+U101984,2025-01-29,Bengaluru,android,Organic,0
+U101985,2024-12-27,Bengaluru,android,Google Ads,0
+U101986,2025-06-03,Delhi,web,Organic,0
+U101987,2025-07-27,Hyderabad,ios,Google Ads,0
+U101988,2025-08-30,Pune,ios,Instagram,0
+U101989,2024-10-17,Kolkata,ios,Google Ads,0
+U101990,2025-06-03,Bengaluru,android,Organic,0
+U101991,2025-01-29,Hyderabad,android,Google Ads,0
+U101992,2025-07-04,Chennai,android,Referral,0
+U101993,2025-07-06,Ahmedabad,android,Organic,0
+U101994,2025-06-27,Lucknow,android,Google Ads,0
+U101995,2025-07-23,Delhi,android,Organic,0
+U101996,2024-11-18,Chennai,ios,Instagram,0
+U101997,2025-07-10,Mumbai,web,Instagram,0
+U101998,2024-12-05,Hyderabad,android,Organic,0
+U101999,2025-08-14,Kolkata,ios,Referral,0
+U102000,2025-06-13,Kolkata,android,Organic,0
+U102001,2025-07-20,Chennai,ios,Organic,0
+U102002,2025-08-10,Ahmedabad,android,Instagram,0
+U102003,2025-08-12,Mumbai,ios,Google Ads,0
+U102004,2025-07-11,Bengaluru,android,Organic,0
+U102005,2025-08-21,Kolkata,android,Referral,0
+U102006,2025-01-16,Ahmedabad,android,Organic,0
+U102007,2025-07-14,Chennai,web,Organic,0
+U102008,2025-04-24,Bengaluru,android,Organic,0
+U102009,2025-06-06,Kolkata,android,Organic,0
+U102010,2025-06-04,Bengaluru,web,Organic,0
+U102011,2024-12-08,Mumbai,web,Google Ads,0
+U102012,2025-07-13,Delhi,android,Organic,0
+U102013,2025-08-08,Delhi,android,Organic,0
+U102014,2025-07-04,Mumbai,android,Organic,0
+U102015,2025-08-12,Chennai,android,Google Ads,0
+U102016,2025-07-20,Bengaluru,web,Google Ads,0
+U102017,2024-10-23,Bengaluru,android,Referral,0
+U102018,2025-08-12,Bengaluru,web,Organic,0
+U102019,2025-08-05,Mumbai,ios,Google Ads,0
+U102020,2024-11-03,Bengaluru,android,Instagram,0
+U102021,2025-08-25,Mumbai,android,Organic,0
+U102022,2025-01-15,Hyderabad,android,Instagram,0
+U102023,2025-01-31,Hyderabad,android,Google Ads,0
+U102024,2025-07-02,Bengaluru,android,Organic,0
+U102025,2025-07-15,Delhi,android,Google Ads,0
+U102026,2024-11-04,Mumbai,android,Organic,0
+U102027,2025-03-31,Jaipur,web,Organic,0
+U102028,2025-08-14,Bengaluru,ios,Organic,0
+U102029,2025-06-18,Kolkata,android,Google Ads,0
+U102030,2025-04-09,Delhi,android,Instagram,0
+U102031,2025-08-20,Ahmedabad,android,Instagram,0
+U102032,2025-05-25,Chennai,ios,Organic,0
+U102033,2024-10-06,Chennai,android,Instagram,0
+U102034,2025-07-17,Pune,ios,Google Ads,0
+U102035,2024-10-07,Hyderabad,android,Instagram,0
+U102036,2024-11-08,Ahmedabad,android,Instagram,0
+U102037,2025-08-07,Ahmedabad,android,Instagram,0
+U102038,2025-07-24,Chennai,android,Google Ads,0
+U102039,2025-08-15,Bengaluru,web,Google Ads,0
+U102040,2024-10-05,Chennai,android,Organic,0
+U102041,2025-07-20,Pune,android,Organic,0
+U102042,2025-01-12,Chennai,web,Organic,0
+U102043,2025-07-03,Pune,android,Google Ads,0
+U102044,2025-08-08,Chennai,android,Google Ads,0
+U102045,2025-07-26,Chennai,android,Referral,0
+U102046,2025-01-15,Kochi,android,Referral,0
+U102047,2025-04-30,Delhi,android,Referral,0
+U102048,2025-07-14,Delhi,android,Referral,0
+U102049,2025-08-19,Kochi,web,Referral,0
+U102050,2025-07-28,Bengaluru,android,Referral,0
+U102051,2025-06-11,Lucknow,android,Google Ads,0
+U102052,2025-06-06,Bengaluru,ios,Referral,0
+U102053,2025-03-09,Lucknow,android,Organic,0
+U102054,2025-07-20,Delhi,android,Instagram,0
+U102055,2025-03-15,Mumbai,android,Organic,0
+U102056,2024-11-29,Hyderabad,ios,Organic,0
+U102057,2025-03-16,Hyderabad,android,Google Ads,0
+U102058,2025-02-21,Mumbai,android,Organic,0
+U102059,2024-10-29,Mumbai,ios,Organic,0
+U102060,2025-03-18,Bengaluru,android,Google Ads,0
+U102061,2024-12-12,Mumbai,ios,Referral,0
+U102062,2025-08-24,Lucknow,android,Instagram,0
+U102063,2025-06-12,Hyderabad,android,Referral,0
+U102064,2025-07-21,Kolkata,android,Google Ads,0
+U102065,2024-10-20,Ahmedabad,web,Google Ads,0
+U102066,2025-08-06,Delhi,android,Instagram,0
+U102067,2025-08-20,Ahmedabad,web,Google Ads,0
+U102068,2025-07-20,Chennai,ios,Google Ads,0
+U102069,2025-08-10,Bengaluru,ios,Google Ads,0
+U102070,2025-08-15,Jaipur,android,Organic,0
+U102071,2025-03-29,Ahmedabad,android,Instagram,0
+U102072,2025-08-30,Hyderabad,web,Organic,0
+U102073,2025-05-19,Mumbai,android,Referral,0
+U102074,2025-08-24,Hyderabad,ios,Referral,0
+U102075,2025-08-29,Chennai,android,Google Ads,0
+U102076,2025-04-30,Mumbai,android,Organic,0
+U102077,2025-07-27,Delhi,ios,Google Ads,0
+U102078,2025-06-12,Ahmedabad,android,Organic,0
+U102079,2024-10-17,Pune,android,Organic,0
+U102080,2024-12-21,Pune,android,Referral,0
+U102081,2025-01-05,Pune,ios,Referral,0
+U102082,2025-04-27,Mumbai,android,Organic,0
+U102083,2025-07-01,Chennai,android,Google Ads,0
+U102084,2025-05-16,Delhi,ios,Organic,0
+U102085,2024-11-25,Bengaluru,android,Google Ads,0
+U102086,2025-08-21,Kolkata,android,Referral,0
+U102087,2025-08-23,Ahmedabad,ios,Referral,0
+U102088,2025-08-12,Pune,android,Organic,0
+U102089,2025-07-02,Hyderabad,android,Referral,0
+U102090,2025-03-29,Bengaluru,web,Organic,0
+U102091,2025-08-12,Hyderabad,ios,Organic,0
+U102092,2025-01-19,Hyderabad,android,Referral,0
+U102093,2025-02-24,Lucknow,android,Referral,0
+U102094,2025-07-03,Bengaluru,android,Organic,0
+U102095,2025-08-12,Hyderabad,android,Organic,0
+U102096,2025-06-01,Delhi,android,Organic,0
+U102097,2025-07-31,Chennai,web,Organic,0
+U102098,2025-08-09,Bengaluru,android,Referral,0
+U102099,2025-06-22,Hyderabad,android,Google Ads,0
+U102100,2024-11-14,Kolkata,android,Referral,0
+U102101,2025-08-22,Jaipur,android,Organic,0
+U102102,2025-07-17,Chennai,android,Referral,0
+U102103,2025-01-25,Hyderabad,android,Referral,0
+U102104,2025-05-12,Pune,android,Organic,0
+U102105,2025-06-06,Mumbai,web,Referral,0
+U102106,2025-08-19,Pune,ios,Instagram,0
+U102107,2025-08-21,Kochi,android,Organic,0
+U102108,2025-07-01,Hyderabad,ios,Organic,0
+U102109,2024-11-30,Bengaluru,ios,Organic,0
+U102110,2025-07-21,Bengaluru,web,Organic,0
+U102111,2024-10-09,Mumbai,android,Organic,0
+U102112,2025-06-03,Jaipur,android,Instagram,0
+U102113,2025-01-21,Bengaluru,android,Organic,0
+U102114,2025-04-01,Ahmedabad,android,Referral,0
+U102115,2024-11-03,Delhi,android,Referral,0
+U102116,2024-12-15,Delhi,android,Organic,0
+U102117,2025-06-17,Kolkata,ios,Organic,0
+U102118,2025-08-02,Mumbai,android,Google Ads,0
+U102119,2025-07-31,Bengaluru,android,Referral,0
+U102120,2024-11-18,Mumbai,ios,Organic,0
+U102121,2025-05-17,Bengaluru,android,Referral,0
+U102122,2025-04-17,Jaipur,ios,Organic,0
+U102123,2025-06-03,Bengaluru,android,Organic,0
+U102124,2025-07-13,Mumbai,ios,Referral,0
+U102125,2025-07-12,Pune,ios,Instagram,0
+U102126,2025-06-18,Bengaluru,ios,Organic,0
+U102127,2025-08-24,Hyderabad,android,Google Ads,0
+U102128,2025-07-11,Bengaluru,android,Organic,0
+U102129,2025-06-06,Delhi,android,Instagram,0
+U102130,2025-08-20,Mumbai,android,Organic,0
+U102131,2024-12-23,Hyderabad,android,Organic,0
+U102132,2025-06-13,Hyderabad,android,Referral,0
+U102133,2025-08-23,Chennai,android,Organic,0
+U102134,2025-04-24,Delhi,ios,Referral,0
+U102135,2025-07-19,Chennai,ios,Instagram,0
+U102136,2024-11-30,Jaipur,android,Google Ads,0
+U102137,2025-08-05,Mumbai,android,Google Ads,0
+U102138,2025-07-05,Chennai,android,Referral,0
+U102139,2025-05-04,Jaipur,ios,Google Ads,0
+U102140,2025-03-05,Bengaluru,android,Referral,0
+U102141,2025-08-23,Mumbai,android,Instagram,0
+U102142,2025-08-10,Delhi,android,Organic,0
+U102143,2025-07-18,Hyderabad,ios,Google Ads,0
+U102144,2025-04-26,Bengaluru,ios,Referral,0
+U102145,2024-11-04,Bengaluru,ios,Referral,0
+U102146,2025-04-19,Delhi,ios,Google Ads,0
+U102147,2025-03-19,Delhi,android,Referral,0
+U102148,2025-05-07,Kolkata,ios,Google Ads,0
+U102149,2025-04-27,Delhi,android,Organic,0
+U102150,2025-07-29,Mumbai,ios,Referral,0
+U102151,2024-12-10,Bengaluru,android,Organic,0
+U102152,2025-05-21,Bengaluru,android,Google Ads,0
+U102153,2025-04-28,Lucknow,android,Google Ads,0
+U102154,2025-06-22,Mumbai,android,Organic,0
+U102155,2025-08-03,Kolkata,ios,Organic,0
+U102156,2025-05-23,Mumbai,web,Google Ads,0
+U102157,2025-04-15,Kolkata,ios,Google Ads,0
+U102158,2025-08-25,Hyderabad,android,Google Ads,0
+U102159,2024-11-04,Mumbai,android,Google Ads,0
+U102160,2025-08-28,Jaipur,ios,Organic,0
+U102161,2025-05-18,Kolkata,ios,Instagram,0
+U102162,2024-10-11,Kolkata,android,Organic,0
+U102163,2024-12-27,Bengaluru,web,Google Ads,0
+U102164,2024-11-07,Delhi,android,Instagram,0
+U102165,2025-06-30,Bengaluru,android,Referral,0
+U102166,2025-08-13,Delhi,android,Referral,0
+U102167,2024-10-01,Mumbai,android,Instagram,1
+U102168,2024-10-23,Kolkata,android,Instagram,0
+U102169,2025-02-01,Hyderabad,android,Organic,0
+U102170,2025-07-29,Kolkata,web,Organic,0
+U102171,2025-04-02,Delhi,android,Organic,0
+U102172,2025-03-21,Pune,ios,Organic,0
+U102173,2025-08-04,Jaipur,android,Instagram,0
+U102174,2025-06-28,Bengaluru,android,Organic,0
+U102175,2025-08-18,Chennai,android,Instagram,0
+U102176,2024-11-01,Delhi,android,Referral,0
+U102177,2025-06-29,Pune,android,Google Ads,0
+U102178,2025-08-21,Pune,android,Google Ads,0
+U102179,2025-01-09,Jaipur,android,Instagram,0
+U102180,2025-08-23,Bengaluru,android,Instagram,0
+U102181,2025-01-08,Delhi,ios,Instagram,0
+U102182,2025-07-24,Chennai,ios,Organic,0
+U102183,2024-12-03,Hyderabad,android,Organic,0
+U102184,2025-03-29,Mumbai,android,Google Ads,0
+U102185,2025-07-11,Hyderabad,android,Referral,0
+U102186,2025-06-28,Hyderabad,android,Organic,0
+U102187,2024-12-21,Bengaluru,android,Instagram,0
+U102188,2024-10-25,Hyderabad,android,Google Ads,0
+U102189,2025-08-16,Mumbai,ios,Instagram,0
+U102190,2025-06-17,Hyderabad,android,Google Ads,0
+U102191,2025-03-28,Mumbai,android,Referral,0
+U102192,2025-07-24,Delhi,android,Google Ads,0
+U102193,2025-06-27,Ahmedabad,android,Referral,0
+U102194,2024-12-07,Delhi,android,Organic,0
+U102195,2024-11-10,Pune,android,Google Ads,0
+U102196,2025-06-29,Bengaluru,android,Referral,0
+U102197,2025-06-19,Mumbai,android,Organic,0
+U102198,2024-10-13,Kochi,android,Referral,0
+U102199,2024-10-14,Pune,android,Instagram,0
+U102200,2024-10-20,Jaipur,android,Referral,0
+U102201,2025-04-12,Mumbai,android,Instagram,0
+U102202,2025-03-31,Mumbai,android,Google Ads,0
+U102203,2025-08-09,Kochi,android,Instagram,0
+U102204,2025-01-04,Bengaluru,ios,Referral,0
+U102205,2025-05-30,Bengaluru,android,Google Ads,0
+U102206,2025-04-22,Bengaluru,ios,Referral,0
+U102207,2025-06-30,Hyderabad,android,Google Ads,0
+U102208,2025-07-17,Chennai,android,Organic,0
+U102209,2025-06-26,Hyderabad,android,Instagram,0
+U102210,2025-08-21,Delhi,android,Referral,0
+U102211,2025-05-03,Kochi,android,Google Ads,0
+U102212,2025-03-18,Hyderabad,web,Organic,0
+U102213,2025-06-22,Pune,android,Instagram,0
+U102214,2025-08-13,Jaipur,android,Organic,0
+U102215,2025-05-06,Pune,android,Referral,0
+U102216,2025-08-12,Ahmedabad,android,Instagram,0
+U102217,2024-10-03,Kolkata,android,Referral,0
+U102218,2025-04-06,Delhi,android,Organic,0
+U102219,2025-07-11,Mumbai,android,Referral,0
+U102220,2025-08-07,Pune,ios,Google Ads,0
+U102221,2025-04-24,Bengaluru,android,Organic,0
+U102222,2025-07-29,Delhi,android,Referral,0
+U102223,2025-07-19,Chennai,ios,Instagram,0
+U102224,2025-06-24,Pune,android,Referral,0
+U102225,2024-10-11,Kolkata,ios,Referral,0
+U102226,2025-06-11,Bengaluru,web,Organic,0
+U102227,2025-04-12,Chennai,ios,Referral,0
+U102228,2024-11-20,Delhi,android,Instagram,0
+U102229,2025-06-26,Bengaluru,android,Organic,0
+U102230,2025-01-03,Mumbai,android,Referral,0
+U102231,2024-12-24,Chennai,android,Instagram,0
+U102232,2025-08-24,Ahmedabad,android,Organic,0
+U102233,2024-10-10,Bengaluru,ios,Google Ads,0
+U102234,2025-07-21,Hyderabad,ios,Organic,0
+U102235,2025-03-21,Mumbai,android,Organic,0
+U102236,2025-01-26,Bengaluru,web,Organic,0
+U102237,2025-07-22,Pune,ios,Organic,0
+U102238,2025-03-04,Pune,android,Organic,0
+U102239,2025-05-05,Delhi,android,Organic,0
+U102240,2025-07-22,Kochi,android,Organic,0
+U102241,2024-10-05,Bengaluru,android,Referral,0
+U102242,2025-07-24,Delhi,android,Google Ads,0
+U102243,2025-08-19,Lucknow,android,Organic,0
+U102244,2025-05-18,Ahmedabad,web,Google Ads,0
+U102245,2025-04-23,Pune,web,Organic,0
+U102246,2024-11-18,Kolkata,ios,Google Ads,0
+U102247,2025-08-09,Mumbai,android,Referral,0
+U102248,2024-11-06,Delhi,ios,Google Ads,0
+U102249,2024-12-26,Jaipur,android,Instagram,0
+U102250,2025-08-16,Mumbai,web,Instagram,0
+U102251,2025-05-09,Mumbai,android,Organic,0
+U102252,2025-02-26,Bengaluru,android,Instagram,0
+U102253,2025-08-08,Pune,android,Organic,0
+U102254,2025-06-23,Bengaluru,android,Organic,0
+U102255,2025-08-07,Bengaluru,android,Referral,0
+U102256,2025-02-12,Bengaluru,android,Instagram,0
+U102257,2025-03-07,Hyderabad,android,Google Ads,0
+U102258,2024-11-21,Delhi,ios,Instagram,0
+U102259,2025-01-24,Lucknow,android,Referral,0
+U102260,2025-08-11,Bengaluru,ios,Instagram,0
+U102261,2025-07-17,Pune,android,Instagram,0
+U102262,2025-06-27,Delhi,web,Organic,0
+U102263,2025-04-09,Mumbai,ios,Organic,0
+U102264,2025-08-17,Pune,ios,Organic,0
+U102265,2025-04-29,Delhi,android,Referral,0
+U102266,2025-03-05,Mumbai,ios,Google Ads,0
+U102267,2025-08-11,Bengaluru,android,Referral,0
+U102268,2025-01-27,Delhi,android,Organic,0
+U102269,2025-06-29,Mumbai,ios,Organic,0
+U102270,2025-05-22,Kolkata,web,Organic,0
+U102271,2025-08-28,Mumbai,web,Organic,0
+U102272,2025-07-06,Kochi,android,Referral,0
+U102273,2025-02-23,Delhi,android,Google Ads,0
+U102274,2025-03-11,Delhi,android,Instagram,0
+U102275,2025-04-07,Kochi,ios,Organic,0
+U102276,2025-07-21,Bengaluru,android,Organic,0
+U102277,2024-10-01,Kolkata,android,Instagram,1
+U102278,2025-07-21,Bengaluru,ios,Organic,0
+U102279,2025-02-20,Bengaluru,ios,Instagram,0
+U102280,2024-10-14,Delhi,android,Google Ads,0
+U102281,2025-03-28,Chennai,android,Organic,0
+U102282,2025-06-14,Chennai,android,Instagram,0
+U102283,2025-03-28,Bengaluru,web,Google Ads,0
+U102284,2025-03-18,Kolkata,ios,Google Ads,0
+U102285,2025-07-11,Kochi,android,Organic,0
+U102286,2024-11-02,Delhi,android,Organic,0
+U102287,2025-08-20,Mumbai,ios,Organic,0
+U102288,2025-07-28,Mumbai,android,Referral,0
+U102289,2024-11-21,Chennai,android,Google Ads,0
+U102290,2025-08-10,Kolkata,android,Instagram,0
+U102291,2025-07-05,Ahmedabad,android,Organic,0
+U102292,2025-08-19,Mumbai,web,Instagram,0
+U102293,2025-05-08,Bengaluru,android,Organic,0
+U102294,2025-08-09,Delhi,ios,Instagram,0
+U102295,2025-06-16,Kolkata,android,Referral,0
+U102296,2025-06-14,Ahmedabad,web,Google Ads,0
+U102297,2025-06-26,Pune,android,Referral,0
+U102298,2025-03-18,Mumbai,android,Referral,0
+U102299,2025-07-04,Delhi,web,Organic,0
+U102300,2025-06-19,Hyderabad,android,Instagram,0
+U102301,2025-01-05,Bengaluru,android,Organic,0
+U102302,2025-05-29,Pune,android,Google Ads,0
+U102303,2025-02-04,Ahmedabad,android,Organic,0
+U102304,2024-11-12,Bengaluru,android,Google Ads,0
+U102305,2025-06-22,Lucknow,web,Google Ads,0
+U102306,2025-01-03,Delhi,android,Instagram,0
+U102307,2025-07-20,Hyderabad,android,Instagram,0
+U102308,2025-04-06,Hyderabad,android,Instagram,0
+U102309,2025-04-29,Mumbai,ios,Organic,0
+U102310,2025-08-28,Chennai,android,Instagram,0
+U102311,2025-06-02,Bengaluru,web,Instagram,0
+U102312,2025-08-25,Mumbai,android,Referral,0
+U102313,2025-07-12,Delhi,ios,Organic,0
+U102314,2024-12-24,Bengaluru,ios,Organic,0
+U102315,2024-11-04,Hyderabad,ios,Organic,0
+U102316,2025-07-29,Delhi,android,Organic,0
+U102317,2025-06-23,Pune,android,Referral,0
+U102318,2025-06-21,Hyderabad,ios,Google Ads,0
+U102319,2024-11-13,Hyderabad,ios,Google Ads,0
+U102320,2025-08-18,Lucknow,android,Organic,0
+U102321,2025-08-12,Bengaluru,android,Organic,0
+U102322,2025-03-24,Bengaluru,android,Organic,0
+U102323,2025-06-23,Delhi,android,Google Ads,0
+U102324,2025-08-15,Bengaluru,web,Organic,0
+U102325,2024-12-14,Kolkata,android,Organic,0
+U102326,2025-03-06,Delhi,android,Instagram,0
+U102327,2025-07-16,Ahmedabad,android,Google Ads,0
+U102328,2025-07-07,Bengaluru,android,Organic,0
+U102329,2024-12-23,Mumbai,ios,Organic,0
+U102330,2025-02-06,Bengaluru,android,Referral,0
+U102331,2025-05-10,Pune,android,Referral,0
+U102332,2025-06-30,Bengaluru,android,Google Ads,0
+U102333,2025-05-01,Bengaluru,android,Organic,0
+U102334,2025-05-20,Bengaluru,android,Organic,0
+U102335,2024-10-13,Mumbai,android,Organic,0
+U102336,2025-01-30,Ahmedabad,android,Referral,0
+U102337,2025-05-18,Delhi,android,Instagram,0
+U102338,2024-12-20,Bengaluru,android,Organic,0
+U102339,2025-03-19,Hyderabad,android,Google Ads,0
+U102340,2024-11-08,Chennai,android,Instagram,0
+U102341,2025-06-10,Kolkata,ios,Google Ads,0
+U102342,2025-07-21,Mumbai,android,Google Ads,0
+U102343,2024-12-09,Mumbai,web,Organic,0
+U102344,2024-10-12,Mumbai,android,Instagram,0
+U102345,2025-06-08,Chennai,android,Organic,0
+U102346,2025-06-13,Hyderabad,android,Organic,0
+U102347,2025-07-11,Delhi,android,Instagram,0
+U102348,2024-10-16,Bengaluru,android,Organic,0
+U102349,2025-07-09,Ahmedabad,android,Google Ads,0
+U102350,2025-07-10,Bengaluru,android,Instagram,0
+U102351,2025-07-12,Mumbai,android,Instagram,0
+U102352,2025-08-25,Bengaluru,android,Google Ads,0
+U102353,2025-08-29,Jaipur,android,Google Ads,0
+U102354,2025-08-25,Bengaluru,android,Referral,0
+U102355,2025-08-13,Hyderabad,android,Organic,0
+U102356,2025-07-24,Bengaluru,web,Google Ads,0
+U102357,2025-06-20,Mumbai,android,Referral,0
+U102358,2025-05-27,Delhi,android,Organic,0
+U102359,2025-01-30,Kolkata,android,Instagram,0
+U102360,2025-08-26,Pune,android,Organic,0
+U102361,2025-08-23,Mumbai,android,Organic,0
+U102362,2025-05-08,Jaipur,ios,Instagram,0
+U102363,2024-12-01,Bengaluru,android,Organic,0
+U102364,2025-01-09,Bengaluru,web,Google Ads,0
+U102365,2025-05-04,Chennai,android,Referral,0
+U102366,2025-03-07,Pune,android,Organic,0
+U102367,2025-05-07,Chennai,android,Instagram,0
+U102368,2025-03-04,Bengaluru,web,Instagram,0
+U102369,2024-10-01,Hyderabad,android,Referral,1
+U102370,2025-01-24,Kolkata,android,Google Ads,0
+U102371,2025-02-15,Ahmedabad,android,Organic,0
+U102372,2025-03-18,Bengaluru,android,Organic,0
+U102373,2025-07-15,Hyderabad,android,Organic,0
+U102374,2024-12-05,Mumbai,web,Google Ads,0
+U102375,2025-01-01,Bengaluru,android,Referral,0
+U102376,2025-04-21,Hyderabad,ios,Organic,0
+U102377,2025-04-14,Chennai,android,Instagram,0
+U102378,2025-06-23,Chennai,web,Instagram,0
+U102379,2025-08-28,Bengaluru,android,Instagram,0
+U102380,2025-03-16,Bengaluru,android,Organic,0
+U102381,2025-06-08,Hyderabad,android,Referral,0
+U102382,2025-08-28,Delhi,android,Google Ads,0
+U102383,2025-08-22,Lucknow,android,Organic,0
+U102384,2025-07-21,Pune,android,Organic,0
+U102385,2025-03-22,Mumbai,android,Organic,0
+U102386,2025-08-06,Kochi,ios,Google Ads,0
+U102387,2024-10-01,Hyderabad,ios,Organic,1
+U102388,2025-07-30,Bengaluru,ios,Google Ads,0
+U102389,2025-06-30,Mumbai,android,Google Ads,0
+U102390,2025-08-05,Mumbai,web,Google Ads,0
+U102391,2025-06-23,Jaipur,android,Organic,0
+U102392,2025-07-18,Mumbai,android,Instagram,0
+U102393,2024-12-22,Hyderabad,android,Referral,0
+U102394,2025-07-29,Ahmedabad,web,Google Ads,0
+U102395,2024-10-02,Bengaluru,web,Organic,0
+U102396,2025-05-20,Bengaluru,ios,Google Ads,0
+U102397,2025-07-02,Hyderabad,android,Instagram,0
+U102398,2025-02-14,Mumbai,android,Instagram,0
+U102399,2025-07-13,Delhi,android,Google Ads,0
+U102400,2024-10-01,Chennai,android,Google Ads,1
+U102401,2025-06-23,Bengaluru,android,Instagram,0
+U102402,2025-04-18,Chennai,android,Referral,0
+U102403,2025-06-29,Chennai,android,Referral,0
+U102404,2024-10-15,Hyderabad,android,Google Ads,0
+U102405,2024-10-14,Kolkata,ios,Instagram,0
+U102406,2025-03-16,Bengaluru,ios,Organic,0
+U102407,2025-07-11,Bengaluru,android,Instagram,0
+U102408,2025-07-08,Hyderabad,web,Instagram,0
+U102409,2024-12-15,Delhi,android,Organic,0
+U102410,2024-10-29,Delhi,ios,Google Ads,0
+U102411,2025-06-25,Mumbai,web,Instagram,0
+U102412,2025-07-11,Mumbai,android,Organic,0
+U102413,2025-06-19,Hyderabad,ios,Google Ads,0
+U102414,2025-05-07,Bengaluru,android,Referral,0
+U102415,2025-08-11,Chennai,android,Organic,0
+U102416,2024-12-05,Mumbai,ios,Referral,0
+U102417,2025-02-26,Pune,ios,Organic,0
+U102418,2025-06-11,Hyderabad,ios,Google Ads,0
+U102419,2025-08-07,Kolkata,android,Organic,0
+U102420,2025-01-14,Chennai,web,Organic,0
+U102421,2025-08-24,Kolkata,android,Instagram,0
+U102422,2025-07-04,Hyderabad,android,Organic,0
+U102423,2025-04-05,Mumbai,android,Organic,0
+U102424,2025-06-22,Mumbai,android,Instagram,0
+U102425,2025-06-08,Hyderabad,android,Referral,0
+U102426,2025-08-16,Hyderabad,ios,Organic,0
+U102427,2025-08-30,Ahmedabad,android,Organic,0
+U102428,2025-08-27,Bengaluru,android,Google Ads,0
+U102429,2025-01-25,Jaipur,android,Referral,0
+U102430,2025-07-18,Lucknow,ios,Instagram,0
+U102431,2025-05-22,Jaipur,ios,Instagram,0
+U102432,2025-01-10,Chennai,android,Organic,0
+U102433,2024-12-10,Bengaluru,ios,Organic,0
+U102434,2025-03-11,Mumbai,web,Instagram,0
+U102435,2025-07-05,Hyderabad,android,Organic,0
+U102436,2024-10-01,Delhi,android,Instagram,1
+U102437,2025-03-01,Mumbai,android,Instagram,0
+U102438,2024-12-06,Hyderabad,android,Google Ads,0
+U102439,2024-10-16,Chennai,ios,Organic,0
+U102440,2025-08-14,Mumbai,web,Instagram,0
+U102441,2025-08-24,Mumbai,android,Organic,0
+U102442,2025-08-30,Bengaluru,android,Referral,0
+U102443,2025-04-09,Hyderabad,android,Referral,0
+U102444,2024-10-14,Lucknow,web,Referral,0
+U102445,2025-06-21,Pune,android,Referral,0
+U102446,2025-06-27,Kolkata,android,Referral,0
+U102447,2025-08-20,Hyderabad,android,Referral,0
+U102448,2025-06-25,Kolkata,android,Organic,0
+U102449,2025-05-15,Mumbai,android,Organic,0
+U102450,2025-07-13,Jaipur,android,Organic,0
+U102451,2025-03-09,Delhi,web,Referral,0
+U102452,2024-12-14,Pune,ios,Instagram,0
+U102453,2025-07-22,Chennai,ios,Organic,0
+U102454,2025-06-19,Bengaluru,android,Organic,0
+U102455,2025-07-31,Delhi,android,Referral,0
+U102456,2025-06-18,Bengaluru,ios,Google Ads,0
+U102457,2025-06-11,Chennai,android,Google Ads,0
+U102458,2025-08-14,Pune,android,Organic,0
+U102459,2025-01-09,Mumbai,ios,Organic,0
+U102460,2025-06-28,Mumbai,ios,Instagram,0
+U102461,2025-07-21,Bengaluru,android,Google Ads,0
+U102462,2025-08-06,Pune,android,Instagram,0
+U102463,2025-07-12,Kolkata,android,Organic,0
+U102464,2025-08-25,Hyderabad,android,Instagram,0
+U102465,2025-06-10,Lucknow,android,Organic,0
+U102466,2025-01-14,Delhi,ios,Google Ads,0
+U102467,2024-12-16,Delhi,android,Organic,0
+U102468,2025-07-14,Chennai,android,Google Ads,0
+U102469,2025-05-13,Delhi,ios,Referral,0
+U102470,2025-07-16,Bengaluru,ios,Organic,0
+U102471,2024-10-29,Ahmedabad,android,Referral,0
+U102472,2024-10-29,Chennai,android,Referral,0
+U102473,2025-06-19,Mumbai,android,Instagram,0
+U102474,2025-01-05,Ahmedabad,android,Google Ads,0
+U102475,2025-05-05,Mumbai,ios,Referral,0
+U102476,2025-06-27,Bengaluru,web,Referral,0
+U102477,2025-06-06,Hyderabad,ios,Referral,0
+U102478,2025-07-01,Bengaluru,android,Organic,0
+U102479,2024-11-20,Mumbai,ios,Organic,0
+U102480,2025-05-14,Kolkata,android,Instagram,0
+U102481,2025-06-23,Delhi,android,Instagram,0
+U102482,2025-02-07,Bengaluru,android,Instagram,0
+U102483,2024-10-13,Lucknow,android,Google Ads,0
+U102484,2025-08-27,Mumbai,android,Instagram,0
+U102485,2025-07-12,Mumbai,android,Organic,0
+U102486,2025-04-06,Mumbai,android,Google Ads,0
+U102487,2025-07-16,Bengaluru,android,Instagram,0
+U102488,2025-06-14,Chennai,android,Instagram,0
+U102489,2025-03-26,Kolkata,android,Organic,0
+U102490,2025-07-03,Ahmedabad,ios,Referral,0
+U102491,2025-07-15,Mumbai,android,Referral,0
+U102492,2025-02-12,Mumbai,android,Google Ads,0
+U102493,2024-10-28,Ahmedabad,android,Organic,0
+U102494,2025-06-11,Pune,ios,Referral,0
+U102495,2024-11-03,Mumbai,android,Organic,0
+U102496,2025-07-04,Hyderabad,ios,Organic,0
+U102497,2024-10-19,Mumbai,android,Organic,0
+U102498,2024-11-22,Pune,android,Instagram,0
+U102499,2025-07-20,Kolkata,ios,Organic,0
+U102500,2025-07-28,Kochi,web,Instagram,0
+U102501,2025-04-01,Chennai,ios,Google Ads,0
+U102502,2025-04-12,Pune,web,Referral,0
+U102503,2025-07-14,Pune,android,Organic,0
+U102504,2024-12-27,Delhi,android,Referral,0
+U102505,2025-06-03,Jaipur,android,Organic,0
+U102506,2025-07-28,Chennai,android,Organic,0
+U102507,2025-08-16,Ahmedabad,android,Organic,0
+U102508,2025-02-06,Bengaluru,android,Organic,0
+U102509,2025-07-31,Chennai,android,Google Ads,0
+U102510,2025-02-18,Delhi,android,Organic,0
+U102511,2025-07-03,Pune,android,Organic,0
+U102512,2025-07-09,Mumbai,android,Organic,0
+U102513,2025-01-30,Jaipur,android,Instagram,0
+U102514,2025-08-02,Bengaluru,android,Organic,0
+U102515,2025-05-29,Kolkata,android,Instagram,0
+U102516,2025-08-05,Bengaluru,ios,Organic,0
+U102517,2024-12-27,Hyderabad,android,Organic,0
+U102518,2025-05-14,Chennai,ios,Instagram,0
+U102519,2024-11-30,Ahmedabad,web,Organic,0
+U102520,2025-08-07,Mumbai,web,Organic,0
+U102521,2025-08-22,Chennai,android,Organic,0
+U102522,2025-02-04,Delhi,android,Organic,0
+U102523,2025-05-16,Ahmedabad,android,Instagram,0
+U102524,2025-05-16,Delhi,android,Organic,0
+U102525,2025-07-26,Pune,android,Google Ads,0
+U102526,2025-05-16,Chennai,android,Instagram,0
+U102527,2025-05-15,Kolkata,android,Organic,0
+U102528,2024-10-13,Pune,ios,Referral,0
+U102529,2025-08-29,Delhi,android,Google Ads,0
+U102530,2025-07-23,Mumbai,android,Referral,0
+U102531,2025-08-29,Delhi,android,Organic,0
+U102532,2024-10-25,Chennai,android,Organic,0
+U102533,2025-01-13,Chennai,web,Organic,0
+U102534,2025-08-06,Pune,android,Referral,0
+U102535,2025-08-01,Delhi,android,Google Ads,0
+U102536,2025-08-20,Mumbai,android,Organic,0
+U102537,2025-04-08,Pune,android,Instagram,0
+U102538,2025-01-09,Mumbai,android,Organic,0
+U102539,2025-07-16,Mumbai,ios,Instagram,0
+U102540,2025-05-30,Chennai,android,Google Ads,0
+U102541,2025-08-10,Delhi,android,Referral,0
+U102542,2025-08-26,Mumbai,android,Organic,0
+U102543,2025-08-29,Mumbai,android,Organic,0
+U102544,2025-08-19,Chennai,android,Instagram,0
+U102545,2025-08-17,Bengaluru,ios,Organic,0
+U102546,2025-06-05,Ahmedabad,ios,Google Ads,0
+U102547,2024-12-26,Bengaluru,ios,Google Ads,0
+U102548,2025-01-05,Bengaluru,web,Google Ads,0
+U102549,2025-06-18,Hyderabad,android,Google Ads,0
+U102550,2025-07-08,Chennai,android,Google Ads,0
+U102551,2024-11-08,Delhi,ios,Organic,0
+U102552,2025-07-07,Mumbai,android,Organic,0
+U102553,2025-04-27,Mumbai,android,Google Ads,0
+U102554,2025-03-15,Chennai,android,Instagram,0
+U102555,2025-08-08,Jaipur,android,Referral,0
+U102556,2025-07-13,Delhi,android,Organic,0
+U102557,2025-08-27,Delhi,android,Organic,0
+U102558,2025-07-20,Mumbai,android,Instagram,0
+U102559,2025-04-01,Hyderabad,web,Instagram,0
+U102560,2025-08-03,Pune,android,Instagram,0
+U102561,2025-08-28,Bengaluru,android,Organic,0
+U102562,2025-01-04,Jaipur,android,Google Ads,0
+U102563,2025-07-21,Hyderabad,android,Organic,0
+U102564,2025-08-23,Bengaluru,ios,Organic,0
+U102565,2025-04-16,Ahmedabad,web,Instagram,0
+U102566,2025-05-30,Bengaluru,web,Referral,0
+U102567,2025-01-18,Delhi,ios,Organic,0
+U102568,2025-06-20,Hyderabad,ios,Referral,0
+U102569,2025-02-17,Hyderabad,android,Organic,0
+U102570,2024-11-29,Bengaluru,android,Referral,0
+U102571,2025-02-19,Kolkata,android,Referral,0
+U102572,2024-11-14,Delhi,android,Referral,0
+U102573,2025-08-25,Chennai,web,Google Ads,0
+U102574,2025-02-24,Delhi,android,Instagram,0
+U102575,2025-06-11,Bengaluru,android,Organic,0
+U102576,2025-07-05,Jaipur,android,Google Ads,0
+U102577,2025-07-16,Hyderabad,android,Referral,0
+U102578,2025-01-22,Mumbai,android,Instagram,0
+U102579,2025-08-28,Bengaluru,android,Organic,0
+U102580,2025-08-20,Ahmedabad,android,Google Ads,0
+U102581,2025-03-29,Bengaluru,android,Google Ads,0
+U102582,2025-08-27,Kochi,android,Instagram,0
+U102583,2025-06-20,Delhi,android,Referral,0
+U102584,2025-02-13,Chennai,android,Organic,0
+U102585,2025-06-12,Chennai,android,Organic,0
+U102586,2025-07-02,Hyderabad,web,Google Ads,0
+U102587,2025-07-31,Pune,android,Instagram,0
+U102588,2025-08-15,Pune,android,Instagram,0
+U102589,2025-08-25,Bengaluru,ios,Google Ads,0
+U102590,2025-08-16,Bengaluru,android,Organic,0
+U102591,2025-04-22,Mumbai,web,Referral,0
+U102592,2025-07-16,Mumbai,android,Organic,0
+U102593,2025-08-16,Hyderabad,android,Google Ads,0
+U102594,2025-08-23,Pune,android,Referral,0
+U102595,2025-07-14,Kolkata,android,Google Ads,0
+U102596,2025-08-16,Pune,android,Google Ads,0
+U102597,2024-11-24,Jaipur,android,Referral,0
+U102598,2025-04-27,Mumbai,ios,Referral,0
+U102599,2025-06-20,Bengaluru,ios,Google Ads,0
+U102600,2025-07-24,Kolkata,android,Organic,0
+U102601,2025-06-20,Delhi,web,Organic,0
+U102602,2025-07-15,Mumbai,android,Organic,0
+U102603,2025-06-24,Chennai,android,Referral,0
+U102604,2025-06-19,Mumbai,android,Google Ads,0
+U102605,2024-10-04,Bengaluru,web,Organic,0
+U102606,2025-07-08,Mumbai,android,Organic,0
+U102607,2025-01-26,Delhi,ios,Organic,0
+U102608,2025-05-31,Hyderabad,android,Referral,0
+U102609,2025-07-02,Chennai,android,Organic,0
+U102610,2024-10-21,Kochi,ios,Referral,0
+U102611,2025-07-05,Delhi,android,Referral,0
+U102612,2025-07-13,Delhi,android,Referral,0
+U102613,2024-11-15,Hyderabad,android,Instagram,0
+U102614,2025-06-12,Bengaluru,android,Organic,0
+U102615,2025-07-14,Bengaluru,android,Organic,0
+U102616,2025-08-15,Hyderabad,android,Organic,0
+U102617,2025-07-30,Hyderabad,android,Instagram,0
+U102618,2025-02-19,Mumbai,android,Organic,0
+U102619,2025-07-19,Hyderabad,android,Google Ads,0
+U102620,2025-03-09,Hyderabad,android,Instagram,0
+U102621,2025-08-24,Mumbai,android,Referral,0
+U102622,2024-11-04,Hyderabad,android,Instagram,0
+U102623,2025-07-29,Bengaluru,android,Referral,0
+U102624,2025-05-23,Chennai,android,Google Ads,0
+U102625,2025-08-06,Bengaluru,web,Referral,0
+U102626,2025-01-14,Ahmedabad,android,Organic,0
+U102627,2025-03-05,Mumbai,ios,Instagram,0
+U102628,2025-07-02,Chennai,ios,Organic,0
+U102629,2024-10-28,Bengaluru,android,Instagram,0
+U102630,2025-06-28,Mumbai,android,Instagram,0
+U102631,2025-06-30,Bengaluru,android,Organic,0
+U102632,2025-05-09,Delhi,android,Google Ads,0
+U102633,2025-08-14,Bengaluru,ios,Referral,0
+U102634,2025-08-27,Ahmedabad,android,Referral,0
+U102635,2024-10-25,Mumbai,web,Instagram,0
+U102636,2025-08-30,Kolkata,android,Organic,0
+U102637,2025-01-10,Delhi,android,Referral,0
+U102638,2025-02-28,Bengaluru,web,Organic,0
+U102639,2025-06-11,Chennai,android,Organic,0
+U102640,2025-05-20,Ahmedabad,android,Organic,0
+U102641,2024-12-17,Delhi,ios,Organic,0
+U102642,2025-01-02,Kolkata,android,Organic,0
+U102643,2025-06-26,Kolkata,android,Organic,0
+U102644,2025-05-11,Bengaluru,android,Organic,0
+U102645,2025-03-26,Lucknow,android,Instagram,0
+U102646,2024-10-01,Lucknow,android,Organic,1
+U102647,2025-06-22,Kolkata,ios,Organic,0
+U102648,2025-01-20,Bengaluru,android,Instagram,0
+U102649,2025-06-16,Bengaluru,android,Referral,0
+U102650,2024-12-10,Delhi,android,Organic,0
+U102651,2025-05-06,Delhi,android,Google Ads,0
+U102652,2025-03-01,Hyderabad,ios,Instagram,0
+U102653,2025-06-01,Delhi,android,Referral,0
+U102654,2024-10-29,Hyderabad,android,Referral,0
+U102655,2025-03-09,Delhi,android,Organic,0
+U102656,2024-12-24,Kochi,android,Referral,0
+U102657,2025-04-22,Delhi,ios,Organic,0
+U102658,2025-04-29,Chennai,android,Referral,0
+U102659,2025-02-04,Kolkata,ios,Referral,0
+U102660,2025-02-04,Pune,android,Organic,0
+U102661,2024-10-09,Delhi,ios,Organic,0
+U102662,2024-10-19,Mumbai,ios,Instagram,0
+U102663,2025-08-25,Mumbai,web,Organic,0
+U102664,2024-10-31,Delhi,android,Instagram,0
+U102665,2025-07-22,Hyderabad,android,Organic,0
+U102666,2025-08-18,Bengaluru,android,Organic,0
+U102667,2025-04-02,Chennai,web,Google Ads,0
+U102668,2025-06-12,Kolkata,android,Organic,0
+U102669,2025-03-13,Mumbai,android,Organic,0
+U102670,2025-07-28,Jaipur,android,Instagram,0
+U102671,2025-02-06,Lucknow,ios,Organic,0
+U102672,2025-06-20,Delhi,android,Google Ads,0
+U102673,2024-12-19,Bengaluru,android,Organic,0
+U102674,2025-02-27,Chennai,android,Google Ads,0
+U102675,2025-08-26,Delhi,ios,Organic,0
+U102676,2025-08-19,Hyderabad,ios,Google Ads,0
+U102677,2025-02-17,Delhi,android,Instagram,0
+U102678,2025-07-29,Pune,android,Organic,0
+U102679,2024-11-30,Jaipur,android,Organic,0
+U102680,2025-06-28,Delhi,web,Organic,0
+U102681,2024-10-01,Kolkata,android,Google Ads,0
+U102682,2025-06-30,Bengaluru,android,Google Ads,0
+U102683,2025-08-07,Bengaluru,android,Organic,0
+U102684,2025-08-04,Mumbai,ios,Instagram,0
+U102685,2025-08-17,Bengaluru,ios,Google Ads,0
+U102686,2025-08-11,Jaipur,android,Referral,0
+U102687,2025-04-17,Mumbai,web,Instagram,0
+U102688,2024-12-24,Chennai,ios,Instagram,0
+U102689,2025-06-23,Mumbai,web,Google Ads,0
+U102690,2025-08-15,Mumbai,android,Google Ads,0
+U102691,2024-12-30,Hyderabad,android,Organic,0
+U102692,2025-07-26,Bengaluru,web,Google Ads,0
+U102693,2025-07-24,Bengaluru,android,Instagram,0
+U102694,2025-07-06,Hyderabad,ios,Referral,0
+U102695,2025-04-09,Kolkata,ios,Google Ads,0
+U102696,2025-08-10,Hyderabad,android,Google Ads,0
+U102697,2024-12-13,Mumbai,android,Instagram,0
+U102698,2025-06-23,Pune,android,Organic,0
+U102699,2025-08-03,Hyderabad,android,Organic,0
+U102700,2025-05-15,Bengaluru,android,Instagram,0
+U102701,2024-10-26,Delhi,web,Organic,0
+U102702,2025-07-01,Hyderabad,ios,Organic,0
+U102703,2025-06-11,Jaipur,android,Google Ads,0
+U102704,2025-08-18,Mumbai,android,Google Ads,0
+U102705,2025-05-21,Chennai,android,Instagram,0
+U102706,2025-05-19,Delhi,android,Google Ads,0
+U102707,2025-07-14,Lucknow,android,Organic,0
+U102708,2025-07-18,Bengaluru,android,Google Ads,0
+U102709,2024-10-16,Delhi,android,Organic,0
+U102710,2024-12-26,Ahmedabad,android,Referral,0
+U102711,2025-08-11,Kolkata,web,Referral,0
+U102712,2025-08-20,Delhi,ios,Instagram,0
+U102713,2025-07-09,Pune,android,Google Ads,0
+U102714,2025-04-18,Hyderabad,web,Organic,0
+U102715,2025-04-18,Chennai,android,Google Ads,0
+U102716,2025-01-17,Kochi,android,Organic,0
+U102717,2025-06-24,Kolkata,android,Google Ads,0
+U102718,2025-08-04,Bengaluru,android,Organic,0
+U102719,2025-07-02,Pune,android,Instagram,0
+U102720,2025-07-07,Bengaluru,android,Organic,0
+U102721,2025-07-05,Chennai,android,Organic,0
+U102722,2025-08-25,Delhi,android,Google Ads,0
+U102723,2024-11-25,Kochi,android,Organic,0
+U102724,2025-02-09,Chennai,android,Organic,0
+U102725,2025-07-10,Bengaluru,android,Instagram,0
+U102726,2025-06-23,Delhi,android,Organic,0
+U102727,2025-06-23,Chennai,android,Referral,0
+U102728,2025-04-16,Delhi,android,Instagram,0
+U102729,2024-12-07,Pune,ios,Referral,0
+U102730,2025-08-29,Pune,android,Google Ads,0
+U102731,2025-06-29,Hyderabad,ios,Instagram,0
+U102732,2025-08-04,Chennai,android,Google Ads,0
+U102733,2025-07-29,Bengaluru,android,Google Ads,0
+U102734,2025-07-01,Bengaluru,android,Instagram,0
+U102735,2025-05-06,Bengaluru,android,Instagram,0
+U102736,2024-10-13,Mumbai,ios,Google Ads,0
+U102737,2024-11-12,Bengaluru,android,Google Ads,0
+U102738,2025-04-18,Jaipur,android,Organic,0
+U102739,2025-06-23,Kolkata,web,Organic,0
+U102740,2025-08-14,Mumbai,web,Organic,0
+U102741,2024-12-06,Bengaluru,android,Organic,0
+U102742,2025-03-20,Lucknow,web,Organic,0
+U102743,2025-06-29,Mumbai,ios,Organic,0
+U102744,2025-06-02,Bengaluru,web,Referral,0
+U102745,2025-07-24,Jaipur,android,Organic,0
+U102746,2025-03-20,Mumbai,android,Organic,0
+U102747,2025-06-29,Pune,android,Referral,0
+U102748,2025-07-29,Bengaluru,web,Organic,0
+U102749,2025-06-23,Pune,android,Referral,0
+U102750,2024-12-11,Chennai,web,Google Ads,0
+U102751,2025-08-25,Lucknow,android,Organic,0
+U102752,2025-08-13,Mumbai,android,Organic,0
+U102753,2025-03-09,Delhi,ios,Organic,0
+U102754,2025-07-04,Hyderabad,android,Organic,0
+U102755,2024-12-23,Chennai,android,Organic,0
+U102756,2025-08-03,Mumbai,android,Organic,0
+U102757,2024-11-11,Chennai,ios,Instagram,0
+U102758,2025-06-18,Mumbai,android,Google Ads,0
+U102759,2025-02-15,Chennai,android,Referral,0
+U102760,2024-11-29,Mumbai,web,Organic,0
+U102761,2025-08-27,Kolkata,android,Organic,0
+U102762,2025-07-08,Chennai,web,Organic,0
+U102763,2025-07-28,Mumbai,android,Instagram,0
+U102764,2025-07-05,Pune,android,Referral,0
+U102765,2025-01-29,Bengaluru,android,Google Ads,0
+U102766,2024-12-14,Delhi,ios,Organic,0
+U102767,2025-07-22,Delhi,android,Google Ads,0
+U102768,2025-08-16,Kolkata,ios,Google Ads,0
+U102769,2025-06-15,Kolkata,android,Organic,0
+U102770,2024-12-03,Delhi,android,Google Ads,0
+U102771,2024-11-28,Bengaluru,android,Google Ads,0
+U102772,2025-07-10,Bengaluru,android,Organic,0
+U102773,2025-08-16,Hyderabad,android,Organic,0
+U102774,2025-07-18,Lucknow,android,Google Ads,0
+U102775,2024-10-01,Bengaluru,ios,Organic,1
+U102776,2024-11-28,Pune,android,Organic,0
+U102777,2025-06-30,Mumbai,android,Instagram,0
+U102778,2025-07-29,Chennai,android,Organic,0
+U102779,2025-01-30,Pune,android,Organic,0
+U102780,2025-05-12,Hyderabad,ios,Referral,0
+U102781,2025-04-02,Mumbai,android,Referral,0
+U102782,2025-07-10,Kolkata,ios,Referral,0
+U102783,2025-08-19,Mumbai,android,Google Ads,0
+U102784,2025-01-30,Hyderabad,android,Google Ads,0
+U102785,2025-03-17,Jaipur,android,Organic,0
+U102786,2025-07-31,Delhi,android,Organic,0
+U102787,2025-06-15,Chennai,web,Instagram,0
+U102788,2025-04-15,Hyderabad,android,Organic,0
+U102789,2024-11-04,Chennai,ios,Organic,0
+U102790,2025-08-11,Chennai,android,Instagram,0
+U102791,2025-08-09,Hyderabad,ios,Organic,0
+U102792,2025-05-30,Hyderabad,android,Referral,0
+U102793,2025-04-21,Bengaluru,ios,Referral,0
+U102794,2025-08-08,Bengaluru,android,Referral,0
+U102795,2025-06-25,Kochi,android,Google Ads,0
+U102796,2024-11-30,Pune,android,Google Ads,0
+U102797,2024-10-05,Kolkata,android,Organic,0
+U102798,2025-03-08,Mumbai,web,Referral,0
+U102799,2025-07-20,Pune,android,Google Ads,0
+U102800,2025-05-28,Chennai,web,Referral,0
+U102801,2025-06-21,Bengaluru,android,Referral,0
+U102802,2025-07-02,Kolkata,ios,Google Ads,0
+U102803,2025-07-20,Jaipur,ios,Organic,0
+U102804,2024-10-01,Bengaluru,android,Instagram,0
+U102805,2024-11-24,Hyderabad,android,Organic,0
+U102806,2025-05-09,Chennai,android,Organic,0
+U102807,2025-08-06,Chennai,ios,Organic,0
+U102808,2025-05-19,Delhi,ios,Organic,0
+U102809,2025-04-24,Delhi,web,Instagram,0
+U102810,2025-07-16,Bengaluru,android,Google Ads,0
+U102811,2025-08-21,Bengaluru,android,Instagram,0
+U102812,2025-01-22,Chennai,android,Organic,0
+U102813,2024-11-04,Delhi,android,Google Ads,0
+U102814,2025-06-07,Chennai,web,Organic,0
+U102815,2024-11-25,Lucknow,android,Referral,0
+U102816,2025-06-21,Mumbai,ios,Instagram,0
+U102817,2025-06-07,Hyderabad,android,Organic,0
+U102818,2025-06-25,Hyderabad,ios,Instagram,0
+U102819,2025-08-19,Delhi,android,Organic,0
+U102820,2025-07-07,Delhi,android,Referral,0
+U102821,2025-07-22,Delhi,android,Organic,0
+U102822,2025-06-29,Hyderabad,android,Organic,0
+U102823,2025-08-17,Delhi,ios,Google Ads,0
+U102824,2025-08-19,Bengaluru,android,Organic,0
+U102825,2025-07-19,Delhi,android,Instagram,0
+U102826,2025-07-26,Bengaluru,ios,Referral,0
+U102827,2025-06-11,Mumbai,android,Organic,0
+U102828,2025-08-11,Mumbai,android,Referral,0
+U102829,2025-03-27,Mumbai,android,Google Ads,0
+U102830,2025-06-09,Hyderabad,android,Organic,0
+U102831,2025-06-26,Chennai,android,Instagram,0
+U102832,2025-03-06,Mumbai,web,Instagram,0
+U102833,2025-04-24,Pune,android,Instagram,0
+U102834,2024-10-01,Lucknow,web,Referral,1
+U102835,2024-12-25,Chennai,ios,Organic,0
+U102836,2025-06-02,Mumbai,web,Instagram,0
+U102837,2025-08-03,Pune,android,Instagram,0
+U102838,2025-04-08,Bengaluru,ios,Referral,0
+U102839,2024-11-21,Mumbai,ios,Instagram,0
+U102840,2025-08-11,Delhi,android,Google Ads,0
+U102841,2024-10-21,Lucknow,android,Instagram,0
+U102842,2025-02-13,Kolkata,android,Google Ads,0
+U102843,2025-07-29,Hyderabad,android,Referral,0
+U102844,2025-08-08,Kochi,ios,Google Ads,0
+U102845,2025-06-18,Pune,ios,Google Ads,0
+U102846,2025-08-13,Bengaluru,web,Referral,0
+U102847,2024-10-09,Delhi,android,Instagram,0
+U102848,2024-11-09,Pune,android,Organic,0
+U102849,2025-07-30,Bengaluru,ios,Referral,0
+U102850,2025-08-17,Mumbai,android,Google Ads,0
+U102851,2025-08-18,Kolkata,android,Referral,0
+U102852,2024-11-27,Pune,android,Organic,0
+U102853,2025-05-07,Hyderabad,android,Google Ads,0
+U102854,2025-08-11,Chennai,web,Organic,0
+U102855,2025-08-19,Chennai,web,Referral,0
+U102856,2025-06-25,Delhi,web,Instagram,0
+U102857,2025-06-20,Pune,ios,Google Ads,0
+U102858,2025-06-13,Kolkata,android,Referral,0
+U102859,2025-06-06,Mumbai,ios,Organic,0
+U102860,2024-12-18,Mumbai,web,Instagram,0
+U102861,2025-04-30,Hyderabad,android,Google Ads,0
+U102862,2024-12-29,Lucknow,android,Referral,0
+U102863,2025-04-16,Kolkata,android,Organic,0
+U102864,2025-07-15,Ahmedabad,web,Organic,0
+U102865,2024-12-19,Delhi,web,Referral,0
+U102866,2025-08-17,Chennai,ios,Instagram,0
+U102867,2024-10-05,Kochi,android,Organic,0
+U102868,2025-06-26,Kolkata,android,Instagram,0
+U102869,2025-08-01,Mumbai,ios,Organic,0
+U102870,2025-07-28,Delhi,android,Organic,0
+U102871,2025-06-06,Kolkata,android,Organic,0
+U102872,2024-12-29,Ahmedabad,android,Referral,0
+U102873,2025-05-11,Hyderabad,android,Organic,0
+U102874,2025-02-08,Hyderabad,android,Organic,0
+U102875,2025-02-20,Bengaluru,android,Google Ads,0
+U102876,2025-07-05,Delhi,web,Organic,0
+U102877,2025-07-18,Pune,web,Google Ads,0
+U102878,2025-07-30,Kochi,android,Organic,0
+U102879,2025-07-20,Hyderabad,ios,Google Ads,0
+U102880,2025-06-11,Bengaluru,android,Referral,0
+U102881,2025-08-21,Chennai,android,Organic,0
+U102882,2025-03-13,Kochi,android,Organic,0
+U102883,2025-01-22,Bengaluru,android,Organic,0
+U102884,2025-01-06,Mumbai,android,Organic,0
+U102885,2025-02-15,Lucknow,android,Instagram,0
+U102886,2025-07-26,Bengaluru,android,Organic,0
+U102887,2025-02-25,Delhi,android,Instagram,0
+U102888,2024-12-05,Mumbai,ios,Google Ads,0
+U102889,2025-07-25,Mumbai,android,Organic,0
+U102890,2025-01-23,Kolkata,android,Instagram,0
+U102891,2025-08-29,Kolkata,android,Instagram,0
+U102892,2025-07-22,Mumbai,android,Referral,0
+U102893,2024-12-18,Kolkata,ios,Instagram,0
+U102894,2025-06-15,Mumbai,web,Instagram,0
+U102895,2025-08-13,Delhi,android,Organic,0
+U102896,2025-01-08,Mumbai,android,Organic,0
+U102897,2025-06-05,Delhi,ios,Instagram,0
+U102898,2025-03-11,Hyderabad,android,Google Ads,0
+U102899,2025-05-09,Bengaluru,android,Google Ads,0
+U102900,2025-06-07,Jaipur,android,Referral,0
+U102901,2025-06-17,Ahmedabad,ios,Referral,0
+U102902,2024-12-22,Mumbai,web,Referral,0
+U102903,2025-08-27,Hyderabad,android,Google Ads,0
+U102904,2024-10-05,Bengaluru,android,Organic,0
+U102905,2024-11-28,Jaipur,android,Organic,0
+U102906,2024-12-16,Hyderabad,web,Google Ads,0
+U102907,2025-07-22,Delhi,android,Organic,0
+U102908,2025-03-28,Lucknow,android,Instagram,0
+U102909,2025-03-20,Mumbai,android,Organic,0
+U102910,2025-06-17,Pune,android,Organic,0
+U102911,2025-06-24,Chennai,ios,Referral,0
+U102912,2025-02-26,Bengaluru,web,Organic,0
+U102913,2024-12-27,Mumbai,android,Organic,0
+U102914,2025-04-01,Kochi,android,Organic,0
+U102915,2025-07-23,Bengaluru,android,Organic,0
+U102916,2024-10-08,Mumbai,android,Organic,0
+U102917,2025-08-22,Delhi,android,Instagram,0
+U102918,2025-07-22,Mumbai,android,Referral,0
+U102919,2024-12-21,Mumbai,ios,Organic,0
+U102920,2025-07-15,Bengaluru,ios,Organic,0
+U102921,2025-03-23,Jaipur,android,Google Ads,0
+U102922,2025-08-24,Pune,android,Google Ads,0
+U102923,2025-08-23,Pune,android,Referral,0
+U102924,2025-07-24,Kolkata,ios,Organic,0
+U102925,2025-03-30,Kolkata,android,Organic,0
+U102926,2025-07-17,Jaipur,android,Google Ads,0
+U102927,2025-04-01,Delhi,web,Instagram,0
+U102928,2024-10-07,Pune,ios,Referral,0
+U102929,2024-10-09,Bengaluru,web,Referral,0
+U102930,2025-01-10,Bengaluru,android,Organic,0
+U102931,2024-10-27,Delhi,android,Referral,0
+U102932,2024-10-22,Bengaluru,android,Instagram,0
+U102933,2025-02-13,Hyderabad,android,Organic,0
+U102934,2025-08-27,Ahmedabad,android,Google Ads,0
+U102935,2025-07-22,Jaipur,ios,Referral,0
+U102936,2025-07-18,Bengaluru,ios,Organic,0
+U102937,2025-06-09,Bengaluru,android,Organic,0
+U102938,2025-08-10,Kochi,android,Organic,0
+U102939,2024-10-29,Jaipur,ios,Referral,0
+U102940,2024-12-05,Bengaluru,android,Referral,0
+U102941,2025-07-18,Bengaluru,android,Instagram,0
+U102942,2025-08-18,Chennai,android,Organic,0
+U102943,2025-05-25,Kolkata,ios,Organic,0
+U102944,2025-06-18,Bengaluru,android,Organic,0
+U102945,2025-08-14,Chennai,ios,Instagram,0
+U102946,2024-10-25,Hyderabad,android,Google Ads,0
+U102947,2025-02-02,Jaipur,android,Organic,0
+U102948,2025-05-25,Ahmedabad,ios,Referral,0
+U102949,2025-07-27,Pune,ios,Organic,0
+U102950,2025-08-14,Mumbai,android,Referral,0
+U102951,2025-04-17,Kolkata,ios,Organic,0
+U102952,2025-06-07,Bengaluru,android,Organic,0
+U102953,2024-11-29,Delhi,android,Organic,0
+U102954,2025-08-27,Ahmedabad,web,Organic,0
+U102955,2024-11-28,Delhi,android,Instagram,0
+U102956,2025-03-19,Bengaluru,android,Organic,0
+U102957,2024-10-19,Hyderabad,android,Organic,0
+U102958,2025-07-07,Ahmedabad,web,Organic,0
+U102959,2025-03-08,Lucknow,android,Organic,0
+U102960,2025-02-18,Delhi,android,Referral,0
+U102961,2025-08-23,Jaipur,android,Instagram,0
+U102962,2025-08-10,Pune,android,Organic,0
+U102963,2025-05-25,Bengaluru,android,Google Ads,0
+U102964,2025-04-26,Lucknow,android,Google Ads,0
+U102965,2025-02-01,Mumbai,android,Organic,0
+U102966,2025-06-20,Chennai,ios,Organic,0
+U102967,2025-07-17,Lucknow,web,Organic,0
+U102968,2025-03-25,Delhi,android,Referral,0
+U102969,2025-07-11,Chennai,web,Referral,0
+U102970,2025-05-20,Chennai,android,Organic,0
+U102971,2025-05-22,Delhi,android,Referral,0
+U102972,2025-04-28,Kolkata,android,Referral,0
+U102973,2025-08-17,Mumbai,android,Organic,0
+U102974,2024-12-07,Mumbai,android,Organic,0
+U102975,2025-06-24,Bengaluru,android,Organic,0
+U102976,2025-01-20,Kolkata,android,Google Ads,0
+U102977,2025-05-29,Mumbai,android,Google Ads,0
+U102978,2025-06-25,Chennai,android,Organic,0
+U102979,2025-08-23,Delhi,ios,Organic,0
+U102980,2025-07-23,Kochi,android,Organic,0
+U102981,2025-03-07,Hyderabad,android,Instagram,0
+U102982,2025-08-03,Pune,android,Instagram,0
+U102983,2025-05-25,Ahmedabad,android,Google Ads,0
+U102984,2024-11-09,Kolkata,android,Google Ads,0
+U102985,2025-08-01,Pune,android,Google Ads,0
+U102986,2025-03-30,Delhi,android,Instagram,0
+U102987,2025-07-14,Hyderabad,android,Organic,0
+U102988,2025-07-12,Kolkata,android,Referral,0
+U102989,2025-07-22,Bengaluru,android,Google Ads,0
+U102990,2025-06-23,Hyderabad,android,Organic,0
+U102991,2025-07-24,Chennai,android,Instagram,0
+U102992,2025-04-14,Delhi,android,Referral,0
+U102993,2024-10-13,Bengaluru,android,Instagram,0
+U102994,2025-08-25,Mumbai,ios,Instagram,0
+U102995,2025-06-07,Delhi,ios,Organic,0
+U102996,2025-06-21,Bengaluru,web,Google Ads,0
+U102997,2025-01-13,Ahmedabad,android,Instagram,0
+U102998,2025-08-18,Delhi,android,Google Ads,0
+U102999,2025-07-05,Mumbai,android,Organic,0
+U103000,2025-04-20,Lucknow,android,Google Ads,0
+U103001,2025-08-06,Delhi,android,Referral,0
+U103002,2025-02-10,Bengaluru,android,Organic,0
+U103003,2025-07-31,Delhi,android,Instagram,0
+U103004,2025-05-28,Delhi,ios,Organic,0
+U103005,2025-08-13,Jaipur,android,Referral,0
+U103006,2025-07-08,Mumbai,web,Referral,0
+U103007,2025-08-25,Bengaluru,web,Instagram,0
+U103008,2025-07-23,Chennai,android,Referral,0
+U103009,2025-08-28,Delhi,ios,Organic,0
+U103010,2025-07-30,Mumbai,android,Organic,0
+U103011,2025-07-06,Kolkata,web,Referral,0
+U103012,2025-06-17,Mumbai,android,Organic,0
+U103013,2025-08-18,Pune,android,Referral,0
+U103014,2025-06-29,Kochi,android,Organic,0
+U103015,2025-08-29,Bengaluru,android,Organic,0
+U103016,2024-11-01,Bengaluru,android,Google Ads,0
+U103017,2024-11-04,Kolkata,ios,Google Ads,0
+U103018,2025-03-17,Hyderabad,android,Google Ads,0
+U103019,2024-12-25,Bengaluru,android,Instagram,0
+U103020,2025-07-14,Hyderabad,android,Google Ads,0
+U103021,2025-07-11,Delhi,android,Organic,0
+U103022,2025-05-11,Hyderabad,ios,Google Ads,0
+U103023,2025-05-09,Delhi,android,Organic,0
+U103024,2025-02-17,Lucknow,web,Organic,0
+U103025,2025-06-06,Hyderabad,ios,Organic,0
+U103026,2025-07-28,Chennai,android,Google Ads,0
+U103027,2025-05-10,Bengaluru,android,Organic,0
+U103028,2025-08-07,Chennai,android,Google Ads,0
+U103029,2025-04-29,Delhi,ios,Instagram,0
+U103030,2025-07-29,Bengaluru,android,Organic,0
+U103031,2025-05-03,Mumbai,android,Organic,0
+U103032,2025-06-06,Mumbai,ios,Instagram,0
+U103033,2025-08-07,Bengaluru,android,Referral,0
+U103034,2024-11-04,Bengaluru,android,Organic,0
+U103035,2024-10-16,Bengaluru,ios,Referral,0
+U103036,2025-06-17,Hyderabad,android,Organic,0
+U103037,2024-10-25,Delhi,ios,Instagram,0
+U103038,2025-02-08,Pune,android,Instagram,0
+U103039,2025-06-30,Mumbai,android,Organic,0
+U103040,2025-07-17,Bengaluru,web,Organic,0
+U103041,2025-08-08,Bengaluru,android,Organic,0
+U103042,2025-07-03,Kolkata,android,Referral,0
+U103043,2025-07-18,Mumbai,android,Instagram,0
+U103044,2025-08-19,Mumbai,android,Google Ads,0
+U103045,2025-08-03,Mumbai,android,Referral,0
+U103046,2025-05-09,Delhi,android,Instagram,0
+U103047,2025-07-05,Bengaluru,ios,Referral,0
+U103048,2025-08-05,Hyderabad,android,Organic,0
+U103049,2025-08-17,Bengaluru,android,Organic,0
+U103050,2025-05-12,Kolkata,android,Referral,0
+U103051,2024-12-10,Hyderabad,android,Referral,0
+U103052,2025-06-10,Bengaluru,android,Organic,0
+U103053,2025-08-04,Chennai,android,Referral,0
+U103054,2025-06-20,Hyderabad,android,Referral,0
+U103055,2025-06-09,Delhi,android,Instagram,0
+U103056,2025-07-06,Delhi,android,Google Ads,0
+U103057,2025-02-15,Chennai,android,Google Ads,0
+U103058,2025-07-20,Hyderabad,android,Organic,0
+U103059,2025-08-17,Hyderabad,ios,Organic,0
+U103060,2024-12-20,Bengaluru,ios,Organic,0
+U103061,2025-08-12,Bengaluru,android,Google Ads,0
+U103062,2024-11-03,Hyderabad,android,Referral,0
+U103063,2025-05-04,Bengaluru,android,Google Ads,0
+U103064,2024-11-09,Delhi,android,Referral,0
+U103065,2025-01-28,Mumbai,ios,Google Ads,0
+U103066,2025-07-23,Ahmedabad,android,Organic,0
+U103067,2025-01-16,Bengaluru,android,Organic,0
+U103068,2025-03-11,Kolkata,android,Organic,0
+U103069,2025-04-06,Mumbai,android,Referral,0
+U103070,2025-03-26,Jaipur,android,Google Ads,0
+U103071,2024-10-10,Kolkata,android,Google Ads,0
+U103072,2024-11-05,Ahmedabad,android,Organic,0
+U103073,2024-10-17,Hyderabad,ios,Google Ads,0
+U103074,2025-05-25,Bengaluru,android,Organic,0
+U103075,2025-06-23,Hyderabad,ios,Referral,0
+U103076,2025-08-21,Pune,android,Organic,0
+U103077,2024-12-13,Chennai,android,Referral,0
+U103078,2025-08-08,Hyderabad,web,Organic,0
+U103079,2025-07-23,Chennai,web,Referral,0
+U103080,2025-05-05,Delhi,android,Referral,0
+U103081,2025-05-09,Kolkata,android,Referral,0
+U103082,2024-10-23,Pune,ios,Instagram,0
+U103083,2025-02-18,Delhi,ios,Referral,0
+U103084,2025-08-16,Bengaluru,android,Instagram,0
+U103085,2025-02-08,Mumbai,android,Instagram,0
+U103086,2025-07-02,Hyderabad,android,Organic,0
+U103087,2025-04-15,Pune,ios,Organic,0
+U103088,2025-07-31,Mumbai,android,Organic,0
+U103089,2025-08-04,Delhi,ios,Google Ads,0
+U103090,2025-08-17,Mumbai,ios,Google Ads,0
+U103091,2025-08-25,Chennai,android,Google Ads,0
+U103092,2024-12-26,Bengaluru,android,Google Ads,0
+U103093,2025-07-30,Pune,android,Referral,0
+U103094,2025-07-14,Pune,ios,Organic,0
+U103095,2025-07-29,Ahmedabad,android,Organic,0
+U103096,2025-04-14,Jaipur,android,Organic,0
+U103097,2025-07-28,Pune,android,Referral,0
+U103098,2025-03-06,Delhi,android,Google Ads,0
+U103099,2025-02-07,Delhi,ios,Google Ads,0
+U103100,2025-07-08,Bengaluru,android,Organic,0
+U103101,2025-06-17,Delhi,android,Instagram,0
+U103102,2025-06-01,Hyderabad,ios,Organic,0
+U103103,2025-01-17,Hyderabad,android,Referral,0
+U103104,2025-07-05,Chennai,ios,Organic,0
+U103105,2025-06-15,Chennai,android,Instagram,0
+U103106,2025-02-11,Hyderabad,web,Organic,0
+U103107,2025-08-17,Chennai,android,Organic,0
+U103108,2025-08-16,Kolkata,android,Referral,0
+U103109,2024-10-08,Bengaluru,web,Organic,0
+U103110,2024-10-01,Mumbai,android,Referral,1
+U103111,2025-01-20,Bengaluru,android,Google Ads,0
+U103112,2024-11-09,Delhi,android,Organic,0
+U103113,2024-11-10,Bengaluru,web,Referral,0
+U103114,2024-12-20,Delhi,android,Referral,0
+U103115,2025-06-26,Mumbai,android,Organic,0
+U103116,2025-05-30,Pune,android,Organic,0
+U103117,2025-07-13,Bengaluru,ios,Organic,0
+U103118,2024-11-15,Kolkata,android,Google Ads,0
+U103119,2025-08-01,Mumbai,android,Instagram,0
+U103120,2025-08-01,Delhi,ios,Organic,0
+U103121,2024-12-24,Mumbai,android,Organic,0
+U103122,2025-07-22,Ahmedabad,android,Google Ads,0
+U103123,2025-06-15,Pune,ios,Instagram,0
+U103124,2025-08-25,Bengaluru,android,Referral,0
+U103125,2025-03-19,Mumbai,ios,Organic,0
+U103126,2025-07-24,Mumbai,android,Instagram,0
+U103127,2025-08-26,Delhi,android,Organic,0
+U103128,2025-05-12,Mumbai,web,Referral,0
+U103129,2025-08-07,Bengaluru,android,Instagram,0
+U103130,2025-06-11,Delhi,android,Google Ads,0
+U103131,2024-10-20,Pune,android,Referral,0
+U103132,2024-12-25,Mumbai,android,Organic,0
+U103133,2025-04-24,Bengaluru,android,Organic,0
+U103134,2025-01-08,Bengaluru,android,Google Ads,0
+U103135,2025-07-02,Lucknow,android,Organic,0
+U103136,2025-08-16,Delhi,android,Organic,0
+U103137,2025-05-13,Delhi,android,Organic,0
+U103138,2025-08-11,Delhi,android,Organic,0
+U103139,2024-11-29,Pune,android,Organic,0
+U103140,2025-06-01,Pune,android,Organic,0
+U103141,2024-12-01,Bengaluru,ios,Organic,0
+U103142,2024-10-15,Lucknow,android,Instagram,0
+U103143,2025-06-30,Chennai,web,Google Ads,0
+U103144,2025-07-09,Mumbai,ios,Instagram,0
+U103145,2025-02-22,Kochi,ios,Google Ads,0
+U103146,2024-12-01,Delhi,android,Google Ads,0
+U103147,2025-02-18,Kolkata,android,Organic,0
+U103148,2025-06-16,Hyderabad,android,Organic,0
+U103149,2025-06-30,Bengaluru,android,Organic,0
+U103150,2025-07-02,Mumbai,android,Instagram,0
+U103151,2024-12-10,Chennai,ios,Referral,0
+U103152,2025-06-24,Pune,ios,Referral,0
+U103153,2025-02-27,Chennai,ios,Google Ads,0
+U103154,2025-02-13,Chennai,android,Google Ads,0
+U103155,2024-10-18,Ahmedabad,web,Referral,0
+U103156,2025-08-20,Kolkata,android,Organic,0
+U103157,2025-08-18,Pune,android,Organic,0
+U103158,2025-03-05,Chennai,android,Organic,0
+U103159,2024-12-20,Delhi,android,Organic,0
+U103160,2025-04-19,Hyderabad,android,Referral,0
+U103161,2025-03-15,Pune,android,Organic,0
+U103162,2025-04-23,Delhi,android,Organic,0
+U103163,2025-08-30,Delhi,android,Organic,0
+U103164,2024-10-08,Ahmedabad,android,Organic,0
+U103165,2025-08-15,Delhi,android,Referral,0
+U103166,2025-07-03,Delhi,android,Organic,0
+U103167,2025-05-12,Mumbai,android,Referral,0
+U103168,2025-03-04,Chennai,android,Instagram,0
+U103169,2025-07-13,Bengaluru,android,Referral,0
+U103170,2025-05-16,Mumbai,android,Referral,0
+U103171,2025-04-30,Delhi,android,Google Ads,0
+U103172,2025-06-22,Ahmedabad,android,Referral,0
+U103173,2025-08-02,Chennai,web,Organic,0
+U103174,2025-08-21,Kolkata,web,Google Ads,0
+U103175,2025-07-04,Bengaluru,web,Organic,0
+U103176,2025-06-14,Kochi,android,Referral,0
+U103177,2025-01-08,Ahmedabad,android,Google Ads,0
+U103178,2024-11-12,Hyderabad,android,Instagram,0
+U103179,2024-11-21,Mumbai,android,Organic,0
+U103180,2025-08-01,Hyderabad,android,Organic,0
+U103181,2025-04-07,Delhi,web,Organic,0
+U103182,2025-07-28,Ahmedabad,android,Organic,0
+U103183,2025-01-06,Kolkata,android,Organic,0
+U103184,2025-07-26,Ahmedabad,android,Organic,0
+U103185,2025-06-30,Delhi,ios,Organic,0
+U103186,2024-10-13,Hyderabad,android,Organic,0
+U103187,2024-12-28,Bengaluru,android,Organic,0
+U103188,2024-11-06,Mumbai,ios,Organic,0
+U103189,2025-03-16,Mumbai,android,Google Ads,0
+U103190,2025-05-03,Mumbai,android,Organic,0
+U103191,2025-08-27,Bengaluru,android,Organic,0
+U103192,2024-10-12,Hyderabad,android,Organic,0
+U103193,2024-10-07,Chennai,android,Instagram,0
+U103194,2025-03-27,Pune,android,Referral,0
+U103195,2025-07-18,Bengaluru,ios,Organic,0
+U103196,2025-01-03,Kolkata,ios,Organic,0
+U103197,2025-07-11,Kolkata,android,Google Ads,0
+U103198,2024-11-06,Hyderabad,android,Organic,0
+U103199,2025-06-14,Bengaluru,web,Referral,0
+U103200,2025-06-05,Hyderabad,ios,Google Ads,0
+U103201,2025-05-03,Bengaluru,ios,Referral,0
+U103202,2025-07-24,Mumbai,ios,Referral,0
+U103203,2025-08-09,Chennai,ios,Organic,0
+U103204,2025-06-20,Delhi,web,Referral,0
+U103205,2024-12-01,Mumbai,android,Organic,0
+U103206,2024-12-23,Hyderabad,web,Organic,0
+U103207,2025-04-03,Pune,android,Google Ads,0
+U103208,2025-05-03,Kolkata,android,Instagram,0
+U103209,2025-08-11,Bengaluru,android,Referral,0
+U103210,2025-05-23,Pune,android,Organic,0
+U103211,2025-05-21,Pune,android,Instagram,0
+U103212,2025-07-29,Hyderabad,android,Referral,0
+U103213,2025-05-25,Pune,android,Google Ads,0
+U103214,2025-06-05,Bengaluru,android,Organic,0
+U103215,2025-02-06,Pune,android,Google Ads,0
+U103216,2025-08-08,Bengaluru,ios,Google Ads,0
+U103217,2025-05-29,Jaipur,android,Organic,0
+U103218,2024-10-12,Hyderabad,web,Organic,0
+U103219,2024-11-01,Delhi,web,Organic,0
+U103220,2025-08-19,Hyderabad,android,Google Ads,0
+U103221,2024-11-26,Mumbai,android,Referral,0
+U103222,2025-07-11,Ahmedabad,android,Organic,0
+U103223,2025-06-10,Bengaluru,android,Google Ads,0
+U103224,2025-07-17,Delhi,android,Referral,0
+U103225,2025-08-03,Bengaluru,android,Instagram,0
+U103226,2025-07-14,Pune,ios,Organic,0
+U103227,2025-03-24,Mumbai,android,Google Ads,0
+U103228,2025-08-14,Bengaluru,android,Referral,0
+U103229,2025-08-24,Bengaluru,android,Organic,0
+U103230,2024-10-08,Kolkata,android,Organic,0
+U103231,2025-07-11,Delhi,android,Organic,0
+U103232,2025-07-19,Pune,android,Organic,0
+U103233,2025-05-26,Pune,android,Referral,0
+U103234,2025-06-17,Mumbai,web,Organic,0
+U103235,2025-02-13,Delhi,android,Referral,0
+U103236,2025-05-22,Mumbai,web,Organic,0
+U103237,2025-04-23,Mumbai,web,Organic,0
+U103238,2025-02-18,Hyderabad,android,Organic,0
+U103239,2025-08-05,Delhi,android,Organic,0
+U103240,2025-06-30,Ahmedabad,android,Instagram,0
+U103241,2025-05-04,Mumbai,android,Google Ads,0
+U103242,2025-06-27,Bengaluru,android,Instagram,0
+U103243,2025-05-19,Hyderabad,android,Instagram,0
+U103244,2025-06-06,Mumbai,android,Organic,0
+U103245,2025-07-15,Bengaluru,android,Organic,0
+U103246,2025-07-14,Kolkata,android,Organic,0
+U103247,2025-01-09,Kolkata,android,Referral,0
+U103248,2025-08-22,Mumbai,android,Organic,0
+U103249,2024-11-04,Mumbai,android,Organic,0
+U103250,2025-06-22,Bengaluru,web,Organic,0
+U103251,2024-11-08,Bengaluru,android,Google Ads,0
+U103252,2025-06-21,Mumbai,android,Google Ads,0
+U103253,2025-01-14,Kolkata,web,Organic,0
+U103254,2025-07-13,Delhi,android,Organic,0
+U103255,2025-08-05,Ahmedabad,android,Referral,0
+U103256,2025-08-22,Pune,android,Organic,0
+U103257,2024-12-29,Kolkata,web,Organic,0
+U103258,2025-06-24,Hyderabad,android,Instagram,0
+U103259,2025-05-21,Pune,android,Instagram,0
+U103260,2025-03-09,Bengaluru,android,Google Ads,0
+U103261,2025-06-01,Delhi,web,Organic,0
+U103262,2024-11-16,Mumbai,android,Organic,0
+U103263,2024-10-20,Kolkata,android,Instagram,0
+U103264,2025-08-11,Bengaluru,android,Google Ads,0
+U103265,2025-08-17,Mumbai,android,Organic,0
+U103266,2025-03-10,Lucknow,android,Organic,0
+U103267,2025-08-19,Hyderabad,ios,Google Ads,0
+U103268,2025-07-29,Bengaluru,android,Referral,0
+U103269,2025-04-23,Pune,android,Referral,0
+U103270,2025-07-26,Ahmedabad,android,Google Ads,0
+U103271,2025-04-09,Hyderabad,ios,Google Ads,0
+U103272,2025-07-02,Pune,ios,Google Ads,0
+U103273,2025-07-07,Delhi,ios,Google Ads,0
+U103274,2024-10-30,Hyderabad,android,Referral,0
+U103275,2025-07-20,Delhi,android,Google Ads,0
+U103276,2024-11-19,Delhi,android,Referral,0
+U103277,2025-01-27,Chennai,android,Organic,0
+U103278,2025-08-12,Hyderabad,android,Google Ads,0
+U103279,2025-01-21,Chennai,web,Referral,0
+U103280,2024-11-04,Bengaluru,web,Organic,0
+U103281,2025-07-05,Hyderabad,android,Google Ads,0
+U103282,2025-04-20,Hyderabad,android,Google Ads,0
+U103283,2025-08-20,Delhi,android,Google Ads,0
+U103284,2025-07-19,Kochi,ios,Organic,0
+U103285,2025-08-03,Bengaluru,android,Google Ads,0
+U103286,2025-02-25,Mumbai,android,Instagram,0
+U103287,2024-10-01,Hyderabad,android,Organic,1
+U103288,2025-08-22,Hyderabad,android,Organic,0
+U103289,2025-08-13,Lucknow,android,Organic,0
+U103290,2025-08-26,Pune,android,Referral,0
+U103291,2025-08-08,Delhi,ios,Google Ads,0
+U103292,2025-02-15,Ahmedabad,android,Google Ads,0
+U103293,2025-06-30,Kolkata,android,Organic,0
+U103294,2025-08-25,Delhi,android,Google Ads,0
+U103295,2024-11-29,Ahmedabad,android,Organic,0
+U103296,2024-12-28,Chennai,android,Referral,0
+U103297,2025-08-25,Mumbai,android,Organic,0
+U103298,2025-01-22,Delhi,android,Organic,0
+U103299,2024-10-31,Delhi,web,Referral,0
+U103300,2025-06-23,Hyderabad,android,Organic,0
+U103301,2025-06-04,Pune,android,Instagram,0
+U103302,2024-10-30,Ahmedabad,android,Organic,0
+U103303,2025-06-10,Delhi,web,Instagram,0
+U103304,2024-10-10,Mumbai,android,Organic,0
+U103305,2025-06-17,Pune,android,Organic,0
+U103306,2025-05-02,Kolkata,android,Organic,0
+U103307,2025-05-14,Bengaluru,android,Organic,0
+U103308,2025-01-08,Delhi,android,Google Ads,0
+U103309,2025-07-14,Delhi,android,Organic,0
+U103310,2024-12-04,Pune,android,Organic,0
+U103311,2025-05-07,Kolkata,android,Google Ads,0
+U103312,2025-03-23,Kolkata,android,Instagram,0
+U103313,2024-10-02,Kochi,android,Organic,0
+U103314,2025-07-31,Bengaluru,ios,Referral,0
+U103315,2025-06-29,Pune,android,Instagram,0
+U103316,2024-10-01,Mumbai,android,Instagram,1
+U103317,2025-06-25,Jaipur,ios,Organic,0
+U103318,2025-04-14,Bengaluru,android,Organic,0
+U103319,2025-04-23,Bengaluru,android,Organic,0
+U103320,2025-08-29,Pune,android,Organic,0
+U103321,2025-07-15,Mumbai,android,Referral,0
+U103322,2024-10-24,Mumbai,web,Google Ads,0
+U103323,2025-08-20,Hyderabad,android,Instagram,0
+U103324,2025-08-04,Chennai,android,Referral,0
+U103325,2024-10-17,Hyderabad,android,Organic,0
+U103326,2025-01-23,Bengaluru,android,Organic,0
+U103327,2025-07-22,Ahmedabad,android,Organic,0
+U103328,2024-10-28,Hyderabad,android,Instagram,0
+U103329,2025-06-23,Mumbai,android,Google Ads,0
+U103330,2025-07-11,Bengaluru,android,Referral,0
+U103331,2025-06-04,Jaipur,android,Instagram,0
+U103332,2025-08-17,Mumbai,ios,Organic,0
+U103333,2024-10-04,Bengaluru,android,Organic,0
+U103334,2025-08-01,Delhi,android,Google Ads,0
+U103335,2025-06-27,Bengaluru,android,Organic,0
+U103336,2025-06-15,Kolkata,android,Organic,0
+U103337,2025-05-07,Bengaluru,android,Referral,0
+U103338,2025-05-19,Bengaluru,android,Instagram,0
+U103339,2025-08-15,Mumbai,ios,Instagram,0
+U103340,2025-03-13,Ahmedabad,android,Organic,0
+U103341,2025-06-19,Bengaluru,android,Organic,0
+U103342,2025-06-08,Delhi,android,Instagram,0
+U103343,2024-11-14,Pune,android,Google Ads,0
+U103344,2025-07-21,Hyderabad,android,Instagram,0
+U103345,2025-07-25,Bengaluru,android,Referral,0
+U103346,2025-07-17,Kolkata,android,Organic,0
+U103347,2025-08-02,Bengaluru,web,Instagram,0
+U103348,2024-12-01,Ahmedabad,android,Instagram,0
+U103349,2025-07-05,Mumbai,android,Organic,0
+U103350,2025-07-22,Jaipur,android,Referral,0
+U103351,2025-01-04,Bengaluru,android,Organic,0
+U103352,2025-04-01,Pune,android,Organic,0
+U103353,2024-12-12,Delhi,android,Instagram,0
+U103354,2025-07-24,Pune,web,Referral,0
+U103355,2024-11-26,Bengaluru,android,Instagram,0
+U103356,2025-08-13,Kochi,android,Organic,0
+U103357,2025-02-21,Chennai,android,Organic,0
+U103358,2025-07-10,Chennai,android,Google Ads,0
+U103359,2024-10-22,Kolkata,web,Organic,0
+U103360,2025-03-24,Delhi,web,Instagram,0
+U103361,2025-01-22,Bengaluru,android,Organic,0
+U103362,2025-08-10,Pune,android,Referral,0
+U103363,2025-08-27,Bengaluru,ios,Instagram,0
+U103364,2025-07-28,Mumbai,android,Referral,0
+U103365,2025-03-08,Jaipur,android,Referral,0
+U103366,2024-10-01,Jaipur,ios,Google Ads,1
+U103367,2025-08-06,Kochi,android,Organic,0
+U103368,2025-08-05,Delhi,android,Referral,0
+U103369,2024-12-17,Delhi,android,Referral,0
+U103370,2025-07-06,Pune,android,Referral,0
+U103371,2025-06-09,Bengaluru,android,Organic,0
+U103372,2025-07-01,Kolkata,ios,Google Ads,0
+U103373,2025-07-17,Delhi,ios,Google Ads,0
+U103374,2025-07-09,Lucknow,web,Instagram,0
+U103375,2025-01-04,Lucknow,web,Organic,0
+U103376,2025-07-26,Mumbai,android,Google Ads,0
+U103377,2025-03-16,Ahmedabad,android,Organic,0
+U103378,2025-08-28,Chennai,android,Organic,0
+U103379,2025-08-08,Bengaluru,android,Organic,0
+U103380,2025-07-06,Pune,android,Referral,0
+U103381,2025-01-17,Mumbai,android,Instagram,0
+U103382,2025-07-17,Hyderabad,android,Organic,0
+U103383,2025-05-18,Ahmedabad,android,Referral,0
+U103384,2025-03-19,Mumbai,web,Google Ads,0
+U103385,2025-08-10,Delhi,android,Organic,0
+U103386,2025-06-22,Delhi,android,Organic,0
+U103387,2025-02-04,Pune,android,Google Ads,0
+U103388,2025-02-05,Hyderabad,ios,Organic,0
+U103389,2024-10-04,Delhi,android,Instagram,0
+U103390,2025-07-07,Hyderabad,ios,Google Ads,0
+U103391,2025-06-13,Bengaluru,android,Referral,0
+U103392,2025-08-19,Kolkata,android,Instagram,0
+U103393,2025-07-25,Hyderabad,android,Instagram,0
+U103394,2024-10-04,Bengaluru,android,Referral,0
+U103395,2024-10-11,Bengaluru,android,Google Ads,0
+U103396,2024-12-18,Kolkata,android,Referral,0
+U103397,2025-05-03,Delhi,android,Google Ads,0
+U103398,2025-08-07,Jaipur,android,Instagram,0
+U103399,2025-04-01,Pune,android,Google Ads,0
+U103400,2025-07-05,Bengaluru,ios,Google Ads,0
+U103401,2025-08-14,Bengaluru,android,Google Ads,0
+U103402,2025-08-03,Pune,android,Organic,0
+U103403,2025-06-24,Bengaluru,ios,Google Ads,0
+U103404,2024-11-13,Chennai,android,Google Ads,0
+U103405,2025-03-05,Mumbai,web,Organic,0
+U103406,2025-07-05,Delhi,android,Referral,0
+U103407,2025-08-10,Hyderabad,android,Organic,0
+U103408,2025-07-09,Bengaluru,android,Google Ads,0
+U103409,2025-08-22,Mumbai,ios,Instagram,0
+U103410,2025-06-13,Kochi,android,Referral,0
+U103411,2025-08-18,Jaipur,ios,Referral,0
+U103412,2024-10-12,Mumbai,web,Referral,0
+U103413,2025-08-30,Delhi,android,Instagram,0
+U103414,2024-11-09,Bengaluru,android,Instagram,0
+U103415,2025-05-30,Bengaluru,android,Google Ads,0
+U103416,2025-08-29,Hyderabad,android,Google Ads,0
+U103417,2025-07-24,Chennai,ios,Google Ads,0
+U103418,2025-07-09,Mumbai,android,Google Ads,0
+U103419,2025-07-29,Pune,android,Google Ads,0
+U103420,2025-07-26,Jaipur,android,Organic,0
+U103421,2025-08-11,Kolkata,android,Google Ads,0
+U103422,2024-10-22,Hyderabad,android,Google Ads,0
+U103423,2025-04-12,Pune,android,Organic,0
+U103424,2025-06-09,Hyderabad,android,Organic,0
+U103425,2024-10-09,Pune,ios,Organic,0
+U103426,2025-05-12,Lucknow,android,Referral,0
+U103427,2025-01-18,Bengaluru,ios,Organic,0
+U103428,2025-07-20,Kolkata,android,Organic,0
+U103429,2025-02-03,Ahmedabad,android,Instagram,0
+U103430,2024-11-13,Lucknow,ios,Instagram,0
+U103431,2025-07-30,Jaipur,android,Instagram,0
+U103432,2024-10-23,Mumbai,android,Organic,0
+U103433,2024-10-24,Mumbai,android,Referral,0
+U103434,2025-03-06,Kolkata,ios,Organic,0
+U103435,2025-07-19,Hyderabad,android,Instagram,0
+U103436,2024-10-04,Jaipur,android,Google Ads,0
+U103437,2025-08-21,Pune,android,Google Ads,0
+U103438,2025-04-02,Kolkata,android,Organic,0
+U103439,2025-06-10,Bengaluru,ios,Organic,0
+U103440,2024-12-29,Bengaluru,android,Google Ads,0
+U103441,2025-08-13,Chennai,android,Google Ads,0
+U103442,2025-08-01,Ahmedabad,android,Organic,0
+U103443,2024-12-23,Bengaluru,android,Organic,0
+U103444,2025-07-21,Hyderabad,android,Organic,0
+U103445,2024-12-05,Hyderabad,android,Referral,0
+U103446,2025-01-01,Delhi,android,Referral,0
+U103447,2025-08-28,Hyderabad,android,Organic,0
+U103448,2025-07-09,Hyderabad,android,Referral,0
+U103449,2025-08-02,Bengaluru,web,Instagram,0
+U103450,2025-03-25,Chennai,android,Organic,0
+U103451,2024-10-28,Mumbai,android,Organic,0
+U103452,2024-12-24,Kochi,android,Organic,0
+U103453,2024-10-21,Mumbai,android,Organic,0
+U103454,2025-07-19,Bengaluru,android,Referral,0
+U103455,2024-12-30,Hyderabad,android,Organic,0
+U103456,2025-06-14,Delhi,web,Organic,0
+U103457,2025-06-24,Chennai,android,Google Ads,0
+U103458,2025-06-25,Ahmedabad,android,Google Ads,0
+U103459,2025-08-11,Mumbai,ios,Organic,0
+U103460,2025-07-08,Bengaluru,android,Referral,0
+U103461,2024-10-25,Delhi,android,Organic,0
+U103462,2025-08-23,Delhi,ios,Organic,0
+U103463,2025-07-03,Mumbai,android,Organic,0
+U103464,2025-06-23,Bengaluru,android,Instagram,0
+U103465,2025-08-08,Chennai,android,Organic,0
+U103466,2025-07-01,Delhi,ios,Organic,0
+U103467,2024-10-28,Chennai,android,Organic,0
+U103468,2025-07-30,Delhi,web,Organic,0
+U103469,2025-08-13,Ahmedabad,android,Organic,0
+U103470,2025-08-08,Hyderabad,android,Organic,0
+U103471,2025-04-02,Delhi,android,Organic,0
+U103472,2025-08-07,Pune,android,Instagram,0
+U103473,2025-07-02,Delhi,android,Organic,0
+U103474,2024-12-26,Bengaluru,android,Instagram,0
+U103475,2025-08-19,Kolkata,ios,Organic,0
+U103476,2025-07-28,Mumbai,android,Instagram,0
+U103477,2025-02-08,Bengaluru,android,Google Ads,0
+U103478,2025-04-04,Lucknow,android,Organic,0
+U103479,2024-10-28,Mumbai,web,Google Ads,0
+U103480,2025-06-16,Mumbai,android,Organic,0
+U103481,2025-04-01,Delhi,web,Organic,0
+U103482,2025-08-10,Bengaluru,web,Instagram,0
+U103483,2025-07-18,Kochi,ios,Organic,0
+U103484,2024-10-01,Mumbai,web,Referral,0
+U103485,2025-03-26,Ahmedabad,android,Google Ads,0
+U103486,2025-07-07,Pune,ios,Organic,0
+U103487,2025-02-08,Chennai,android,Referral,0
+U103488,2025-06-06,Bengaluru,ios,Referral,0
+U103489,2024-10-22,Jaipur,web,Google Ads,0
+U103490,2025-03-29,Hyderabad,ios,Referral,0
+U103491,2025-07-15,Hyderabad,ios,Referral,0
+U103492,2025-01-28,Pune,android,Organic,0
+U103493,2025-07-19,Hyderabad,android,Google Ads,0
+U103494,2025-07-28,Pune,android,Google Ads,0
+U103495,2025-02-27,Delhi,android,Instagram,0
+U103496,2025-07-19,Pune,android,Referral,0
+U103497,2025-08-12,Bengaluru,android,Organic,0
+U103498,2025-08-18,Delhi,android,Instagram,0
+U103499,2025-05-12,Mumbai,web,Organic,0
+U103500,2025-06-25,Bengaluru,android,Google Ads,0
+U103501,2025-07-28,Chennai,android,Referral,0
+U103502,2024-10-11,Hyderabad,ios,Organic,0
+U103503,2024-11-09,Mumbai,android,Organic,0
+U103504,2025-07-31,Delhi,web,Instagram,0
+U103505,2024-11-09,Hyderabad,ios,Instagram,0
+U103506,2025-04-18,Hyderabad,android,Organic,0
+U103507,2025-02-01,Ahmedabad,android,Referral,0
+U103508,2025-02-19,Jaipur,ios,Google Ads,0
+U103509,2025-01-31,Bengaluru,android,Referral,0
+U103510,2025-08-02,Pune,android,Organic,0
+U103511,2025-05-19,Kochi,android,Google Ads,0
+U103512,2025-08-07,Mumbai,android,Organic,0
+U103513,2025-03-11,Mumbai,android,Referral,0
+U103514,2024-11-23,Bengaluru,android,Google Ads,0
+U103515,2024-12-30,Bengaluru,android,Organic,0
+U103516,2025-08-20,Mumbai,android,Referral,0
+U103517,2025-02-06,Delhi,ios,Organic,0
+U103518,2024-11-23,Hyderabad,web,Organic,0
+U103519,2025-01-10,Mumbai,web,Referral,0
+U103520,2024-11-27,Bengaluru,android,Instagram,0
+U103521,2025-03-24,Hyderabad,ios,Organic,0
+U103522,2025-04-25,Hyderabad,android,Referral,0
+U103523,2025-07-31,Hyderabad,android,Google Ads,0
+U103524,2024-11-27,Bengaluru,android,Organic,0
+U103525,2025-01-18,Ahmedabad,android,Referral,0
+U103526,2025-07-30,Ahmedabad,android,Google Ads,0
+U103527,2025-03-28,Ahmedabad,ios,Instagram,0
+U103528,2025-08-07,Bengaluru,android,Instagram,0
+U103529,2025-06-23,Jaipur,android,Organic,0
+U103530,2024-12-13,Mumbai,ios,Instagram,0
+U103531,2025-07-23,Hyderabad,android,Organic,0
+U103532,2025-01-21,Delhi,android,Referral,0
+U103533,2025-05-05,Bengaluru,android,Referral,0
+U103534,2024-12-04,Ahmedabad,android,Organic,0
+U103535,2025-03-26,Mumbai,ios,Organic,0
+U103536,2025-01-16,Mumbai,android,Referral,0
+U103537,2025-08-03,Jaipur,android,Referral,0
+U103538,2025-08-30,Ahmedabad,android,Organic,0
+U103539,2025-02-24,Bengaluru,android,Organic,0
+U103540,2024-11-27,Chennai,ios,Google Ads,0
+U103541,2025-02-05,Mumbai,web,Instagram,0
+U103542,2025-08-01,Bengaluru,android,Organic,0
+U103543,2025-07-27,Delhi,web,Organic,0
+U103544,2025-06-30,Ahmedabad,android,Organic,0
+U103545,2024-10-02,Lucknow,ios,Google Ads,0
+U103546,2025-03-17,Kochi,ios,Instagram,0
+U103547,2025-02-24,Hyderabad,android,Referral,0
+U103548,2024-10-20,Bengaluru,android,Referral,0
+U103549,2025-05-24,Kolkata,android,Organic,0
+U103550,2025-07-22,Kolkata,android,Referral,0
+U103551,2024-11-14,Mumbai,android,Referral,0
+U103552,2025-07-06,Mumbai,ios,Google Ads,0
+U103553,2025-07-15,Mumbai,android,Instagram,0
+U103554,2025-06-23,Delhi,android,Organic,0
+U103555,2025-07-22,Kolkata,android,Organic,0
+U103556,2025-02-09,Bengaluru,web,Organic,0
+U103557,2025-07-04,Delhi,ios,Google Ads,0
+U103558,2024-10-05,Jaipur,web,Referral,0
+U103559,2025-05-29,Delhi,android,Organic,0
+U103560,2025-08-24,Hyderabad,android,Organic,0
+U103561,2025-07-20,Hyderabad,ios,Referral,0
+U103562,2024-10-11,Pune,android,Organic,0
+U103563,2025-07-30,Hyderabad,ios,Organic,0
+U103564,2025-08-12,Bengaluru,web,Organic,0
+U103565,2025-06-25,Ahmedabad,ios,Referral,0
+U103566,2025-03-11,Hyderabad,android,Instagram,0
+U103567,2025-08-18,Kochi,android,Referral,0
+U103568,2025-06-21,Pune,android,Google Ads,0
+U103569,2024-10-26,Delhi,android,Google Ads,0
+U103570,2025-06-13,Lucknow,web,Google Ads,0
+U103571,2025-07-25,Kolkata,android,Organic,0
+U103572,2025-08-17,Delhi,android,Instagram,0
+U103573,2024-11-11,Mumbai,ios,Google Ads,0
+U103574,2025-07-31,Mumbai,android,Organic,0
+U103575,2025-06-05,Chennai,ios,Google Ads,0
+U103576,2025-07-06,Kochi,ios,Organic,0
+U103577,2025-04-08,Kolkata,android,Organic,0
+U103578,2025-05-19,Chennai,android,Referral,0
+U103579,2025-05-06,Bengaluru,android,Organic,0
+U103580,2025-02-04,Bengaluru,ios,Organic,0
+U103581,2024-10-28,Chennai,android,Google Ads,0
+U103582,2025-08-15,Chennai,ios,Organic,0
+U103583,2025-06-30,Mumbai,android,Organic,0
+U103584,2025-06-04,Chennai,ios,Organic,0
+U103585,2025-08-29,Ahmedabad,android,Google Ads,0
+U103586,2024-12-24,Kolkata,ios,Google Ads,0
+U103587,2025-07-13,Delhi,android,Organic,0
+U103588,2025-08-26,Jaipur,android,Referral,0
+U103589,2025-06-26,Kolkata,android,Organic,0
+U103590,2025-03-03,Bengaluru,ios,Organic,0
+U103591,2025-04-12,Lucknow,android,Organic,0
+U103592,2025-03-21,Bengaluru,android,Instagram,0
+U103593,2025-07-18,Jaipur,android,Organic,0
+U103594,2025-07-18,Hyderabad,web,Referral,0
+U103595,2024-11-29,Chennai,web,Organic,0
+U103596,2024-10-22,Bengaluru,web,Referral,0
+U103597,2025-04-27,Ahmedabad,android,Organic,0
+U103598,2025-08-03,Bengaluru,android,Instagram,0
+U103599,2024-12-15,Pune,android,Referral,0
+U103600,2025-08-20,Mumbai,android,Organic,0
+U103601,2025-07-23,Kolkata,android,Organic,0
+U103602,2025-05-04,Kolkata,ios,Referral,0
+U103603,2025-04-11,Kochi,android,Organic,0
+U103604,2025-06-26,Bengaluru,android,Organic,0
+U103605,2025-08-22,Mumbai,ios,Instagram,0
+U103606,2024-10-18,Bengaluru,android,Organic,0
+U103607,2025-07-25,Mumbai,android,Referral,0
+U103608,2024-11-07,Lucknow,ios,Google Ads,0
+U103609,2024-10-10,Hyderabad,ios,Instagram,0
+U103610,2025-07-31,Mumbai,android,Referral,0
+U103611,2025-07-12,Pune,android,Referral,0
+U103612,2025-04-29,Jaipur,ios,Instagram,0
+U103613,2025-04-05,Ahmedabad,android,Instagram,0
+U103614,2025-07-02,Pune,android,Google Ads,0
+U103615,2025-03-20,Mumbai,android,Referral,0
+U103616,2025-08-24,Chennai,ios,Referral,0
+U103617,2025-08-14,Lucknow,ios,Instagram,0
+U103618,2025-08-27,Delhi,ios,Instagram,0
+U103619,2024-11-17,Bengaluru,android,Organic,0
+U103620,2025-07-05,Kolkata,ios,Organic,0
+U103621,2025-02-15,Kolkata,ios,Referral,0
+U103622,2025-06-27,Mumbai,android,Referral,0
+U103623,2025-02-07,Mumbai,ios,Instagram,0
+U103624,2025-06-11,Bengaluru,web,Referral,0
+U103625,2024-12-13,Hyderabad,ios,Organic,0
+U103626,2025-08-19,Bengaluru,android,Instagram,0
+U103627,2025-01-02,Mumbai,android,Organic,0
+U103628,2025-07-20,Mumbai,android,Organic,0
+U103629,2025-03-14,Pune,android,Google Ads,0
+U103630,2025-05-28,Bengaluru,android,Organic,0
+U103631,2024-12-13,Chennai,android,Organic,0
+U103632,2025-07-04,Ahmedabad,android,Instagram,0
+U103633,2025-07-19,Delhi,android,Organic,0
+U103634,2025-07-30,Pune,android,Google Ads,0
+U103635,2025-07-23,Mumbai,android,Instagram,0
+U103636,2025-01-28,Delhi,android,Google Ads,0
+U103637,2025-06-29,Delhi,ios,Organic,0
+U103638,2025-06-28,Ahmedabad,android,Organic,0
+U103639,2025-07-01,Delhi,android,Organic,0
+U103640,2024-11-26,Mumbai,web,Instagram,0
+U103641,2024-10-17,Jaipur,web,Organic,0
+U103642,2025-07-24,Pune,android,Google Ads,0
+U103643,2025-08-23,Kochi,ios,Google Ads,0
+U103644,2025-03-16,Hyderabad,android,Organic,0
+U103645,2025-06-18,Jaipur,android,Referral,0
+U103646,2025-07-16,Pune,android,Instagram,0
+U103647,2025-02-18,Delhi,android,Referral,0
+U103648,2025-08-28,Pune,ios,Referral,0
+U103649,2024-10-24,Delhi,android,Instagram,0
+U103650,2025-07-18,Kolkata,android,Referral,0
+U103651,2025-08-03,Mumbai,android,Instagram,0
+U103652,2025-08-29,Kolkata,android,Referral,0
+U103653,2025-07-29,Chennai,android,Instagram,0
+U103654,2025-08-01,Hyderabad,android,Organic,0
+U103655,2025-08-09,Mumbai,android,Organic,0
+U103656,2025-04-10,Jaipur,android,Google Ads,0
+U103657,2025-06-18,Bengaluru,android,Google Ads,0
+U103658,2025-02-02,Mumbai,ios,Organic,0
+U103659,2025-07-06,Kolkata,android,Google Ads,0
+U103660,2025-07-21,Ahmedabad,android,Instagram,0
+U103661,2025-07-18,Hyderabad,ios,Instagram,0
+U103662,2025-07-22,Mumbai,android,Referral,0
+U103663,2025-01-14,Bengaluru,ios,Referral,0
+U103664,2025-07-15,Lucknow,android,Google Ads,0
+U103665,2025-06-21,Mumbai,android,Instagram,0
+U103666,2025-08-24,Lucknow,android,Instagram,0
+U103667,2025-02-10,Kolkata,android,Instagram,0
+U103668,2025-06-09,Kolkata,android,Instagram,0
+U103669,2025-07-07,Jaipur,web,Google Ads,0
+U103670,2024-12-23,Kolkata,android,Google Ads,0
+U103671,2025-01-31,Hyderabad,ios,Instagram,0
+U103672,2025-07-12,Hyderabad,android,Instagram,0
+U103673,2024-12-01,Bengaluru,android,Organic,0
+U103674,2025-07-11,Pune,android,Google Ads,0
+U103675,2025-02-12,Chennai,android,Referral,0
+U103676,2025-01-30,Mumbai,ios,Organic,0
+U103677,2025-04-08,Delhi,ios,Google Ads,0
+U103678,2025-03-10,Chennai,ios,Instagram,0
+U103679,2025-08-23,Mumbai,android,Organic,0
+U103680,2024-11-30,Bengaluru,android,Referral,0
+U103681,2025-08-08,Pune,android,Organic,0
+U103682,2025-08-26,Lucknow,android,Instagram,0
+U103683,2025-07-03,Hyderabad,ios,Organic,0
+U103684,2025-06-19,Bengaluru,web,Organic,0
+U103685,2024-12-23,Bengaluru,web,Organic,0
+U103686,2024-10-08,Ahmedabad,android,Organic,0
+U103687,2025-04-10,Mumbai,android,Referral,0
+U103688,2025-04-12,Bengaluru,web,Organic,0
+U103689,2025-08-08,Delhi,android,Google Ads,0
+U103690,2025-08-28,Hyderabad,android,Referral,0
+U103691,2025-07-17,Mumbai,android,Instagram,0
+U103692,2025-06-19,Hyderabad,android,Instagram,0
+U103693,2025-04-13,Chennai,android,Google Ads,0
+U103694,2025-07-05,Mumbai,android,Google Ads,0
+U103695,2025-02-22,Bengaluru,android,Referral,0
+U103696,2025-07-23,Mumbai,android,Google Ads,0
+U103697,2025-03-06,Delhi,android,Organic,0
+U103698,2025-07-27,Pune,android,Referral,0
+U103699,2025-02-03,Bengaluru,ios,Instagram,0
+U103700,2025-05-16,Hyderabad,ios,Organic,0
+U103701,2024-11-17,Mumbai,android,Organic,0
+U103702,2025-07-25,Delhi,android,Organic,0
+U103703,2025-05-08,Mumbai,android,Organic,0
+U103704,2025-07-18,Bengaluru,android,Organic,0
+U103705,2025-05-06,Kolkata,android,Organic,0
+U103706,2025-05-07,Hyderabad,android,Organic,0
+U103707,2025-08-20,Pune,ios,Instagram,0
+U103708,2025-05-18,Chennai,android,Instagram,0
+U103709,2025-08-09,Chennai,android,Organic,0
+U103710,2025-08-23,Hyderabad,web,Organic,0
+U103711,2025-03-23,Pune,android,Referral,0
+U103712,2025-04-22,Hyderabad,android,Organic,0
+U103713,2025-07-27,Hyderabad,android,Referral,0
+U103714,2025-06-27,Bengaluru,android,Organic,0
+U103715,2024-11-03,Chennai,android,Referral,0
+U103716,2025-02-05,Hyderabad,android,Organic,0
+U103717,2025-07-23,Bengaluru,web,Referral,0
+U103718,2024-11-23,Hyderabad,android,Google Ads,0
+U103719,2025-03-27,Delhi,ios,Google Ads,0
+U103720,2025-08-15,Kolkata,ios,Instagram,0
+U103721,2025-08-10,Pune,android,Google Ads,0
+U103722,2025-07-12,Hyderabad,android,Instagram,0
+U103723,2025-08-09,Delhi,ios,Referral,0
+U103724,2025-02-25,Jaipur,android,Organic,0
+U103725,2024-10-25,Chennai,android,Organic,0
+U103726,2025-05-10,Mumbai,web,Organic,0
+U103727,2025-07-30,Chennai,android,Google Ads,0
+U103728,2025-06-05,Bengaluru,android,Referral,0
+U103729,2025-06-08,Mumbai,android,Referral,0
+U103730,2024-11-10,Hyderabad,android,Google Ads,0
+U103731,2025-08-03,Delhi,android,Organic,0
+U103732,2024-11-17,Delhi,ios,Instagram,0
+U103733,2024-10-09,Kolkata,android,Organic,0
+U103734,2025-07-20,Mumbai,android,Referral,0
+U103735,2025-07-31,Bengaluru,android,Organic,0
+U103736,2024-12-19,Jaipur,web,Organic,0
+U103737,2025-04-26,Jaipur,android,Organic,0
+U103738,2024-12-27,Bengaluru,android,Google Ads,0
+U103739,2025-08-03,Mumbai,android,Referral,0
+U103740,2025-07-30,Mumbai,android,Google Ads,0
+U103741,2025-04-13,Delhi,android,Organic,0
+U103742,2025-04-19,Delhi,web,Referral,0
+U103743,2025-07-19,Jaipur,android,Google Ads,0
+U103744,2025-07-11,Lucknow,ios,Organic,0
+U103745,2025-05-31,Pune,ios,Organic,0
+U103746,2025-06-26,Pune,ios,Google Ads,0
+U103747,2025-08-17,Pune,android,Referral,0
+U103748,2025-04-24,Hyderabad,android,Google Ads,0
+U103749,2025-06-18,Jaipur,android,Referral,0
+U103750,2025-08-14,Delhi,android,Organic,0
+U103751,2025-06-05,Chennai,android,Organic,0
+U103752,2024-10-28,Delhi,android,Organic,0
+U103753,2024-11-24,Delhi,ios,Organic,0
+U103754,2025-03-11,Bengaluru,web,Google Ads,0
+U103755,2025-01-31,Bengaluru,android,Google Ads,0
+U103756,2024-12-29,Hyderabad,web,Referral,0
+U103757,2025-06-02,Delhi,android,Referral,0
+U103758,2025-08-19,Delhi,web,Google Ads,0
+U103759,2024-12-30,Ahmedabad,android,Instagram,0
+U103760,2025-08-20,Pune,android,Organic,0
+U103761,2025-05-28,Ahmedabad,ios,Referral,0
+U103762,2025-08-07,Hyderabad,android,Referral,0
+U103763,2024-12-17,Mumbai,ios,Organic,0
+U103764,2025-06-12,Mumbai,android,Referral,0
+U103765,2025-05-14,Hyderabad,web,Google Ads,0
+U103766,2025-07-16,Chennai,ios,Organic,0
+U103767,2025-07-21,Kolkata,android,Referral,0
+U103768,2025-07-08,Pune,android,Organic,0
+U103769,2024-12-31,Mumbai,ios,Organic,0
+U103770,2025-03-08,Mumbai,android,Referral,0
+U103771,2024-11-18,Mumbai,web,Organic,0
+U103772,2025-05-14,Kolkata,android,Google Ads,0
+U103773,2025-08-01,Delhi,android,Instagram,0
+U103774,2025-05-25,Hyderabad,android,Organic,0
+U103775,2024-12-28,Pune,android,Referral,0
+U103776,2025-08-25,Jaipur,web,Referral,0
+U103777,2025-08-03,Hyderabad,android,Referral,0
+U103778,2025-02-14,Pune,web,Google Ads,0
+U103779,2025-07-05,Hyderabad,android,Organic,0
+U103780,2025-06-22,Bengaluru,ios,Referral,0
+U103781,2025-08-28,Mumbai,android,Google Ads,0
+U103782,2025-05-24,Ahmedabad,ios,Organic,0
+U103783,2025-05-27,Bengaluru,android,Google Ads,0
+U103784,2025-08-22,Hyderabad,android,Referral,0
+U103785,2025-08-21,Chennai,android,Organic,0
+U103786,2025-01-14,Pune,android,Instagram,0
+U103787,2025-08-17,Delhi,ios,Organic,0
+U103788,2025-07-15,Mumbai,ios,Google Ads,0
+U103789,2025-08-06,Mumbai,ios,Referral,0
+U103790,2024-11-09,Hyderabad,android,Google Ads,0
+U103791,2025-06-11,Delhi,web,Google Ads,0
+U103792,2025-06-12,Delhi,android,Organic,0
+U103793,2025-03-17,Mumbai,web,Instagram,0
+U103794,2024-12-28,Bengaluru,ios,Referral,0
+U103795,2025-07-17,Chennai,ios,Referral,0
+U103796,2024-12-28,Delhi,android,Referral,0
+U103797,2025-08-25,Jaipur,android,Instagram,0
+U103798,2025-07-16,Hyderabad,android,Instagram,0
+U103799,2025-08-30,Pune,android,Organic,0
+U103800,2025-06-09,Hyderabad,android,Google Ads,0
+U103801,2025-06-27,Ahmedabad,android,Instagram,0
+U103802,2025-07-29,Chennai,web,Organic,0
+U103803,2025-03-15,Hyderabad,android,Organic,0
+U103804,2025-06-27,Chennai,web,Organic,0
+U103805,2025-07-11,Chennai,android,Organic,0
+U103806,2025-02-25,Mumbai,ios,Referral,0
+U103807,2025-08-16,Ahmedabad,web,Google Ads,0
+U103808,2025-07-30,Hyderabad,android,Google Ads,0
+U103809,2025-08-25,Ahmedabad,android,Instagram,0
+U103810,2025-08-22,Kochi,android,Referral,0
+U103811,2025-01-01,Kolkata,ios,Instagram,0
+U103812,2025-06-19,Delhi,android,Google Ads,0
+U103813,2025-05-15,Kolkata,android,Referral,0
+U103814,2025-07-22,Delhi,android,Google Ads,0
+U103815,2025-07-07,Chennai,android,Google Ads,0
+U103816,2025-08-26,Mumbai,android,Organic,0
+U103817,2024-12-04,Mumbai,android,Referral,0
+U103818,2025-06-24,Bengaluru,ios,Google Ads,0
+U103819,2025-08-01,Lucknow,android,Google Ads,0
+U103820,2024-11-15,Kolkata,ios,Referral,0
+U103821,2025-07-26,Jaipur,android,Instagram,0
+U103822,2025-02-04,Delhi,android,Organic,0
+U103823,2025-07-30,Kolkata,android,Organic,0
+U103824,2025-03-12,Hyderabad,android,Instagram,0
+U103825,2025-08-25,Kolkata,android,Google Ads,0
+U103826,2025-08-03,Kochi,android,Referral,0
+U103827,2024-11-02,Delhi,ios,Organic,0
+U103828,2025-05-14,Lucknow,ios,Instagram,0
+U103829,2024-11-12,Bengaluru,android,Google Ads,0
+U103830,2025-03-13,Bengaluru,android,Organic,0
+U103831,2025-02-27,Bengaluru,android,Google Ads,0
+U103832,2025-07-23,Chennai,android,Instagram,0
+U103833,2025-07-01,Pune,web,Organic,0
+U103834,2024-11-09,Kolkata,android,Organic,0
+U103835,2025-06-27,Chennai,android,Organic,0
+U103836,2025-06-08,Pune,ios,Google Ads,0
+U103837,2025-05-15,Bengaluru,android,Google Ads,0
+U103838,2025-07-04,Mumbai,android,Instagram,0
+U103839,2025-06-09,Bengaluru,android,Organic,0
+U103840,2025-07-05,Mumbai,ios,Referral,0
+U103841,2025-06-28,Bengaluru,android,Google Ads,0
+U103842,2025-07-13,Bengaluru,android,Instagram,0
+U103843,2025-03-03,Kochi,android,Organic,0
+U103844,2025-04-01,Delhi,android,Referral,0
+U103845,2024-10-07,Chennai,ios,Organic,0
+U103846,2025-07-15,Kochi,android,Referral,0
+U103847,2025-08-13,Lucknow,android,Referral,0
+U103848,2025-08-13,Hyderabad,android,Organic,0
+U103849,2025-08-29,Pune,ios,Organic,0
+U103850,2024-11-12,Kolkata,android,Google Ads,0
+U103851,2025-07-12,Mumbai,ios,Instagram,0
+U103852,2025-07-19,Hyderabad,android,Google Ads,0
+U103853,2025-07-30,Bengaluru,ios,Google Ads,0
+U103854,2025-08-07,Kochi,android,Referral,0
+U103855,2025-02-20,Ahmedabad,android,Google Ads,0
+U103856,2025-08-26,Kolkata,web,Google Ads,0
+U103857,2025-07-22,Hyderabad,android,Organic,0
+U103858,2025-07-16,Mumbai,android,Organic,0
+U103859,2025-03-02,Hyderabad,ios,Organic,0
+U103860,2024-12-04,Jaipur,android,Google Ads,0
+U103861,2025-08-28,Kolkata,android,Google Ads,0
+U103862,2025-04-03,Hyderabad,android,Instagram,0
+U103863,2025-06-11,Mumbai,android,Organic,0
+U103864,2025-08-14,Mumbai,ios,Organic,0
+U103865,2025-08-07,Ahmedabad,android,Instagram,0
+U103866,2025-01-30,Hyderabad,android,Referral,0
+U103867,2025-07-08,Mumbai,android,Referral,0
+U103868,2025-01-12,Bengaluru,android,Referral,0
+U103869,2024-10-05,Hyderabad,web,Organic,0
+U103870,2025-07-14,Delhi,android,Google Ads,0
+U103871,2025-08-19,Chennai,android,Organic,0
+U103872,2025-05-19,Jaipur,android,Google Ads,0
+U103873,2025-06-06,Mumbai,android,Referral,0
+U103874,2025-01-02,Pune,android,Google Ads,0
+U103875,2025-07-30,Kochi,android,Referral,0
+U103876,2025-07-05,Ahmedabad,android,Google Ads,0
+U103877,2025-07-20,Hyderabad,android,Instagram,0
+U103878,2025-01-25,Ahmedabad,android,Organic,0
+U103879,2025-08-29,Hyderabad,android,Instagram,0
+U103880,2025-08-07,Chennai,android,Instagram,0
+U103881,2024-10-21,Mumbai,android,Organic,0
+U103882,2025-06-22,Delhi,android,Instagram,0
+U103883,2025-07-22,Hyderabad,android,Referral,0
+U103884,2025-06-22,Hyderabad,android,Organic,0
+U103885,2025-01-20,Mumbai,android,Organic,0
+U103886,2025-08-24,Mumbai,android,Organic,0
+U103887,2025-08-23,Pune,web,Instagram,0
+U103888,2024-10-06,Chennai,web,Instagram,0
+U103889,2025-01-16,Delhi,android,Organic,0
+U103890,2024-10-27,Kochi,android,Organic,0
+U103891,2025-08-23,Kochi,android,Organic,0
+U103892,2025-08-30,Delhi,android,Instagram,0
+U103893,2025-08-07,Bengaluru,ios,Organic,0
+U103894,2025-07-29,Lucknow,android,Google Ads,0
+U103895,2025-06-11,Pune,android,Organic,0
+U103896,2025-08-20,Bengaluru,ios,Google Ads,0
+U103897,2024-11-15,Hyderabad,android,Google Ads,0
+U103898,2025-03-30,Delhi,web,Referral,0
+U103899,2025-01-09,Pune,android,Referral,0
+U103900,2024-12-09,Bengaluru,android,Organic,0
+U103901,2025-08-25,Bengaluru,android,Referral,0
+U103902,2025-07-08,Delhi,android,Organic,0
+U103903,2025-07-20,Bengaluru,android,Organic,0
+U103904,2024-10-27,Mumbai,android,Organic,0
+U103905,2025-08-11,Ahmedabad,android,Organic,0
+U103906,2025-05-14,Hyderabad,android,Organic,0
+U103907,2025-01-08,Pune,android,Referral,0
+U103908,2025-07-14,Bengaluru,android,Organic,0
+U103909,2025-07-05,Pune,ios,Organic,0
+U103910,2025-08-17,Pune,web,Referral,0
+U103911,2025-08-13,Delhi,android,Instagram,0
+U103912,2025-04-16,Mumbai,web,Google Ads,0
+U103913,2025-03-31,Kolkata,android,Organic,0
+U103914,2025-06-12,Pune,android,Google Ads,0
+U103915,2025-07-24,Mumbai,android,Organic,0
+U103916,2025-08-08,Hyderabad,android,Organic,0
+U103917,2025-08-24,Mumbai,ios,Google Ads,0
+U103918,2025-07-25,Pune,ios,Google Ads,0
+U103919,2024-12-27,Kolkata,web,Organic,0
+U103920,2025-02-28,Delhi,web,Organic,0
+U103921,2024-10-23,Kolkata,ios,Referral,0
+U103922,2025-07-19,Hyderabad,android,Organic,0
+U103923,2025-07-02,Bengaluru,android,Organic,0
+U103924,2025-07-01,Pune,android,Organic,0
+U103925,2025-04-01,Bengaluru,android,Organic,0
+U103926,2025-08-04,Delhi,ios,Referral,0
+U103927,2025-04-26,Kolkata,android,Google Ads,0
+U103928,2025-08-15,Hyderabad,android,Organic,0
+U103929,2025-07-30,Lucknow,android,Instagram,0
+U103930,2025-03-12,Delhi,android,Organic,0
+U103931,2025-07-03,Kolkata,android,Instagram,0
+U103932,2025-08-12,Hyderabad,android,Google Ads,0
+U103933,2025-06-10,Mumbai,ios,Instagram,0
+U103934,2025-08-29,Bengaluru,android,Organic,0
+U103935,2025-06-30,Jaipur,android,Organic,0
+U103936,2025-04-06,Mumbai,ios,Instagram,0
+U103937,2025-08-05,Bengaluru,android,Organic,0
+U103938,2025-08-23,Ahmedabad,android,Google Ads,0
+U103939,2025-08-02,Pune,android,Organic,0
+U103940,2025-08-05,Delhi,android,Google Ads,0
+U103941,2024-10-04,Hyderabad,android,Referral,0
+U103942,2024-10-01,Pune,android,Instagram,1
+U103943,2025-03-04,Hyderabad,android,Instagram,0
+U103944,2025-08-30,Hyderabad,android,Organic,0
+U103945,2025-08-17,Delhi,android,Google Ads,0
+U103946,2024-12-10,Delhi,android,Referral,0
+U103947,2025-07-13,Bengaluru,android,Organic,0
+U103948,2025-07-19,Hyderabad,android,Instagram,0
+U103949,2025-07-02,Mumbai,android,Referral,0
+U103950,2025-07-19,Kolkata,android,Instagram,0
+U103951,2024-10-17,Chennai,android,Instagram,0
+U103952,2025-08-29,Mumbai,android,Organic,0
+U103953,2025-04-14,Jaipur,android,Organic,0
+U103954,2025-06-09,Delhi,android,Google Ads,0
+U103955,2025-03-17,Bengaluru,ios,Organic,0
+U103956,2024-10-28,Hyderabad,android,Referral,0
+U103957,2024-11-11,Pune,android,Google Ads,0
+U103958,2025-08-18,Kolkata,android,Instagram,0
+U103959,2025-07-21,Delhi,ios,Organic,0
+U103960,2025-06-02,Bengaluru,android,Referral,0
+U103961,2025-08-17,Mumbai,android,Google Ads,0
+U103962,2025-05-07,Hyderabad,android,Organic,0
+U103963,2024-10-06,Hyderabad,web,Organic,0
+U103964,2025-03-25,Ahmedabad,android,Referral,0
+U103965,2025-06-15,Delhi,web,Instagram,0
+U103966,2025-07-18,Mumbai,android,Instagram,0
+U103967,2025-04-15,Ahmedabad,ios,Organic,0
+U103968,2024-11-24,Bengaluru,android,Organic,0
+U103969,2024-10-26,Mumbai,android,Organic,0
+U103970,2025-06-18,Jaipur,android,Organic,0
+U103971,2025-05-29,Jaipur,android,Instagram,0
+U103972,2025-08-23,Kochi,android,Referral,0
+U103973,2025-02-01,Kolkata,ios,Google Ads,0
+U103974,2025-07-15,Bengaluru,android,Organic,0
+U103975,2024-11-13,Delhi,android,Organic,0
+U103976,2024-11-17,Bengaluru,android,Referral,0
+U103977,2025-03-02,Kolkata,android,Referral,0
+U103978,2025-05-23,Bengaluru,android,Organic,0
+U103979,2025-04-24,Delhi,android,Organic,0
+U103980,2025-03-09,Delhi,android,Referral,0
+U103981,2025-08-13,Delhi,android,Referral,0
+U103982,2025-08-06,Chennai,ios,Referral,0
+U103983,2025-08-20,Jaipur,android,Organic,0
+U103984,2025-07-19,Kochi,android,Organic,0
+U103985,2025-08-01,Kochi,android,Organic,0
+U103986,2024-12-28,Pune,android,Instagram,0
+U103987,2025-04-01,Kolkata,android,Referral,0
+U103988,2025-07-04,Mumbai,web,Referral,0
+U103989,2025-07-21,Kolkata,ios,Organic,0
+U103990,2025-06-27,Delhi,android,Referral,0
+U103991,2025-05-15,Ahmedabad,android,Referral,0
+U103992,2025-06-09,Bengaluru,android,Google Ads,0
+U103993,2025-08-22,Mumbai,android,Organic,0
+U103994,2025-07-02,Pune,android,Referral,0
+U103995,2025-03-02,Delhi,android,Organic,0
+U103996,2024-10-30,Bengaluru,android,Organic,0
+U103997,2024-10-01,Delhi,android,Google Ads,1
+U103998,2025-07-27,Hyderabad,web,Instagram,0
+U103999,2025-03-01,Bengaluru,ios,Organic,0
+U104000,2025-07-20,Hyderabad,android,Organic,0

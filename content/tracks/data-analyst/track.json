@@ -1,7 +1,145 @@
 {
   "id": "data-analyst",
   "title": "Data Analyst",
-  "short": "E-commerce analysis end to end: revenue trends, cohort retention, RFM segments, anomaly spotting and KPI definitions.",
+  "short": "E-commerce analysis end to end: revenue trends, category mix, cohort retention, RFM segments, anomaly spotting, KPI definitions and a Power BI dashboard.",
   "order": 2,
-  "status": "planned"
+  "status": "ready",
+  "role": {
+    "day": "A fresher data analyst at an Indian e-commerce, fintech or consumer company spends the day like this:\n\n- **Morning:** check that yesterday's dashboards refreshed and the numbers look sane. A sudden 40% drop is usually a broken pipeline, not a business crisis, and you are the first line of defence.\n- **Ad-hoc requests (40–60% of the time):** a category manager asks *\"why did Home & Kitchen dip last week?\"*, Finance needs a number for a review, Marketing wants a customer list. You write SQL, sanity-check it, and reply with a number plus one line of interpretation.\n- **Recurring reporting:** weekly business reviews, monthly MIS packs, KPI dashboards in Power BI or Tableau.\n- **Deeper analysis (when time allows):** cohort retention, customer segmentation, the impact of a sale or a price change.\n\nWhat separates good analysts early on: they **define metrics precisely**, **check data before trusting it**, and **lead with the answer** instead of the method.",
+    "teams": ["Category / Business teams", "Finance", "Marketing / CRM", "Product", "Data Engineering", "Leadership (weekly reviews)"],
+    "tools": ["SQL (MySQL, PostgreSQL, BigQuery, Snowflake)", "Excel / Google Sheets", "Power BI / Tableau / Looker", "Python (pandas)", "Jira", "Confluence / Notion"],
+    "keywords": ["SQL", "Excel", "Power BI", "Tableau", "Python", "Data Visualization", "Dashboards", "KPIs", "Data Cleaning", "Statistics", "Cohort Analysis", "Customer Segmentation", "A/B Testing", "Business Insights", "Stakeholder Management"]
+  },
+  "capstone": {
+    "title": "Bazaarly customer health deep-dive",
+    "brief": "Bazaarly's CEO asks: **\"Are we growing by finding new customers or by keeping old ones, and who should CRM focus on next quarter?\"** Build a short analysis notebook that answers this with evidence. Use the orders and customers data; clean it the way you learned in this track.",
+    "steps": [
+      "Clean: de-duplicate orders, convert to IST, fix category labels, merge duplicate customer accounts by email.",
+      "Split FY2024-25 net revenue into new vs returning customers by month.",
+      "Build the cohort retention table (first-order month cohorts, months 0–3) and describe the pattern.",
+      "Score customers with RFM and size each segment by customers and revenue.",
+      "Recommend two CRM actions, each tied to a segment, an expected impact and a metric to track."
+    ],
+    "deliverables": [
+      "customer_health.ipynb: the notebook, top to bottom runnable",
+      "README.md: the question, a 150-word answer, and 3 charts",
+      "queries.sql: any SQL you used"
+    ],
+    "template": {
+      "filename": "customer_health.ipynb",
+      "content": "{\n \"cells\": [\n  {\"cell_type\": \"markdown\", \"metadata\": {}, \"source\": [\"# Bazaarly customer health deep-dive\\n\", \"\\n\", \"**Question:** Are we growing by finding new customers or by keeping old ones, and who should CRM focus on next quarter?\\n\", \"\\n\", \"**Answer (fill in last):** ...\"]},\n  {\"cell_type\": \"code\", \"execution_count\": null, \"metadata\": {}, \"outputs\": [], \"source\": [\"import pandas as pd\\n\", \"orders = pd.read_csv('orders.csv')\\n\", \"customers = pd.read_csv('customers.csv')\"]},\n  {\"cell_type\": \"markdown\", \"metadata\": {}, \"source\": [\"## 1. Data checks and cleaning\"]},\n  {\"cell_type\": \"code\", \"execution_count\": null, \"metadata\": {}, \"outputs\": [], \"source\": [\"# duplicates, IST conversion, category labels, duplicate customer accounts\"]},\n  {\"cell_type\": \"markdown\", \"metadata\": {}, \"source\": [\"## 2. New vs returning revenue by month\"]},\n  {\"cell_type\": \"code\", \"execution_count\": null, \"metadata\": {}, \"outputs\": [], \"source\": []},\n  {\"cell_type\": \"markdown\", \"metadata\": {}, \"source\": [\"## 3. Cohort retention\"]},\n  {\"cell_type\": \"code\", \"execution_count\": null, \"metadata\": {}, \"outputs\": [], \"source\": []},\n  {\"cell_type\": \"markdown\", \"metadata\": {}, \"source\": [\"## 4. RFM segments\"]},\n  {\"cell_type\": \"code\", \"execution_count\": null, \"metadata\": {}, \"outputs\": [], \"source\": []},\n  {\"cell_type\": \"markdown\", \"metadata\": {}, \"source\": [\"## 5. Recommendations\\n\", \"\\n\", \"1. Segment / action / expected impact / metric\\n\", \"2. ...\"]}\n ],\n \"metadata\": {\"kernelspec\": {\"display_name\": \"Python 3\", \"language\": \"python\", \"name\": \"python3\"}},\n \"nbformat\": 4,\n \"nbformat_minor\": 5\n}\n"
+    }
+  },
+  "interview": [
+    {
+      "type": "Technical",
+      "q": "Write a query to find the second-highest order value per customer.",
+      "a": "Use a window function so ties and customers with one order are handled explicitly:\n\n```sql\nSELECT customer_id, net_amount_inr\nFROM (\n  SELECT customer_id, net_amount_inr,\n         DENSE_RANK() OVER (PARTITION BY customer_id ORDER BY net_amount_inr DESC) AS rk\n  FROM orders\n) t\nWHERE rk = 2;\n```\n\nMention the choice: `DENSE_RANK` returns the second *distinct* value; `ROW_NUMBER` returns the second row even if it ties with the first."
+    },
+    {
+      "type": "Technical",
+      "q": "What is the difference between INNER, LEFT and FULL OUTER joins? When does a LEFT JOIN behave like an INNER JOIN by accident?",
+      "a": "INNER keeps matching rows only; LEFT keeps every left row and fills NULLs where there's no match; FULL keeps unmatched rows from both sides.\n\nThe trap: a `WHERE` condition on the *right* table (e.g. `WHERE o.order_status = 'Delivered'`) removes the NULL rows, silently turning the LEFT JOIN into an INNER JOIN. Put that condition in the `ON` clause instead if you want to keep customers with no delivered orders."
+    },
+    {
+      "type": "Technical",
+      "q": "How do you calculate month-over-month growth in SQL?",
+      "a": "Aggregate to one row per month, then use `LAG`:\n\n```sql\nWITH m AS (SELECT DATE_TRUNC('month', order_date) AS month, SUM(revenue) AS rev FROM orders GROUP BY 1)\nSELECT month, rev,\n       100.0 * (rev - LAG(rev) OVER (ORDER BY month)) / LAG(rev) OVER (ORDER BY month) AS mom_pct\nFROM m;\n```\n\nPoints that impress: filter the period *after* computing LAG (or the first month has no comparison), handle division by zero with `NULLIF`, and say whether months with zero sales need to be filled in."
+    },
+    {
+      "type": "Technical",
+      "q": "What is a CTE and when would you use one instead of a subquery?",
+      "a": "A Common Table Expression (`WITH name AS (...)`) is a named, temporary result used in the next query. Use it to break a query into readable steps (clean → aggregate → rank), to reuse the same intermediate result twice, and for recursion. Performance is usually the same as a subquery; the main win is readability and easier debugging, since you can run each step on its own."
+    },
+    {
+      "type": "Technical",
+      "q": "COUNT(*), COUNT(column) and COUNT(DISTINCT column): what is the difference?",
+      "a": "`COUNT(*)` counts rows. `COUNT(col)` counts non-NULL values in that column. `COUNT(DISTINCT col)` counts unique non-NULL values. Comparing `COUNT(*)` with `COUNT(DISTINCT order_id)` is the fastest duplicate check on a fact table."
+    },
+    {
+      "type": "Technical",
+      "q": "In pandas, how do you handle missing values? How do you decide what to do?",
+      "a": "First measure (`df.isna().mean()`), then understand *why* values are missing. Options: drop rows (`dropna`) when few and random; fill with a sensible value (`fillna`: 0 for 'no purchases', median for skewed numbers, 'Unknown' for categories); or leave them and handle at reporting time. Never fill without thinking: filling a missing city with the mode invents data. And watch `astype(str)`, which turns NaN into the text 'nan'."
+    },
+    {
+      "type": "Technical",
+      "q": "Explain groupby + agg + transform in pandas with an example.",
+      "a": "`groupby('state')['revenue'].sum()` collapses to one row per group. `.agg(['sum','mean','count'])` computes several aggregates at once. `.transform('sum')` returns a value **for every original row** (the group total), handy for share-of-total: `df['share'] = df['revenue'] / df.groupby('state')['revenue'].transform('sum')`."
+    },
+    {
+      "type": "Technical",
+      "q": "Mean vs median: which would you report for average order value and why?",
+      "a": "Order values are right-skewed: a few bulk orders pull the mean up. Report the **median** for the 'typical' order and the **mean** when you need it to multiply back to revenue (AOV × orders = revenue). Best practice: show both and say which is which. In the Bazaarly data, three B2B orders of ₹4.5–6 lakh visibly move the mean but not the median."
+    },
+    {
+      "type": "Technical",
+      "q": "What is cohort analysis and why is it better than looking at overall retention?",
+      "a": "Group customers by when they started (e.g. first-order month) and track what share is still active in later months. Overall retention mixes old loyal customers with new ones, so growth in new users can hide a worsening retention curve. Cohorts let you see whether *newer* customers retain better or worse, e.g. whether festive-sale cohorts churn faster than organic ones."
+    },
+    {
+      "type": "Technical",
+      "q": "What is RFM segmentation?",
+      "a": "Score each customer on **Recency** (days since last purchase), **Frequency** (number of purchases) and **Monetary** value (total spend), usually as quintiles 1–5. Combine scores into segments such as Champions (recent, frequent), At risk (used to buy often, not recently) and Hibernating. It's simple, explainable to CRM teams, and needs only an orders table."
+    },
+    {
+      "type": "Technical",
+      "q": "How would you detect anomalies in daily revenue?",
+      "a": "Compare each day with a robust baseline: a trailing 7- or 28-day median (robust to the spike itself) or the same weekday last week. Flag days outside a threshold (e.g. ratio > 2.5× or < 0.4×, or a robust z-score > 3.5). Then **classify** flags: expected seasonality (Diwali), a genuine business event (bulk order), or a data problem (pipeline gap, double load, coupon bug). Only the last two need action."
+    },
+    {
+      "type": "Technical",
+      "q": "In Power BI, what is the difference between a calculated column and a measure?",
+      "a": "A **calculated column** is computed row by row at refresh time and stored in the model (like adding a column in SQL); use it for slicing and filtering, e.g. `Order Month`. A **measure** is computed at query time in the current filter context (like `SUM` in a `GROUP BY`); use it for aggregations, e.g. `Net Revenue = CALCULATE(SUM(orders[net_amount_inr]), orders[order_status] = \"Delivered\")`. Prefer measures for anything aggregated."
+    },
+    {
+      "type": "Technical",
+      "q": "What does CALCULATE do in DAX?",
+      "a": "It evaluates an expression in a **modified filter context**. `CALCULATE([Net Revenue], customers[state] = \"Karnataka\")` adds a filter; `CALCULATE([Net Revenue], ALL(dates))` removes date filters (useful for share of total); `CALCULATE([Net Revenue], DATEADD(dates[date], -1, MONTH))` shifts time for MoM. SQL analogy: a `WHERE` clause applied only to that one measure."
+    },
+    {
+      "type": "Case",
+      "q": "Orders are flat but revenue grew 12% this month. What could explain it?",
+      "a": "Revenue = orders × AOV, so AOV rose ~12%. Check: (1) **mix**: more electronics (high AOV) vs grocery; (2) **lower discounts**; (3) **price increases**; (4) **a few bulk orders** (check median AOV too); (5) **data**: a change in what's counted (GST now included? cancelled orders no longer excluded?). Segment by category and customer type, and compare median vs mean AOV to separate a broad shift from outliers."
+    },
+    {
+      "type": "Case",
+      "q": "The CEO says 'our repeat rate dropped from 35% to 28%'. How do you investigate?",
+      "a": "1. **Confirm the definition** (repeat within what window? customers or orders?) and that it didn't change. 2. **Check mix**: a big acquisition campaign brings many first-time buyers who haven't had time to repeat, so the rate drops mechanically. Look by cohort. 3. **Segment** by channel, city, category. 4. **Look for experience issues**: delivery delays, stock-outs, cancellations. 5. Report: \"Most of the drop is mix from the Diwali cohort; like-for-like cohorts are down only 2 points.\""
+    },
+    {
+      "type": "Case",
+      "q": "Marketing wants a list of 'high-value customers' for a campaign. What do you ask before writing SQL?",
+      "a": "What's the goal (retain, upsell, reactivate)? What does high-value mean: lifetime spend, last 12 months, margin, frequency? Should cancelled/returned orders count? Exclude B2B, employees, test accounts? Contact consent and channel (SMS/WhatsApp)? How many customers can they handle? Then propose a definition, share the count, and sanity-check a few customers manually."
+    },
+    {
+      "type": "Case",
+      "q": "Two dashboards show different revenue for last month. How do you reconcile them?",
+      "a": "List the differences in definition, one by one: gross vs net, GST included or not, order date vs delivery date, IST vs UTC, which statuses count, de-duplication, refresh time. Rebuild both numbers from the raw table and create a bridge: Dashboard A → minus cancellations → minus returns → timezone shift → Dashboard B. Then agree one definition and document it in the KPI dictionary."
+    },
+    {
+      "type": "Guesstimate",
+      "q": "Estimate the number of food delivery orders in Bengaluru on a weekday.",
+      "a": "~14 mn people → ~4 mn households. Urban app-using households ~50% → 2 mn. Average ordering frequency ~2 orders/week → 4 mn/week → ~0.55 mn/day. Weekdays slightly below average: say **~0.45–0.5 mn orders/day**. State assumptions, then sanity-check: per-city restaurant capacity, or dividing a known national figure by Bengaluru's share."
+    },
+    {
+      "type": "Guesstimate",
+      "q": "How many people in India would buy a smartphone this Diwali month?",
+      "a": "~1.4 bn people, ~700 mn smartphone users. Replacement cycle ~3 years → ~230 mn phones/year, ~19 mn/month on average. Festive month is roughly 1.5–2× an average month → **~30–38 mn**. Mention new users (first smartphone) as an add-on and festive financing (EMIs) as the driver."
+    },
+    {
+      "type": "Behavioural",
+      "q": "Tell me about a time your analysis changed a decision.",
+      "a": "STAR: *Situation*: festive-sale review in an internship project. *Task*: explain the revenue spike. *Action*: decomposed revenue into orders × AOV × category mix and found electronics drove two-thirds of the uplift while COD cancellations doubled. *Result*: the team added a UPI incentive for COD buyers in the next sale plan. Quantify the result even if approximate, and own your part."
+    },
+    {
+      "type": "Behavioural",
+      "q": "How do you handle a stakeholder who wants a number 'by end of day' when the data is messy?",
+      "a": "Give a **fast, caveated estimate** with the assumptions stated, then a **firm number** later: \"Today: ₹2.4 crore ± 3%, excluding the duplicate batch I'm still checking. Tomorrow 11 am: the reconciled figure.\" Never send an unchecked number silently, and never sit on it either."
+    },
+    {
+      "type": "Behavioural",
+      "q": "Why do you want to be a data analyst rather than a data scientist?",
+      "a": "Be honest and specific: you enjoy being close to business decisions, turning questions into numbers people act on this week, and the breadth of problems. Connect to your background: \"My M.Tech gave me ML depth, but in my internships the most valuable work was cleaning the data and explaining the answer to a business team. I want to build that foundation, and the ML skills make my analyses more rigorous.\""
+    }
+  ]
 }

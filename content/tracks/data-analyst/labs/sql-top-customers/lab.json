@@ -1,0 +1,23 @@
+{
+  "id": "sql-top-customers",
+  "title": "Top 10 customers, counted as people not accounts",
+  "order": 3,
+  "difficulty": "Intermediate",
+  "minutes": 20,
+  "skills": ["SQL joins", "RANK", "QUALIFY", "Entity resolution"],
+  "workspace": "sql",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Arjun Menon", "role": "CRM Lead" },
+  "scenario": "Bazaarly is launching *Bazaarly Gold*, an invite-only programme for its best customers. Arjun will personally call the top 10. Last time, two of the people on his list turned out to be the same person with two accounts, which was embarrassing.\n\n> \"Who are our top 10 customers by FY24-25 spend? Count a person once even if they have two accounts.\"",
+  "task": "Treat accounts with the same email (ignoring case and spaces) as one person. Return **four columns** for the top 10 people by FY2024-25 net revenue (Delivered, IST, de-duplicated orders), sorted by rank:\n\n1. `customer_email`: lower-cased, trimmed email\n2. `order_count`: number of delivered orders\n3. `net_revenue`: rounded to 2 decimals\n4. `revenue_rank`: 1 = highest (use `RANK()`)",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders", "customers"] }],
+  "hints": [
+    "Build a `people` CTE: `SELECT customer_id, lower(trim(email)) AS customer_email FROM customers`.",
+    "Join orders to `people` and `GROUP BY customer_email`, not `customer_id`.",
+    "`RANK() OVER (ORDER BY net_revenue DESC)` ranks the people. DuckDB's `QUALIFY revenue_rank <= 10` filters on a window function without another subquery.",
+    "Look at ranks 1 and 2. Are those normal retail customers? (Worth a note to Arjun.)"
+  ],
+  "explanation": "**Entity resolution** (deciding which records are the same real-world thing) is everyday analyst work. Here the email is a reliable key once normalised; in real data you may combine phone, name and address.\n\n`QUALIFY` is to window functions what `HAVING` is to aggregates. In databases without it (MySQL, SQL Server), wrap the query and filter in an outer `WHERE`.\n\n**Read the output:** the top two people are there because of single bulk orders of ₹4–6 lakh (B2B buyers). A good analyst adds: *\"Ranks 1–2 look like business buyers; consider a separate B2B programme and inviting ranks 3–12 instead.\"*",
+  "interview": "*\"For a loyalty programme invite list, I ranked customers by annual spend after merging duplicate accounts on normalised email, since some people had signed up twice. I also flagged that the top two were bulk B2B buyers, so the CRM team created a separate B2B track and the retail list reflected genuinely loyal customers.\"*\n\nExpect: **\"RANK vs DENSE_RANK vs ROW_NUMBER for a top-10?\"** With ties, RANK can return more than 10 rows; ROW_NUMBER always returns exactly 10 but breaks ties arbitrarily.",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}

@@ -1,7 +1,141 @@
 {
   "id": "product-analyst",
   "title": "Product Analyst",
-  "short": "Funnels, feature adoption, A/B tests with significance and sample size, metric trees and north-star metrics.",
+  "short": "Funnels, platform segmentation, event data quality, feature adoption, retention, A/B tests with significance and sample size, metric trees and north-star metrics.",
   "order": 4,
-  "status": "planned"
+  "status": "ready",
+  "role": {
+    "day": "Product analysts sit inside a product team (PM, designers, engineers) at app-first companies: food and grocery delivery, fintech, edtech, travel, gaming. A typical week:\n\n- **Before a launch:** define the success metric with the PM, check the events are tracked correctly, and size the experiment (how many users, how many weeks).\n- **During an experiment:** watch guardrails (crashes, payment failures) and sample ratio. Don't peek at the main metric and stop early.\n- **After:** read out the result with a confidence interval and a clear recommendation.\n- **Always:** funnels, retention curves and feature adoption dashboards; answering \"why did metric X move?\" by segmenting by platform, city, app version and user type.\n\nThe skill that stands out: turning a vague goal (\"make checkout better\") into a measurable metric, a testable hypothesis and an honest readout.",
+    "teams": ["Product managers", "Engineering", "Design / UX research", "Growth & marketing", "Data engineering"],
+    "tools": ["SQL", "Mixpanel / Amplitude / CleverTap", "Python (pandas, scipy)", "Looker / Metabase / Tableau", "Excel", "Jira"],
+    "keywords": ["Product Analytics", "SQL", "A/B Testing", "Funnel Analysis", "Retention", "Cohort Analysis", "Mixpanel", "Amplitude", "Python", "Statistics", "Hypothesis Testing", "Metrics Definition", "North Star Metric", "Dashboards", "Experimentation"]
+  },
+  "capstone": {
+    "title": "Swaadly Q3 product review",
+    "brief": "Swaadly's CPO wants a product review of June–August 2025 before planning Q4: **\"What should we fix, what should we double down on, and what should we test next?\"** Write a 2-page review backed by your analysis.",
+    "steps": [
+      "Validate the data: internal accounts, double-fired payments, double-bucketed experiment users.",
+      "Funnel by platform: where does each platform lose users? Size the biggest leak in orders per week.",
+      "Retention: D1/D7 by signup week. Is anything changing?",
+      "Reorder: adoption trend, plus a proposal for measuring its incremental impact.",
+      "checkout_v2: the readout with effect, CI and recommendation.",
+      "Next test: hypothesis, primary metric, guardrails, sample size and duration."
+    ],
+    "deliverables": [
+      "product_review.md: the 2-page review with the decision for each area",
+      "analysis.sql and/or analysis.ipynb: every number traceable to a query",
+      "experiment_plan.md: the next test's one-page plan"
+    ],
+    "template": {
+      "filename": "product_review.md",
+      "content": "# Swaadly Q3 product review (June–August 2025)\n\n**Author:** \n**Date:** \n\n## TL;DR (3 bullets)\n- Fix: \n- Double down: \n- Test next: \n\n## 1. Data health\n| Issue | Impact | How handled |\n|---|---|---|\n| Internal accounts | | |\n| Double-fired payment events | | |\n| Users in both experiment arms | | |\n\n## 2. Funnel by platform\n\n## 3. Retention (D1 / D7)\n\n## 4. Reorder adoption and impact\n\n## 5. checkout_v2 readout\n- Primary metric:\n- Control vs treatment:\n- Lift, 95% CI, p-value:\n- SRM check:\n- Recommendation:\n\n## 6. Next experiment plan\n- Hypothesis:\n- Primary metric:\n- Guardrail metrics:\n- MDE, alpha, power, sample size per arm:\n- Duration:\n"
+    }
+  },
+  "interview": [
+    {
+      "type": "Technical",
+      "q": "What is a p-value? What is it not?",
+      "a": "The probability of observing a difference at least as extreme as the one you saw **if there were truly no effect** (under the null hypothesis). It is **not** the probability that the treatment works, not the probability the result is a fluke, and not a measure of effect size. A tiny, useless effect can have a tiny p-value with enough users."
+    },
+    {
+      "type": "Technical",
+      "q": "Explain Type I and Type II errors, significance level and power.",
+      "a": "**Type I** (false positive): you conclude there's an effect when there isn't; its rate is α (often 5%). **Type II** (false negative): you miss a real effect; its rate is β. **Power = 1 − β** (often 80%): the chance of detecting an effect of the size you care about (the MDE). Lowering α or the MDE, or raising power, all increase the sample size."
+    },
+    {
+      "type": "Technical",
+      "q": "What is the minimum detectable effect (MDE), and how does it affect sample size?",
+      "a": "The smallest true effect your test is designed to detect reliably at your chosen α and power. Sample size scales roughly with **1/MDE²**: halving the MDE needs ~4× the users. Choose the MDE from business value (\"what lift would justify building this?\"), not from what's convenient."
+    },
+    {
+      "type": "Technical",
+      "q": "What is a sample ratio mismatch (SRM) and why does it matter?",
+      "a": "When the observed split between variants differs from the design (e.g. 52/48 on a 50/50 test) by more than chance allows; check with a chi-square test. It signals a bug in assignment, logging or filtering (e.g. treatment crashes before logging). With SRM, the groups aren't comparable, so **don't trust the result**; debug first."
+    },
+    {
+      "type": "Technical",
+      "q": "Why shouldn't you stop an A/B test as soon as it hits p < 0.05?",
+      "a": "**Peeking**: checking repeatedly and stopping at the first significant result inflates the false-positive rate well above 5%, because random fluctuations cross the threshold at some point. Fix the sample size in advance, or use a sequential testing method designed for continuous monitoring."
+    },
+    {
+      "type": "Technical",
+      "q": "What's the difference between a user-level and a session-level metric? When does it matter?",
+      "a": "User-level: one unit per person (\"share of users who ordered\"). Session-level: one unit per visit (\"share of checkout sessions that paid\"). It matters for the **question** (people vs visits) and for **statistics**: if you randomise by user but analyse sessions, sessions from the same user are correlated and naive tests understate variance."
+    },
+    {
+      "type": "Technical",
+      "q": "How do you write a funnel query from an events table?",
+      "a": "Define the ordered steps; for each step count `DISTINCT user_id` who did the event in the period (or, for a strict funnel, who did it after the previous step, using timestamps or window functions); then compute step-to-step and overall conversion with `LAG` and `FIRST_VALUE`. Exclude internal/test users and handle duplicated events."
+    },
+    {
+      "type": "Technical",
+      "q": "Classic, rolling and unbounded retention: what's the difference?",
+      "a": "**Classic (N-day)**: active **on** day N. **Rolling/range**: active within a window (days 1–7). **Unbounded**: active on day N **or any later day**, which only rises over time. They give very different numbers, so always state the definition and keep it consistent across cohorts."
+    },
+    {
+      "type": "Technical",
+      "q": "What is Simpson's paradox? Give a product example.",
+      "a": "A trend that appears in every subgroup reverses when the groups are combined, because the mix differs. Example: a new checkout improves conversion on both android and web, but overall conversion looks worse because the treatment group happened to get more web users (who convert less). Fix: compare within segments or ensure randomisation balances the mix."
+    },
+    {
+      "type": "Technical",
+      "q": "Pooled vs unpooled standard error in a two-proportion test?",
+      "a": "The **pooled** SE assumes the null (both groups share one rate) and is used for the z-test statistic. The **unpooled** SE uses each group's own rate and is used for the confidence interval of the difference. In practice they're close when the rates are similar."
+    },
+    {
+      "type": "Case",
+      "q": "Daily active users dropped 10% yesterday. Walk me through your investigation.",
+      "a": "1. **Is it real?** Check tracking: app release, SDK change, pipeline delay, a timezone shift. 2. **Is it everywhere?** Segment by platform, app version, city, new vs returning. A drop only on Android v5.2 points to a bug. 3. **External factors:** holiday, outage, cricket final, competitor promotion. 4. **Funnel position:** fewer app opens (acquisition, notifications) or opens without activity (a broken feature)? 5. Report the cause, the size and the owner, with a next step."
+    },
+    {
+      "type": "Case",
+      "q": "How would you measure the success of a new 'one-tap reorder' feature?",
+      "a": "Goal: faster, more frequent repeat orders. **Adoption**: % of ordering users using reorder per week. **Engagement**: reorders per adopter. **Impact** (the one that matters): incremental orders per user and time-to-order, measured with a holdout group, because adopters may simply be your most loyal users who would have ordered anyway. **Guardrails**: AOV, cancellation rate, restaurant discovery (are new restaurants losing out?)."
+    },
+    {
+      "type": "Case",
+      "q": "The PM wants to test 5 button colours and 3 headlines at once. What do you advise?",
+      "a": "That's 15 variants: traffic per arm drops ~8×, so each comparison is badly underpowered, and with many comparisons some will look significant by chance (multiple testing). Advise prioritising the change with the biggest expected effect, testing fewer variants, using a correction (e.g. Bonferroni) if several comparisons remain, and pre-registering one primary metric."
+    },
+    {
+      "type": "Case",
+      "q": "An A/B test shows +3% conversion, but revenue per user is flat. Should we ship?",
+      "a": "Look for why: smaller baskets (more conversions but lower AOV), more discount usage, a shift of orders from later days (pull-forward), or noise in revenue (high variance, so underpowered). Check guardrails and whether the test was designed around conversion or revenue. If the business goal is revenue and the effect on it is flat with a tight CI, conversion gains alone may not justify it."
+    },
+    {
+      "type": "Case",
+      "q": "How would you choose a north-star metric for a food delivery app?",
+      "a": "It should reflect **value delivered to customers**, lead revenue, and be movable by many teams. Candidates: downloads (vanity), GMV (revenue-led, ignores retention quality), DAU (activity without value). A strong choice: **weekly ordering customers** or **orders per week from retained users**. It combines acquisition, retention and frequency, and every team can influence it. Pair it with guardrails such as delivery time and contribution margin."
+    },
+    {
+      "type": "Case",
+      "q": "Build a metric tree for 'weekly orders'.",
+      "a": "Weekly orders = **weekly active users × order rate**. WAU = new + retained + resurrected users. Order rate = sessions per user × session conversion; session conversion = view rate × add-to-cart rate × checkout start rate × payment success rate. Each leaf has an owner (growth, discovery, checkout, payments), which is the point of the tree."
+    },
+    {
+      "type": "Guesstimate",
+      "q": "How many food delivery orders are placed in India on a typical weekend day?",
+      "a": "Urban India ~450 mn people; ~120 mn households; ~30% in cities with delivery coverage and app usage ≈ 35 mn households. Average ~1.5 orders/week, with weekends ~1.3× weekdays → weekly ~52 mn, weekend day ≈ 52/7 × 1.3 ≈ **~10 mn orders**. State the weakest assumption (household adoption) and sanity-check against known platform scale."
+    },
+    {
+      "type": "Guesstimate",
+      "q": "How many users do you need to detect a 1 pp lift on a 10% conversion rate?",
+      "a": "Rule of thumb: n per arm ≈ 16·p(1−p)/δ² = 16 × 0.1 × 0.9 / 0.01² ≈ **14,400 per arm** (α = 0.05 two-sided, power 80%). Knowing this formula lets you size tests in an interview without a calculator."
+    },
+    {
+      "type": "Behavioural",
+      "q": "Tell me about a time data contradicted what a stakeholder believed.",
+      "a": "STAR, with diplomacy: *the PM believed a feature drove a lift*; *I found the lift came from internal test accounts / a mix shift*; *I shared the analysis privately first, with the query and the corrected number, and proposed a holdout test*; *result: the team ran the test, and the true effect was smaller but still positive.* Show you protected the stakeholder's credibility while correcting the record."
+    },
+    {
+      "type": "Behavioural",
+      "q": "A PM asks you to 'find something positive' in a failed experiment. How do you respond?",
+      "a": "Acknowledge the pressure, then hold the line on integrity: report the primary metric honestly. Offer genuinely useful learning: which segments responded, what the guardrails show, and what hypothesis to test next. Explain why post-hoc segment hunting produces false positives. You build long-term trust by being the person whose numbers never need a second check."
+    },
+    {
+      "type": "Behavioural",
+      "q": "How do you prioritise when three PMs each say their request is urgent?",
+      "a": "Clarify the decision each request supports and its deadline, estimate the effort, then rank by impact and urgency. Share the plan openly with all three, and escalate to your manager only if there's a genuine conflict. Offer quick interim answers (a rough number today) for the ones you can't fully do yet."
+    }
+  ]
 }

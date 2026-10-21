@@ -1,0 +1,45 @@
+{
+  "id": "gap-analysis",
+  "title": "Gap analysis: as-is vs to-be",
+  "order": 6,
+  "difficulty": "Intermediate",
+  "minutes": 25,
+  "skills": ["Gap analysis", "Change impact", "Stakeholder communication"],
+  "workspace": "written",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Sunil Bhat", "role": "Programme Manager, PMO" },
+  "scenario": "The PMO needs a gap analysis for the steering committee: for each area of seller onboarding, where are we today, where do we want to be, what's the gap, and what closes it. Sunil also wants the people and process changes, not just the system features. In his experience, projects fail on those.\n\n> \"One table, five or six rows. Make it readable by the CFO.\"",
+  "task": "Write a gap analysis as a **Markdown table** with columns **Area | As-is | To-be | Gap | Action (owner)**. Cover at least **five** areas, such as document validation, bank verification, KYC review capacity and SLA, seller communication, rejection handling, and reporting.\n\nUse the facts below for the as-is column, and include **at least one people/process change** (training, role, SOP), not only system features. Finish with **one sentence** on the biggest risk.",
+  "facts": [
+    { "label": "Median days application → live (Jan–Mar vs Apr–Jun)", "value": "10 → 15" },
+    { "label": "Median KYC review days (Jan–Mar vs Apr–Jun)", "value": "4–5 → 8–9" },
+    { "label": "Rejections caused by blurry docs, bank mismatch, GSTIN", "value": "~77%" },
+    { "label": "Status calls to support", "value": "~200 per week" },
+    { "label": "KYC team", "value": "4 people, ~120 applications/day at peak" },
+    { "label": "Target", "value": "80% live within 10 days by Diwali" }
+  ],
+  "data": [],
+  "hints": [
+    "The *gap* is the difference stated measurably: \"KYC takes 8–9 days; target is 2 days (48-hour SLA).\"",
+    "Actions need owners: Engineering, KYC team lead, Seller Ops, Support.",
+    "People and process: the KYC team needs an SOP for partial bank-name matches; support needs new scripts; there needs to be a daily queue-age review.",
+    "Biggest risk candidates: automated checks rejecting good documents (false rejects), API costs, or a KYC backlog before go-live."
+  ],
+  "explanation": "A gap analysis is a **bridge** between the business case and the plan. What makes it useful to a steering committee:\n\n- **Measurable as-is and to-be**: numbers, not adjectives.\n- **Gaps stated as differences**, so progress can be tracked.\n- **Actions with owners**, including **non-system** changes: SOPs, training, roles, reporting rhythms. Most process changes fail because the people side wasn't planned.\n- **One clear risk** with a mitigation, so the committee knows what to watch.\n\nKeep it to one screen. The detail lives in the BRD and backlog.",
+  "interview": "*\"For a seller onboarding revamp I produced a one-page gap analysis covering six areas, with measured as-is figures, to-be targets, and owned actions including an SOP and training for the KYC team, not just system features. The steering committee used it as the programme tracker through to go-live.\"*\n\nExpect: **\"What's the difference between a gap analysis and a requirements document?\"** The gap analysis decides *what must change and why*; requirements specify *exactly what the system must do*.",
+  "grading": {
+    "written": {
+      "rubric": [
+        "Table with Area, As-is, To-be, Gap and Action (owner) columns",
+        "At least five areas covered",
+        "As-is and to-be are measurable, using the facts",
+        "Every action has a named owner",
+        "Includes at least one people or process change (SOP, training, role)",
+        "Ends with the biggest risk and ideally a mitigation"
+      ],
+      "minWords": 120,
+      "maxWords": 500,
+      "suggestedTerms": ["SLA", "owner", "SOP", "risk"]
+    }
+  }
+}

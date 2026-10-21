@@ -1,0 +1,23 @@
+{
+  "id": "sql-mom-growth",
+  "title": "Monthly revenue with month-over-month growth",
+  "order": 1,
+  "difficulty": "Intermediate",
+  "minutes": 20,
+  "skills": ["SQL window functions", "LAG", "Time series", "Data cleaning"],
+  "workspace": "sql",
+  "company": "Bazaarly",
+  "stakeholder": { "name": "Ritika Agarwal", "role": "Business Finance Manager" },
+  "scenario": "Every month, Ritika sends leadership a one-page performance note. This year she wants a table she can paste straight in: monthly revenue for FY2024-25 with the growth versus the previous month, so leadership can see the festive surge and the post-Diwali dip.\n\n> \"Can you give me net revenue by month for FY24-25 with MoM growth? April should compare against March last year, otherwise the first row is blank and someone will ask why.\"",
+  "task": "Return **three columns**, one row per month from **2024-04 to 2025-03** (IST months), sorted by month:\n\n1. `month`: text like `2024-04`\n2. `net_revenue`: total `net_amount_inr` of **Delivered** orders, rounded to 2 decimals\n3. `mom_growth_pct`: `100 × (this month − previous month) / previous month`, rounded to 1 decimal\n\nApril 2024 must compare against **March 2024**. Remember lab 1 of Foundations: de-duplicate and use India time.",
+  "data": [{ "dataset": "bazaarly", "tables": ["orders"] }],
+  "hints": [
+    "Build a monthly table first in a CTE: `strftime(order_ts_utc + INTERVAL 330 MINUTE, '%Y-%m') AS month`.",
+    "`LAG(net_revenue) OVER (ORDER BY month)` gives the previous row's revenue.",
+    "If you filter to FY2024-25 **before** computing LAG, March 2024 is gone and April's growth is NULL. Compute LAG on all months, then filter in an outer query.",
+    "Round only at the end; growth computed from rounded revenue can differ by 0.1."
+  ],
+  "explanation": "The key idea is **order of operations**: window functions see only the rows that survive `WHERE`. So compute `LAG` over the full monthly series, and filter to the reporting period in an outer query.\n\nReading the result: April 2024 is **−30%** because March 2024 had the year-end sale, not because business collapsed. October is **+115%** from the Diwali sale, and November falls **−33%** as the festive spike unwinds. MoM growth is noisy around seasonal events, so in a leadership note you'd add a year-over-year comparison or a note on the sale calendar next to it.",
+  "interview": "*\"I built a monthly revenue trend with month-over-month growth using LAG in SQL. I computed the window over the full history before filtering to the financial year, so April compared against the previous March instead of showing blank. I also flagged that the −30% April figure was a base effect from the March year-end sale, which stopped a false alarm in the leadership review.\"*\n\nLikely follow-up: **\"How would you do year-over-year instead?\"** `LAG(net_revenue, 12)` on a complete monthly series, or a self-join on month minus 12.",
+  "grading": { "sql": { "ordered": true, "tolerance": 0.05 } }
+}
