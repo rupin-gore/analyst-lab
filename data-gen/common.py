@@ -80,7 +80,7 @@ def write_csv(dataset: str, table: str, header: list[str], rows: list[list]) -> 
 def write_manifest(dataset: str, manifest: dict) -> None:
     folder = OUT / dataset
     folder.mkdir(parents=True, exist_ok=True)
-    with open(folder / "manifest.json", "w", encoding="utf-8") as f:
+    with open(folder / "manifest.json", "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
